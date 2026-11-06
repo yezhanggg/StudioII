@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+body { margin: 0; background: #fff; color: #1E1E1C; font-family: theme('fontFamily.sans'); -webkit-font-smoothing: antialiased; }
+
+.leaflet-container { font-family: theme('fontFamily.sans'); background: #f4f3ef; }
+.leaflet-container.measuring, .leaflet-container.measuring .leaflet-interactive { cursor: crosshair !important; }
+.leaflet-control-attribution { font-size: 10px; background: rgba(255,255,255,.75) !important; }
+.leaflet-bottom.leaflet-right .leaflet-control-attribution { margin-right: 320px; }
+@media (max-width: 640px) { .leaflet-bottom.leaflet-right .leaflet-control-attribution { display: none; } }
+
+/* tooltips and popups */
+.leaflet-tooltip.tt { font-size: 12.5px; line-height: 1.35; color: #1E1E1C; border: 0; border-radius: 8px; padding: 5px 9px; box-shadow: 0 4px 14px -4px rgba(15,23,42,.35), 0 0 0 1px rgba(0,0,0,.05); width: max-content; max-width: 260px; white-space: normal; }
+.leaflet-tooltip.tt .tt-k { color: #57564E; }
+.leaflet-popup-content-wrapper { border-radius: 14px; box-shadow: 0 12px 40px -10px rgba(15,23,42,.35); }
+.leaflet-popup-content { margin: 12px 16px; font-size: 13px; line-height: 1.45; min-width: 200px; }
+.pp-t { font-size: 14.5px; font-weight: 700; color: #1E1E1C; line-height: 1.25; }
+.pp-k { color: #57564E; margin-top: 1px; }
+.pp-b { margin-top: 6px; color: #1E1E1C; }
+.pp-b a, .pp a { color: #393864; font-weight: 600; }
+.pp-d { margin-top: 7px; padding-top: 6px; border-top: 1px solid #eeede8; color: #393864; font-weight: 600; font-size: 12px; }
+.pp-s { color: #8C8A7C; font-size: 11.5px; margin-top: 6px; }
+
+/* community asset markers: white glyph on the family colour */
+.am-wrap { background: none; border: 0; }
+.am { width: 24px; height: 24px; box-sizing: border-box; border-radius: 50%; background: var(--c); border: 2px solid #fff; box-shadow: 0 0 0 1px rgba(30,30,28,.55), 0 2px 5px rgba(0,0,0,.25); display: grid; place-items: center; transition: transform .12s ease; }
+.am.far { width: 20px; height: 20px; border-width: 1.5px; }
+.am svg { width: 13px; height: 13px; fill: none; stroke: #fff; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+.am.far svg { width: 11px; height: 11px; }
+.am-wrap:hover .am { transform: scale(1.18); }
+
+/* the school's name over its parcel */
+.site-label { background: none; border: 0; }
+.site-label span { position: absolute; transform: translate(-50%, -150%); white-space: nowrap; font-weight: 800; font-size: 14px; color: #393864; text-shadow: 0 0 3px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 6px #fff; letter-spacing: .01em; }
+
+/* searched pin */
+.pin-wrap { background: none; border: 0; }
+.pin { width: 26px; height: 26px; border-radius: 50% 50% 50% 0; background: #1E1E1C; transform: rotate(-45deg); border: 3px solid #fff; box-shadow: 0 3px 10px rgba(0,0,0,.35); box-sizing: border-box; }
+
+/* a canvas layer must never block clicks on the layers beneath it */
+.leaflet-points-pane canvas { pointer-events: none; }
+.leaflet-pane > svg path.leaflet-interactive.stroke-only { pointer-events: visibleStroke; }
