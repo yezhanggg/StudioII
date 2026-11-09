@@ -54,8 +54,9 @@ await Promise.all(Array.from({ length: 8 }, async () => {
 }));
 const bad = out.filter((r) => r.status === 'unusable' || !(r.status >= 200 && r.status < 400));
 const blocked = bad.filter((r) => [401, 403, 405, 429, 999].includes(r.status));
-const broken = bad.filter((r) => !blocked.includes(r));
-console.log(`${out.length} links: ${out.length - bad.length} work, ${blocked.length} refuse automated checks (likely fine in a browser), ${broken.length} broken or unusable`);
+const slow = bad.filter((r) => r.error === 'AbortError');           // no answer within 15 s: kept, not called dead
+const broken = bad.filter((r) => !blocked.includes(r) && !slow.includes(r));
+console.log(`${out.length} links: ${out.length - bad.length} work, ${blocked.length} refuse automated checks (likely fine in a browser), ${slow.length} slow to answer (kept), ${broken.length} broken or unusable`);
 for (const r of broken) console.log(`  BROKEN ${r.status}${r.error ? ` ${r.error}` : ''}  ${r.url}  ← ${r.where[0]}${r.where.length > 1 ? ` (+${r.where.length - 1})` : ''}`);
 for (const r of blocked) console.log(`  BLOCKED ${r.status}  ${r.url}  ← ${r.where[0]}`);
 const j = process.argv.indexOf('--json');

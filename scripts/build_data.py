@@ -531,7 +531,8 @@ for slug in ORDER:
     rco["covers"] = rco_ft.buffer(0).contains(v["center_ft"]).values
     rprops = lambda r: {"name": clean(r.organization_name), "type": clean(r.org_type), "covers": bool(r.covers), "cdc": is_cdc(clean(r.organization_name)),
                         "meets": one_line(r.meeting_location_address), "website": web(clean(r.websites)), "expires": clean(r.expirationyear).replace(".0", "")}
-    log.append(save(f"{slug}/rco.json", fc(rco.sort_values("covers"), rprops, simplify_ft=4)))
+    # <slug>/rco.json and the `rcos` list are written by build_orgs.py (every RCO within 1.5 miles, with distances);
+    # this half-mile list only stands in until it runs
     rco_list = sorted([rprops(r) for _, r in rco.iterrows()], key=lambda d: (not d["covers"], d["name"]))
 
     # walk areas

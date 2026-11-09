@@ -6,8 +6,8 @@
 import React, { useEffect, useState } from 'react';
 // eslint-disable-next-line no-unused-vars
 import { AnimatePresence, motion } from 'framer-motion';
-import { FLOAT_BTN, FoldIcon, GLASS, ICON_BTN, InfoTip, PANEL, SCROLL, SPRING_PANEL, SPRING_TAB, Segmented, Spinner, cx } from '../lib/ui';
-import { ASSET_GROUPS, GROUP, ICONS, KEYED, LAYERS, MEASURE, MEASURES, RAMP, TYPE, TYPES, fmtInt, fmtRadius, href } from '../lib/layers';
+import { FLOAT_BTN, FoldIcon, GLASS, ICON_BTN, InfoTip, PANEL, SCROLL, Segmented, Spinner, cx } from '../lib/ui';
+import { ASSET_GROUPS, GROUP, ICONS, KEYED, LAYERS, LINK_ICONS, MEASURE, MEASURES, RAMP, TYPE, TYPES, fmtInt, fmtRadius, href, placeLinks } from '../lib/layers';
 import { BASEMAPS } from './MapLayers';
 
 export const RAIL_W = 'w-[320px] xl:w-[340px]';
@@ -53,13 +53,11 @@ export function SchoolBar({ schools, visible, onAll, onOnly, onClear, onSources 
     return (
       <button type="button" role="radio" aria-checked={on} onClick={() => onOnly(s.slug)} title={s.name} className={btn(on)}>
         {on && (
-          <motion.span layoutId="school-on" transition={SPRING_TAB} className="absolute inset-0 overflow-hidden rounded-lg"
-            style={{ background: `color-mix(in srgb, ${s.color} 11%, white)`, boxShadow: `inset 0 0 0 1px color-mix(in srgb, ${s.color} 38%, transparent)` }}>
-            <span className="absolute inset-x-2 bottom-0 h-[2.5px] rounded-full" style={{ background: s.color }} />
-          </motion.span>
+          <span className="absolute inset-0 rounded-lg"
+            style={{ background: `color-mix(in srgb, ${s.color} 10%, white)`, boxShadow: `inset 0 0 0 1px color-mix(in srgb, ${s.color} 35%, transparent)` }} />
         )}
         <span className="relative flex items-center gap-1.5">
-          <span className="shrink-0 rounded-full transition-all" style={{ width: on ? 10 : 9, height: on ? 10 : 9, background: s.color, boxShadow: on ? `0 0 0 3px color-mix(in srgb, ${s.color} 25%, transparent)` : '0 0 0 2px #fff, 0 0 0 3px rgba(30,30,28,.18)' }} />
+          <span className="shrink-0 rounded-full transition-all" style={{ width: 9, height: 9, background: s.color, boxShadow: '0 0 0 2px #fff, 0 0 0 3px rgba(30,30,28,.18)' }} />
           <span className={cx(on ? 'font-bold' : quiet && 'font-medium text-slate-500')} style={on ? { color: `color-mix(in srgb, ${s.color} 70%, #111)` } : undefined}>{s.short}</span>
         </span>
       </button>
@@ -73,9 +71,7 @@ export function SchoolBar({ schools, visible, onAll, onOnly, onClear, onSources 
       <span className="mx-1 h-5 w-px shrink-0 bg-stone-200" />
       <button type="button" role="radio" aria-checked={all} onClick={onAll} className={btn(all)}>
         {all && (
-          <motion.span layoutId="school-on" transition={SPRING_TAB} className="absolute inset-0 overflow-hidden rounded-lg bg-accent-50 ring-1 ring-inset ring-accent-200">
-            <span className="absolute inset-x-2 bottom-0 h-[2.5px] rounded-full bg-accent-600" />
-          </motion.span>
+          <span className="absolute inset-0 rounded-lg bg-accent-50 ring-1 ring-inset ring-accent-200" />
         )}
         <span className="relative">All six</span>
       </button>
@@ -133,7 +129,6 @@ function GroupCard({ g, types, counts, onType, onGroup, open, onOpen }) {
         <span className={cx('transition-opacity', !on && 'opacity-40')}><GroupGlyph group={g.id} size={28} /></span>
         <span className="min-w-0 flex-1">
           <span className="flex items-baseline gap-1.5"><span className="text-[14.5px] font-bold text-slate-900">{g.label}</span><span className="text-[12px] font-semibold tabular-nums text-slate-500">{fmtInt(total)}</span></span>
-          <span className="block truncate text-[12px] text-slate-500">{g.examples}</span>
         </span>
         <Switch on={on} />
       </button>
@@ -182,8 +177,8 @@ export function LayersRail({
     <AnimatePresence initial={false} mode="popLayout">
       {st.open ? (
         <motion.aside key="rail" style={{ transformOrigin: 'top left', top, maxHeight: `calc(100% - ${top + 12}px - ${reserveBottom}px)` }}
-          initial={{ opacity: 0, scale: 0.9, x: -14, filter: 'blur(6px)' }} animate={{ opacity: 1, scale: 1, x: 0, filter: 'blur(0px)' }}
-          exit={{ opacity: 0, scale: 0.92, x: -14, filter: 'blur(6px)', transition: { duration: 0.18, ease: 'easeIn' } }} transition={SPRING_PANEL}
+          initial={{ opacity: 0 }} animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }} transition={{ duration: 0.15 }}
           className={cx('absolute left-3 z-[500] flex max-w-[calc(100%-24px)] flex-col', RAIL_W, PANEL)}>
           <div className="flex items-center justify-between gap-2 px-3 pb-1.5 pt-2.5">
             <h2 className="text-[13px] font-bold text-slate-900">Places to show</h2>
@@ -235,8 +230,8 @@ export function LayersRail({
           </div>
         </motion.aside>
       ) : (
-        <motion.button key="tab" type="button" onClick={() => setSt({ ...st, open: true })} initial={{ opacity: 0, scale: 0.6, x: -8 }} animate={{ opacity: 1, scale: 1, x: 0 }} exit={{ opacity: 0, scale: 0.8, transition: { duration: 0.12 } }}
-          transition={SPRING_TAB} whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.95 }} style={{ top }} className={cx('absolute left-3 z-[500] text-slate-800', FLOAT_BTN)}>
+        <motion.button key="tab" type="button" onClick={() => setSt({ ...st, open: true })} initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
+          transition={{ duration: 0.15 }} style={{ top }} className={cx('absolute left-3 z-[500] text-slate-800', FLOAT_BTN)}>
           <span className="text-slate-600"><FoldIcon side="left" closed /></span>
           Places &amp; layers
         </motion.button>
@@ -302,6 +297,36 @@ export function Legend({ schools, types, on, measure, scale, present = {}, legen
   );
 }
 
+// ── a place's or an organization's own links as small icon buttons ────────
+export function LinkIcons({ p, maps = false, size = 26 }) {
+  const links = placeLinks(p, { maps });
+  if (!links.length) return null;
+  return (
+    <span className="flex shrink-0 items-center gap-1">
+      {links.map(({ kind, url }) => (
+        <a key={kind} href={url} target="_blank" rel="noopener noreferrer" title={LINK_ICONS[kind].label} aria-label={LINK_ICONS[kind].label} onClick={(e) => e.stopPropagation()}
+          className="grid place-items-center rounded-full bg-white text-slate-600 ring-1 ring-inset ring-stone-200 transition-colors hover:bg-accent-600 hover:text-white hover:ring-accent-600" style={{ width: size, height: size }}>
+          <svg viewBox="0 0 24 24" style={{ width: size * 0.58, height: size * 0.58 }} aria-hidden="true" dangerouslySetInnerHTML={{ __html: LINK_ICONS[kind].svg }} />
+        </a>
+      ))}
+    </span>
+  );
+}
+
+// ── the RCO boundary being shown ─────────────────────────────────────────
+export function RcoChip({ name, onClose }) {
+  if (!name) return null;
+  return (
+    <div className={cx('absolute bottom-14 left-1/2 z-[600] flex max-w-[calc(100%-24px)] -translate-x-1/2 items-center gap-2 rounded-full py-1 pl-3 pr-1 shadow-lg', GLASS)}>
+      <span className="h-0 w-4 shrink-0 border-t-[3px] border-accent-600" />
+      <span className="truncate text-[12.5px] font-semibold text-slate-900"><span className="font-medium text-slate-500">RCO · </span>{name}</span>
+      <button type="button" onClick={onClose} className="grid h-6 w-6 shrink-0 place-items-center rounded-full text-slate-500 hover:bg-stone-100 hover:text-slate-900" aria-label="Hide this boundary" title="Hide this boundary">
+        <svg className="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" /></svg>
+      </button>
+    </div>
+  );
+}
+
 // ── bottom-right: basemap and zoom ────────────────────────────────────────
 export function MapControls({ basemap, onBasemap, onZoomIn, onZoomOut, onHome }) {
   return (
@@ -333,7 +358,8 @@ const METHOD = [
   ['Places', 'Official City, state and federal data first; OpenStreetMap only where they have nothing. Duplicates across sources are merged. Collected to 1½ miles of each school.'],
   ['Distance', 'Straight-line miles from the school. "On site" means on the school lot.'],
   ['Who lives nearby', 'ACS 2020–2024 5-year estimates for the study census tracts, added together as one group.'],
-  ['Checked', 'Every link was tested; dead websites are left out.'],
+  ['Links', "Each place's website, Instagram and Facebook: from its own dataset, the School District's school list, the Parks & Rec Finder, OpenStreetMap, and the place's own website. Near Wagner and Blankenburg, also by web search, kept only when the name and address match. Every website was tested; dead ones are left out."],
+  ['RCOs', 'Registered Community Organizations from the City registry. The map draws those whose boundary reaches the distance you set; contact people are not shown.'],
 ];
 
 function SrcRow({ title, sub, url }) {
@@ -358,7 +384,7 @@ export function SourcesModal({ open, onClose, sources, schools, onDownload, sele
       {open && (
         <motion.div className="fixed inset-0 z-[2000] grid place-items-center bg-slate-900/30 p-3 backdrop-blur-[2px]" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} onClick={onClose}>
           <motion.div role="dialog" aria-modal="true" aria-label="Sources and data" onClick={(e) => e.stopPropagation()}
-            initial={{ opacity: 0, y: 12, scale: 0.98 }} animate={{ opacity: 1, y: 0, scale: 1 }} exit={{ opacity: 0, y: 8, scale: 0.98 }} transition={SPRING_PANEL}
+            initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.15 }}
             className="flex max-h-[84vh] w-full max-w-[600px] flex-col overflow-hidden rounded-2xl bg-white shadow-[0_24px_80px_-20px_rgba(15,23,42,0.45)] ring-1 ring-black/5">
             <div className="flex items-center justify-between gap-4 px-5 pb-1 pt-4">
               <h2 className="text-[18px] font-bold text-ink">Sources &amp; data</h2>

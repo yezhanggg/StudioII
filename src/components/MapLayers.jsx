@@ -9,7 +9,7 @@ import { TYPE, ICONS, esc, fmtInt, fmtMiles, walkMinutes, assetPopup, popupHtml,
 
 // ── panes: stacking order of everything on the map ───────────────────────
 const PANES = [
-  ['choropleth', 340], ['areas', 380], ['lines', 420], ['labels', 460], ['points', 480], ['site', 640], ['assets', 650], ['top', 700],
+  ['choropleth', 340], ['areas', 380], ['lines', 420], ['labels', 460], ['points', 480], ['site', 640], ['assets', 650], ['sitelabel', 660], ['top', 700],
 ];
 export function Panes() {
   const map = useMap();
@@ -85,6 +85,11 @@ const distanceHtml = (latlng, nearest) => {
 };
 const withDistance = (html, latlng, nearest) => html.replace(/(<div class="pp-s">|<\/div>$)/, (m) => distanceHtml(latlng, nearest) + m);
 
+// popups open clear of the left panel and the school panel on wide screens
+const popupOpts = () => (window.innerWidth >= 900
+  ? { maxWidth: 320, autoPanPaddingTopLeft: [350, 70], autoPanPaddingBottomRight: [400, 60] }
+  : { maxWidth: 300, autoPanPadding: [16, 16] });
+
 // ── a registry layer (layers.js) drawn from a FeatureCollection ───────────
 export function GeoLayer({ def, data, nearest, onTract }) {
   const map = useMap();
@@ -116,7 +121,7 @@ export function GeoLayer({ def, data, nearest, onTract }) {
           lyr.bindPopup(() => {
             const html = def.popup ? def.popup(p) : popupHtml({ title: tip });
             return lyr.getLatLng ? withDistance(html, lyr.getLatLng(), nearest) : html;
-          }, { maxWidth: 320, autoPanPadding: [40, 40] });
+          }, popupOpts());
         }
         if (def.hover) {
           lyr.on('mouseover', () => lyr.setStyle?.(def.hover));
@@ -188,7 +193,7 @@ export function AssetLayer({ items, nearest, sourceTitle = {} }) {
       const p = it.p;
       const mk = L.marker([it.lat, it.lng], { icon: assetIcon(p.type, it.near), pane: 'assets', riseOnHover: true, keyboard: true, title: p.name });
       mk.bindTooltip(`<b>${esc(p.name)}</b><br><span class="tt-k">${esc(p.kind || TYPE[p.type]?.label || '')}</span>`, { direction: 'top', className: 'tt' });
-      mk.bindPopup(() => withDistance(assetPopup(p, sourceTitle[p.source_id]), mk.getLatLng(), nearest), { maxWidth: 320, autoPanPadding: [40, 40] });
+      mk.bindPopup(() => withDistance(assetPopup(p, sourceTitle[p.source_id]), mk.getLatLng(), nearest), popupOpts());
       group.addLayer(mk);
     }
     group.addTo(map);
@@ -215,13 +220,9 @@ export function SiteLayer({ schools, parcels, focus, onFocus }) {
         poly.on('click', () => onFocus(s.slug));
         poly.bindTooltip(`${esc(s.name)} · click for its summary`, { direction: 'top', className: 'tt', sticky: true });
       }
-      if (on) {
-        // a slow ping at the building, under the label
-        L.marker(s.center, { pane: 'site', interactive: false, keyboard: false, icon: L.divIcon({ className: 'site-ping', html: `<span style="--c:${s.color}"><b></b><b></b></span>`, iconSize: [0, 0] }) }).addTo(g);
-      }
       const sub = on ? `<small>${esc(s.area_name || '')}${s.grades ? `${s.area_name ? ' · ' : ''}grades ${esc(s.grades)}` : ''}</small>` : '';
       const label = L.marker(s.center, {
-        pane: 'top', // above the place markers, so nothing covers the school's name
+        pane: 'sitelabel', // above the place markers, below popups
         zIndexOffset: on ? 1000 : 0,
         icon: L.divIcon({ className: 'site-label', html: `<span class="${on ? 'on' : ''}" style="--c:${s.color}"><i></i><em>${esc(s.short)}${sub}</em></span>`, iconSize: [0, 0] }),
       }).addTo(g);
@@ -229,6 +230,17 @@ export function SiteLayer({ schools, parcels, focus, onFocus }) {
     }
     return () => { map.removeLayer(g); };
   }, [map, schools, parcels, focus, onFocus]);
+  return null;
+}
+
+/** One RCO's boundary, picked from the panel or a community group's popup. */
+export function RcoFocus({ feature }) {
+  const map = useMap();
+  useEffect(() => {
+    if (!feature) return undefined;
+    const g = L.geoJSON(feature, { pane: 'lines', interactive: false, style: { color: '#393864', weight: 3, opacity: 1, fillColor: '#393864', fillOpacity: 0.08, lineJoin: 'round' } }).addTo(map);
+    return () => { map.removeLayer(g); };
+  }, [map, feature]);
   return null;
 }
 

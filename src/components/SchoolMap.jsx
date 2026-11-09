@@ -7,10 +7,10 @@ import React, { useCallback, useDeferredValue, useEffect, useLayoutEffect, useMe
 import { MapContainer } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
-import { AssetLayer, Basemap, Choropleth, GeoLayer, MapBridge, Panes, RadiusLayer, SiteLayer, ZoomClass, makeNearest, milesBetween } from './MapLayers';
-import { LayersRail, Legend, MapControls, RadiusCard, SchoolBar, SourcesModal } from './Chrome';
+import { AssetLayer, Basemap, Choropleth, RcoFocus, GeoLayer, MapBridge, Panes, RadiusLayer, SiteLayer, ZoomClass, makeNearest, milesBetween } from './MapLayers';
+import { LayersRail, Legend, MapControls, RadiusCard, RcoChip, SchoolBar, SourcesModal } from './Chrome';
 import SitePanel from './SitePanel';
-import { GROUP, KEY_FIELD, LAYERS, TYPE, TYPES, quantiles } from '../lib/layers';
+import { GROUP, KEY_FIELD, LAYERS, RCO_NAMES, TYPE, TYPES, quantiles } from '../lib/layers';
 
 const DEFAULT_TYPES = Object.fromEntries(TYPES.map((t) => [t.id, GROUP[t.group].on]));
 const DEFAULT_ON = Object.fromEntries(LAYERS.filter((l) => l.defaultOn).map((l) => [l.id, true]));
@@ -107,6 +107,7 @@ export default function SchoolMap({ initialSlug }) {
   }, [meta]);
 
   // ── context layers, merged across the schools on the map ───────────────
+  const lagRadius = useDeferredValue(radius); // rings follow the slider at once; markers and RCO boundaries catch up
   const tag = (f, s) => ({ ...f, properties: { ...f.properties, _slug: s.slug, _short: s.short, _color: s.color } });
   const layerData = useMemo(() => {
     const out = {};
@@ -120,22 +121,27 @@ export default function SchoolMap({ initialSlug }) {
         if (!parts.length) continue;
         let feats = parts.flatMap((s) => files[`${s.slug}/${l.file}`].features.map((f) => tag(f, s)));
         if (l.file === 'rco') {
+          // each RCO once (measured from its nearest school on the map), and only those reaching the distance set
           const by = new Map();
-          for (const f of feats) { const prev = by.get(f.properties.name); if (!prev || (f.properties.covers && !prev.properties.covers)) by.set(f.properties.name, f); }
+          for (const f of feats) {
+            if (l.withinRadius && f.properties.miles > lagRadius + 1e-9) continue;
+            const prev = by.get(f.properties.name);
+            if (!prev || f.properties.miles < prev.properties.miles) by.set(f.properties.name, f);
+          }
           feats = [...by.values()];
         }
         out[l.id] = fcOf(feats);
       }
     }
     return out;
-  }, [on, files, sites, visible, shown, all]);
+  }, [on, files, sites, visible, shown, all, lagRadius]);
   const loading = useMemo(() => Object.fromEntries(LAYERS.map((l) => [l.id, needs(l).some((k) => loadingFiles[k])])), [loadingFiles, needs]);
   const scale = useMemo(() => (measure && files['ctx/tracts'] ? quantiles(files['ctx/tracts'].features.map((f) => f.properties[measure])) : null), [measure, files]);
   const present = useMemo(() => Object.fromEntries(Object.entries(KEY_FIELD).filter(([f]) => files[`ctx/${f}`]).map(([f, k]) => [f, new Set(files[`ctx/${f}`].features.map((x) => x.properties[k]))])), [files]);
   const parcels = useMemo(() => Object.fromEntries((sites?.features || []).filter((f) => f.properties.kind === 'parcel').map((f) => [f.properties.slug, f.geometry])), [sites]);
 
   // ── community assets of the schools on the map, once each, measured from the nearest school ──
-  const assetRadius = useDeferredValue(radius); // the rings follow the slider at once; the markers catch up
+  const assetRadius = lagRadius;
   const assetPool = useMemo(() => {
     const seen = new Map();
     for (const s of shown) {
@@ -204,12 +210,43 @@ export default function SchoolMap({ initialSlug }) {
     if (s && map) map.flyToBounds(L.latLng(s.center).toBounds(radius * 2 * 1609.344), { ...pad(), duration: 0.8, maxZoom: 17 });
   }, [all, map, radius, pad]);
 
+  // ── one RCO's boundary, from the panel or a community group's popup ────
+  const [rcoFocus, setRcoFocus] = useState(null);
+  useEffect(() => { RCO_NAMES.clear(); (meta?.schools || []).forEach((s) => (s.rcos || []).forEach((r) => RCO_NAMES.add(r.name))); }, [meta]);
+  const showRco = useCallback((name) => {
+    all.filter((s) => (s.rcos || []).some((r) => r.name === name)).forEach((s) => ensure(`${s.slug}/rco`));
+    map?.closePopup();
+    setRcoFocus((cur) => (cur === name ? null : name));
+  }, [all, ensure, map]);
+  const rcoFeature = useMemo(() => {
+    if (!rcoFocus) return null;
+    for (const s of all) {
+      const f = files[`${s.slug}/rco`]?.features.find((x) => x.properties.name === rcoFocus);
+      if (f) return { ...f, properties: { ...f.properties, _short: s.short } };
+    }
+    return null;
+  }, [rcoFocus, files, all]);
+  const fitted = useRef(null);
+  useEffect(() => {
+    if (!rcoFeature || !map || fitted.current === rcoFocus) return;
+    fitted.current = rcoFocus;
+    map.fitBounds(L.geoJSON(rcoFeature).getBounds(), { ...pad(), maxZoom: 16 });
+  }, [rcoFeature, rcoFocus, map, pad]);
+  useEffect(() => { if (!rcoFocus) fitted.current = null; }, [rcoFocus]);
+  useEffect(() => {
+    if (!map) return undefined;
+    const el = map.getContainer();
+    const onClick = (e) => { const b = e.target.closest?.('[data-rco]'); if (b) { e.preventDefault(); showRco(b.getAttribute('data-rco')); } };
+    el.addEventListener('click', onClick);
+    return () => el.removeEventListener('click', onClick);
+  }, [map, showRco]);
+
   const EXCLUSIVE = { zoning: 'land_use', land_use: 'zoning' };
   const toggleLayer = (id) => setOn((s) => { const n = { ...s, [id]: !s[id] }; if (n[id] && EXCLUSIVE[id]) n[EXCLUSIVE[id]] = false; return n; });
 
   const selectionLabel = shown.length === 1 ? shown[0].short : shown.length === all.length ? 'All six schools' : shown.map((s) => s.short).join(', ');
   const download = () => {
-    const cols = ['name', 'address', 'detail', 'phone', 'website'];
+    const cols = ['name', 'address', 'detail', 'phone', 'website', 'instagram', 'facebook'];
     const lines = [['group', 'type', 'kind', ...cols, 'source', 'nearest_school', 'miles_to_nearest_school', `within_${radius}_mile`, 'latitude', 'longitude'].join(',')];
     for (const a of assetItems) {
       const t = TYPE[a.p.type];
@@ -237,6 +274,7 @@ export default function SchoolMap({ initialSlug }) {
             {LAYERS.filter((l) => l.scope !== 'radius' && layerData[l.id]).map((l) => <GeoLayer key={l.id} def={l} data={layerData[l.id]} nearest={nearest} />)}
             {on.radius && <RadiusLayer schools={shown} miles={radius} />}
             <SiteLayer schools={shown} parcels={parcels} focus={focusSchool?.slug} onFocus={onFocus} />
+            <RcoFocus feature={rcoFeature} />
             <AssetLayer items={assetItems} nearest={nearest} sourceTitle={sourceTitle} />
           </>
         )}
@@ -257,7 +295,8 @@ export default function SchoolMap({ initialSlug }) {
             measure={measure} onMeasure={setMeasure} on={on} onToggle={toggleLayer} loading={loading}
           />
           <Legend schools={shown} types={types} on={on} measure={measure} scale={scale} present={present} legendRef={legendRef} />
-          {focusSchool && <SitePanel school={focusSchool} statsOf={statsOf} radius={radius}
+          <RcoChip name={rcoFocus} onClose={() => setRcoFocus(null)} />
+          {focusSchool && <SitePanel school={focusSchool} statsOf={statsOf} radius={radius} onRco={showRco} rcoFocus={rcoFocus}
             open={panelOpen} setOpen={setPanelOpen} top={64}
             onOnly={(id) => { setTypes(Object.fromEntries(TYPES.map((t) => [t.id, t.id === id]))); setRadiusOnly(false); }} />}
           <MapControls basemap={basemap} onBasemap={setBasemap} onZoomIn={() => map?.zoomIn()} onZoomOut={() => map?.zoomOut()} onHome={home} />

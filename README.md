@@ -34,6 +34,16 @@ within 1.5 miles of the six schools, and write `scripts/fetch/out/<domain>/` + a
 writes `public/data/sources.json` for the documentation window. `node scripts/check_links.mjs` checks every link;
 dead ones go to `scripts/broken_links.json` and the next build leaves them out.
 
+## Links and RCO boundaries
+
+`scripts/build_orgs.py` writes every RCO whose boundary comes within 1½ miles of a school (City Zoning_RCO layer),
+with its distance, so the map can draw the RCOs reaching the radius you set. `scripts/enrich_links.py` adds each
+place's website, Instagram and Facebook: its own dataset first, then the School District's Master School List,
+the Parks & Recreation Finder, OpenStreetMap tags matched by name and distance, links found by web search near
+Wagner and Blankenburg (`scripts/place_links_searched.json`, each with the evidence that matched), and the social
+accounts a place's own website links to. Accounts shared by three or more places (chains, the District) are left
+out; home-based child care is never looked up. Popups show the links as icon buttons, plus a Google Maps search.
+
 ## Data
 
 `scripts/build_data.py` writes `public/data/` from the studio folder (`~/Desktop/FW 2026/Studio`, override with

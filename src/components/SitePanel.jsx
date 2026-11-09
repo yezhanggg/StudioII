@@ -6,9 +6,9 @@
 import React from 'react';
 // eslint-disable-next-line no-unused-vars
 import { AnimatePresence, motion } from 'framer-motion';
-import { FLOAT_BTN, FoldIcon, ICON_BTN, PANEL, Rows, SCROLL, SPRING_PANEL, SPRING_TAB, Section, cx } from '../lib/ui';
+import { FLOAT_BTN, FoldIcon, ICON_BTN, PANEL, Rows, SCROLL, Section, cx } from '../lib/ui';
 import { ASSET_GROUPS, TYPES, fmtInt, fmtMiles, fmtMoney, fmtPct, fmtRadius, href } from '../lib/layers';
-import { GroupGlyph, TypeGlyph } from './Chrome';
+import { GroupGlyph, LinkIcons, TypeGlyph } from './Chrome';
 
 const W = 'w-[350px] xl:w-[370px]';
 const PROFILE_ROWS = [
@@ -56,15 +56,15 @@ function Around({ stats, radius, onOnly }) {
   );
 }
 
-function SchoolSummary({ s, stats, radius, onOnly }) {
+function SchoolSummary({ s, stats, radius, onOnly, onRco, rcoFocus }) {
   const pr = s.tract_profile || {};
   const tracts = s.tracts || [];
+  const rcos = (s.rcos || []).filter((r) => r.miles == null || r.miles <= radius + 1e-9);
   const dash = href(s.dashboard);
   const total = Object.values(stats).reduce((a, x) => a + x.n, 0);
   return (
     <div className="space-y-2.5">
       <div className="overflow-hidden rounded-xl bg-white ring-1 ring-stone-200/80">
-        <div className="h-1.5" style={{ background: s.color }} />
         <div className="px-3 py-2.5">
           <div className="text-[15px] font-bold leading-tight text-slate-900">{s.name}</div>
           <div className="mt-0.5 text-[12px] text-slate-500">{s.address}{s.area_name ? ` · ${s.area_name}` : ''} · grades {s.grades}</div>
@@ -104,40 +104,53 @@ function SchoolSummary({ s, stats, radius, onOnly }) {
         <p className="mt-1.5 text-[11.5px] leading-snug text-slate-500">The tracts are added together as one group; medians use the aggregate-median method. Highlighted: the tract the school is in.</p>
       </Section>
 
-      <Section title="Registered community organizations" subtitle={`${s.rcos.filter((r) => r.covers).length} cover the site`} tone="card" defaultOpen={false}>
-        <ul className="divide-y divide-stone-100">
-          {s.rcos.filter((r) => r.covers).map((r) => (
-            <li key={r.name} className="py-1.5">
-              <div className="text-[13px] font-semibold leading-snug text-slate-900">{r.name}{r.cdc && <span className="ml-1.5 rounded bg-accent-50 px-1 py-px text-[10.5px] font-bold text-accent-700 ring-1 ring-accent-100">CDC</span>}</div>
-              {r.meets && <div className="text-[12px] text-slate-600">Meets: {r.meets}</div>}
-              {href(r.website) && <a className="text-[12px] font-semibold text-accent-600 hover:underline" href={href(r.website)} target="_blank" rel="noopener noreferrer">{r.website.replace(/^https?:\/\/(www\.)?/i, '').replace(/\/$/, '')}</a>}
-            </li>
-          ))}
-        </ul>
+      <Section title="RCOs" subtitle={`Registered Community Organizations · ${rcos.length} reach ${fmtRadius(radius)}`} tone="card" defaultOpen={false}>
+        {rcos.length ? (
+          <ul className="-mx-1 divide-y divide-stone-100">
+            {rcos.map((r) => (
+              <li key={r.name}>
+                <div role="button" tabIndex={0} onClick={() => onRco(r.name)} onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && onRco(r.name)}
+                  aria-pressed={rcoFocus === r.name} title="Show its boundary on the map"
+                  className={cx('flex cursor-pointer items-start gap-2 rounded-lg px-1 py-2 transition-colors', rcoFocus === r.name ? 'bg-accent-50' : 'hover:bg-stone-50')}>
+                  <span className="mt-[7px] h-0 w-3.5 shrink-0" style={{ borderTop: `2.5px ${r.covers ? 'solid' : 'dashed'} #393864`, opacity: r.covers ? 1 : 0.6 }} />
+                  <span className="min-w-0 flex-1">
+                    <span className="block text-[13px] font-semibold leading-snug text-slate-900">{r.name}</span>
+                    <span className="block text-[11.5px] leading-snug text-slate-500">
+                      {[r.covers ? 'Covers the site' : `${fmtMiles(r.miles)} away`, r.type === 'Ward' ? 'Ward' : null, r.cdc ? 'CDC' : null].filter(Boolean).join(' · ')}
+                    </span>
+                    {r.meets && <span className="block truncate text-[11.5px] leading-snug text-slate-500" title={r.meets}>Meets: {r.meets}</span>}
+                  </span>
+                  <LinkIcons p={r} size={24} />
+                </div>
+              </li>
+            ))}
+          </ul>
+        ) : <p className="text-[12.5px] text-slate-500">No RCO boundary reaches {fmtRadius(radius)} of the school.</p>}
+        <p className="mt-1.5 text-[11.5px] leading-snug text-slate-500">Tap one to see its boundary. Turn on <b>RCO boundaries</b> under Map layers to see them all.</p>
       </Section>
     </div>
   );
 }
 
-export default function SitePanel({ school, statsOf, radius, open, setOpen, onOnly, top = 12 }) {
+export default function SitePanel({ school, statsOf, radius, open, setOpen, onOnly, onRco, rcoFocus, top = 12 }) {
   return (
     <AnimatePresence initial={false} mode="popLayout">
       {open ? (
         <motion.aside key="panel" style={{ transformOrigin: 'top right', top, maxHeight: `calc(100% - ${top + 12}px - 56px)` }}
-          initial={{ opacity: 0, scale: 0.9, x: 14, filter: 'blur(6px)' }} animate={{ opacity: 1, scale: 1, x: 0, filter: 'blur(0px)' }}
-          exit={{ opacity: 0, scale: 0.92, x: 14, filter: 'blur(6px)', transition: { duration: 0.18, ease: 'easeIn' } }} transition={SPRING_PANEL}
+          initial={{ opacity: 0 }} animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }} transition={{ duration: 0.15 }}
           className={cx('absolute right-3 z-[510] flex max-w-[calc(100%-24px)] flex-col', W, PANEL)}>
           <div className="flex items-center justify-between gap-2 px-3 pb-2 pt-2.5">
             <span className="text-[14px] font-bold text-slate-900">{school.short}</span>
             <button type="button" onClick={() => setOpen(false)} className={ICON_BTN} title="Hide panel" aria-label="Hide panel"><FoldIcon side="right" /></button>
           </div>
           <div className={cx('min-h-0 flex-1 overflow-y-auto px-3 pb-3', SCROLL)}>
-            <SchoolSummary s={school} stats={statsOf(school.slug)} radius={radius} onOnly={onOnly} />
+            <SchoolSummary s={school} stats={statsOf(school.slug)} radius={radius} onOnly={onOnly} onRco={onRco} rcoFocus={rcoFocus} />
           </div>
         </motion.aside>
       ) : (
-        <motion.button key="tab" type="button" onClick={() => setOpen(true)} initial={{ opacity: 0, scale: 0.6, x: 8 }} animate={{ opacity: 1, scale: 1, x: 0 }} exit={{ opacity: 0, scale: 0.8, transition: { duration: 0.12 } }}
-          transition={SPRING_TAB} whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.95 }} style={{ top }} className={cx('absolute right-3 z-[510] text-slate-800', FLOAT_BTN)}>
+        <motion.button key="tab" type="button" onClick={() => setOpen(true)} initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
+          transition={{ duration: 0.15 }} style={{ top }} className={cx('absolute right-3 z-[510] text-slate-800', FLOAT_BTN)}>
           {school.short} summary
           <span className="text-slate-600"><FoldIcon side="right" closed /></span>
         </motion.button>

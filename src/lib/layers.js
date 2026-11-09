@@ -108,13 +108,47 @@ const link = (u) => {
   const h = href(u);
   return h ? `<a href="${esc(h)}" target="_blank" rel="noopener noreferrer">${esc(String(u).replace(/^https?:\/\/(www\.)?/i, '').replace(/\/$/, ''))}</a>` : '';
 };
-export function popupHtml({ title, kind, lines = [], source }) {
+export function popupHtml({ title, kind, lines = [], source, extra = '' }) {
   const body = lines.filter(Boolean).map((l) => `<div>${l}</div>`).join('');
-  return `<div class="pp"><div class="pp-t">${esc(title)}</div>${kind ? `<div class="pp-k">${esc(kind)}</div>` : ''}${body ? `<div class="pp-b">${body}</div>` : ''}${source ? `<div class="pp-s">Source: ${esc(source)}</div>` : ''}</div>`;
+  return `<div class="pp"><div class="pp-t">${esc(title)}</div>${kind ? `<div class="pp-k">${esc(kind)}</div>` : ''}${body ? `<div class="pp-b">${body}</div>` : ''}${extra}${source ? `<div class="pp-s">Source: ${esc(source)}</div>` : ''}</div>`;
 }
+
+// ── a place's own links, as small icon buttons ────────────────────────────
+export const LINK_ICONS = {
+  website: { label: 'Website', svg: '<circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3.5 12h17M12 3.5c2.3 2.4 3.4 5.2 3.4 8.5s-1.1 6.1-3.4 8.5c-2.3-2.4-3.4-5.2-3.4-8.5S9.7 5.9 12 3.5Z" fill="none" stroke="currentColor" stroke-width="1.8"/>' },
+  instagram: { label: 'Instagram', svg: '<rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="3.9" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.2" cy="6.8" r="1.15" fill="currentColor"/>' },
+  facebook: { label: 'Facebook', svg: '<path d="M13.6 20.5v-7h2.4l.4-2.9h-2.8V8.8c0-.8.3-1.4 1.4-1.4h1.5V4.8c-.3 0-1.2-.1-2.2-.1-2.2 0-3.6 1.3-3.6 3.8v2.1H8.3v2.9h2.4v7h2.9Z" fill="currentColor"/>' },
+  maps: { label: 'Open in Google Maps', svg: '<path d="M12 20.5s-6.5-5.6-6.5-10.6a6.5 6.5 0 0 1 13 0c0 5-6.5 10.6-6.5 10.6Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="9.9" r="2.3" fill="none" stroke="currentColor" stroke-width="1.8"/>' },
+  phone: { label: 'Call', svg: '<path d="M6.6 4h2.6l1.4 3.9-1.9 1.3a10.4 10.4 0 0 0 6.1 6.1l1.3-1.9 3.9 1.4v2.6A1.6 1.6 0 0 1 18.4 19 14.4 14.4 0 0 1 5 5.6 1.6 1.6 0 0 1 6.6 4Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>' },
+};
+const HOME_CARE = /family child care home|group child care home/i;   // private homes: no map search
+export function placeLinks(p, { maps = true } = {}) {
+  const out = [];
+  for (const k of ['website', 'instagram', 'facebook']) if (href(p[k])) out.push({ kind: k, url: href(p[k]) });
+  if (maps && p.name && !HOME_CARE.test(p.kind || '')) {
+    const q = [p.name, p.address, p.address && /philadelphia/i.test(p.address) ? '' : 'Philadelphia, PA'].filter(Boolean).join(', ');
+    out.push({ kind: 'maps', url: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}` });
+  }
+  return out;
+}
+const telHref = (ph) => { const d = String(ph || '').replace(/\D/g, ''); return d.length >= 10 ? `tel:+1${d.slice(-10)}` : ''; };
+export function linksHtml(p, opts) {
+  const btn = ({ kind, url }) => `<a class="pp-ic" href="${esc(url)}" target="_blank" rel="noopener noreferrer" title="${LINK_ICONS[kind].label}" aria-label="${LINK_ICONS[kind].label}"><svg viewBox="0 0 24 24" aria-hidden="true">${LINK_ICONS[kind].svg}</svg></a>`;
+  const icons = placeLinks(p, opts).map(btn).join('');
+  const tel = telHref(p.phone);
+  const phone = tel ? `<a class="pp-tel" href="${tel}"><svg viewBox="0 0 24 24" aria-hidden="true">${LINK_ICONS.phone.svg}</svg>${esc(p.phone)}</a>` : '';
+  return icons || phone ? `<div class="pp-links">${icons}${phone}</div>` : '';
+}
+
+// RCOs with a boundary on the map (filled in by the map once schools.json loads), so a community group that is an
+// RCO can offer to show its boundary
+export const RCO_NAMES = new Set();
+const rcoButton = (name) => (RCO_NAMES.has(name) ? `<button type="button" class="pp-act" data-rco="${esc(name)}">Show its boundary</button>` : '');
+
 export const assetPopup = (p, sourceTitle) => popupHtml({
   title: p.name, kind: p.kind || TYPE[p.type]?.label,
-  lines: [esc(p.detail), esc(p.address), esc(p.phone), link(p.website)], source: sourceTitle || p.source_id,
+  lines: [esc(p.detail), esc(p.address)], source: sourceTitle || p.source_id,
+  extra: linksHtml(p) + (p.source_id === 'phl_rco_offices' ? rcoButton(p.name) : ''),
 });
 
 // ── census shading (ctx/tracts.json) ──────────────────────────────────────
@@ -155,8 +189,10 @@ export const KEY_FIELD = { zoning: 'group', land_use: 'use', transit_lines: 'mod
 
 export const rcoPopup = (p) => popupHtml({
   title: p.name,
-  kind: `Registered community organization${p.type ? ` · ${p.type}` : ''}${p.cdc ? ' · CDC' : ''}`,
-  lines: [p.covers ? `<b>Covers the ${esc(p._short || 'school')} site</b>` : '', p.meets ? `Meets: ${esc(p.meets)}` : '', link(p.website)],
+  kind: `Registered Community Organization${p.type && p.type !== 'Other' ? ` · ${p.type}` : ''}${p.cdc ? ' · CDC' : ''}`,
+  lines: [p.covers ? `<b>Its boundary covers the ${esc(p._short || 'school')} site</b>` : (p.miles != null ? `Boundary ${p.miles < 0.19 ? `${Math.round(p.miles * 5280)} ft` : `${p.miles.toFixed(2)} mi`} from ${esc(p._short || 'the school')}` : ''),
+    p.meets ? `Meets: ${esc(p.meets)}` : '', p.expires ? `Registered through ${esc(p.expires)}` : ''],
+  extra: linksHtml(p, { maps: false }),
   source: 'City of Philadelphia, RCO registry',
 });
 
@@ -177,10 +213,11 @@ export const LAYERS = [
   { id: 'neighborhood', scope: 'site', kind: 'neighborhood', label: 'Neighborhood boundary', caption: 'The neighborhood the school is in', geom: 'line',
     style: (p) => ({ color: p._color, weight: 2.2, fill: false, opacity: 0.8 }), tooltip: (p) => `${p._short} neighborhood${p.source === 'azavea' ? ' (Azavea)' : ''}`,
     swatch: { kind: 'line', color: PAL.ink2 }, info: "The studio's boundary for Wagner and Blankenburg; the Azavea neighborhood for the other four." },
-  { id: 'rco', scope: 'school', file: 'rco', label: 'Community organization areas', caption: 'Registered groups that review zoning at the site', geom: 'polygon', filter: (p) => p.covers, strokeOnly: true,
-    style: { color: PAL.indigo, weight: 1.6, fillColor: PAL.indigo, fillOpacity: 0.03 }, hover: { weight: 3, fillOpacity: 0.1 },
-    tooltip: (p) => p.name, popup: rcoPopup, swatch: { kind: 'fill', color: '#39386410', line: PAL.indigo },
-    info: 'Registered Community Organizations whose boundary covers a school site. They are consulted on zoning applications.' },
+  { id: 'rco', scope: 'school', file: 'rco', label: 'RCO boundaries', basic: true, geom: 'polygon', strokeOnly: true, withinRadius: true,
+    style: (p) => ({ color: PAL.indigo, weight: p.covers ? 2.4 : 1.3, opacity: p.covers ? 0.95 : 0.55, dashArray: p.covers ? null : '5 4', fillColor: PAL.indigo, fillOpacity: p.covers ? 0.04 : 0 }),
+    hover: { weight: 3, opacity: 1, dashArray: null, fillOpacity: 0.08 },
+    tooltip: (p) => p.name, popup: rcoPopup, swatch: { kind: 'line', color: PAL.indigo, dash: 'dash' },
+    info: 'Registered Community Organizations whose boundary reaches the distance you set. They are consulted on zoning applications. Solid: covers the school site.' },
   { id: 'parks', scope: 'ctx', file: 'parks', label: 'Park land', caption: 'Land owned by Parks & Recreation', basic: true, geom: 'polygon', defaultOn: true,
     style: { color: PAL.sage, weight: 0.6, fillColor: '#A9C7B8', fillOpacity: 0.5 }, hover: { fillOpacity: 0.7 },
     tooltip: (p) => p.name, popup: (p) => popupHtml({ title: p.name, kind: 'Park', lines: [p.acres ? `${p.acres.toLocaleString('en-US')} acres` : ''], source: 'Philadelphia Parks & Recreation' }),

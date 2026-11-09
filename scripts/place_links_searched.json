@@ -1,0 +1,102 @@
+{
+ "childcare|Belmont Academy Charter School|39.97063|-75.20589": {
+  "website": "https://www.belmontcharternetwork.org/bacs/",
+  "evidence": "School's own page on belmontcharternetwork.org footer shows Belmont Academy Charter School, 907 N. 41st Street, Philadelphia PA 19104, 215-386-5768"
+ },
+ "childcare|Brightside - 48th & Brown St Head Start|39.96700|-75.21614": {
+  "website": "https://brightsideacademy.com/location/philadelphia/48th-brown/",
+  "evidence": "Store-specific page 'Brightside Academy 48th & Brown' on brightsideacademy.com lists 801-43 N 48th St, Philadelphia PA 19139, phone 215-879-7206, Head Start (brand-level Facebook/Instagram omitted)"
+ },
+ "childcare|Brightside Academy Early Care & Education|39.97316|-75.21827": {
+  "website": "https://brightsideacademy.com/location/philadelphia/48th-lancaster/",
+  "evidence": "Store-specific page 'Brightside Academy, 48th & Lancaster' on brightsideacademy.com lists 4829 Lancaster Ave, Philadelphia PA 19131, phone 215-879-0162 (brand-level Facebook/Instagram omitted)"
+ },
+ "childcare|Brightside Academy Early Care Education|39.96692|-75.21626": {
+  "website": "https://brightsideacademy.com/location/philadelphia/48th-brown/",
+  "evidence": "Brightside Academy's store-specific page for 48th & Brown: 801-43 North 48th Street, Philadelphia 19139, phone 215-879-7206 (matches input)."
+ },
+ "childcare|Brightside-48 and Lancaster Head Start|39.97348|-75.21829": {
+  "website": "https://brightsideacademy.com/location/philadelphia/48th-lancaster/",
+  "evidence": "Brightside Academy 48th & Lancaster location page: 4829 Lancaster Ave, Philadelphia 19131 (same address as input); page mentions Head Start ties."
+ },
+ "childcare|Community Educ Alliance HS|39.97053|-75.20573": {
+  "website": "https://www.belmontcharternetwork.org/community-education-alliance/",
+  "evidence": "Community Education Alliance page on belmontcharternetwork.org mentions Head Start and lists tel 215-790-1294 (matches input phone); same operator as the 907 N 41st St school."
+ },
+ "childcare|Giving of Self Partnership Child Development Cente|40.04666|-75.14910": {
+  "website": "https://www.givingofselfpartnership.org/",
+  "evidence": "Giving Of Self Partnership, Inc. site lists a Child Development program; address 6101 Limekiln Pike, Philadelphia PA 19141. Website only; org-level socials left to the pantry entry."
+ },
+ "childcare|Precious Angels Head Start|40.04621|-75.14347": {
+  "website": "https://preciousangelsprep.org",
+  "facebook": "https://www.facebook.com/palc1996",
+  "instagram": "https://www.instagram.com/preciousangelslearning/",
+  "evidence": "Precious Angels Preparatory School site footer lists 6100 North Broad St, Philadelphia PA 19141, (215) 224-6880, offers Free Head Start Programs; Facebook/Instagram links taken from that site (input phone differs: 215-875-3611)."
+ },
+ "clinic|DaVita Kidney Care|39.96621|-75.21681": {
+  "website": "https://www.davita.com/locations/pa/philadelphia/4800-brown-st--12098",
+  "evidence": "DaVita's own center page for DaVita Brown Street Dialysis, 4800 Brown St, Philadelphia 19139 (at 48th & Brown, matches the input coordinates)."
+ },
+ "garden|Carousel House|39.97898|-75.21075": {
+  "website": "https://www.phila.gov/programs/programs-for-people-with-disabilities/carousel-house-facilities/",
+  "evidence": "City of Philadelphia Parks & Recreation page for Carousel House (4300 Avenue of the Republic per City capital project documents); page has only general City social links, so none included."
+ },
+ "meals|Giving of Self Partnership|40.04653|-75.14885": {
+  "website": "https://www.givingofselfpartnership.org/",
+  "facebook": "https://www.facebook.com/givingofselfpartnershipinc",
+  "instagram": "https://www.instagram.com/gospcenter/",
+  "evidence": "Site footer: Giving Of Self Partnership, Inc., 6101 Limekiln Pike, Philadelphia PA 19141, (215) 927-6100 (matches input); Food Bank page; footer links to the Facebook and Instagram accounts."
+ },
+ "meals|Second Antioch Baptist Church|39.97080|-75.20608": {
+  "website": "https://secondantiochbaptist.org",
+  "evidence": "Church's own site lists 912-18 N. 41st Street, Philadelphia 19104, phone (215) 387-6774 (matches input). No Facebook or Instagram link on the site."
+ },
+ "public_school|Belmont Academy Charter School|39.97073|-75.20555": {
+  "website": "https://www.belmontcharternetwork.org/bacs/",
+  "evidence": "School-specific page on the Belmont Charter Network site; footer lists Belmont Academy Charter School, 907 N. 41st Street, Philadelphia PA 19104, tel 215-386-5768 (matches input). Network-level Facebook/Instagram deliberately omitted."
+ },
+ "public_school|Excel Middle Years Academy|39.96949|-75.21058": {
+  "website": "https://sesischools.com/location/excel-middle-years-academy/",
+  "evidence": "Operator SESI's location page lists Excel Middle Years Academy, 4300 Westminster Avenue, Philadelphia PA 19104, 215-436-0307"
+ },
+ "public_school|Philadelphia Learning Academy West|39.96946|-75.21045": {
+  "website": "https://plawest.philasd.org/",
+  "evidence": "Official School District of Philadelphia school site: Philadelphia Learning Academy West, 4300 Westminster Avenue, Philadelphia PA 19104, 215-400-9080 (matches input). No social links on page."
+ },
+ "worship|House of Prayer Episcopal Church|40.04657|-75.14945": {
+  "website": "https://houseofprayerepiscopal.weebly.com",
+  "evidence": "Parish site (linked as official from its Wikipedia article) for House of Prayer Episcopal Church, 1747 Church Lane, Philadelphia 19141. No social links found."
+ },
+ "worship|Mount Airy Church of God in Christ|40.05228|-75.14917": {
+  "website": "https://www.mtairycogic.com/",
+  "facebook": "https://www.facebook.com/MtAiryChurchofGodinChrist",
+  "evidence": "Church's own site shows Mount Airy Church of God in Christ, 6401 Ogontz Avenue, Philadelphia PA 19126, (215) 276-2960; Facebook link taken from that site"
+ },
+ "worship|Pilgrim Wesleyan Church|40.05544|-75.14189": {
+  "website": "https://pwcphilly.org",
+  "facebook": "https://www.facebook.com/PWCPHILLY",
+  "instagram": "https://www.instagram.com/pwc.philly/",
+  "evidence": "pwcphilly.org is Pilgrim Wesleyan Church of Philadelphia, 6700 N. Broad St, 19126, (215) 927-1918; the site itself links the Facebook and Instagram accounts"
+ },
+ "worship|Second Antioch Baptist Church|39.97073|-75.20616": {
+  "website": "https://secondantiochbaptist.org/",
+  "evidence": "Site header/footer: Second Antioch Baptist Church, 912-18 N. 41st Street, Philadelphia PA 19104, (215) 387-6774 (matches directory listings and coordinates)."
+ },
+ "youth|Blankenburg Elementary School|39.97252|-75.21523": {
+  "website": "https://blankenburg.philasd.org",
+  "instagram": "https://www.instagram.com/blankenburgelementaryschool/",
+  "evidence": "School District page for Rudolph Blankenburg Elementary, 4600 West Girard Ave, 19131, phone 215-400-7280; the page links the Instagram handle."
+ },
+ "youth|Philadelphia Robotics Coalition at Building 21|40.05363|-75.15248": {
+  "website": "https://roboticscoalition.org",
+  "facebook": "https://www.facebook.com/RoboticsCoalition/",
+  "instagram": "https://www.instagram.com/roboticscoalition/",
+  "evidence": "Organization named is the Philadelphia Robotics Coalition; its own site links these Facebook and Instagram accounts. These are the org's citywide pages (Building 21 is not mentioned on the site)."
+ },
+ "youth|Philadelphia Youth Basketball at Rudolph Blankenburg School|39.97263|-75.21514": {
+  "website": "https://www.phillyyouthbasketball.org",
+  "facebook": "https://www.facebook.com/phillyyouthbasketball/",
+  "instagram": "https://www.instagram.com/phillyyouthbasketball/",
+  "evidence": "Organization named is Philadelphia Youth Basketball (PYB); its own site links these Facebook and Instagram accounts. These are the org's citywide pages, not a Blankenburg-specific page."
+ }
+}
