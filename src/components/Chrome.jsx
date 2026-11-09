@@ -259,7 +259,7 @@ const Block = ({ title, children }) => (<div><div className="mb-1 text-[10.5px] 
 const Grid = ({ children }) => <div className="grid grid-cols-2 gap-x-3">{children}</div>;
 
 export function Legend({ schools, types, on, measure, scale, present = {}, legendRef }) {
-  const [open, setOpen] = useState(() => typeof window === 'undefined' || window.innerWidth >= 900);
+  const [open, setOpen] = useState(false);
   const groups = ASSET_GROUPS.filter((g) => TYPES.some((t) => t.group === g.id && types[t.id]));
   const active = LAYERS.filter((l) => on[l.id]);
   const m = measure && MEASURE[measure];

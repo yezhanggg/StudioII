@@ -185,7 +185,7 @@ export const LAYERS = [
     style: { color: PAL.sage, weight: 0.6, fillColor: '#A9C7B8', fillOpacity: 0.5 }, hover: { fillOpacity: 0.7 },
     tooltip: (p) => p.name, popup: (p) => popupHtml({ title: p.name, kind: 'Park', lines: [p.acres ? `${p.acres.toLocaleString('en-US')} acres` : ''], source: 'Philadelphia Parks & Recreation' }),
     swatch: { kind: 'fill', color: '#A9C7B8', line: PAL.sage }, info: 'Parks & Recreation property boundaries.' },
-  { id: 'corridors', scope: 'ctx', file: 'corridors', label: 'Shopping streets', caption: "The City's commercial corridors", basic: true, geom: 'polygon', defaultOn: true,
+  { id: 'corridors', scope: 'ctx', file: 'corridors', label: 'Commercial corridors', caption: "The City's commercial corridors", basic: true, geom: 'polygon', defaultOn: true,
     style: { color: PAL.terracotta, weight: 1, fillColor: PAL.blush, fillOpacity: 0.4 }, hover: { fillOpacity: 0.6 }, tooltip: (p) => p.name,
     popup: (p) => popupHtml({ title: p.name, kind: 'Commercial corridor', lines: [p.storefronts != null ? `${fmtInt(p.storefronts)} storefronts${p.vacant != null ? `, ${fmtInt(p.vacant)} vacant` : ''}${p.year ? ` (${p.year} survey)` : ''}` : ''], source: 'Philadelphia City Planning Commission' }),
     swatch: { kind: 'fill', color: PAL.blush, line: PAL.terracotta }, info: 'City Planning Commission commercial corridors and their storefront survey.' },
