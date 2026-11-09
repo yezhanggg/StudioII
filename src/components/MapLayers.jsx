@@ -216,7 +216,7 @@ export function SiteLayer({ schools, parcels, focus, onFocus }) {
           L.geoJSON(parcel, { pane: 'site', interactive: false, style: { color: s.color, weight: 18, opacity: 0.14, fill: false, lineJoin: 'round' } }).addTo(g);
           L.geoJSON(parcel, { pane: 'site', interactive: false, style: { color: s.color, weight: 7, opacity: 0.32, fill: false, lineJoin: 'round' } }).addTo(g);
         }
-        const poly = L.geoJSON(parcel, { pane: 'site', style: on ? { color: '#ffffff', weight: 2.5, fillColor: s.color, fillOpacity: 1 } : { color: '#ffffff', weight: 1.5, fillColor: s.color, fillOpacity: 0.85 } }).addTo(g);
+        const poly = L.geoJSON(parcel, { pane: 'site', style: { color: s.color, weight: on ? 3 : 2, opacity: 1, fillColor: s.color, fillOpacity: 0, lineJoin: 'round' } }).addTo(g);
         poly.on('click', () => onFocus(s.slug));
         poly.bindTooltip(`${esc(s.name)} · click for its summary`, { direction: 'top', className: 'tt', sticky: true });
       }
