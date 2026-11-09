@@ -1,23 +1,10 @@
-import React, { useEffect, useState } from 'react';
-import Landing from './components/Landing';
+import React from 'react';
 import SchoolMap from './components/SchoolMap';
 
-const SLUGS = ['wagner', 'blankenburg'];
-const route = () => {
-  const p = window.location.pathname.replace(/^\/+|\/+$/g, '').toLowerCase();
-  return SLUGS.includes(p) ? p : null;
-};
+// Straight into the map: / shows all six schools, /wagner (or any school's slug) opens with that one.
+const SLUGS = ['wagner', 'blankenburg', 'robeson', 'pennypacker', 'fitler', 'amynw'];
+const slug = window.location.pathname.replace(/^\/+|\/+$/g, '').toLowerCase();
 
 export default function App() {
-  const [slug, setSlug] = useState(route);
-  useEffect(() => {
-    const onPop = () => setSlug(route());
-    window.addEventListener('popstate', onPop);
-    return () => window.removeEventListener('popstate', onPop);
-  }, []);
-  const go = (s) => {
-    window.history.pushState(null, '', s ? `/${s}` : '/');
-    setSlug(s);
-  };
-  return slug ? <SchoolMap key={slug} slug={slug} onSchool={go} onHome={() => go(null)} /> : <Landing onOpen={go} />;
+  return <SchoolMap initialSlug={SLUGS.includes(slug) ? slug : null} />;
 }

@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "build:data": "uv run --no-project --with geopandas --with pyogrio --with pandas python scripts/build_data.py"
+    "build:data": "uv run --no-project --with geopandas --with pyogrio --with pandas --with requests --with osmnx python scripts/build_data.py"
   },
   "engines": {
     "node": ">=20.0.0"

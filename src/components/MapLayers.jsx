@@ -29,13 +29,26 @@ export function MapBridge({ onReady }) {
   return null;
 }
 
+/** Below zoom 14 the asset markers become small dots, so six schools' worth of places stays readable. */
+export function ZoomClass() {
+  const map = useMap();
+  useEffect(() => {
+    const el = map.getContainer();
+    const set = () => el.classList.toggle('z-low', map.getZoom() < 14);
+    set();
+    map.on('zoomend', set);
+    return () => map.off('zoomend', set);
+  }, [map]);
+  return null;
+}
+
 // ── basemaps (all keyless) ────────────────────────────────────────────────
 const CITY = 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services';
 const ESRI = 'https://server.arcgisonline.com/ArcGIS/rest/services';
 export const BASEMAPS = [
+  { id: 'gray', label: 'Gray', base: `${ESRI}/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}`, maxNative: 16, labels: `${ESRI}/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}`, attribution: 'Esri' },
   { id: 'soft', label: 'City · soft', base: `${CITY}/CityBasemap/MapServer/tile/{z}/{y}/{x}`, baseOpacity: 0.45, labels: `${CITY}/CityBasemap_Labels/MapServer/tile/{z}/{y}/{x}`, labelOpacity: 0.85, attribution: 'City of Philadelphia' },
   { id: 'city', label: 'City', base: `${CITY}/CityBasemap/MapServer/tile/{z}/{y}/{x}`, baseOpacity: 1, labels: `${CITY}/CityBasemap_Labels/MapServer/tile/{z}/{y}/{x}`, labelOpacity: 1, attribution: 'City of Philadelphia' },
-  { id: 'gray', label: 'Gray', base: `${ESRI}/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}`, maxNative: 16, labels: `${ESRI}/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}`, attribution: 'Esri' },
   { id: 'satellite', label: 'Satellite', base: `${ESRI}/World_Imagery/MapServer/tile/{z}/{y}/{x}`, labels: `${ESRI}/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}`, attribution: 'Esri, Maxar, Earthstar Geographics' },
 ];
 export function Basemap({ id }) {
@@ -48,20 +61,30 @@ export function Basemap({ id }) {
   );
 }
 
-// ── distance from the school, for popups ──────────────────────────────────
-const distanceHtml = (latlng, center) => {
-  if (!latlng || !center) return '';
-  const mi = L.latLng(center).distanceTo(latlng) / 1609.344;
-  return `<div class="pp-d">${fmtMiles(mi)} from the school · about ${walkMinutes(mi)} min walk in a straight line</div>`;
+// ── distance to the nearest school on the map, for popups ─────────────────
+/** schools: [{short, center}] → (latlng) => { mi, short } */
+export function makeNearest(schools) {
+  return (latlng) => {
+    let best = null;
+    for (const s of schools) {
+      const mi = L.latLng(s.center).distanceTo(latlng) / 1609.344;
+      if (!best || mi < best.mi) best = { mi, short: s.short };
+    }
+    return best;
+  };
+}
+const distanceHtml = (latlng, nearest) => {
+  const n = nearest?.(latlng);
+  return n ? `<div class="pp-d">${fmtMiles(n.mi)} from ${esc(n.short)} · about ${walkMinutes(n.mi)} min walk in a straight line</div>` : '';
 };
-const withDistance = (html, latlng, center) => html.replace(/(<div class="pp-s">|<\/div>$)/, (m) => distanceHtml(latlng, center) + m);
+const withDistance = (html, latlng, nearest) => html.replace(/(<div class="pp-s">|<\/div>$)/, (m) => distanceHtml(latlng, nearest) + m);
 
 // ── a registry layer (layers.js) drawn from a FeatureCollection ───────────
-export function GeoLayer({ def, data, center, onTract }) {
+export function GeoLayer({ def, data, nearest, onTract }) {
   const map = useMap();
-  const pane = def.geom === 'point' ? 'points' : def.geom === 'line' ? 'lines' : def.geom === 'mixed' ? 'lines' : 'areas';
-  // SVG for everything that can be clicked; a canvas would sit over the panes below and swallow their clicks,
-  // so it is kept for thousands of dots that only need to be seen (layers.js `canvas: true`, not interactive).
+  const pane = def.geom === 'point' ? 'points' : def.geom === 'line' || def.geom === 'mixed' ? 'lines' : 'areas';
+  // SVG for anything clickable; a canvas over the panes below would swallow their clicks, so it is only for
+  // thousands of dots that need to be seen and not clicked (`canvas: true`, `interactive: false`).
   const renderer = useMemo(() => (def.canvas ? L.canvas({ pane: 'points', padding: 0.3 }) : undefined), [def.canvas]);
 
   useEffect(() => {
@@ -86,7 +109,7 @@ export function GeoLayer({ def, data, center, onTract }) {
         if (!def.clickTract && (def.popup || tip)) {
           lyr.bindPopup(() => {
             const html = def.popup ? def.popup(p) : popupHtml({ title: tip });
-            return lyr.getLatLng ? withDistance(html, lyr.getLatLng(), center) : html;
+            return lyr.getLatLng ? withDistance(html, lyr.getLatLng(), nearest) : html;
           }, { maxWidth: 320, autoPanPadding: [40, 40] });
         }
         if (def.hover) {
@@ -97,11 +120,11 @@ export function GeoLayer({ def, data, center, onTract }) {
       },
     }).addTo(map);
     return () => { map.removeLayer(layer); };
-  }, [map, def, data, pane, renderer, center, onTract]);
+  }, [map, def, data, pane, renderer, nearest, onTract]);
   return null;
 }
 
-// ── census tract choropleth ────────────────────────────────────────────────
+// ── census tract choropleth (the whole city) ──────────────────────────────
 export function Choropleth({ data, measure, selectedId, onTract }) {
   const map = useMap();
   const m = MEASURE[measure];
@@ -110,16 +133,15 @@ export function Choropleth({ data, measure, selectedId, onTract }) {
   useEffect(() => {
     if (!data || !m || !scale) return undefined;
     const base = (p) => ({
-      pane: 'choropleth', color: '#ffffff', weight: p.geoid === selectedId ? 3 : 0.8, opacity: 1,
+      pane: 'choropleth', color: p.geoid === selectedId ? '#1E1E1C' : '#ffffff', weight: p.geoid === selectedId ? 3 : 0.7, opacity: 1,
       fillColor: scale.colorOf(p[m.id]), fillOpacity: 0.72,
-      ...(p.geoid === selectedId ? { color: '#1E1E1C' } : null),
     });
     const layer = L.geoJSON(data, {
       pane: 'choropleth',
       style: (f) => base(f.properties),
       onEachFeature: (f, lyr) => {
         const p = f.properties;
-        lyr.bindTooltip(`<b>Tract ${esc(p.name)}</b>${p.study ? ' · study area' : ''}<br>${esc(m.label)}: <b>${esc(m.fmt(p[m.id]))}</b>`, { sticky: true, className: 'tt', direction: 'top' });
+        lyr.bindTooltip(`<b>Tract ${esc(p.name)}</b><br>${esc(m.label)}: <b>${esc(m.fmt(p[m.id]))}</b>`, { sticky: true, className: 'tt', direction: 'top' });
         lyr.on('mouseover', () => { lyr.setStyle({ weight: 2.5, color: '#1E1E1C' }); lyr.bringToFront(); });
         lyr.on('mouseout', () => lyr.setStyle(base(p)));
         lyr.on('click', () => onTract(p));
@@ -146,53 +168,63 @@ function assetIcon(category, near) {
   return iconCache.get(key);
 }
 
-export function AssetLayer({ data, categories, halfOnly, center }) {
+/** items: [{ lat, lng, p, near }] — already merged across schools and filtered */
+export function AssetLayer({ items, nearest }) {
   const map = useMap();
   useEffect(() => {
-    if (!data) return undefined;
     const group = L.layerGroup();
-    for (const f of data.features) {
-      const p = f.properties;
-      if (!categories[p.category]) continue;
-      if (halfOnly && !p.half) continue;
-      const [lng, lat] = f.geometry.coordinates;
-      const mk = L.marker([lat, lng], { icon: assetIcon(p.category, p.half), pane: 'assets', riseOnHover: true, keyboard: true, title: p.name });
+    for (const it of items) {
+      const p = it.p;
+      const mk = L.marker([it.lat, it.lng], { icon: assetIcon(p.category, it.near), pane: 'assets', riseOnHover: true, keyboard: true, title: p.name });
       mk.bindTooltip(`<b>${esc(p.name)}</b><br><span class="tt-k">${esc(p.kind)}</span>`, { direction: 'top', className: 'tt' });
-      mk.bindPopup(() => withDistance(assetPopup(p), mk.getLatLng(), center), { maxWidth: 320, autoPanPadding: [40, 40] });
+      mk.bindPopup(() => withDistance(assetPopup(p), mk.getLatLng(), nearest), { maxWidth: 320, autoPanPadding: [40, 40] });
       group.addLayer(mk);
     }
     group.addTo(map);
     return () => { map.removeLayer(group); };
-  }, [map, data, categories, halfOnly, center]);
+  }, [map, items, nearest]);
   return null;
 }
 
-// ── the school: parcel in Indigo with its name ────────────────────────────
-export function SiteLayer({ site }) {
+// ── the schools: parcel and name in the school's colour ───────────────────
+export function SiteLayer({ schools, parcels, focus, onFocus }) {
   const map = useMap();
   useEffect(() => {
-    if (!site) return undefined;
     const g = L.layerGroup().addTo(map);
-    L.geoJSON(site.parcel, { pane: 'site', interactive: false, style: { color: '#ffffff', weight: 2, fillColor: '#393864', fillOpacity: 1 } }).addTo(g);
-    L.marker(site.center, { pane: 'site', interactive: false, icon: L.divIcon({ className: 'site-label', html: `<span>${esc(site.school)} School</span>`, iconSize: [0, 0] }) }).addTo(g);
+    for (const s of schools) {
+      const parcel = parcels[s.slug];
+      const on = focus === s.slug;
+      if (parcel) {
+        const poly = L.geoJSON(parcel, { pane: 'site', style: { color: '#ffffff', weight: 2, fillColor: s.color, fillOpacity: 1 } }).addTo(g);
+        poly.on('click', () => onFocus(s.slug));
+        poly.bindTooltip(`${esc(s.name)} · click for its summary`, { direction: 'top', className: 'tt', sticky: true });
+      }
+      const label = L.marker(s.center, {
+        pane: 'site',
+        icon: L.divIcon({ className: 'site-label', html: `<span class="${on ? 'on' : ''}" style="--c:${s.color}"><i></i>${esc(s.short)}</span>`, iconSize: [0, 0] }),
+      }).addTo(g);
+      label.on('click', () => onFocus(s.slug));
+    }
     return () => { map.removeLayer(g); };
-  }, [map, site]);
+  }, [map, schools, parcels, focus, onFocus]);
   return null;
 }
 
-/** A study-area outline stored in site.json (half mile, one mile, neighborhood). */
-export function SiteShape({ geometry, style }) {
+/** The radius ring around each school on the map. */
+export function RadiusLayer({ schools, miles }) {
   const map = useMap();
   useEffect(() => {
-    if (!geometry) return undefined;
-    const layer = L.geoJSON(geometry, { pane: 'lines', interactive: false, style }).addTo(map);
-    return () => { map.removeLayer(layer); };
-  }, [map, geometry, style]);
+    const g = L.layerGroup().addTo(map);
+    for (const s of schools) {
+      L.circle(s.center, { pane: 'lines', radius: miles * 1609.344, color: s.color, weight: 2.2, dashArray: '0.1 6', lineCap: 'round', fill: false, interactive: false }).addTo(g);
+    }
+    return () => { map.removeLayer(g); };
+  }, [map, schools, miles]);
   return null;
 }
 
 // ── a searched address or place ───────────────────────────────────────────
-export function PinLayer({ pin, center }) {
+export function PinLayer({ pin, nearest }) {
   const map = useMap();
   useEffect(() => {
     if (!pin) return undefined;
@@ -201,9 +233,9 @@ export function PinLayer({ pin, center }) {
       icon: L.divIcon({ className: 'pin-wrap', html: '<div class="pin"></div>', iconSize: [26, 34], iconAnchor: [13, 32], popupAnchor: [0, -30] }),
     }).addTo(map);
     const html = pin.html || popupHtml({ title: pin.label, kind: pin.kind || 'Searched address' });
-    mk.bindPopup(withDistance(html, L.latLng(pin.latlng), center), { maxWidth: 320 }).openPopup();
+    mk.bindPopup(withDistance(html, L.latLng(pin.latlng), nearest), { maxWidth: 320 }).openPopup();
     return () => { map.removeLayer(mk); };
-  }, [map, pin, center]);
+  }, [map, pin, nearest]);
   return null;
 }
 
@@ -230,3 +262,4 @@ export function MeasureLayer({ active, points, onAdd }) {
 }
 
 export const pathMiles = (pts) => pts.slice(1).reduce((s, p, i) => s + L.latLng(pts[i]).distanceTo(p), 0) / 1609.344;
+export const milesBetween = (a, b) => L.latLng(a).distanceTo(b) / 1609.344;
