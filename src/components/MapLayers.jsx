@@ -9,7 +9,7 @@ import { TYPE, ICONS, esc, fmtInt, fmtMiles, walkMinutes, assetPopup, popupHtml,
 
 // ── panes: stacking order of everything on the map ───────────────────────
 const PANES = [
-  ['choropleth', 340], ['areas', 380], ['lines', 420], ['labels', 460], ['points', 480], ['site', 640], ['assets', 650], ['top', 700],
+  ['tint', 300], ['choropleth', 340], ['areas', 380], ['lines', 420], ['labels', 460], ['veil', 466], ['edge', 470], ['points', 480], ['site', 640], ['assets', 650], ['top', 700],
 ];
 export function Panes() {
   const map = useMap();
@@ -17,7 +17,7 @@ export function Panes() {
     if (!map.getPane(name)) {
       const p = map.createPane(name);
       p.style.zIndex = String(z);
-      if (name === 'labels') p.style.pointerEvents = 'none';
+      if (['tint', 'labels', 'veil', 'edge'].includes(name)) p.style.pointerEvents = 'none';
     }
   }
   return null;
@@ -34,7 +34,7 @@ export function ZoomClass() {
   const map = useMap();
   useEffect(() => {
     const el = map.getContainer();
-    const set = () => el.classList.toggle('z-low', map.getZoom() < 14);
+    const set = () => { el.classList.toggle('z-low', map.getZoom() < 14); el.classList.toggle('z-out', map.getZoom() <= 12); };
     set();
     map.on('zoomend', set);
     return () => map.off('zoomend', set);
@@ -59,6 +59,33 @@ export function Basemap({ id }) {
       {bm.labels && <TileLayer key={`l-${bm.id}`} url={bm.labels} pane="labels" opacity={bm.labelOpacity ?? 1} maxZoom={20} maxNativeZoom={bm.maxNative || 19} />}
     </>
   );
+}
+
+// ── Philadelphia framed: everything outside the county washed out, a thin county line, neighbor names ──
+const COUNTIES = [['Montgomery County', [40.125, -75.215]], ['Bucks County', [40.165, -74.9]], ['Delaware County', [39.915, -75.33]], ['New Jersey', [39.925, -75.04]]];
+export function CityFrame({ data, tint = 0.55 }) {
+  const map = useMap();
+  useEffect(() => {
+    const city = data?.features?.[0]?.geometry;
+    if (!city) return undefined;
+    const polys = city.type === 'Polygon' ? [city.coordinates] : city.coordinates;
+    const ll = (ring) => ring.map(([x, y]) => [y, x]);
+    const world = [[-89, -179.9], [-89, 179.9], [89, 179.9], [89, -179.9]];
+    // the white inside is strongest at city scale and eases off as you zoom in, so streets stay readable
+    const inside = L.polygon(polys.map((p) => p.map(ll)), { pane: 'tint', stroke: false, fillColor: '#FFFFFF', fillOpacity: 0, interactive: false });
+    const fade = () => { const z = map.getZoom(); inside.setStyle({ fillOpacity: tint * (z <= 12 ? 1 : z >= 15 ? 0.3 : 1 - (z - 12) * 0.233) }); };
+    fade();
+    map.on('zoomend', fade);
+    const g = L.layerGroup([
+      // inside: whitened under the data (labels stay crisp); outside: a pale gray veil with the city cut out
+      inside,
+      L.polygon([world, ...polys.map((p) => ll(p[0]))], { pane: 'veil', stroke: false, fillColor: '#F4F4F1', fillOpacity: 0.72, interactive: false }),
+      L.polygon(polys.map((p) => p.map(ll)), { pane: 'edge', fill: false, color: '#9DA190', weight: 1.6, opacity: 0.95, interactive: false }),
+      ...COUNTIES.map(([name, at]) => L.marker(at, { pane: 'edge', interactive: false, keyboard: false, icon: L.divIcon({ className: 'county-label', html: `<span>${name}</span>`, iconSize: [0, 0] }) })),
+    ]).addTo(map);
+    return () => { map.off('zoomend', fade); g.remove(); };
+  }, [map, data, tint]);
+  return null;
 }
 
 // ── distance to the nearest school on the map, for popups ─────────────────

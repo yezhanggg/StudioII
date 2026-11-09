@@ -575,6 +575,9 @@ import shutil
 shutil.rmtree(OUT / "ctx", ignore_errors=True)
 log = []
 log.append(save("ctx/tracts.json", fc(tracts20, lambda r: {"geoid": r.GEOID, "name": clean(r.NAME), **tract_measures(r.GEOID)}, simplify_ft=10)))
+# the Philadelphia County outline (the 2020 tracts dissolved: they reach the county line, rivers included), for the
+# light-outside / white-inside base style
+log.append(save("ctx/city.json", fc(tracts20[["geometry"]].dissolve(), lambda r: {"name": "Philadelphia"}, simplify_ft=40)))
 
 pk = read(P2 / "phl_ppr_properties_citywide.geojson")
 pk = pk[~pk.get("property_classification", pd.Series("", index=pk.index)).isin(["TRAFFIC_ISLAND_MEDIAN", "PATHWAY", "OPERATIONAL_INTERNAL"])]
