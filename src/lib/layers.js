@@ -163,6 +163,9 @@ export const rcoPopup = (p) => popupHtml({
 export const LAYERS = [
   { id: 'radius', scope: 'radius', label: 'Distance ring', caption: 'The distance you set, drawn around the school', basic: true, defaultOn: true,
     swatch: { kind: 'line', color: PAL.indigo, dash: 'dots' }, info: 'A ring at the radius you set, around each school on the map.' },
+  { id: 'city', scope: 'ctx', file: 'city', label: 'Philadelphia boundary', caption: 'The city and county line', basic: true, geom: 'line', defaultOn: true, interactive: false,
+    style: { color: '#8E9282', weight: 2, fill: false, opacity: 0.95 }, swatch: { kind: 'line', color: '#8E9282' },
+    info: 'Philadelphia County, from the 2020 Census tracts merged into one outline.' },
   { id: 'catchment', scope: 'site', kind: 'catchment', label: 'School attendance area', caption: 'Where students living there are assigned to the school', basic: true, geom: 'polygon', defaultOn: true, strokeOnly: true,
     style: (p) => ({ color: p._color, weight: 2.2, dashArray: '9 5', fillColor: p._color, fillOpacity: 0.06, opacity: 0.95 }), hover: { fillOpacity: 0.15, weight: 3.2 },
     tooltip: (p) => `${p._short} attendance area · grades ${p.grades}`, swatch: { kind: 'fill', color: '#39386412', line: PAL.indigo, dash: 'dash' },

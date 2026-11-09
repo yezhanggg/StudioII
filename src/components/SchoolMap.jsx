@@ -7,7 +7,7 @@ import React, { useCallback, useDeferredValue, useEffect, useLayoutEffect, useMe
 import { MapContainer } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
-import { AssetLayer, Basemap, CityFrame, Choropleth, GeoLayer, MapBridge, Panes, RadiusLayer, SiteLayer, ZoomClass, makeNearest, milesBetween } from './MapLayers';
+import { AssetLayer, Basemap, Choropleth, GeoLayer, MapBridge, Panes, RadiusLayer, SiteLayer, ZoomClass, makeNearest, milesBetween } from './MapLayers';
 import { LayersRail, Legend, MapControls, Notice, RadiusCard, SchoolBar, SourcesModal } from './Chrome';
 import SitePanel from './SitePanel';
 import { GROUP, KEY_FIELD, LAYERS, TYPE, TYPES, quantiles } from '../lib/layers';
@@ -61,7 +61,6 @@ export default function SchoolMap({ initialSlug }) {
         if (alive) setFiles((f) => ({ ...f, ...Object.fromEntries(assets) }));
       })
       .catch((e) => alive && setError(String(e)));
-    getJSON('/data/ctx/city.json').then((d) => alive && setFiles((f) => ({ ...f, 'ctx/city': d }))).catch(() => {});
     getJSON('/data/sources.json').then((d) => alive && setSources(d)).catch(() => {});
     return () => { alive = false; };
   }, [initialSlug]);
@@ -258,7 +257,6 @@ export default function SchoolMap({ initialSlug }) {
         <ZoomClass />
         <MapBridge onReady={setMap} />
         <Basemap id={basemap} />
-        <CityFrame data={files['ctx/city']} tint={basemap === 'gray' ? 0.7 : 0} />
         {meta && (
           <>
             {measure && files['ctx/tracts'] && <Choropleth data={files['ctx/tracts']} measure={measure} city={city} />}
