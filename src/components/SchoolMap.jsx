@@ -8,7 +8,7 @@ import { MapContainer } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { AssetLayer, Basemap, Choropleth, GeoLayer, MapBridge, Panes, PinLayer, RadiusLayer, SiteLayer, ZoomClass, makeNearest, milesBetween } from './MapLayers';
-import { HelpCard, LayersRail, Legend, MapControls, Notice, RadiusCard, SchoolBar, SourcesModal } from './Chrome';
+import { LayersRail, Legend, MapControls, Notice, RadiusCard, SchoolBar, SourcesModal } from './Chrome';
 import SitePanel from './SitePanel';
 import { GROUP, KEY_FIELD, LAYERS, LAYER, TYPE, TYPES, assetPopup, popupHtml, quantiles, rcoPopup } from '../lib/layers';
 
@@ -50,8 +50,6 @@ export default function SchoolMap({ initialSlug }) {
   const [pin, setPin] = useState(null);
   const [notice, setNotice] = useState(null);
   const [docsOpen, setDocsOpen] = useState(false);
-  const [helpOpen, setHelpOpen] = useState(() => { try { return !localStorage.getItem('cmap.seenHelp'); } catch { return true; } });
-  const closeHelp = () => { setHelpOpen(false); try { localStorage.setItem('cmap.seenHelp', '1'); } catch { /* storage blocked */ } };
   const [map, setMap] = useState(null);
   const barRef = useRef(null);
   const legendRef = useRef(null);
@@ -296,7 +294,7 @@ export default function SchoolMap({ initialSlug }) {
 
       {meta && visible && (
         <>
-          <SchoolBar schools={all} visible={visible} onAll={onAll} onOnly={onOnly} onSources={() => setDocsOpen(true)} onHelp={() => setHelpOpen(true)} />
+          <SchoolBar schools={all} visible={visible} onAll={onAll} onOnly={onOnly} onSources={() => setDocsOpen(true)} />
           <RadiusCard radius={radius} onRadius={setRadius} onZoom={zoomTo} barRef={barRef} />
           <LayersRail
             top={railTop} reserveBottom={legendH} defaultOpen={isWide()} radius={radius}
@@ -313,7 +311,6 @@ export default function SchoolMap({ initialSlug }) {
             onOnly={(id) => { setTypes(Object.fromEntries(TYPES.map((t) => [t.id, t.id === id]))); setRadiusOnly(false); }} />
           <MapControls basemap={basemap} onBasemap={setBasemap} onZoomIn={() => map?.zoomIn()} onZoomOut={() => map?.zoomOut()} onHome={home} />
           <Notice text={notice} onClose={() => setNotice(null)} />
-          <HelpCard open={helpOpen} onClose={closeHelp} />
           <SourcesModal open={docsOpen} onClose={() => setDocsOpen(false)} sources={sources} schools={all} onDownload={download} selectionLabel={selectionLabel} />
         </>
       )}

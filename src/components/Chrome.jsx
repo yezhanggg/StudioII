@@ -45,7 +45,7 @@ const Switch = ({ on }) => (
 
 // ── top: the schools, and the documentation ───────────────────────────────
 const FINALISTS = ['wagner', 'blankenburg'];
-export function SchoolBar({ schools, visible, onAll, onOnly, onSources, onHelp }) {
+export function SchoolBar({ schools, visible, onAll, onOnly, onSources }) {
   const all = visible.length === schools.length;
   const only = visible.length === 1 ? visible[0] : null;
   const btn = (on) => cx('relative flex items-center gap-1.5 whitespace-nowrap rounded-lg px-2.5 py-1.5 text-[13px] font-semibold transition-colors', on ? 'text-white' : 'text-slate-700 hover:bg-stone-100 hover:text-slate-900');
@@ -69,7 +69,6 @@ export function SchoolBar({ schools, visible, onAll, onOnly, onSources, onHelp }
         <span className="relative">All six</span>
       </button>
       <span className="mx-1 h-5 w-px shrink-0 bg-stone-200" />
-      <button type="button" onClick={onHelp} className="whitespace-nowrap rounded-lg px-2.5 py-1.5 text-[13px] font-semibold text-slate-600 hover:bg-stone-100">How to use</button>
       <button type="button" onClick={onSources} className="flex items-center gap-1.5 whitespace-nowrap rounded-lg px-2.5 py-1.5 text-[13px] font-semibold text-accent-600 hover:bg-accent-50">
         <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M12 11v5M12 8h.01" /></svg>
         Sources &amp; data
@@ -340,39 +339,6 @@ export function Notice({ text, onClose }) {
     <AnimatePresence>
       {text && (
         <motion.div initial={{ opacity: 0, y: -8 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -8 }} className={cx('absolute left-1/2 top-16 z-[610] max-w-[min(520px,calc(100%-24px))] -translate-x-1/2 rounded-xl px-3.5 py-2 text-[13px] text-slate-700 shadow-lg', GLASS)}>{text}</motion.div>
-      )}
-    </AnimatePresence>
-  );
-}
-
-// ── first visit: three steps ──────────────────────────────────────────────
-export function HelpCard({ open, onClose }) {
-  const steps = [
-    ['Pick a school', 'Use the buttons along the top. Wagner and Blankenburg come first; "All six" compares every candidate school.'],
-    ['Choose how far to look', 'Tap ¼, ½, ¾ or 1 mile in the top-left box. A dotted ring shows that distance on the map.'],
-    ['Turn places on and off', 'The left panel has five groups: Food, Health, Children & learning, Community & recreation, and More places. Tap a group to switch it.'],
-    ['Click anything', 'Every dot opens its name, address, source and how far it is from the school. The right panel counts what is nearby.'],
-  ];
-  return (
-    <AnimatePresence>
-      {open && (
-        <motion.div className="fixed inset-0 z-[1900] grid place-items-center bg-slate-900/25 p-3 backdrop-blur-[2px]" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} onClick={onClose}>
-          <motion.div role="dialog" aria-modal="true" aria-label="How to use this map" onClick={(e) => e.stopPropagation()} initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: 8 }} transition={SPRING_PANEL}
-            className="w-full max-w-[460px] rounded-2xl bg-white p-5 shadow-[0_24px_80px_-20px_rgba(15,23,42,0.45)] ring-1 ring-black/5">
-            <h2 className="text-[19px] font-bold text-ink">What is around each school?</h2>
-            <p className="mt-1 text-[13.5px] leading-relaxed text-ink-2">This map shows the places near Wagner, Blankenburg and four other closed or candidate schools: food, health care, schools and child care, parks and more. It shows what is there; it does not suggest what the buildings should become.</p>
-            <ol className="mt-4 space-y-3">
-              {steps.map(([t, d], i) => (
-                <li key={t} className="flex gap-3">
-                  <span className="grid h-6 w-6 shrink-0 place-items-center rounded-full bg-accent-600 text-[12px] font-bold text-white">{i + 1}</span>
-                  <span><span className="block text-[14px] font-semibold text-slate-900">{t}</span><span className="block text-[13px] leading-snug text-slate-600">{d}</span></span>
-                </li>
-              ))}
-            </ol>
-            <button type="button" onClick={onClose} className="mt-5 w-full rounded-xl bg-accent-600 py-2.5 text-[14px] font-semibold text-white hover:bg-accent-700">Start exploring</button>
-            <p className="mt-2 text-center text-[12px] text-slate-500">Where the data comes from: <b>Sources &amp; data</b>, top of the map.</p>
-          </motion.div>
-        </motion.div>
       )}
     </AnimatePresence>
   );
