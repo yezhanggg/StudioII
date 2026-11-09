@@ -91,8 +91,7 @@ export function SchoolBar({ schools, visible, onAll, onOnly, onClear, onSources 
 
 // ── radius ───────────────────────────────────────────────────────
 const PRESETS = [[0.25, '¼'], [0.5, '½'], [0.75, '¾'], [1, '1']];
-const VIEWS = [['site', 'School'], ['radius', 'Ring'], ['catchment', 'Attendance'], ['walk', 'Walk']];
-export function RadiusCard({ radius, onRadius, onZoom, barRef }) {
+export function RadiusCard({ radius, onRadius, barRef }) {
   return (
     <div ref={barRef} className={cx('absolute left-3 top-3 z-[500] max-w-[calc(100%-24px)] rounded-xl p-3 shadow-lg', RAIL_W, GLASS)}>
       <div className="flex items-baseline justify-between gap-2">
@@ -109,12 +108,6 @@ export function RadiusCard({ radius, onRadius, onZoom, barRef }) {
       <div className="mt-2 flex items-center gap-2">
         <input id="radius" type="range" min={0.1} max={1.5} step={0.05} value={radius} onChange={(e) => onRadius(Number(e.target.value))} className="radius-range min-w-0 flex-1" aria-label="Distance from the school in miles" />
         <span className="w-[52px] shrink-0 text-right text-[13px] font-bold tabular-nums text-slate-900">{fmtRadius(radius)}</span>
-      </div>
-      <div className="mt-2.5 flex items-center gap-1.5">
-        <span className="shrink-0 text-[11.5px] font-semibold text-slate-500">Zoom to</span>
-        {VIEWS.map(([id, label]) => (
-          <button key={id} type="button" onClick={() => onZoom(id)} className="h-7 flex-auto whitespace-nowrap rounded-md bg-white/70 px-1.5 text-[11.5px] font-semibold text-slate-700 ring-1 ring-stone-200 transition-colors hover:bg-accent-600 hover:text-white hover:ring-accent-600">{label}</button>
-        ))}
       </div>
     </div>
   );
@@ -328,17 +321,6 @@ export function MapControls({ basemap, onBasemap, onZoomIn, onZoomOut, onHome })
         </button>
       </div>
     </div>
-  );
-}
-
-export function Notice({ text, onClose }) {
-  useEffect(() => { if (!text) return undefined; const t = setTimeout(onClose, 5000); return () => clearTimeout(t); }, [text, onClose]);
-  return (
-    <AnimatePresence>
-      {text && (
-        <motion.div initial={{ opacity: 0, y: -8 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -8 }} className={cx('absolute left-1/2 top-16 z-[610] max-w-[min(520px,calc(100%-24px))] -translate-x-1/2 rounded-xl px-3.5 py-2 text-[13px] text-slate-700 shadow-lg', GLASS)}>{text}</motion.div>
-      )}
-    </AnimatePresence>
   );
 }
 

@@ -8,7 +8,7 @@ import { MapContainer } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { AssetLayer, Basemap, Choropleth, GeoLayer, MapBridge, Panes, RadiusLayer, SiteLayer, ZoomClass, makeNearest, milesBetween } from './MapLayers';
-import { LayersRail, Legend, MapControls, Notice, RadiusCard, SchoolBar, SourcesModal } from './Chrome';
+import { LayersRail, Legend, MapControls, RadiusCard, SchoolBar, SourcesModal } from './Chrome';
 import SitePanel from './SitePanel';
 import { GROUP, KEY_FIELD, LAYERS, TYPE, TYPES, quantiles } from '../lib/layers';
 
@@ -40,7 +40,6 @@ export default function SchoolMap({ initialSlug }) {
   const [measure, setMeasure] = useState(null);
   const [basemap, setBasemap] = useState('light');
   const [panelOpen, setPanelOpen] = useState(isWide);
-  const [notice, setNotice] = useState(null);
   const [docsOpen, setDocsOpen] = useState(false);
   const [map, setMap] = useState(null);
   const barRef = useRef(null);
@@ -179,7 +178,6 @@ export default function SchoolMap({ initialSlug }) {
     return b;
   }, [radius]);
   const fitBounds = useCallback((b, maxZoom = 17) => { if (map && b?.isValid()) map.fitBounds(b, { ...pad(), maxZoom }); }, [map, pad]);
-  const fitGeo = useCallback((geo) => { if (geo?.features?.length) fitBounds(L.geoJSON(geo).getBounds()); }, [fitBounds]);
   const home = useCallback(() => fitBounds(ringBounds(targets)), [fitBounds, ringBounds, targets]);
 
   const firstFit = useRef(false);
@@ -187,30 +185,6 @@ export default function SchoolMap({ initialSlug }) {
     if (map && meta && shown.length && !firstFit.current) { firstFit.current = true; map.invalidateSize(); fitBounds(ringBounds(shown)); }
   }, [map, meta, shown, fitBounds, ringBounds]);
 
-  const pendingZoom = useRef(null);
-  const zoomTo = useCallback((id) => {
-    if (!map || !targets.length) return;
-    if (id === 'site') {
-      if (targets.length === 1) map.flyTo(targets[0].center, 17, { duration: 0.8 });
-      else fitBounds(L.latLngBounds(targets.map((s) => s.center)).pad(0.15), 15);
-    } else if (id === 'radius') {
-      setOn((s) => ({ ...s, radius: true })); fitBounds(ringBounds(targets));
-    } else if (id === 'catchment') {
-      setOn((s) => ({ ...s, catchment: true }));
-      const feats = (sites?.features || []).filter((f) => f.properties.kind === 'catchment' && targets.some((t) => t.slug === f.properties.slug));
-      const missing = targets.filter((t) => !feats.some((f) => f.properties.slug === t.slug));
-      if (feats.length) fitGeo(fcOf(feats));
-      if (missing.length) setNotice(`${missing.map((s) => s.short).join(', ')} ${missing.length > 1 ? 'admit' : 'admits'} students citywide, so ${missing.length > 1 ? 'they have' : 'it has'} no attendance catchment.`);
-    } else if (id === 'walk') {
-      setOn((s) => ({ ...s, walk: true }));
-      const keys = targets.map((t) => `${t.slug}/walk`);
-      if (keys.every((k) => files[k])) fitGeo(fcOf(keys.flatMap((k) => files[k].features)));
-      else { pendingZoom.current = 'walk'; keys.forEach(ensure); }
-    }
-  }, [map, targets, sites, files, ensure, fitBounds, fitGeo, ringBounds]);
-  useEffect(() => {
-    if (pendingZoom.current === 'walk' && targets.every((t) => files[`${t.slug}/walk`])) { pendingZoom.current = null; zoomTo('walk'); }
-  }, [files, targets, zoomTo]);
 
   // ── school selection ───────────────────────────────────────────────────
   // a second click on the selected button clears the map of schools
@@ -273,7 +247,7 @@ export default function SchoolMap({ initialSlug }) {
       {meta && visible && (
         <>
           <SchoolBar schools={all} visible={visible} onAll={onAll} onOnly={onOnly} onClear={() => { setVisible([]); setFocus(null); }} onSources={() => setDocsOpen(true)} />
-          <RadiusCard radius={radius} onRadius={setRadius} onZoom={zoomTo} barRef={barRef} />
+          <RadiusCard radius={radius} onRadius={setRadius} barRef={barRef} />
           <LayersRail
             top={railTop} reserveBottom={legendH} defaultOpen={isWide()} radius={radius}
             typeCounts={assetCounts} types={types}
@@ -287,7 +261,6 @@ export default function SchoolMap({ initialSlug }) {
             open={panelOpen} setOpen={setPanelOpen} top={64}
             onOnly={(id) => { setTypes(Object.fromEntries(TYPES.map((t) => [t.id, t.id === id]))); setRadiusOnly(false); }} />}
           <MapControls basemap={basemap} onBasemap={setBasemap} onZoomIn={() => map?.zoomIn()} onZoomOut={() => map?.zoomOut()} onHome={home} />
-          <Notice text={notice} onClose={() => setNotice(null)} />
           <SourcesModal open={docsOpen} onClose={() => setDocsOpen(false)} sources={sources} schools={all} onDownload={download} selectionLabel={selectionLabel} />
         </>
       )}

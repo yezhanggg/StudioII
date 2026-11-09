@@ -64,7 +64,7 @@ studio's numbers. RCO contact names, emails and phone numbers are left out on pu
 ## Where things live
 
 - `src/lib/layers.js` — every layer: scope, file, style, tooltip, popup, (i) text.
-- `src/components/SchoolMap.jsx` — state, lazy loading, merging across schools, radius, zoom-to, CSV.
-- `src/components/Chrome.jsx` — school bar, Zoom-to + radius, rail, legend, bottom-right controls.
+- `src/components/SchoolMap.jsx` — state, lazy loading, merging across schools, radius, CSV.
+- `src/components/Chrome.jsx` — school bar, radius, rail, legend, bottom-right controls.
 - `src/components/SitePanel.jsx` — the selected school: places nearby, building, study-tract profile, RCOs.
 - `src/components/MapLayers.jsx` — Leaflet layers, panes, basemaps (Esri Gray default, City of Philadelphia, satellite).
