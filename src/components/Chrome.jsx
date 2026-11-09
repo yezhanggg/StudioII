@@ -47,13 +47,21 @@ const FINALISTS = ['wagner', 'blankenburg'];
 export function SchoolBar({ schools, visible, onAll, onOnly, onClear, onSources }) {
   const all = visible.length === schools.length;
   const only = visible.length === 1 ? visible[0] : null;
-  const btn = (on) => cx('relative flex items-center gap-1.5 whitespace-nowrap rounded-lg px-2.5 py-1.5 text-[13px] font-semibold transition-colors', on ? 'text-white' : 'text-slate-700 hover:bg-stone-100 hover:text-slate-900');
+  const btn = (on) => cx('relative flex items-center gap-1.5 whitespace-nowrap rounded-lg px-2.5 py-1.5 text-[13px] font-semibold transition-colors', on ? 'text-accent-700' : 'text-slate-700 hover:bg-stone-100 hover:text-slate-900');
   const School = ({ s, quiet }) => {
     const on = only === s.slug;
     return (
       <button type="button" role="radio" aria-checked={on} onClick={() => onOnly(s.slug)} title={s.name} className={btn(on)}>
-        {on && <motion.span layoutId="school-on" transition={SPRING_TAB} className="absolute inset-0 rounded-lg shadow-sm" style={{ background: s.color }} />}
-        <span className="relative flex items-center gap-1.5">{!on && <SchoolDot color={s.color} size={9} />}<span className={cx(!on && quiet && 'font-medium text-slate-500')}>{s.short}</span></span>
+        {on && (
+          <motion.span layoutId="school-on" transition={SPRING_TAB} className="absolute inset-0 overflow-hidden rounded-lg"
+            style={{ background: `color-mix(in srgb, ${s.color} 11%, white)`, boxShadow: `inset 0 0 0 1px color-mix(in srgb, ${s.color} 38%, transparent)` }}>
+            <span className="absolute inset-x-2 bottom-0 h-[2.5px] rounded-full" style={{ background: s.color }} />
+          </motion.span>
+        )}
+        <span className="relative flex items-center gap-1.5">
+          <span className="shrink-0 rounded-full transition-all" style={{ width: on ? 10 : 9, height: on ? 10 : 9, background: s.color, boxShadow: on ? `0 0 0 3px color-mix(in srgb, ${s.color} 25%, transparent)` : '0 0 0 2px #fff, 0 0 0 3px rgba(30,30,28,.18)' }} />
+          <span className={cx(on ? 'font-bold' : quiet && 'font-medium text-slate-500')} style={on ? { color: `color-mix(in srgb, ${s.color} 70%, #111)` } : undefined}>{s.short}</span>
+        </span>
       </button>
     );
   };
@@ -64,7 +72,11 @@ export function SchoolBar({ schools, visible, onAll, onOnly, onClear, onSources 
       {schools.filter((s) => !FINALISTS.includes(s.slug)).map((s) => <School key={s.slug} s={s} quiet />)}
       <span className="mx-1 h-5 w-px shrink-0 bg-stone-200" />
       <button type="button" role="radio" aria-checked={all} onClick={onAll} className={btn(all)}>
-        {all && <motion.span layoutId="school-on" transition={SPRING_TAB} className="absolute inset-0 rounded-lg bg-accent-600 shadow-sm" />}
+        {all && (
+          <motion.span layoutId="school-on" transition={SPRING_TAB} className="absolute inset-0 overflow-hidden rounded-lg bg-accent-50 ring-1 ring-inset ring-accent-200">
+            <span className="absolute inset-x-2 bottom-0 h-[2.5px] rounded-full bg-accent-600" />
+          </motion.span>
+        )}
         <span className="relative">All six</span>
       </button>
       <button type="button" onClick={onClear} disabled={!visible.length} className="whitespace-nowrap rounded-lg px-2.5 py-1.5 text-[13px] font-semibold text-slate-600 transition-colors hover:bg-stone-100 hover:text-slate-900 disabled:cursor-default disabled:text-slate-300 disabled:hover:bg-transparent">Clear</button>
@@ -156,10 +168,7 @@ function LayerRow({ l, on, onToggle, loading }) {
   return (
     <button type="button" aria-pressed={on} onClick={() => onToggle(l.id)} className={cx('flex w-full items-center gap-2.5 rounded-lg px-2 py-1.5 text-left transition', on ? 'bg-accent-50/60' : 'hover:bg-stone-50')}>
       <span className="flex w-4 shrink-0 justify-center"><Swatch s={l.swatch} /></span>
-      <span className="min-w-0 flex-1">
-        <span className="block truncate text-[13px] font-semibold text-slate-900">{l.label}</span>
-        {l.caption && <span className="block truncate text-[11.5px] text-slate-500">{l.caption}</span>}
-      </span>
+      <span className="min-w-0 flex-1 truncate text-[13px] font-semibold text-slate-900">{l.label}</span>
       {loading ? <Spinner /> : <Switch on={on} />}
     </button>
   );
@@ -213,14 +222,14 @@ export function LayersRail({
               {st.layers && <div className="rounded-xl bg-white p-1 ring-1 ring-stone-200">
                 {basic.map((l) => <LayerRow key={l.id} l={l} on={!!on[l.id]} onToggle={onToggle} loading={loading[l.id]} />)}
                 <button type="button" onClick={() => setSt({ ...st, more: !st.more })} aria-expanded={st.more} className="mt-0.5 w-full rounded-lg px-2 py-1.5 text-left text-[12px] font-semibold text-accent-600 hover:bg-stone-50">
-                  {st.more ? 'Fewer layers' : `More layers${moreOn ? ` (${moreOn} on)` : ''}: zoning, land use, housing, vacant land…`}
+                  {st.more ? 'Fewer layers' : `More layers${moreOn ? ` (${moreOn} on)` : ''}`}
                 </button>
                 {st.more && (
                   <div className="border-t border-stone-100 pt-1">
                     {more.map((l) => <LayerRow key={l.id} l={l} on={!!on[l.id]} onToggle={onToggle} loading={loading[l.id]} />)}
                     <label className="flex items-center gap-2.5 rounded-lg px-2 py-1.5">
                       <span className="h-3 w-4 shrink-0 rounded-sm" style={{ background: `linear-gradient(90deg, ${RAMP[0]}, ${RAMP[4]})` }} />
-                      <span className="min-w-0 flex-1"><span className="block text-[13px] font-semibold text-slate-900">Shade neighborhoods by</span><span className="block text-[11.5px] text-slate-500">Census figures for each tract</span></span>
+                      <span className="min-w-0 flex-1 text-[13px] font-semibold text-slate-900">Shade tracts by</span>
                       <select value={measure || ''} onChange={(e) => onMeasure(e.target.value || null)} className="w-[118px] rounded-md bg-stone-50 px-1 py-1 text-[12px] text-slate-700 ring-1 ring-stone-200 focus:outline-none">
                         <option value="">Nothing</option>
                         {MEASURES.map((m) => <option key={m.id} value={m.id}>{m.label}</option>)}
@@ -390,7 +399,7 @@ export function SourcesModal({ open, onClose, sources, schools, onDownload, sele
               {sources && tab === 'layers' && (
                 <ul className="divide-y divide-stone-100">
                   {sources.context.map((d) => <SrcRow key={d.id} title={d.layer} sub={pub(d.publisher)} url={d.landing_url} />)}
-                  <SrcRow title="Background maps" sub="Esri, Maxar, Earthstar Geographics · City of Philadelphia · Leaflet" url="https://www.esri.com/en-us/legal/terms/full-master-agreement" />
+                  <SrcRow title="Background maps" sub="© Mapbox · © OpenStreetMap contributors · Maxar · Leaflet" url="https://www.mapbox.com/about/maps/" />
                 </ul>
               )}
               {tab === 'method' && (

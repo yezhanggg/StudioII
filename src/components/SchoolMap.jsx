@@ -38,7 +38,7 @@ export default function SchoolMap({ initialSlug }) {
   const [on, setOn] = useState(DEFAULT_ON);
   const [types, setTypes] = useState(DEFAULT_TYPES);
   const [measure, setMeasure] = useState(null);
-  const [basemap, setBasemap] = useState('gray');
+  const [basemap, setBasemap] = useState('light');
   const [panelOpen, setPanelOpen] = useState(isWide);
   const [notice, setNotice] = useState(null);
   const [docsOpen, setDocsOpen] = useState(false);

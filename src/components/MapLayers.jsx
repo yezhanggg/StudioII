@@ -42,21 +42,27 @@ export function ZoomClass() {
   return null;
 }
 
-// ── basemaps (all keyless) ────────────────────────────────────────────────
-const CITY = 'https://tiles.arcgis.com/tiles/fLeGjb7u4uXqeF9q/arcgis/rest/services';
+// ── basemaps: Mapbox when a public token is set (VITE_MAPBOX_TOKEN), Esri otherwise ──────────
+const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN || '';
+const HAS_MAPBOX = MAPBOX_TOKEN.startsWith('pk.');
+const mbx = (style) => `https://api.mapbox.com/styles/v1/mapbox/${style}/tiles/512/{z}/{x}/{y}@2x?access_token=${MAPBOX_TOKEN}`;
 const ESRI = 'https://server.arcgisonline.com/ArcGIS/rest/services';
-export const BASEMAPS = [
-  { id: 'gray', label: 'Gray', base: `${ESRI}/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}`, maxNative: 16, labels: `${ESRI}/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}`, attribution: 'Esri' },
-  { id: 'soft', label: 'City · soft', base: `${CITY}/CityBasemap/MapServer/tile/{z}/{y}/{x}`, baseOpacity: 0.45, labels: `${CITY}/CityBasemap_Labels/MapServer/tile/{z}/{y}/{x}`, labelOpacity: 0.85, attribution: 'City of Philadelphia' },
-  { id: 'city', label: 'City', base: `${CITY}/CityBasemap/MapServer/tile/{z}/{y}/{x}`, baseOpacity: 1, labels: `${CITY}/CityBasemap_Labels/MapServer/tile/{z}/{y}/{x}`, labelOpacity: 1, attribution: 'City of Philadelphia' },
-  { id: 'satellite', label: 'Satellite', base: `${ESRI}/World_Imagery/MapServer/tile/{z}/{y}/{x}`, labels: `${ESRI}/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}`, attribution: 'Esri, Maxar, Earthstar Geographics' },
+export const BASEMAPS = HAS_MAPBOX ? [
+  { id: 'light', label: 'Light', base: mbx('light-v11'), mapbox: true },
+  { id: 'streets', label: 'Streets', base: mbx('streets-v12'), mapbox: true },
+  { id: 'satellite', label: 'Satellite', base: mbx('satellite-streets-v12'), mapbox: true },
+] : [
+  { id: 'light', label: 'Light', base: `${ESRI}/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}`, maxNative: 16, labels: `${ESRI}/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}` },
+  { id: 'satellite', label: 'Satellite', base: `${ESRI}/World_Imagery/MapServer/tile/{z}/{y}/{x}`, labels: `${ESRI}/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}` },
 ];
 export function Basemap({ id }) {
   const bm = BASEMAPS.find((b) => b.id === id) || BASEMAPS[0];
   return (
     <>
-      <TileLayer key={`b-${bm.id}`} url={bm.base} opacity={bm.baseOpacity ?? 1} maxZoom={20} maxNativeZoom={bm.maxNative || 19} attribution={bm.attribution} />
-      {bm.labels && <TileLayer key={`l-${bm.id}`} url={bm.labels} pane="labels" opacity={bm.labelOpacity ?? 1} maxZoom={20} maxNativeZoom={bm.maxNative || 19} />}
+      {bm.mapbox
+        ? <TileLayer key={`b-${bm.id}`} url={bm.base} tileSize={512} zoomOffset={-1} maxZoom={20} maxNativeZoom={20} />
+        : <TileLayer key={`b-${bm.id}`} url={bm.base} maxZoom={20} maxNativeZoom={bm.maxNative || 19} />}
+      {bm.labels && <TileLayer key={`l-${bm.id}`} url={bm.labels} pane="labels" maxZoom={20} maxNativeZoom={bm.maxNative || 19} />}
     </>
   );
 }
@@ -200,13 +206,24 @@ export function SiteLayer({ schools, parcels, focus, onFocus }) {
       const parcel = parcels[s.slug];
       const on = focus === s.slug;
       if (parcel) {
-        const poly = L.geoJSON(parcel, { pane: 'site', style: { color: '#ffffff', weight: 2, fillColor: s.color, fillOpacity: 1 } }).addTo(g);
+        // the selected school's lot glows: two soft strokes in its color under a crisp outline
+        if (on) {
+          L.geoJSON(parcel, { pane: 'site', interactive: false, style: { color: s.color, weight: 18, opacity: 0.14, fill: false, lineJoin: 'round' } }).addTo(g);
+          L.geoJSON(parcel, { pane: 'site', interactive: false, style: { color: s.color, weight: 7, opacity: 0.32, fill: false, lineJoin: 'round' } }).addTo(g);
+        }
+        const poly = L.geoJSON(parcel, { pane: 'site', style: on ? { color: '#ffffff', weight: 2.5, fillColor: s.color, fillOpacity: 1 } : { color: '#ffffff', weight: 1.5, fillColor: s.color, fillOpacity: 0.85 } }).addTo(g);
         poly.on('click', () => onFocus(s.slug));
         poly.bindTooltip(`${esc(s.name)} · click for its summary`, { direction: 'top', className: 'tt', sticky: true });
       }
+      if (on) {
+        // a slow ping at the building, under the label
+        L.marker(s.center, { pane: 'site', interactive: false, keyboard: false, icon: L.divIcon({ className: 'site-ping', html: `<span style="--c:${s.color}"><b></b><b></b></span>`, iconSize: [0, 0] }) }).addTo(g);
+      }
+      const sub = on ? `<small>${esc(s.area_name || '')}${s.grades ? `${s.area_name ? ' · ' : ''}grades ${esc(s.grades)}` : ''}</small>` : '';
       const label = L.marker(s.center, {
-        pane: 'site',
-        icon: L.divIcon({ className: 'site-label', html: `<span class="${on ? 'on' : ''}" style="--c:${s.color}"><i></i>${esc(s.short)}</span>`, iconSize: [0, 0] }),
+        pane: 'top', // above the place markers, so nothing covers the school's name
+        zIndexOffset: on ? 1000 : 0,
+        icon: L.divIcon({ className: 'site-label', html: `<span class="${on ? 'on' : ''}" style="--c:${s.color}"><i></i><em>${esc(s.short)}${sub}</em></span>`, iconSize: [0, 0] }),
       }).addTo(g);
       label.on('click', () => onFocus(s.slug));
     }

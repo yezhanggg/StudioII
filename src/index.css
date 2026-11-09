@@ -29,13 +29,28 @@ body { margin: 0; background: #fff; color: #1E1E1C; font-family: theme('fontFami
 .am-wrap:hover .am { transform: scale(1.18); }
 
 /* each school's name over its parcel, in its colour */
-.site-label { background: none; border: 0; }
-.site-label span { position: absolute; transform: translate(-50%, -165%); display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; cursor: pointer;
-  font-weight: 800; font-size: 13px; color: #1E1E1C; background: rgba(255,255,255,.94); padding: 2px 8px 2px 6px; border-radius: 999px;
-  box-shadow: 0 0 0 1.5px var(--c), 0 2px 6px rgba(0,0,0,.18); }
-.site-label span i { width: 8px; height: 8px; border-radius: 50%; background: var(--c); }
-.site-label span.on { background: var(--c); color: #fff; }
-.site-label span.on i { background: #fff; }
+.site-label, .site-ping { background: none; border: 0; }
+/* every school: a quiet pill with a color dot */
+.site-label span { position: absolute; left: 0; bottom: 14px; transform: translateX(-50%); display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; cursor: pointer;
+  font-weight: 700; font-size: 12.5px; letter-spacing: .01em; color: #1E1E1C; background: rgba(255,255,255,.96); padding: 3px 9px 3px 7px; border-radius: 999px;
+  box-shadow: 0 0 0 1px rgba(30,30,28,.12), 0 2px 8px -2px rgba(15,23,42,.25); transition: transform .2s ease, box-shadow .2s ease; }
+.site-label span:hover { transform: translateX(-50%) translateY(-2px); box-shadow: 0 0 0 1.5px var(--c), 0 6px 14px -4px rgba(15,23,42,.3); }
+.site-label span i { width: 8px; height: 8px; border-radius: 50%; background: var(--c); box-shadow: 0 0 0 2px color-mix(in srgb, var(--c) 22%, transparent); flex: none; }
+.site-label span em { font-style: normal; display: flex; flex-direction: column; line-height: 1.15; }
+/* the selected school: a callout card with a color edge and a stem down to the building */
+.site-label span.on { bottom: 22px; gap: 8px; padding: 6px 12px 6px 10px; border-radius: 10px; font-size: 14px; font-weight: 800; background: #fff;
+  box-shadow: inset 3px 0 0 var(--c), 0 0 0 1px color-mix(in srgb, var(--c) 35%, transparent), 0 10px 24px -8px color-mix(in srgb, var(--c) 55%, rgba(15,23,42,.4)); }
+.site-label span.on:hover { transform: translateX(-50%) translateY(-2px); }
+.site-label span.on i { width: 10px; height: 10px; box-shadow: 0 0 0 3px color-mix(in srgb, var(--c) 25%, transparent); }
+.site-label span.on small { font-size: 11px; font-weight: 600; letter-spacing: 0; color: #6B6A63; }
+.site-label span.on::after { content: ""; position: absolute; left: 50%; top: 100%; width: 2px; height: 16px; transform: translateX(-50%); background: linear-gradient(var(--c), color-mix(in srgb, var(--c) 30%, transparent)); border-radius: 2px; }
+.site-label span.on::before { content: ""; position: absolute; left: 50%; top: calc(100% + 14px); width: 8px; height: 8px; transform: translate(-50%, 0); border-radius: 50%; background: var(--c); box-shadow: 0 0 0 2.5px #fff, 0 1px 4px rgba(0,0,0,.3); }
+/* a slow ping where the selected building is */
+.site-ping span { position: absolute; left: 0; top: 0; }
+.site-ping b { position: absolute; left: -9px; top: -9px; width: 18px; height: 18px; border-radius: 50%; border: 2px solid var(--c); opacity: 0; animation: site-ping 2.6s cubic-bezier(.2,.6,.3,1) infinite; }
+.site-ping b + b { animation-delay: 1.3s; }
+@keyframes site-ping { 0% { transform: scale(.6); opacity: .9; } 100% { transform: scale(4.2); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .site-ping b { animation: none; opacity: .5; transform: scale(2); } .site-label span { transition: none; } }
 
 /* zoomed out, community assets become small dots */
 .z-low .am { width: 9px; height: 9px; border-width: 1.5px; box-shadow: 0 0 0 .5px rgba(30,30,28,.5); }

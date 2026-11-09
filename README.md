@@ -17,6 +17,7 @@ window.
 
 ```bash
 npm install
+echo 'VITE_MAPBOX_TOKEN=pk....' > .env.local   # Mapbox basemaps (falls back to Esri without it)
 npm run dev          # http://localhost:5173
 npm run build        # static site in dist/ (vercel.json has the SPA rewrites)
 node scripts/check_links.mjs   # requests every website / dashboard link the map shows
