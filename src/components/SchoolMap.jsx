@@ -211,28 +211,33 @@ export default function SchoolMap({ initialSlug }) {
   }, [all, map, radius, pad]);
 
   // ── one RCO's boundary, from the panel or a community group's popup ────
-  const [rcoFocus, setRcoFocus] = useState(null);
+  const [rcoOn, setRcoOn] = useState([]);               // RCO boundaries switched on one by one
   useEffect(() => { RCO_NAMES.clear(); (meta?.schools || []).forEach((s) => (s.rcos || []).forEach((r) => RCO_NAMES.add(r.name))); }, [meta]);
+  const lastOn = useRef(null);
   const showRco = useCallback((name) => {
     all.filter((s) => (s.rcos || []).some((r) => r.name === name)).forEach((s) => ensure(`${s.slug}/rco`));
     map?.closePopup();
-    setRcoFocus((cur) => (cur === name ? null : name));
+    setRcoOn((cur) => {
+      if (cur.includes(name)) return cur.filter((n) => n !== name);
+      lastOn.current = name;
+      return [...cur, name];
+    });
   }, [all, ensure, map]);
-  const rcoFeature = useMemo(() => {
-    if (!rcoFocus) return null;
+  const rcoFeatures = useMemo(() => rcoOn.map((name) => {
     for (const s of all) {
-      const f = files[`${s.slug}/rco`]?.features.find((x) => x.properties.name === rcoFocus);
-      if (f) return { ...f, properties: { ...f.properties, _short: s.short } };
+      const f = files[`${s.slug}/rco`]?.features.find((x) => x.properties.name === name);
+      if (f) return f;
     }
     return null;
-  }, [rcoFocus, files, all]);
-  const fitted = useRef(null);
+  }).filter(Boolean), [rcoOn, files, all]);
+  // zoom to a boundary when it is switched on (once its file has loaded)
   useEffect(() => {
-    if (!rcoFeature || !map || fitted.current === rcoFocus) return;
-    fitted.current = rcoFocus;
-    map.fitBounds(L.geoJSON(rcoFeature).getBounds(), { ...pad(), maxZoom: 16 });
-  }, [rcoFeature, rcoFocus, map, pad]);
-  useEffect(() => { if (!rcoFocus) fitted.current = null; }, [rcoFocus]);
+    const name = lastOn.current;
+    const f = name && rcoFeatures.find((x) => x.properties.name === name);
+    if (!f || !map) return;
+    lastOn.current = null;
+    map.fitBounds(L.geoJSON(f).getBounds(), { ...pad(), maxZoom: 16 });
+  }, [rcoFeatures, map, pad]);
   useEffect(() => {
     if (!map) return undefined;
     const el = map.getContainer();
@@ -274,7 +279,7 @@ export default function SchoolMap({ initialSlug }) {
             {LAYERS.filter((l) => l.scope !== 'radius' && layerData[l.id]).map((l) => <GeoLayer key={l.id} def={l} data={layerData[l.id]} nearest={nearest} />)}
             {on.radius && <RadiusLayer schools={shown} miles={radius} />}
             <SiteLayer schools={shown} parcels={parcels} focus={focusSchool?.slug} onFocus={onFocus} />
-            <RcoFocus feature={rcoFeature} />
+            <RcoFocus features={rcoFeatures} />
             <AssetLayer items={assetItems} nearest={nearest} sourceTitle={sourceTitle} />
           </>
         )}
@@ -295,8 +300,8 @@ export default function SchoolMap({ initialSlug }) {
             measure={measure} onMeasure={setMeasure} on={on} onToggle={toggleLayer} loading={loading}
           />
           <Legend schools={shown} types={types} on={on} measure={measure} scale={scale} present={present} legendRef={legendRef} />
-          <RcoChip name={rcoFocus} onClose={() => setRcoFocus(null)} />
-          {focusSchool && <SitePanel school={focusSchool} statsOf={statsOf} radius={radius} onRco={showRco} rcoFocus={rcoFocus}
+          <RcoChip names={rcoOn} onClose={() => setRcoOn([])} />
+          {focusSchool && <SitePanel school={focusSchool} statsOf={statsOf} radius={radius} onRco={showRco} rcoOn={rcoOn} catchmentOn={!!on.catchment} onCatchment={() => toggleLayer('catchment')}
             open={panelOpen} setOpen={setPanelOpen} top={64}
             onOnly={(id) => { setTypes(Object.fromEntries(TYPES.map((t) => [t.id, t.id === id]))); setRadiusOnly(false); }} />}
           <MapControls basemap={basemap} onBasemap={setBasemap} onZoomIn={() => map?.zoomIn()} onZoomOut={() => map?.zoomOut()} onHome={home} />

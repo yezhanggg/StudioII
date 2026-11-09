@@ -233,14 +233,15 @@ export function SiteLayer({ schools, parcels, focus, onFocus }) {
   return null;
 }
 
-/** One RCO's boundary, picked from the panel or a community group's popup. */
-export function RcoFocus({ feature }) {
+/** The RCO boundaries switched on one by one (panel switches, or a community group's popup). */
+export function RcoFocus({ features }) {
   const map = useMap();
   useEffect(() => {
-    if (!feature) return undefined;
-    const g = L.geoJSON(feature, { pane: 'lines', interactive: false, style: { color: '#393864', weight: 3, opacity: 1, fillColor: '#393864', fillOpacity: 0.08, lineJoin: 'round' } }).addTo(map);
+    if (!features.length) return undefined;
+    const g = L.geoJSON({ type: 'FeatureCollection', features }, { pane: 'lines', style: { color: '#393864', weight: 2.6, opacity: 1, fillColor: '#393864', fillOpacity: 0.06, lineJoin: 'round' },
+      onEachFeature: (f, lyr) => lyr.bindTooltip(esc(f.properties.name), { sticky: true, direction: 'top', className: 'tt' }) }).addTo(map);
     return () => { map.removeLayer(g); };
-  }, [map, feature]);
+  }, [map, features]);
   return null;
 }
 

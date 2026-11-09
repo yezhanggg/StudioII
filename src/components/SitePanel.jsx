@@ -8,7 +8,7 @@ import React from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { FLOAT_BTN, FoldIcon, ICON_BTN, PANEL, Rows, SCROLL, Section, cx } from '../lib/ui';
 import { ASSET_GROUPS, TYPES, fmtInt, fmtMiles, fmtMoney, fmtPct, fmtRadius, href } from '../lib/layers';
-import { GroupGlyph, LinkIcons, TypeGlyph } from './Chrome';
+import { GroupGlyph, LinkIcons, Switch, TypeGlyph } from './Chrome';
 
 const W = 'w-[350px] xl:w-[370px]';
 const PROFILE_ROWS = [
@@ -56,7 +56,7 @@ function Around({ stats, radius, onOnly }) {
   );
 }
 
-function SchoolSummary({ s, stats, radius, onOnly, onRco, rcoFocus }) {
+function SchoolSummary({ s, stats, radius, onOnly, onRco, rcoOn, catchmentOn, onCatchment }) {
   const pr = s.tract_profile || {};
   const tracts = s.tracts || [];
   const rcos = (s.rcos || []).filter((r) => r.miles == null || r.miles <= radius + 1e-9);
@@ -68,14 +68,41 @@ function SchoolSummary({ s, stats, radius, onOnly, onRco, rcoFocus }) {
         <div className="px-3 py-2.5">
           <div className="text-[15px] font-bold leading-tight text-slate-900">{s.name}</div>
           <div className="mt-0.5 text-[12px] text-slate-500">{s.address}{s.area_name ? ` · ${s.area_name}` : ''} · grades {s.grades}</div>
-          <div className="mt-2 text-[12.5px] text-slate-600">
-            <b className="text-slate-900">Catchment:</b> {s.catchment ? `grades ${s.catchment.grades}${s.catchment.varies ? ' (varies by area)' : ''}, ${s.catchment.sq_mi} sq mi` : 'none — admits students citywide'}
-          </div>
+          {s.catchment ? (
+            <button type="button" onClick={onCatchment} aria-pressed={catchmentOn} className="-mx-1 mt-1.5 flex w-[calc(100%+8px)] items-center gap-2 rounded-lg px-1 py-1 text-left hover:bg-stone-50">
+              <span className="min-w-0 flex-1 text-[12.5px] text-slate-600"><b className="text-slate-900">Catchment:</b> grades {s.catchment.grades}{s.catchment.varies ? ' (varies by area)' : ''}, {s.catchment.sq_mi} sq mi</span>
+              <Switch on={catchmentOn} />
+            </button>
+          ) : <div className="mt-2 text-[12.5px] text-slate-600"><b className="text-slate-900">Catchment:</b> none — admits students citywide</div>}
         </div>
       </div>
 
       <Section title={`What is around ${s.short}`} subtitle={`${fmtInt(total)} places within ${fmtRadius(radius)} of the school`} tone="card">
         <Around stats={stats} radius={radius} onOnly={onOnly} />
+      </Section>
+
+      <Section title="RCOs" subtitle={`Registered Community Organizations · ${rcos.length} reach ${fmtRadius(radius)}`} tone="card" defaultOpen={false}>
+        {rcos.length ? (
+          <ul className="-mx-1 divide-y divide-stone-100">
+            {rcos.map((r) => (
+              <li key={r.name}>
+                <div role="switch" tabIndex={0} aria-checked={rcoOn.includes(r.name)} onClick={() => onRco(r.name)} onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), onRco(r.name))}
+                  title={rcoOn.includes(r.name) ? 'Hide its boundary' : 'Show its boundary'} className="flex cursor-pointer items-start gap-2 rounded-lg px-1 py-2 transition-colors hover:bg-stone-50">
+                  <span className="min-w-0 flex-1">
+                    <span className="block text-[13px] font-semibold leading-snug text-slate-900">{r.name}</span>
+                    <span className="block text-[11.5px] leading-snug text-slate-500">
+                      {[r.covers ? 'Covers the site' : `${fmtMiles(r.miles)} away`, r.type === 'Ward' ? 'Ward' : null, r.cdc ? 'CDC' : null].filter(Boolean).join(' · ')}
+                    </span>
+                    {r.meets && <span className="block truncate text-[11.5px] leading-snug text-slate-500" title={r.meets}>Meets: {r.meets}</span>}
+                    <span className="mt-1 block"><LinkIcons p={r} size={24} /></span>
+                  </span>
+                  <span className="mt-0.5"><Switch on={rcoOn.includes(r.name)} /></span>
+                </div>
+              </li>
+            ))}
+          </ul>
+        ) : <p className="text-[12.5px] text-slate-500">No RCO boundary reaches {fmtRadius(radius)} of the school.</p>}
+        <p className="mt-1.5 text-[11.5px] leading-snug text-slate-500">Switch one on to see its boundary. <b>RCO boundaries</b> under Map layers shows them all.</p>
       </Section>
 
       <Section title="The building" subtitle="SDP Facilities Master Plan ratings" tone="card" defaultOpen={false}>
@@ -104,35 +131,11 @@ function SchoolSummary({ s, stats, radius, onOnly, onRco, rcoFocus }) {
         <p className="mt-1.5 text-[11.5px] leading-snug text-slate-500">The tracts are added together as one group; medians use the aggregate-median method. Highlighted: the tract the school is in.</p>
       </Section>
 
-      <Section title="RCOs" subtitle={`Registered Community Organizations · ${rcos.length} reach ${fmtRadius(radius)}`} tone="card" defaultOpen={false}>
-        {rcos.length ? (
-          <ul className="-mx-1 divide-y divide-stone-100">
-            {rcos.map((r) => (
-              <li key={r.name}>
-                <div role="button" tabIndex={0} onClick={() => onRco(r.name)} onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && onRco(r.name)}
-                  aria-pressed={rcoFocus === r.name} title="Show its boundary on the map"
-                  className={cx('flex cursor-pointer items-start gap-2 rounded-lg px-1 py-2 transition-colors', rcoFocus === r.name ? 'bg-accent-50' : 'hover:bg-stone-50')}>
-                  <span className="mt-[7px] h-0 w-3.5 shrink-0" style={{ borderTop: `2.5px ${r.covers ? 'solid' : 'dashed'} #393864`, opacity: r.covers ? 1 : 0.6 }} />
-                  <span className="min-w-0 flex-1">
-                    <span className="block text-[13px] font-semibold leading-snug text-slate-900">{r.name}</span>
-                    <span className="block text-[11.5px] leading-snug text-slate-500">
-                      {[r.covers ? 'Covers the site' : `${fmtMiles(r.miles)} away`, r.type === 'Ward' ? 'Ward' : null, r.cdc ? 'CDC' : null].filter(Boolean).join(' · ')}
-                    </span>
-                    {r.meets && <span className="block truncate text-[11.5px] leading-snug text-slate-500" title={r.meets}>Meets: {r.meets}</span>}
-                  </span>
-                  <LinkIcons p={r} size={24} />
-                </div>
-              </li>
-            ))}
-          </ul>
-        ) : <p className="text-[12.5px] text-slate-500">No RCO boundary reaches {fmtRadius(radius)} of the school.</p>}
-        <p className="mt-1.5 text-[11.5px] leading-snug text-slate-500">Tap one to see its boundary. Turn on <b>RCO boundaries</b> under Map layers to see them all.</p>
-      </Section>
     </div>
   );
 }
 
-export default function SitePanel({ school, statsOf, radius, open, setOpen, onOnly, onRco, rcoFocus, top = 12 }) {
+export default function SitePanel({ school, statsOf, radius, open, setOpen, onOnly, onRco, rcoOn, catchmentOn, onCatchment, top = 12 }) {
   return (
     <AnimatePresence initial={false} mode="popLayout">
       {open ? (
@@ -145,7 +148,7 @@ export default function SitePanel({ school, statsOf, radius, open, setOpen, onOn
             <button type="button" onClick={() => setOpen(false)} className={ICON_BTN} title="Hide panel" aria-label="Hide panel"><FoldIcon side="right" /></button>
           </div>
           <div className={cx('min-h-0 flex-1 overflow-y-auto px-3 pb-3', SCROLL)}>
-            <SchoolSummary s={school} stats={statsOf(school.slug)} radius={radius} onOnly={onOnly} onRco={onRco} rcoFocus={rcoFocus} />
+            <SchoolSummary s={school} stats={statsOf(school.slug)} radius={radius} onOnly={onOnly} onRco={onRco} rcoOn={rcoOn} catchmentOn={catchmentOn} onCatchment={onCatchment} />
           </div>
         </motion.aside>
       ) : (

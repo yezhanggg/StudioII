@@ -36,7 +36,7 @@ export function Swatch({ s }) {
 }
 export const SchoolDot = ({ color, size = 10 }) => <span className="shrink-0 rounded-full ring-2 ring-white" style={{ width: size, height: size, background: color, boxShadow: '0 0 0 1px rgba(30,30,28,.3)' }} />;
 
-const Switch = ({ on }) => (
+export const Switch = ({ on }) => (
   <span className={cx('relative inline-block h-5 w-9 shrink-0 rounded-full transition-colors', on ? 'bg-accent-600' : 'bg-stone-300')}>
     <span className={cx('absolute top-0.5 h-4 w-4 rounded-full bg-white shadow transition-transform', on ? 'translate-x-[18px]' : 'translate-x-0.5')} />
   </span>
@@ -314,13 +314,13 @@ export function LinkIcons({ p, maps = false, size = 26 }) {
 }
 
 // ── the RCO boundary being shown ─────────────────────────────────────────
-export function RcoChip({ name, onClose }) {
-  if (!name) return null;
+export function RcoChip({ names, onClose }) {
+  if (!names.length) return null;
   return (
     <div className={cx('absolute bottom-14 left-1/2 z-[600] flex max-w-[calc(100%-24px)] -translate-x-1/2 items-center gap-2 rounded-full py-1 pl-3 pr-1 shadow-lg', GLASS)}>
       <span className="h-0 w-4 shrink-0 border-t-[3px] border-accent-600" />
-      <span className="truncate text-[12.5px] font-semibold text-slate-900"><span className="font-medium text-slate-500">RCO · </span>{name}</span>
-      <button type="button" onClick={onClose} className="grid h-6 w-6 shrink-0 place-items-center rounded-full text-slate-500 hover:bg-stone-100 hover:text-slate-900" aria-label="Hide this boundary" title="Hide this boundary">
+      <span className="truncate text-[12.5px] font-semibold text-slate-900"><span className="font-medium text-slate-500">RCO · </span>{names.length === 1 ? names[0] : `${names.length} boundaries`}</span>
+      <button type="button" onClick={onClose} className="grid h-6 w-6 shrink-0 place-items-center rounded-full text-slate-500 hover:bg-stone-100 hover:text-slate-900" aria-label="Hide RCO boundaries" title="Hide RCO boundaries">
         <svg className="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" /></svg>
       </button>
     </div>
