@@ -7,10 +7,10 @@ import React, { useCallback, useDeferredValue, useEffect, useLayoutEffect, useMe
 import { MapContainer } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
-import { AssetLayer, Basemap, Choropleth, GeoLayer, MapBridge, Panes, PinLayer, RadiusLayer, SiteLayer, ZoomClass, makeNearest, milesBetween } from './MapLayers';
+import { AssetLayer, Basemap, Choropleth, GeoLayer, MapBridge, Panes, RadiusLayer, SiteLayer, ZoomClass, makeNearest, milesBetween } from './MapLayers';
 import { LayersRail, Legend, MapControls, Notice, RadiusCard, SchoolBar, SourcesModal } from './Chrome';
 import SitePanel from './SitePanel';
-import { GROUP, KEY_FIELD, LAYERS, LAYER, TYPE, TYPES, assetPopup, popupHtml, quantiles, rcoPopup } from '../lib/layers';
+import { GROUP, KEY_FIELD, LAYERS, TYPE, TYPES, quantiles } from '../lib/layers';
 
 const DEFAULT_TYPES = Object.fromEntries(TYPES.map((t) => [t.id, GROUP[t.group].on]));
 const DEFAULT_ON = Object.fromEntries(LAYERS.filter((l) => l.defaultOn).map((l) => [l.id, true]));
@@ -21,11 +21,6 @@ async function getJSON(url) {
   if (!r.ok) throw new Error(`${url}: ${r.status}`);
   return r.json();
 }
-const featureCenter = (f) => {
-  if (f.geometry.type === 'Point') return [f.geometry.coordinates[1], f.geometry.coordinates[0]];
-  const c = L.geoJSON(f).getBounds().getCenter();
-  return [c.lat, c.lng];
-};
 const csvCell = (v) => { const s = v == null ? '' : String(v); return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s; };
 const fcOf = (features) => ({ type: 'FeatureCollection', features });
 
@@ -45,9 +40,6 @@ export default function SchoolMap({ initialSlug }) {
   const [measure, setMeasure] = useState(null);
   const [basemap, setBasemap] = useState('gray');
   const [panelOpen, setPanelOpen] = useState(isWide);
-  const [tab, setTab] = useState(initialSlug ? 'school' : 'schools');
-  const [query, setQuery] = useState('');
-  const [pin, setPin] = useState(null);
   const [notice, setNotice] = useState(null);
   const [docsOpen, setDocsOpen] = useState(false);
   const [map, setMap] = useState(null);
@@ -102,7 +94,7 @@ export default function SchoolMap({ initialSlug }) {
     if (!visible) return;
     const path = visible.length === 1 ? `/${visible[0]}` : '/';
     if (window.location.pathname !== path) window.history.replaceState(null, '', path);
-    document.title = visible.length === 1 ? `${all.find((s) => s.slug === visible[0])?.short} · Community Asset Map` : 'Community Asset Map · Six Schools';
+    document.title = !visible.length ? 'Community Asset Map' : visible.length === 1 ? `${all.find((s) => s.slug === visible[0])?.short} · Community Asset Map` : 'Community Asset Map · Six Schools';
   }, [visible, all]);
 
   useLayoutEffect(() => {
@@ -221,35 +213,22 @@ export default function SchoolMap({ initialSlug }) {
   }, [files, targets, zoomTo]);
 
   // ── school selection ───────────────────────────────────────────────────
-  const onAll = () => { setVisible(all.map((s) => s.slug)); setFocus(null); setTab('schools'); fitBounds(ringBounds(all)); };
+  // a second click on the selected button clears the map of schools
+  const onAll = () => {
+    if (visible.length === all.length) { setVisible([]); setFocus(null); return; }
+    setVisible(all.map((s) => s.slug)); setFocus(null); fitBounds(ringBounds(all));
+  };
   const onOnly = (slug) => {
-    setVisible([slug]); setFocus(slug); setTab('school'); if (isWide()) setPanelOpen(true);
+    if (visible.length === 1 && visible[0] === slug) { setVisible([]); setFocus(null); return; }
+    setVisible([slug]); setFocus(slug); if (isWide()) setPanelOpen(true);
     fitBounds(ringBounds([all.find((x) => x.slug === slug)]));
   };
   const onFocus = useCallback((slug) => {
     const s = all.find((x) => x.slug === slug);
     setVisible((v) => (v.includes(slug) ? v : all.map((x) => x.slug).filter((x) => v.includes(x) || x === slug)));
-    setFocus(slug); setTab('school'); setPanelOpen(true);
+    setFocus(slug); setPanelOpen(true);
     if (s && map) map.flyToBounds(L.latLng(s.center).toBounds(radius * 2 * 1609.344), { ...pad(), duration: 0.8, maxZoom: 17 });
   }, [all, map, radius, pad]);
-
-  // ── search: assets and RCOs of the schools on the map ──────────────────
-  useEffect(() => { if (query.length >= 2) shown.forEach((s) => ensure(`${s.slug}/rco`)); }, [query, shown, ensure]);
-  const results = useMemo(() => {
-    const q = query.trim().toLowerCase();
-    if (q.length < 2) return [];
-    const out = [];
-    const hit = (p) => `${p.name || ''} ${p.address || ''} ${p.kind || ''}`.toLowerCase().includes(q);
-    assetPool.forEach((a, i) => { if (hit(a.p)) out.push({ key: `a${i}`, name: a.p.name, sub: [a.p.kind, a.p.address, `${a.mi.toFixed(2)} mi from ${a.school}`].filter(Boolean).join(' · '), type: a.p.type, latlng: [a.lat, a.lng], html: assetPopup(a.p, sourceTitle[a.p.source_id]) }); });
-    for (const s of shown) files[`${s.slug}/rco`]?.features.forEach((f, i) => { if (hit(f.properties)) out.push({ key: `r${s.slug}${i}`, name: f.properties.name, sub: `RCO near ${s.short}`, swatch: LAYER.rco.swatch, latlng: featureCenter(f), html: rcoPopup(f.properties) }); });
-    const seen = new Set();
-    return out.filter((r) => { const k = `${r.name}|${r.latlng.join()}`; if (seen.has(k)) return false; seen.add(k); return true; }).slice(0, 50);
-  }, [query, assetPool, files, shown, sourceTitle]);
-  const onPick = (r) => {
-    if (r.type) { setTypes((c) => ({ ...c, [r.type]: true })); setRadiusOnly(false); }
-    setPin({ latlng: r.latlng, label: r.name, html: r.html });
-    map?.flyTo(r.latlng, Math.max(map.getZoom(), 17), { duration: 0.8 });
-  };
 
   const EXCLUSIVE = { zoning: 'land_use', land_use: 'zoning' };
   const toggleLayer = (id) => setOn((s) => { const n = { ...s, [id]: !s[id] }; if (n[id] && EXCLUSIVE[id]) n[EXCLUSIVE[id]] = false; return n; });
@@ -285,7 +264,6 @@ export default function SchoolMap({ initialSlug }) {
             {on.radius && <RadiusLayer schools={shown} miles={radius} />}
             <SiteLayer schools={shown} parcels={parcels} focus={focusSchool?.slug} onFocus={onFocus} />
             <AssetLayer items={assetItems} nearest={nearest} sourceTitle={sourceTitle} />
-            <PinLayer pin={pin} nearest={nearest} />
           </>
         )}
       </MapContainer>
@@ -303,12 +281,11 @@ export default function SchoolMap({ initialSlug }) {
             onGroup={(gid, v) => setTypes((c) => ({ ...c, ...Object.fromEntries(TYPES.filter((t) => t.group === gid).map((t) => [t.id, v])) }))}
             radiusOnly={radiusOnly} onRadiusOnly={setRadiusOnly}
             measure={measure} onMeasure={setMeasure} on={on} onToggle={toggleLayer} loading={loading}
-            query={query} onQuery={(q) => { setQuery(q); if (!q) setPin(null); }} results={results} onPick={onPick}
           />
           <Legend schools={shown} types={types} on={on} measure={measure} scale={scale} present={present} legendRef={legendRef} />
-          <SitePanel schools={shown} focusSchool={focusSchool} onFocus={onFocus} statsOf={statsOf} radius={radius}
-            open={panelOpen} setOpen={setPanelOpen} tab={tab} setTab={setTab} top={64}
-            onOnly={(id) => { setTypes(Object.fromEntries(TYPES.map((t) => [t.id, t.id === id]))); setRadiusOnly(false); }} />
+          {focusSchool && <SitePanel school={focusSchool} statsOf={statsOf} radius={radius}
+            open={panelOpen} setOpen={setPanelOpen} top={64}
+            onOnly={(id) => { setTypes(Object.fromEntries(TYPES.map((t) => [t.id, t.id === id]))); setRadiusOnly(false); }} />}
           <MapControls basemap={basemap} onBasemap={setBasemap} onZoomIn={() => map?.zoomIn()} onZoomOut={() => map?.zoomOut()} onHome={home} />
           <Notice text={notice} onClose={() => setNotice(null)} />
           <SourcesModal open={docsOpen} onClose={() => setDocsOpen(false)} sources={sources} schools={all} onDownload={download} selectionLabel={selectionLabel} />

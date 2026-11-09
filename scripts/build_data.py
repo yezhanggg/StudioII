@@ -295,6 +295,12 @@ for slug, v in SCH.items():
     v["study"] = study
     v["profile"] = {k: {"school": (round(float(prof[k]), 4) if prof.get(k) is not None else None), "city": CITY.get(k)} for k in PROFILE_KEYS if k in CITY}
     v["contains_tract"] = contains
+    # "Who lives nearby": the study census tracts taken whole, as one group (the studio's Study_Census_Tracts list)
+    grp = profile_from(pd.Series(1.0, index=list(study)))
+    v["tract_profile"] = {k: {"group": (round(float(grp[k]), 4) if grp.get(k) is not None else None), "city": CITY.get(k)} for k in PROFILE_KEYS if k in CITY}
+    v["tracts"] = [{"geoid": g, "name": (str(int(g[5:9])) + ("" if g[9:] == "00" else "." + g[9:])),
+                    "pop": num(acs.loc[g, "B01003_001E"]) if g in acs.index else None, "site": g == contains}
+                   for g in sorted(study, key=lambda g: -study[g])]
 
 # ================================================================ catchments (SDP 2024) and neighborhoods
 CATCH = ODP / "18 SDP Catchment Areas - ODP/raw/extracted/Catchments_ES_2024/Catchments_ES_2024/Catchments_ES_2024.shp"
@@ -547,7 +553,7 @@ for slug in ORDER:
                 "utilization": [clean(s.utilization_score), clean(s.utilization_rating)], "vulnerability": [clean(s.vulnerability_score), clean(s.vulnerability_rating)]},
         "dashboard": clean(s.fmp_dashboard_url), "color": COLOR[slug], "center": [round(pt.y, 6), round(pt.x, 6)],
         "area_name": v["area_name"], "studio": slug in STUDIO_DONE, "study_rule": v["study_rule"],
-        "study_tracts": v["study"], "profile": v["profile"], "asset_counts": counts, "rcos": rco_list, "walk": wrows,
+        "study_tracts": v["study"], "profile": v["profile"], "tract_profile": v["tract_profile"], "tracts": v["tracts"], "asset_counts": counts, "rcos": rco_list, "walk": wrows,
         "catchment": None if not v["catchment"] else {k: x for k, x in v["catchment"].items() if k != "geometry"},
         "neighborhood": None if not v["neighborhood"] else {k: x for k, x in v["neighborhood"].items() if k != "geometry"},
     })

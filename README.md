@@ -5,10 +5,11 @@ Places are grouped the way a first-time reader looks for them: Food · Health ·
 recreation · More places (off at first). Every place cites its source in its popup and in **Sources & data**.
 
 One interactive map for the studio's six candidate schools (Wagner, Blankenburg, Robeson, Pennypacker, Fitler,
-AMY Northwest), in the Market Analysis Tool's design language (Deepblue-Dashboards): a school bar, "How far to
-look" (¼–1½ miles), a left panel of five place groups and a few map layers, a legend, a school / compare panel on
-the right (each type of place: how many within the distance, how far the nearest), and the
-Sources & data window.
+AMY Northwest), in the Market Analysis Tool's design language (Deepblue-Dashboards): a school bar (click the
+selected school again to clear it), a Radius card (¼–1½ miles), a left panel of five place groups and a
+collapsible list of map layers, a legend, a panel for the selected school (each type of place: how many within the
+radius, how far the nearest; the building; who lives in its study census tracts; RCOs), and a short Sources & data
+window.
 
 - `/` all six schools · `/wagner`, `/blankenburg`, `/robeson`, `/pennypacker`, `/fitler`, `/amynw` one school
 
@@ -46,7 +47,7 @@ npm run build:data   # needs uv; installs geopandas, osmnx on the fly
 | Community assets | studio table (Community Asset/Raw_Source) | same method as `01_assets.py`: City services within 1 mi, PA DHS child care, OpenStreetMap worship |
 | RCOs | studio extract | City RCO registry, boundaries reaching ½ mi |
 | 15-minute walk | studio walk areas | same method as `01_walkshed.py` (OSM walk network, 80 m/min, 25 m buffer) |
-| Study area profile | studio `profile_2024.csv` | same method as `03_profile.py` (block-weighted tract shares, aggregate medians) |
+| Who lives nearby | the team's study tracts, summed as one group (ACS 2020–2024, aggregate medians) | the study tracts below, summed the same way |
 | Study tracts | the team's list | tracts with ≥ 20% of residents inside ½ mi, plus the school's tract |
 | Neighborhood | studio boundary | Azavea neighborhood |
 
@@ -62,7 +63,7 @@ studio's numbers. RCO contact names, emails and phone numbers are left out on pu
 ## Where things live
 
 - `src/lib/layers.js` — every layer: scope, file, style, tooltip, popup, (i) text.
-- `src/components/SchoolMap.jsx` — state, lazy loading, merging across schools, radius, zoom-to, search, CSV.
+- `src/components/SchoolMap.jsx` — state, lazy loading, merging across schools, radius, zoom-to, CSV.
 - `src/components/Chrome.jsx` — school bar, Zoom-to + radius, rail, legend, bottom-right controls.
-- `src/components/SitePanel.jsx` — compare cards, school summary, tract profile.
+- `src/components/SitePanel.jsx` — the selected school: places nearby, building, study-tract profile, RCOs.
 - `src/components/MapLayers.jsx` — Leaflet layers, panes, basemaps (Esri Gray default, City of Philadelphia, satellite).

@@ -1,8 +1,7 @@
 /**
  * The map's floating UI, in the Market Analysis Tool's design language, written for people who have never used
- * a map tool: a school bar along the top, "How far to look" above a left panel of five large groups and a few
- * map layers, a legend under it, basemaps and zoom bottom-right, a first-visit guide, and the Sources & data
- * window. Presentational only.
+ * a map tool: a school bar along the top, "Radius" above a left panel of five large groups and a few
+ * map layers, a legend under it, basemaps and zoom bottom-right, and the Sources & data window. Presentational only.
  */
 import React, { useEffect, useState } from 'react';
 // eslint-disable-next-line no-unused-vars
@@ -59,7 +58,7 @@ export function SchoolBar({ schools, visible, onAll, onOnly, onSources }) {
     );
   };
   return (
-    <div className={cx('absolute left-3 right-3 top-[172px] z-[520] flex w-fit max-w-[calc(100%-24px)] items-center gap-1 overflow-x-auto rounded-xl p-1 shadow-lg md:left-[352px] md:top-3 md:max-w-[calc(100%-364px)]', GLASS, SCROLL)} role="radiogroup" aria-label="Schools on the map">
+    <div className={cx('absolute right-3 top-[172px] z-[520] flex w-fit max-w-[calc(100%-24px)] items-center gap-1 overflow-x-auto rounded-xl p-1 shadow-lg md:top-3 md:max-w-[calc(100%-364px)]', GLASS, SCROLL)} role="radiogroup" aria-label="Schools on the map">
       {schools.filter((s) => FINALISTS.includes(s.slug)).map((s) => <School key={s.slug} s={s} />)}
       <span className="mx-1 h-5 w-px shrink-0 bg-stone-200" />
       {schools.filter((s) => !FINALISTS.includes(s.slug)).map((s) => <School key={s.slug} s={s} quiet />)}
@@ -77,14 +76,14 @@ export function SchoolBar({ schools, visible, onAll, onOnly, onSources }) {
   );
 }
 
-// ── how far to look ───────────────────────────────────────────────────────
+// ── radius ───────────────────────────────────────────────────────
 const PRESETS = [[0.25, '¼'], [0.5, '½'], [0.75, '¾'], [1, '1']];
 const VIEWS = [['site', 'School'], ['radius', 'Ring'], ['catchment', 'Attendance'], ['walk', 'Walk']];
 export function RadiusCard({ radius, onRadius, onZoom, barRef }) {
   return (
     <div ref={barRef} className={cx('absolute left-3 top-3 z-[500] max-w-[calc(100%-24px)] rounded-xl p-3 shadow-lg', RAIL_W, GLASS)}>
       <div className="flex items-baseline justify-between gap-2">
-        <label htmlFor="radius" className="text-[13px] font-bold text-slate-900">How far to look</label>
+        <label htmlFor="radius" className="text-[13px] font-bold text-slate-900">Radius</label>
         <span className="text-[12px] text-slate-500">about a {Math.round((radius * 1609.344) / 80)}-minute walk</span>
       </div>
       <div className="mt-2 flex items-center gap-1.5">
@@ -169,12 +168,12 @@ export function LayersRail({
   top, reserveBottom, defaultOpen, radius,
   typeCounts, types, onType, onGroup, radiusOnly, onRadiusOnly,
   measure, onMeasure, on, onToggle, loading,
-  query, onQuery, results, onPick,
 }) {
-  const [st, setSt] = usePersisted('cmap.rail4', { open: defaultOpen, openGroup: null, more: false, layers: true });
+  const [st, setSt] = usePersisted('cmap.rail5', { open: defaultOpen, openGroup: null, more: false, layers: true });
   const basic = LAYERS.filter((l) => l.basic);
   const more = LAYERS.filter((l) => !l.basic);
   const moreOn = more.filter((l) => on[l.id]).length + (measure ? 1 : 0);
+  const layersOn = basic.filter((l) => on[l.id]).length + moreOn;
 
   return (
     <AnimatePresence initial={false} mode="popLayout">
@@ -183,34 +182,18 @@ export function LayersRail({
           initial={{ opacity: 0, scale: 0.9, x: -14, filter: 'blur(6px)' }} animate={{ opacity: 1, scale: 1, x: 0, filter: 'blur(0px)' }}
           exit={{ opacity: 0, scale: 0.92, x: -14, filter: 'blur(6px)', transition: { duration: 0.18, ease: 'easeIn' } }} transition={SPRING_PANEL}
           className={cx('absolute left-3 z-[500] flex max-w-[calc(100%-24px)] flex-col', RAIL_W, PANEL)}>
-          <div className="flex items-center gap-2 px-3 pb-2 pt-2.5">
-            <label className="flex min-w-0 flex-1 items-center gap-2 rounded-lg bg-white py-1.5 pl-2.5 pr-2 ring-1 ring-stone-300 focus-within:ring-accent-300">
-              <svg className="h-4 w-4 shrink-0 text-slate-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></svg>
-              <input value={query} onChange={(e) => onQuery(e.target.value)} placeholder="Find a place by name or street" className="h-6 min-w-0 flex-1 bg-transparent text-[13px] outline-none placeholder:text-slate-500" />
-              {query && <button type="button" onClick={() => onQuery('')} className="text-[12px] font-semibold text-slate-500 hover:text-slate-900">Clear</button>}
-            </label>
-            <button type="button" onClick={() => setSt({ ...st, open: false })} className={ICON_BTN} title="Hide panel" aria-label="Hide panel"><FoldIcon side="left" /></button>
+          <div className="flex items-center justify-between gap-2 px-3 pb-1.5 pt-2.5">
+            <h2 className="text-[13px] font-bold text-slate-900">Places to show</h2>
+            <span className="flex items-center gap-2">
+              <label className="flex cursor-pointer items-center gap-1.5 text-[12px] text-slate-600">
+                <input type="checkbox" checked={radiusOnly} onChange={() => onRadiusOnly(!radiusOnly)} className="h-3.5 w-3.5 accent-[#393864]" />
+                only within {fmtRadius(radius)}
+              </label>
+              <button type="button" onClick={() => setSt({ ...st, open: false })} className={ICON_BTN} title="Hide panel" aria-label="Hide panel"><FoldIcon side="left" /></button>
+            </span>
           </div>
           <div className={cx('min-h-0 flex-1 space-y-3 overflow-y-auto px-3 pb-3', SCROLL)}>
-            {query.length >= 2 && (
-              <div className={cx('max-h-64 overflow-y-auto rounded-lg bg-white ring-1 ring-stone-200/80', SCROLL)}>
-                {results.length ? results.map((r) => (
-                  <button key={r.key} type="button" onClick={() => onPick(r)} className="flex w-full items-center gap-2 border-b border-stone-100 px-3 py-2 text-left last:border-0 hover:bg-accent-50/60">
-                    <span className="flex w-4 shrink-0 justify-center">{r.type ? <TypeGlyph type={r.type} size={16} /> : <Swatch s={r.swatch} />}</span>
-                    <span className="min-w-0 flex-1"><span className="block truncate text-[13px] font-semibold text-slate-900">{r.name}</span><span className="block truncate text-[12px] text-slate-500">{r.sub}</span></span>
-                  </button>
-                )) : <p className="px-3 py-2 text-[12px] text-slate-500">Nothing by that name near the schools on the map.</p>}
-              </div>
-            )}
-
             <div>
-              <div className="mb-1.5 flex items-center justify-between px-0.5">
-                <h2 className="text-[13px] font-bold text-slate-900">Places to show</h2>
-                <label className="flex cursor-pointer items-center gap-1.5 text-[12px] text-slate-600">
-                  <input type="checkbox" checked={radiusOnly} onChange={() => onRadiusOnly(!radiusOnly)} className="h-3.5 w-3.5 accent-[#393864]" />
-                  only within {fmtRadius(radius)}
-                </label>
-              </div>
               <div className="space-y-2">
                 {ASSET_GROUPS.map((g) => (
                   <GroupCard key={g.id} g={g} types={types} counts={typeCounts} onType={onType} onGroup={onGroup}
@@ -220,8 +203,13 @@ export function LayersRail({
             </div>
 
             <div>
-              <h2 className="mb-1 px-0.5 text-[13px] font-bold text-slate-900">Map layers</h2>
-              <div className="rounded-xl bg-white p-1 ring-1 ring-stone-200">
+              <button type="button" onClick={() => setSt({ ...st, layers: !st.layers })} aria-expanded={st.layers} className="mb-1 flex w-full items-center justify-between rounded-lg px-0.5 py-0.5 text-left">
+                <span className="text-[13px] font-bold text-slate-900">Map layers{!st.layers && layersOn ? <span className="ml-1.5 font-semibold text-slate-500">· {layersOn} on</span> : null}</span>
+                <span className="flex items-center gap-1 text-[12px] font-semibold text-accent-600">{st.layers ? 'Hide' : 'Show'}
+                  <svg className={cx('h-3.5 w-3.5 transition-transform', st.layers && 'rotate-180')} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg>
+                </span>
+              </button>
+              {st.layers && <div className="rounded-xl bg-white p-1 ring-1 ring-stone-200">
                 {basic.map((l) => <LayerRow key={l.id} l={l} on={!!on[l.id]} onToggle={onToggle} loading={loading[l.id]} />)}
                 <button type="button" onClick={() => setSt({ ...st, more: !st.more })} aria-expanded={st.more} className="mt-0.5 w-full rounded-lg px-2 py-1.5 text-left text-[12px] font-semibold text-accent-600 hover:bg-stone-50">
                   {st.more ? 'Fewer layers' : `More layers${moreOn ? ` (${moreOn} on)` : ''}: zoning, land use, housing, vacant land…`}
@@ -239,7 +227,7 @@ export function LayersRail({
                     </label>
                   </div>
                 )}
-              </div>
+              </div>}
             </div>
           </div>
         </motion.aside>
@@ -277,7 +265,7 @@ export function Legend({ schools, types, on, measure, scale, present = {}, legen
   return (
     <div ref={legendRef} className={cx('absolute bottom-3 left-3 z-[500] flex max-h-[34%] max-w-[calc(100%-24px)] flex-col rounded-xl shadow-lg', RAIL_W, GLASS)}>
       <button type="button" onClick={() => setOpen(!open)} aria-expanded={open} className="flex w-full items-center justify-between px-3.5 py-2 text-left">
-        <span className="text-[13px] font-semibold text-slate-900">What the colors mean</span>
+        <span className="text-[13px] font-semibold text-slate-900">Legend</span>
         <span className="text-[12px] font-semibold text-accent-600">{open ? 'Hide' : 'Show'}</span>
       </button>
       {open && (
@@ -288,7 +276,7 @@ export function Legend({ schools, types, on, measure, scale, present = {}, legen
               <Key label="Small dot = farther away"><span className="h-2 w-2 rounded-full bg-slate-400 ring-1 ring-white" /></Key>
             </Grid>
           </Block>
-          <Block title="Schools"><Grid>{schools.map((s) => <Key key={s.slug} label={s.short}><span className="h-3 w-3 rounded-sm" style={{ background: s.color }} /></Key>)}</Grid></Block>
+          {schools.length > 0 && <Block title="Schools"><Grid>{schools.map((s) => <Key key={s.slug} label={s.short}><span className="h-3 w-3 rounded-sm" style={{ background: s.color }} /></Key>)}</Grid></Block>}
           {m && scale && scale.breaks.length > 0 && (
             <Block title={`Shading · ${m.label}`}>
               <div className="flex gap-0.5">{RAMP.map((c, i) => <span key={c} className={cx('h-2.5 flex-1', i === 0 && 'rounded-l-sm', i === RAMP.length - 1 && 'rounded-r-sm')} style={{ background: c }} />)}</div>
@@ -345,119 +333,72 @@ export function Notice({ text, onClose }) {
 }
 
 // ── Sources & data ────────────────────────────────────────────────────────
-const ext = (u) => (href(u) ? <a href={href(u)} target="_blank" rel="noopener noreferrer" className="font-semibold text-accent-600 hover:underline">{u.replace(/^https?:\/\/(www\.)?/, '').split('/')[0]} ↗</a> : null);
+// Short publisher names: the first clause of the publisher field ("City of Philadelphia, Office of …" → "City of Philadelphia").
+const pub = (p = '') => p.split(/[,;(]/)[0].trim();
+const SRC_TABS = [{ value: 'places', label: 'Places' }, { value: 'layers', label: 'Map layers' }, { value: 'method', label: 'Method' }];
+const METHOD = [
+  ['What it is', 'An inventory of what exists near each school. It does not rank sites or suggest uses.'],
+  ['Places', 'Official City, state and federal data first; OpenStreetMap only where they have nothing. Duplicates across sources are merged. Collected to 1½ miles of each school.'],
+  ['Distance', 'Straight-line miles from the school. "On site" means on the school lot.'],
+  ['Who lives nearby', 'ACS 2020–2024 5-year estimates for the study census tracts, added together as one group.'],
+  ['Checked', 'Every link was tested; dead websites are left out.'],
+];
+
+function SrcRow({ title, sub, url }) {
+  return (
+    <li className="flex items-baseline gap-3 py-1.5">
+      <span className="min-w-0 flex-1"><span className="text-[13px] text-slate-900">{title}</span><span className="ml-1.5 text-[12px] text-slate-500">{sub}</span></span>
+      {href(url) && <a href={href(url)} target="_blank" rel="noopener noreferrer" className="shrink-0 text-[12px] font-semibold text-accent-600 hover:underline">Open ↗</a>}
+    </li>
+  );
+}
 
 export function SourcesModal({ open, onClose, sources, schools, onDownload, selectionLabel }) {
-  const [tab, setTab] = useState('assets');
+  const [tab, setTab] = useState('places');
   useEffect(() => {
     if (!open) return undefined;
     const k = (e) => e.key === 'Escape' && onClose();
     window.addEventListener('keydown', k);
     return () => window.removeEventListener('keydown', k);
   }, [open, onClose]);
-  const finalists = schools.filter((s) => FINALISTS.includes(s.slug));
   return (
     <AnimatePresence>
       {open && (
         <motion.div className="fixed inset-0 z-[2000] grid place-items-center bg-slate-900/30 p-3 backdrop-blur-[2px]" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} onClick={onClose}>
           <motion.div role="dialog" aria-modal="true" aria-label="Sources and data" onClick={(e) => e.stopPropagation()}
             initial={{ opacity: 0, y: 12, scale: 0.98 }} animate={{ opacity: 1, y: 0, scale: 1 }} exit={{ opacity: 0, y: 8, scale: 0.98 }} transition={SPRING_PANEL}
-            className="flex max-h-[88vh] w-full max-w-[920px] flex-col overflow-hidden rounded-2xl bg-white shadow-[0_24px_80px_-20px_rgba(15,23,42,0.45)] ring-1 ring-black/5">
-            <div className="flex items-start justify-between gap-4 border-b border-stone-100 px-5 pb-3 pt-4">
-              <div>
-                <h2 className="text-[19px] font-bold text-ink">Sources &amp; data</h2>
-                <p className="mt-1 max-w-[680px] text-[13px] leading-relaxed text-ink-2">
-                  This map is an inventory, not a recommendation. It gathers what exists around Wagner and Blankenburg (and four other candidate schools for comparison) so the reuse of each site can be argued from evidence. Every place on it comes from one of the sources below.
-                  {sources?.built && <span className="text-ink-muted"> Built {sources.built}.</span>}
-                </p>
-              </div>
+            className="flex max-h-[84vh] w-full max-w-[600px] flex-col overflow-hidden rounded-2xl bg-white shadow-[0_24px_80px_-20px_rgba(15,23,42,0.45)] ring-1 ring-black/5">
+            <div className="flex items-center justify-between gap-4 px-5 pb-1 pt-4">
+              <h2 className="text-[18px] font-bold text-ink">Sources &amp; data</h2>
               <button type="button" onClick={onClose} className={ICON_BTN} aria-label="Close"><svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" /></svg></button>
             </div>
-            <div className="px-5 pt-3">
-              <Segmented value={tab} onChange={setTab} options={[{ value: 'assets', label: 'Where the places come from' }, { value: 'context', label: 'Map layers' }, { value: 'methods', label: 'Methods & caveats' }, { value: 'download', label: 'Download' }]} />
+            <p className="px-5 text-[12.5px] text-slate-500">
+              {sources ? `${sources.assets.length} datasets · ${sources.context.length} map layers${sources.built ? ` · updated ${sources.built}` : ''}` : 'Loading…'}
+            </p>
+            <div className="px-5 pt-3"><Segmented size="xs" value={tab} onChange={setTab} options={SRC_TABS} /></div>
+            <div className={cx('min-h-0 flex-1 overflow-y-auto px-5 pb-4 pt-2', SCROLL)}>
+              {sources && tab === 'places' && ASSET_GROUPS.map((g) => {
+                const ds = sources.assets.filter((d) => (d.groups || []).includes(g.id));
+                return ds.length > 0 && (
+                  <section key={g.id} className="pt-2">
+                    <h3 className="flex items-center gap-2 text-[13px] font-bold text-slate-900"><GroupGlyph group={g.id} size={16} />{g.label}</h3>
+                    <ul className="divide-y divide-stone-100 pl-6">{ds.map((d) => <SrcRow key={d.id} title={d.title} sub={pub(d.publisher)} url={d.landing_url || d.api_url} />)}</ul>
+                  </section>
+                );
+              })}
+              {sources && tab === 'layers' && (
+                <ul className="divide-y divide-stone-100">{sources.context.map((d) => <SrcRow key={d.id} title={d.layer} sub={pub(d.publisher)} url={d.landing_url} />)}</ul>
+              )}
+              {tab === 'method' && (
+                <dl className="space-y-2.5 pt-1 text-[13px] leading-snug">
+                  {METHOD.map(([k, v]) => <div key={k}><dt className="font-semibold text-slate-900">{k}</dt><dd className="text-slate-600">{v}</dd></div>)}
+                </dl>
+              )}
             </div>
-            <div className={cx('min-h-0 flex-1 overflow-y-auto px-5 pb-5 pt-3', SCROLL)}>
-              {!sources && <p className="py-6 text-center text-[13px] text-slate-500">Loading…</p>}
-              {sources && tab === 'assets' && (
-                <div className="space-y-5">
-                  {ASSET_GROUPS.map((g) => {
-                    const ds = sources.assets.filter((d) => (d.groups || []).includes(g.id));
-                    return (
-                      <div key={g.id}>
-                        <div className="mb-2 flex items-center gap-2"><GroupGlyph group={g.id} size={20} /><span className="text-[14px] font-bold text-slate-900">{g.label}</span><span className="text-[12px] text-slate-500">· {ds.length} source{ds.length === 1 ? '' : 's'}</span></div>
-                        <div className="overflow-hidden rounded-xl ring-1 ring-stone-200/80">
-                          <table className="w-full text-left text-[12.5px]">
-                            <thead className="bg-stone-50 text-[11px] uppercase tracking-wider text-slate-500">
-                              <tr>
-                                <th className="px-3 py-2 font-semibold">Dataset</th>
-                                <th className="hidden px-3 py-2 font-semibold sm:table-cell">Publisher</th>
-                                {finalists.map((s) => <th key={s.slug} className="px-2 py-2 text-right font-semibold" title={`Places from this source within 1 mile of ${s.short}`}>{s.short}<span className="block normal-case tracking-normal text-slate-400">within 1 mi</span></th>)}
-                                <th className="px-3 py-2 text-right font-semibold">Link</th>
-                              </tr>
-                            </thead>
-                            <tbody className="divide-y divide-stone-100">
-                              {ds.map((d) => (
-                                <tr key={d.id} className="align-top">
-                                  <td className="px-3 py-2">
-                                    <span className="block text-slate-800">{d.title}</span>
-                                    <span className="mt-0.5 block text-[11.5px] leading-snug text-slate-500">{[d.data_date && `Data: ${String(d.data_date).split(/[;(]/)[0].trim()}`, d.retrieved && `pulled ${d.retrieved}`].filter(Boolean).join(' · ')}</span>
-                                    {(d.notes || d.license) && (
-                                      <details className="mt-0.5 text-[11.5px] leading-snug text-slate-500">
-                                        <summary className="cursor-pointer select-none font-semibold text-accent-600 hover:underline">Notes</summary>
-                                        {d.notes && <p className="mt-1">{d.notes}</p>}
-                                        {d.license && <p className="mt-1">License: {d.license}</p>}
-                                        {d.data_date && <p className="mt-1">Data date: {d.data_date}</p>}
-                                      </details>
-                                    )}
-                                  </td>
-                                  <td className="hidden px-3 py-2 text-slate-600 sm:table-cell">{d.publisher}</td>
-                                  {finalists.map((s) => <td key={s.slug} className="px-2 py-2 text-right tabular-nums text-slate-900">{fmtInt(d.near?.[s.slug]?.[g.id] ?? 0)}</td>)}
-                                  <td className="px-3 py-2 text-right">{ext(d.landing_url || d.api_url)}</td>
-                                </tr>
-                              ))}
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                    );
-                  })}
-                </div>
-              )}
-              {sources && tab === 'context' && (
-                <div className="overflow-hidden rounded-xl ring-1 ring-stone-200/80">
-                  <table className="w-full text-left text-[12.5px]">
-                    <thead className="bg-stone-50 text-[11px] uppercase tracking-wider text-slate-500"><tr><th className="px-3 py-2 font-semibold">Layer · dataset</th><th className="px-3 py-2 font-semibold">Publisher</th><th className="px-3 py-2 text-right font-semibold">Link</th></tr></thead>
-                    <tbody className="divide-y divide-stone-100">
-                      {sources.context.map((d) => (
-                        <tr key={d.id} className="align-top">
-                          <td className="px-3 py-2"><b className="block text-slate-900">{d.layer}</b><span className="block text-slate-800">{d.title}</span>{d.notes && <details className="mt-0.5 text-[11.5px] leading-snug text-slate-500"><summary className="cursor-pointer select-none font-semibold text-accent-600 hover:underline">Notes</summary><p className="mt-1">{d.notes}</p></details>}</td>
-                          <td className="px-3 py-2 text-slate-600">{d.publisher}</td>
-                          <td className="px-3 py-2 text-right">{ext(d.landing_url)}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-              )}
-              {sources && tab === 'methods' && (
-                <div className="space-y-4 text-[13px] leading-relaxed text-slate-700">
-                  {sources.methods.map((m) => <div key={m.title}><h3 className="text-[13.5px] font-semibold text-slate-900">{m.title}</h3><p className="mt-0.5">{m.text}</p></div>)}
-                </div>
-              )}
-              {sources && tab === 'download' && (
-                <div className="space-y-3 text-[13px] text-slate-700">
-                  <div className="flex flex-wrap items-center justify-between gap-3 rounded-xl bg-stone-50 px-4 py-3 ring-1 ring-stone-200/70">
-                    <div><b className="text-slate-900">Places on the map now</b><div className="text-[12px] text-slate-500">{selectionLabel} · spreadsheet (CSV) with group, type, source and distance to the school</div></div>
-                    <button type="button" onClick={onDownload} className="rounded-lg bg-accent-600 px-3 py-1.5 text-[13px] font-semibold text-white hover:bg-accent-700">Download CSV</button>
-                  </div>
-                  <div className="rounded-xl ring-1 ring-stone-200/80">
-                    <div className="border-b border-stone-100 px-4 py-2 text-[12px] font-semibold uppercase tracking-wider text-slate-500">Full inventory per school (GeoJSON, to 1.5 miles)</div>
-                    <div className="grid grid-cols-2 gap-x-4 gap-y-1 px-4 py-3 sm:grid-cols-3">
-                      {schools.map((s) => <a key={s.slug} href={`/data/${s.slug}/assets.json`} download={`${s.slug}_places.geojson`} className="flex items-center gap-2 font-semibold text-accent-600 hover:underline"><SchoolDot color={s.color} size={9} />{s.short}</a>)}
-                    </div>
-                  </div>
-                </div>
-              )}
+            <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5 border-t border-stone-100 px-5 py-3 text-[12.5px]">
+              {selectionLabel && <button type="button" onClick={onDownload} className="rounded-lg bg-accent-600 px-3 py-1.5 font-semibold text-white hover:bg-accent-700">Download CSV · {selectionLabel}</button>}
+              <span className="text-slate-500">Full data:</span>
+              {schools.map((s) => <a key={s.slug} href={`/data/${s.slug}/assets.json`} download={`${s.slug}_places.geojson`} className="font-semibold text-accent-600 hover:underline">{s.short}</a>)}
             </div>
           </motion.div>
         </motion.div>

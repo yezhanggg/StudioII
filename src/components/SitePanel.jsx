@@ -1,15 +1,14 @@
 /**
- * Right-hand panel. One school: what is around it (each kind of asset, how many within the radius and how
- * far the nearest is), its facility ratings and catchment, the half-mile study area against Philadelphia,
- * walk reach and the RCOs covering it. Several schools: the same headline numbers side by side.
- * It reports; it does not recommend.
+ * Right-hand panel for the selected school: what is around it (each kind of place, how many within the radius
+ * and how far the nearest is), its facility ratings and catchment, its study census tracts against
+ * Philadelphia, and the RCOs covering it. It reports; it does not recommend.
  */
 import React from 'react';
 // eslint-disable-next-line no-unused-vars
 import { AnimatePresence, motion } from 'framer-motion';
-import { FLOAT_BTN, FoldIcon, ICON_BTN, PANEL, Rows, SCROLL, SPRING_PANEL, SPRING_TAB, Section, Segmented, cx } from '../lib/ui';
+import { FLOAT_BTN, FoldIcon, ICON_BTN, PANEL, Rows, SCROLL, SPRING_PANEL, SPRING_TAB, Section, cx } from '../lib/ui';
 import { ASSET_GROUPS, TYPES, fmtInt, fmtMiles, fmtMoney, fmtPct, fmtRadius, href } from '../lib/layers';
-import { GroupGlyph, SchoolDot, TypeGlyph } from './Chrome';
+import { GroupGlyph, TypeGlyph } from './Chrome';
 
 const W = 'w-[350px] xl:w-[370px]';
 const PROFILE_ROWS = [
@@ -21,8 +20,6 @@ const TONE = (r = '') => (/unsatisf|severe|high risk/i.test(r) ? 'bg-rose-50 tex
   : /poor|moderate/i.test(r) ? 'bg-amber-50 text-amber-800 ring-amber-200/80'
     : /fair|low risk/i.test(r) ? 'bg-stone-100 text-slate-700 ring-stone-200' : 'bg-emerald-50 text-emerald-700 ring-emerald-200/80');
 const FMP = [['building', 'Building condition'], ['program', 'Educational program'], ['utilization', 'Utilization'], ['vulnerability', 'Vulnerability']];
-
-const EVERYDAY = TYPES.filter((t) => t.group !== 'more');
 
 function TypeRow({ t, st, onOnly }) {
   const x = st || { n: 0, nearest: null };
@@ -60,7 +57,8 @@ function Around({ stats, radius, onOnly }) {
 }
 
 function SchoolSummary({ s, stats, radius, onOnly }) {
-  const pr = s.profile;
+  const pr = s.tract_profile || {};
+  const tracts = s.tracts || [];
   const dash = href(s.dashboard);
   const total = Object.values(stats).reduce((a, x) => a + x.n, 0);
   return (
@@ -92,20 +90,18 @@ function SchoolSummary({ s, stats, radius, onOnly }) {
         {dash && <a href={dash} target="_blank" rel="noopener noreferrer" className="mt-2 inline-block text-[12px] font-semibold text-accent-600 hover:underline">SDP facilities dashboard ↗</a>}
       </Section>
 
-      <Section title="Who lives nearby" subtitle="Half-mile study area vs Philadelphia · ACS 2020–2024" tone="card" defaultOpen={false}>
-        <div className="flex items-center gap-3 pb-1 text-[11px] font-semibold uppercase tracking-wider text-slate-400"><span className="flex-1" /><span>Study area</span><span className="w-[72px] text-right">Philadelphia</span></div>
-        <Rows items={PROFILE_ROWS.filter(([k]) => pr[k]).map(([k, f]) => ({ label: LABEL[k] || k, value: f(pr[k].school), sub: f(pr[k].city) }))} />
-        {s.walk?.length > 0 && (
-          <div className="mt-2 grid grid-cols-3 gap-1.5">
-            {s.walk.map((w) => (
-              <div key={w.minutes} className="rounded-lg bg-stone-50 px-2 py-1.5 text-center ring-1 ring-stone-200/70">
-                <div className="text-[10.5px] font-semibold uppercase tracking-wider text-slate-500">{w.minutes}-min walk</div>
-                <div className="text-[15px] font-bold tabular-nums text-slate-900">{fmtInt(w.residents_2020)}</div>
-                <div className="text-[10.5px] text-slate-500">residents</div>
-              </div>
-            ))}
-          </div>
-        )}
+      <Section title="Who lives nearby" subtitle={`${tracts.length} study census tracts vs Philadelphia · ACS 2020–2024`} tone="card" defaultOpen={false}>
+        <div className="flex items-center gap-3 pb-1 text-[11px] font-semibold uppercase tracking-wider text-slate-400"><span className="flex-1" /><span>Study tracts</span><span className="w-[72px] text-right">Philadelphia</span></div>
+        <Rows items={PROFILE_ROWS.filter(([k]) => pr[k]).map(([k, f]) => ({ label: LABEL[k] || k, value: f(pr[k].group), sub: f(pr[k].city) }))} />
+        <div className="mt-2 flex flex-wrap gap-1">
+          {tracts.map((t) => (
+            <span key={t.geoid} title={`Census tract ${t.name}: ${fmtInt(t.pop)} residents${t.site ? ' · the school is in this tract' : ''}`}
+              className={cx('rounded-md px-1.5 py-0.5 text-[11.5px] tabular-nums ring-1', t.site ? 'bg-accent-50 font-semibold text-accent-700 ring-accent-200' : 'bg-stone-50 text-slate-600 ring-stone-200/70')}>
+              Tract {t.name}
+            </span>
+          ))}
+        </div>
+        <p className="mt-1.5 text-[11.5px] leading-snug text-slate-500">The tracts are added together as one group; medians use the aggregate-median method. Highlighted: the tract the school is in.</p>
       </Section>
 
       <Section title="Registered community organizations" subtitle={`${s.rcos.filter((r) => r.covers).length} cover the site`} tone="card" defaultOpen={false}>
@@ -123,42 +119,7 @@ function SchoolSummary({ s, stats, radius, onOnly }) {
   );
 }
 
-function Compare({ schools, statsOf, radius, onFocus }) {
-  return (
-    <div className="space-y-2">
-      {schools.map((s) => {
-        const st = statsOf(s.slug);
-        const n = Object.values(st).reduce((a, x) => a + x.n, 0);
-        const none = EVERYDAY.filter((t) => !(st[t.id]?.n)).length;
-        const pr = s.profile;
-        return (
-          <button key={s.slug} type="button" onClick={() => onFocus(s.slug)} className="block w-full overflow-hidden rounded-xl bg-white text-left ring-1 ring-stone-200/80 transition hover:shadow-sm hover:ring-accent-200">
-            <div className="flex items-center gap-2 px-3 pt-2.5">
-              <SchoolDot color={s.color} size={11} />
-              <span className="text-[14px] font-bold text-slate-900">{s.short}</span>
-              <span className="truncate text-[12px] text-slate-500">{s.area_name}</span>
-              <span className="ml-auto shrink-0 text-[12px] font-semibold text-accent-600">Open →</span>
-            </div>
-            <dl className="grid grid-cols-4 gap-1 px-3 pb-2.5 pt-1.5">
-              {[[`Places ≤${fmtRadius(radius)}`, fmtInt(n)], ['Types with none', `${none} of ${EVERYDAY.length}`],
-                ['Income', pr['Median household income'] ? fmtMoney(pr['Median household income'].school) : 'n/a'], ['Poverty', pr['Poverty rate'] ? fmtPct(pr['Poverty rate'].school) : 'n/a']].map(([k, v]) => (
-                <div key={k}><dt className="truncate text-[10.5px] text-slate-500">{k}</dt><dd className="text-[13.5px] font-bold tabular-nums text-slate-900">{v}</dd></div>
-              ))}
-            </dl>
-          </button>
-        );
-      })}
-      <p className="px-0.5 text-[11.5px] leading-snug text-slate-500">"Types with none" counts the everyday place types (the first four groups) with nothing inside the distance. Income and poverty are for each school's half-mile study area.</p>
-    </div>
-  );
-}
-
-export default function SitePanel({ schools, focusSchool, onFocus, statsOf, radius, open, setOpen, tab, setTab, onOnly, top = 12 }) {
-  const many = schools.length > 1;
-  const tabs = [];
-  if (many) tabs.push({ value: 'schools', label: `Compare ${schools.length}` });
-  if (focusSchool) tabs.push({ value: 'school', label: focusSchool.short });
-  const active = focusSchool && (tab === 'school' || !many) ? 'school' : 'schools';
+export default function SitePanel({ school, statsOf, radius, open, setOpen, onOnly, top = 12 }) {
   return (
     <AnimatePresence initial={false} mode="popLayout">
       {open ? (
@@ -167,19 +128,17 @@ export default function SitePanel({ schools, focusSchool, onFocus, statsOf, radi
           exit={{ opacity: 0, scale: 0.92, x: 14, filter: 'blur(6px)', transition: { duration: 0.18, ease: 'easeIn' } }} transition={SPRING_PANEL}
           className={cx('absolute right-3 z-[510] flex max-w-[calc(100%-24px)] flex-col', W, PANEL)}>
           <div className="flex items-center justify-between gap-2 px-3 pb-2 pt-2.5">
-            {tabs.length > 1 ? <Segmented size="xs" value={active} onChange={setTab} options={tabs} /> : <span className="text-[14px] font-bold text-slate-900">{focusSchool ? focusSchool.short : 'Schools'}</span>}
+            <span className="text-[14px] font-bold text-slate-900">{school.short}</span>
             <button type="button" onClick={() => setOpen(false)} className={ICON_BTN} title="Hide panel" aria-label="Hide panel"><FoldIcon side="right" /></button>
           </div>
           <div className={cx('min-h-0 flex-1 overflow-y-auto px-3 pb-3', SCROLL)}>
-            {active === 'school' && focusSchool
-              ? <SchoolSummary s={focusSchool} stats={statsOf(focusSchool.slug)} radius={radius} onOnly={onOnly} />
-              : <Compare schools={schools} statsOf={statsOf} radius={radius} onFocus={onFocus} />}
+            <SchoolSummary s={school} stats={statsOf(school.slug)} radius={radius} onOnly={onOnly} />
           </div>
         </motion.aside>
       ) : (
         <motion.button key="tab" type="button" onClick={() => setOpen(true)} initial={{ opacity: 0, scale: 0.6, x: 8 }} animate={{ opacity: 1, scale: 1, x: 0 }} exit={{ opacity: 0, scale: 0.8, transition: { duration: 0.12 } }}
           transition={SPRING_TAB} whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.95 }} style={{ top }} className={cx('absolute right-3 z-[510] text-slate-800', FLOAT_BTN)}>
-          {focusSchool ? `${focusSchool.short} summary` : 'Compare schools'}
+          {school.short} summary
           <span className="text-slate-600"><FoldIcon side="right" closed /></span>
         </motion.button>
       )}
