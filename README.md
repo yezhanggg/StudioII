@@ -7,7 +7,7 @@ recreation · More places (off at first). Every place cites its source in its po
 One interactive map for the studio's six candidate schools (Wagner, Blankenburg, Robeson, Pennypacker, Fitler,
 AMY Northwest), in the Market Analysis Tool's design language (Deepblue-Dashboards): a school bar, "How far to
 look" (¼–1½ miles), a left panel of five place groups and a few map layers, a legend, a school / compare panel on
-the right (each type of place: how many within the distance, how far the nearest), a first-visit guide, and the
+the right (each type of place: how many within the distance, how far the nearest), and the
 Sources & data window.
 
 - `/` all six schools · `/wagner`, `/blankenburg`, `/robeson`, `/pennypacker`, `/fitler`, `/amynw` one school
