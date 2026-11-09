@@ -39,7 +39,9 @@ export default function SchoolMap({ initialSlug }) {
   const [types, setTypes] = useState(DEFAULT_TYPES);
   const [measure, setMeasure] = useState(null);
   const [basemap, setBasemap] = useState('light');
-  const [panelOpen, setPanelOpen] = useState(isWide);
+  // the right panel stays the way the reader left it (hidden stays hidden), across schools and reloads
+  const [panelOpen, setPanelOpen] = useState(() => { try { const v = localStorage.getItem('panelOpen'); if (v !== null) return v === '1'; } catch { /* no storage */ } return isWide(); });
+  useEffect(() => { try { localStorage.setItem('panelOpen', panelOpen ? '1' : '0'); } catch { /* no storage */ } }, [panelOpen]);
   const [docsOpen, setDocsOpen] = useState(false);
   const [map, setMap] = useState(null);
   const barRef = useRef(null);
@@ -200,13 +202,13 @@ export default function SchoolMap({ initialSlug }) {
   };
   const onOnly = (slug) => {
     if (visible.length === 1 && visible[0] === slug) { setVisible([]); setFocus(null); return; }
-    setVisible([slug]); setFocus(slug); if (isWide()) setPanelOpen(true);
+    setVisible([slug]); setFocus(slug);
     fitBounds(ringBounds([all.find((x) => x.slug === slug)]));
   };
   const onFocus = useCallback((slug) => {
     const s = all.find((x) => x.slug === slug);
     setVisible((v) => (v.includes(slug) ? v : all.map((x) => x.slug).filter((x) => v.includes(x) || x === slug)));
-    setFocus(slug); setPanelOpen(true);
+    setFocus(slug);
     if (s && map) map.flyToBounds(L.latLng(s.center).toBounds(radius * 2 * 1609.344), { ...pad(), duration: 0.8, maxZoom: 17 });
   }, [all, map, radius, pad]);
 
