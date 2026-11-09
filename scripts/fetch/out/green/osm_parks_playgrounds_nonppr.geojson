@@ -1,0 +1,3245 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Dog park",
+"name": "Bark Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.232873,
+40.029488
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Dog park",
+"name": "Dog park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.148894,
+40.08229
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Dog park",
+"name": "Dog park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.220366,
+40.010793
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Dog park",
+"name": "Dog park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21915,
+40.011099
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Dog park",
+"name": "Highline Dog Park",
+"address": "3025 John F. Kennedy Boulevard, Philadelphia",
+"phone": "",
+"website": "https://philadelphia.uli.org/highline-park-at-schuylkill-yards/",
+"detail": "Operator: Brandywine Realty Trust",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.184796,
+39.95658
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Nature preserve (non-PPR)",
+"name": "Curtis Arboretum",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "43.3 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.148466,
+40.083963
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "40th St Trolley Portal Gardens",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2.8 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203161,
+39.949563
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "49th & Spruce Play Lot",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "3.5 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.218747,
+39.954538
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "52nd Street Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "0.3 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.226617,
+39.973891
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Bala Cynwyd Park",
+"address": "",
+"phone": "",
+"website": "https://www.lowermerion.org/departments/parks-and-recreation-department/township-parks/bala-cynwyd-park",
+"detail": "7.5 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.229065,
+40.013797
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Belmont School Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "0.7 acres · on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.204766,
+39.966284
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Blanche Levy Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2.6 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.193749,
+39.952049
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Bringhurst Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "0.1 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.165392,
+40.033521
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Cat Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "0.1 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189293,
+39.964004
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Cedar Pointe Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "0.0 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.215349,
+39.948935
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Cira Green",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "1.3 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183387,
+39.95257
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Cynwyd Heritage Trail Open Space",
+"address": "",
+"phone": "",
+"website": "https://www.lowermerion.org/departments/parks-and-recreation-department/township-parks/cynwyd-heritage-trail",
+"detail": "8.2 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225314,
+40.018073
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Cynwyd Heritage Trail Open Space",
+"address": "",
+"phone": "",
+"website": "https://www.lowermerion.org/departments/parks-and-recreation-department/township-parks/cynwyd-heritage-trail",
+"detail": "7.8 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225435,
+40.022891
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Drexel Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2.0 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.187589,
+39.961003
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "East Parkside Tot Lot",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "0.4 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206551,
+39.972838
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Eco Valley Nature Park",
+"address": "",
+"phone": "",
+"website": "https://www.lowermerion.org/departments/parks-and-recreation-department/township-parks/eco-valley-nature-park",
+"detail": "6.3 acres · Operator: Lower Merion Township",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.238318,
+40.021449
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Edling Park",
+"address": "",
+"phone": "",
+"website": "https://roxboroughmanayunkconservancy.org/edling-park",
+"detail": "0.9 acres · Operator: Roxborough Manayunk Conservancy",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21533,
+40.024173
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Einstein Community Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "0.7 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.140736,
+40.037067
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Fairmond Ave Park West",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "0.0 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.197769,
+39.965911
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Fish Plaza Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "0.1 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.151147,
+40.01069
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Fountain Street Steps",
+"address": "",
+"phone": "",
+"website": "https://roxboroughmanayunkconservancy.org/fountain-street-steps",
+"detail": "0.2 acres · Operator: Roxborough Manayunk Conservancy",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.233188,
+40.032003
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Freedom Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "0.0 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181299,
+40.043543
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Germantown White House",
+"address": "",
+"phone": "",
+"website": "https://www.nps.gov/inde/learn/historyculture/places-germantownwhitehouse.htm",
+"detail": "0.7 acres · Operator: National Park Service · on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.172363,
+40.033669
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "God is Great Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "0.1 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206441,
+39.970015
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Hamilton Field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "14.1 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.200304,
+39.952666
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "James G. Kaskey Memorial Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2.6 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.198279,
+39.949144
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Kane Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "0.5 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192349,
+39.950074
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "La Mott Community Center & Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "0.8 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.141519,
+40.067673
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Lewis J. Smith Park",
+"address": "122 Mary Waters Ford Road, Bala Cynwyd",
+"phone": "",
+"website": "https://www.lowermerion.org/departments/parks-and-recreation-department/township-parks/lewis-j-smith-park-swimming-pool-belmont-hills",
+"detail": "7.0 acres · Operator: Lower Merion Township",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.239103,
+40.022375
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "MLK Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "0.0 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.202273,
+39.962984
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Manayunk Gateway Park",
+"address": "",
+"phone": "",
+"website": "https://roxboroughmanayunkconservancy.org/manayunk-gateway",
+"detail": "0.2 acres · Operator: Roxborough Manayunk Conservancy",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209939,
+40.015966
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Max Paul Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "0.1 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.213558,
+39.958342
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "McMoran Park",
+"address": "126 Mary Waters Ford Road, Bala Cynwyd",
+"phone": "",
+"website": "https://www.lowermerion.org/departments/parks-and-recreation-department/township-parks/mcmoran-park",
+"detail": "8.5 acres · Operator: Lower Merion Township",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.239167,
+40.023421
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Melrose Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "7.5 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.124008,
+40.056601
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Newhall Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "0.1 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.174477,
+40.027342
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Penn Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "22.7 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.186486,
+39.949682
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Roxborough Pocket Park",
+"address": "",
+"phone": "",
+"website": "https://roxboroughmanayunkconservancy.org/roxborough-pocket-park",
+"detail": "0.1 acres · Operator: Roxborough Manayunk Conservancy",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.217279,
+40.034929
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Russel Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "7.4 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.146166,
+40.06961
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Sansom Street Play Lot",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "0.2 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.215786,
+39.956347
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Saunders Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "1.9 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.199298,
+39.960002
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Shoemaker Green",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2.3 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189539,
+39.950974
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Spruce Hill Bird Sanctuary",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "0.1 acres · Operator: Spruce Hill Community Association",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212576,
+39.953728
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "The Lawn at uCity Square",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "0.9 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196086,
+39.957399
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Vaux and Warden Street Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "0.1 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191583,
+40.018086
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Wanamaker Street Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "0.5 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.237068,
+39.975139
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (non-PPR)",
+"name": "Wissahickon War Memorial",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "0.1 acres",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209894,
+40.016784
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Belmont Hills Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.239348,
+40.02372
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Brightside Academy",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.202622,
+39.957824
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Emlen Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.173206,
+40.033393
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Kindergarten Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.172802,
+40.031993
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Pennsbury Greene Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.172878,
+40.032641
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.172048,
+40.024406
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.133842,
+40.068349
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.133224,
+40.069113
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.133184,
+40.070451
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.125601,
+40.064903
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.231984,
+40.046011
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.172189,
+40.033465
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.170346,
+40.011553
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216431,
+39.953781
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196811,
+40.046351
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208054,
+39.95339
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18235,
+39.954433
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.124297,
+40.057365
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206376,
+39.9501
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Operator: Parent-Infant Center · on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20727,
+39.952935
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22947,
+40.014048
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.143208,
+40.072623
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.142087,
+40.067486
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224079,
+40.028529
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210257,
+39.960126
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.170449,
+40.015699
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.186424,
+39.953317
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.188268,
+39.959065
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.219262,
+39.969255
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.214358,
+39.972342
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.215978,
+39.973729
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21398,
+39.976593
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.146088,
+40.036308
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.152037,
+40.030663
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.151996,
+40.030125
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.16548,
+40.059019
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.163753,
+40.060234
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.16433,
+40.056264
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.165,
+40.055619
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.164441,
+40.055651
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.165777,
+40.056025
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.166603,
+40.055509
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.193314,
+39.960138
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211308,
+39.966598
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208122,
+39.966359
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.235903,
+39.974366
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.186154,
+40.02186
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.239705,
+39.969651
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.237212,
+39.975077
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.226581,
+39.973814
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.215913,
+39.940876
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.213698,
+39.962899
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212763,
+39.961667
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.219685,
+39.967557
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.176927,
+40.032485
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.194052,
+39.966891
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.201921,
+39.952473
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210797,
+39.959103
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211739,
+39.956154
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.215791,
+39.956344
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.232221,
+39.965152
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212205,
+39.965843
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.205039,
+39.966335
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.204706,
+39.970598
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.205452,
+39.970874
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206527,
+39.97268
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.234293,
+39.978937
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.228528,
+39.977781
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.230968,
+39.985295
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.169457,
+40.006308
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.159347,
+40.006812
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.158277,
+40.011568
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183709,
+40.011483
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206552,
+40.022968
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.232848,
+39.964575
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225792,
+39.969911
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.17416,
+40.023895
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.176612,
+40.025001
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.169906,
+40.03215
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.173997,
+40.033927
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.174462,
+40.033636
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.166615,
+40.033393
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.162084,
+40.081125
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.169704,
+40.07381
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.16715,
+40.071712
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.149832,
+40.072953
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.145146,
+40.045029
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.148948,
+40.047401
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.137532,
+40.055125
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.143746,
+40.057533
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189391,
+40.037353
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.155454,
+40.013296
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.197331,
+40.045874
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.185928,
+39.953271
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.176584,
+40.018937
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.23675,
+40.02327
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.237355,
+40.022594
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.215132,
+40.012946
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.213398,
+40.031061
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.158002,
+40.06763
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20728,
+40.022366
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.170101,
+40.030749
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.232868,
+40.042926
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.132297,
+40.066482
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.131064,
+40.06231
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.149955,
+40.070825
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.149838,
+40.074587
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.14098,
+40.081879
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.134838,
+40.070091
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Sergio's Memorial Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.207404,
+39.958916
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground (non-PPR)",
+"name": "Tot Lot",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_parks_playgrounds_nonppr"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192389,
+39.960584
+]
+}
+}
+]
+}

@@ -1,0 +1,45 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.232645,
+     39.959347
+    ]
+   },
+   "properties": {
+    "category": "social_services",
+    "kind": "Healthy Start community resource center",
+    "name": "Child Care Information Services of Philadelphia",
+    "address": "5548 Chestnut Street",
+    "phone": "215-471-3251",
+    "website": "",
+    "detail": "By Appointment By Appointment",
+    "source_id": "phl_healthy_start_crcs"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.206125,
+     39.965574
+    ]
+   },
+   "properties": {
+    "category": "social_services",
+    "kind": "Healthy Start community resource center",
+    "name": "West Philadelphia MOMobile/ Healthy Start",
+    "address": "4119-21 Lancaster Avenue",
+    "phone": "215-386-3390",
+    "website": "",
+    "detail": "M, T, W, Th, F 9 to 5",
+    "source_id": "phl_healthy_start_crcs"
+   }
+  }
+ ]
+}

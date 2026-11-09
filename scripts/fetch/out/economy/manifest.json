@@ -1,0 +1,144 @@
+[
+ {
+  "id": "fdic_bank_branches",
+  "title": "FDIC-Insured Bank Branch Locations",
+  "categories": [
+   "economic"
+  ],
+  "publisher": "Federal Deposit Insurance Corporation (FDIC) BankFind Suite",
+  "landing_url": "https://banks.data.fdic.gov/bankfind-suite/",
+  "api_url": "https://api.fdic.gov/banks/locations",
+  "license": "Public domain (U.S. Government work)",
+  "retrieved": "2026-11-09",
+  "data_date": "2026-11-06",
+  "notes": "All FDIC-insured bank offices in Philadelphia, Montgomery and Delaware counties within 1.5 mi of a site; kept full-service brick-and-mortar/retail offices and limited-service drive-thru/retail facilities, dropped trust, administrative, messenger, mobile/seasonal and loan-production offices. Website is the institution's FDIC-listed web address.",
+  "records": 38
+ },
+ {
+  "id": "ncua_credit_union_sites",
+  "title": "Credit Union Offices (NCUA Credit Union Locator)",
+  "categories": [
+   "economic"
+  ],
+  "publisher": "National Credit Union Administration (NCUA)",
+  "landing_url": "https://mapping.ncua.gov/",
+  "api_url": "https://mapping.ncua.gov/api/Search/GetSearchLocations",
+  "license": "Public domain (U.S. Government work)",
+  "retrieved": "2026-11-09",
+  "data_date": "",
+  "notes": "Federally insured credit union sites returned by NCUA's locator within 2 mi of each site address, kept within 1.5 mi; ATM-only sites dropped. Many are workplace or church-based credit unions with restricted membership; the field of membership is in the detail line. Credit union type and website from NCUA's credit union profile.",
+  "records": 16
+ },
+ {
+  "id": "pa_careerlink_phl_sites",
+  "title": "PA CareerLink Philadelphia Centers and Outreach Sites",
+  "categories": [
+   "economic"
+  ],
+  "publisher": "Philadelphia Works, Inc. (PA CareerLink® Philadelphia)",
+  "landing_url": "https://pacareerlinkphl.org/contact-us/",
+  "api_url": "https://pacareerlinkphl.org/wp-json/wpgmza/v1/markers?filter={\"map_id\":\"2\"}",
+  "license": "Published on pacareerlinkphl.org; no open license stated",
+  "retrieved": "2026-11-09",
+  "data_date": "",
+  "notes": "Marker list behind the 'Career Centers' map on PA CareerLink Philadelphia's contact page: the four full-time comprehensive centers, the Northeast Hub, part-time outreach sites (mostly in Free Library branches) and partner sites. Used instead of data.pa.gov's CareerLink Locations (6p38-7dgx, last updated 2022), which still lists the old West Philadelphia address.",
+  "records": 5
+ },
+ {
+  "id": "phl_obme_workforce_resources",
+  "title": "Workforce and Employment Resources (Office of Black Male Engagement Directory)",
+  "categories": [
+   "economic"
+  ],
+  "publisher": "City of Philadelphia, Office of Black Male Engagement",
+  "landing_url": "https://www.arcgis.com/home/item.html?id=c901b5701b3e42a69b1d2167d9732161",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/Black_Male_Engagement_Resources/FeatureServer/0/query",
+  "license": "City of Philadelphia open data (OpenDataPhilly terms of use)",
+  "retrieved": "2026-11-09",
+  "data_date": "2026-11-06",
+  "notes": "Organizations in the City's public resource directory (public_yn = Y) whose listed services include workforce development or employment; most are multi-service nonprofits rather than job centers. Emails dropped.",
+  "records": 7
+ },
+ {
+  "id": "vacant_land",
+  "title": "Vacant Land and Land Bank Parcels (within 1 mile)",
+  "categories": [],
+  "context": true,
+  "publisher": "City of Philadelphia (Dept. of Planning & Development / L&I Vacant Property Indicators; Office of Property Assessment)",
+  "landing_url": "https://opendataphilly.org/datasets/vacant-property-indicators/",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/Vacant_Indicators_Land/FeatureServer/0/query",
+  "license": "City of Philadelphia open data (OpenDataPhilly terms of use)",
+  "retrieved": "2026-11-09",
+  "data_date": "2026-11-08",
+  "notes": "Parcels the City's Vacant Property Indicators model flags as likely vacant land (4902), plus Philadelphia Land Bank-owned parcels from OPA (9 not flagged vacant, 301 in both), within 1 mile of a site; polygons reduced to an interior point. owner_type is derived from the OPA owner name (public = City, Land Bank, PRA, PHA, PHDC, School District, state, federal, SEPTA etc.; 1347 public); private owner names are not kept. 'Likely vacant' is a model result, not a field survey.",
+  "sources": [
+   {
+    "title": "Vacant Property Indicators - Land",
+    "publisher": "City of Philadelphia",
+    "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/Vacant_Indicators_Land/FeatureServer/0/query",
+    "landing_url": "https://opendataphilly.org/datasets/vacant-property-indicators/",
+    "records": 4902
+   },
+   {
+    "title": "OPA Properties (owner = Philadelphia Land Bank)",
+    "publisher": "City of Philadelphia, Office of Property Assessment",
+    "api_url": "https://phl.carto.com/api/v2/sql",
+    "landing_url": "https://opendataphilly.org/datasets/philadelphia-properties-and-assessment-history/",
+    "records": 310
+   }
+  ],
+  "records": 4911
+ },
+ {
+  "id": "public_housing",
+  "title": "Public Housing and LIHTC Properties",
+  "categories": [],
+  "context": true,
+  "publisher": "U.S. Dept. of Housing and Urban Development (HUD eGIS); City of Philadelphia (PHA Senior Sites layer)",
+  "landing_url": "https://hudgis-hud.opendata.arcgis.com/datasets/HUD::public-housing-developments",
+  "api_url": "https://services.arcgis.com/VTyQ9soqVukalItT/ArcGIS/rest/services/Public_Housing_Developments/FeatureServer/0/query",
+  "license": "Public domain (U.S. Government work); PHA Senior Sites: City of Philadelphia open data (OpenDataPhilly terms of use)",
+  "retrieved": "2026-11-09",
+  "data_date": "PHA developments 2026-10-06; LIHTC: latest placed-in-service year among these records 2017 (HUD layer updated 2025-05-14)",
+  "notes": "Philadelphia Housing Authority developments from HUD (27; one point per development at its largest building), City-hosted PHA senior sites (6; merged into the matching development where one is nearby) and HUD LIHTC properties (190) within 1.5 mi; same-name records within 40 m are merged (2 PHA developments also carry LIHTC, units not summed across programs). HUD's public housing layer omits PHA properties converted to Section 8 under RAD. 12 LIHTC properties targeted to homeless households or named as recovery/DV/emergency housing were left out per the sensitive-location rule. Old LIHTC projects (1987-2000s) may be past their affordability period. Feature counts by source: {'hud_public_housing_developments': 27, 'pha_senior_sites': 6, 'hud_lihtc': 188}.",
+  "sources": [
+   {
+    "title": "Public Housing Developments",
+    "publisher": "HUD eGIS",
+    "api_url": "https://services.arcgis.com/VTyQ9soqVukalItT/ArcGIS/rest/services/Public_Housing_Developments/FeatureServer/0/query",
+    "landing_url": "https://hudgis-hud.opendata.arcgis.com/datasets/HUD::public-housing-developments",
+    "records": 27
+   },
+   {
+    "title": "PHA Senior Sites",
+    "publisher": "City of Philadelphia (ArcGIS Online, maps.phl.data)",
+    "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/PHA_Senior_Sites/FeatureServer/0/query",
+    "landing_url": "https://www.arcgis.com/home/item.html?id=967816c094614742bb101508e334f453",
+    "records": 6,
+    "data_date": "2025-05-27"
+   },
+   {
+    "title": "Low-Income Housing Tax Credit Properties",
+    "publisher": "HUD eGIS (HUD LIHTC database)",
+    "api_url": "https://services.arcgis.com/VTyQ9soqVukalItT/ArcGIS/rest/services/LIHTC/FeatureServer/0/query",
+    "landing_url": "https://hudgis-hud.opendata.arcgis.com/datasets/HUD::low-income-housing-tax-credit-properties",
+    "records": 190
+   }
+  ],
+  "records": 215
+ },
+ {
+  "id": "affordable_housing",
+  "title": "City-Funded Affordable Housing Production",
+  "categories": [],
+  "context": true,
+  "publisher": "City of Philadelphia, Dept. of Planning & Development, Division of Housing and Community Development",
+  "landing_url": "https://opendataphilly.org/datasets/affordable-housing-production/",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/AffordableHousingProduction/FeatureServer/0/query",
+  "license": "City of Philadelphia open data (OpenDataPhilly terms of use)",
+  "retrieved": "2026-11-09",
+  "data_date": "2026-08-27",
+  "notes": "DHCD-funded rental, homeownership and mixed-use projects (complete and under construction) within 1.5 mi; year is the fiscal year completed (blank when under construction). 62 'Special Needs' (supportive, recovery, shelter-type) projects were left out per the sensitive-location rule.",
+  "records": 97
+ }
+]

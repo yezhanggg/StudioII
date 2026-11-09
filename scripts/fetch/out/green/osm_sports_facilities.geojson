@@ -1,0 +1,6605 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Athletic field / court",
+"name": "Athletic field / court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182897,
+40.024448
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Athletic field / court",
+"name": "Athletic field / court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.207481,
+39.961693
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Athletic field / court",
+"name": "Athletic field / court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.170375,
+40.011004
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Athletic field / court",
+"name": "Athletic field / court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208419,
+39.961604
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Athletic field / court",
+"name": "Athletic field / court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.186094,
+39.952688
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Athletic field / court",
+"name": "Athletic field / court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.159344,
+40.079898
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Athletic field / court",
+"name": "Athletic field / court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.198844,
+39.94127
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Athletic field / court",
+"name": "Athletic field / court (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208311,
+39.952722
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Athletic field / court",
+"name": "Athletic field / court (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212236,
+39.966127
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Athletic field / court",
+"name": "Athletic field / court (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.173899,
+40.034144
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Athletic field / court",
+"name": "Athletic field / court (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.236667,
+40.022849
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Athletic field / court",
+"name": "Athletic field / court at Awbury Park and Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.163168,
+40.053441
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Athletic field / court",
+"name": "Athletic field / court at Haddington-Marshall L. Shepard, Sr. Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.234141,
+39.966332
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Athletic field / court",
+"name": "Athletic field / court at Helen G. Sturgis Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.124113,
+40.049423
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Athletic field / court",
+"name": "Athletic field / court at McMichael Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.187084,
+40.01845
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Athletic field / court",
+"name": "Athletic field / court at Ohio House Fields",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216384,
+39.983953
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Athletic field / court",
+"name": "Athletic field / court at The Lonnie Young Recreation Center of East Germantown",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.158718,
+40.050538
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Athletic field / court",
+"name": "Athletic field / court at West Fairmount Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211588,
+39.978576
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Athletic field / court",
+"name": "South Green",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.188368,
+39.948709
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "BMX track",
+"name": "Philly Pumptrack",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "in Parkside Evans Recreation Center",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.226119,
+39.984721
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "20th & Tioga Field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "in Jerome Brown Park Playground",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.161904,
+40.007888
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Alumni Field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192425,
+40.024809
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.15817,
+40.015062
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.193293,
+40.020358
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.131562,
+40.068515
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.232208,
+40.046516
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208571,
+39.960673
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.123865,
+40.056394
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.185065,
+40.023821
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.205668,
+39.946396
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.228574,
+40.013896
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.228539,
+40.013348
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 fields",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.239868,
+40.024243
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.168152,
+40.07612
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.167292,
+40.076912
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.168911,
+40.076814
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.175806,
+40.069508
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.176181,
+40.070245
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.187781,
+40.024249
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.161248,
+40.041545
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.170747,
+40.031838
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.158713,
+40.080699
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.158495,
+40.078254
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.145924,
+40.069632
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.223807,
+40.049554
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.158718,
+40.085971
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.158318,
+40.086579
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.162808,
+40.057621
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at 48th and Woodland Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209868,
+39.941736
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at 48th and Woodland Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210606,
+39.94185
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at A. Albert Cherashore Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.136361,
+40.038401
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at A. Albert Cherashore Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.136362,
+40.03764
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Awbury Park and Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.164345,
+40.054473
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Belfield Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.156519,
+40.043282
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Belmont Grove",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.214942,
+39.991365
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Belmont Plateau",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210652,
+39.988346
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Belmont Plateau",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212581,
+39.98623
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Belmont Plateau",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21276,
+39.987055
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Belmont Plateau",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212796,
+39.987628
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Belmont Plateau",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211862,
+39.986238
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Belmont Plateau",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211625,
+39.987746
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Belmont Plateau",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211781,
+39.986926
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Blue Bell Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195019,
+40.029993
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Charles M. Finley Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.169302,
+40.064999
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Clifford Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189794,
+40.033212
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Conestoga Community Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.227215,
+39.975288
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Dairy Fields",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19879,
+39.98453
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Dairy Fields",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.197682,
+39.985032
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Dairy Fields",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19777,
+39.986067
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Dairy Fields",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.198711,
+39.985729
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at David P. Montgomery Field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203051,
+40.02156
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at David P. Montgomery Field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.202742,
+40.022384
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Donald P. Finnegan Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.193176,
+39.938001
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Donna Reed Miller Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 fields",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.168567,
+40.044592
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Dorothy Emanuel Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.176052,
+40.081704
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Ernest L. Tustin Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.239758,
+39.981867
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Fernhill Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.167098,
+40.019514
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Fernhill Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.169628,
+40.017035
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Fernhill Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.168718,
+40.016795
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Haddington-Marshall L. Shepard, Sr. Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.235345,
+39.966378
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Haddington-Marshall L. Shepard, Sr. Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.235211,
+39.967393
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Haddington-Marshall L. Shepard, Sr. Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "4 fields",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.23423,
+39.967945
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Happy Hollow Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.166565,
+40.024104
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Hunting Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.141249,
+40.019585
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Hunting Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.143548,
+40.015152
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Hunting Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.142678,
+40.017249
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Hunting Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.141367,
+40.018009
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at John A. Lee Cultural Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209946,
+39.961229
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at John A. Lee Cultural Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20938,
+39.961816
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Kingsessing Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216182,
+39.943023
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Kingsessing Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.217006,
+39.943427
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Lonnie Cohen Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.229844,
+40.03334
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Lonnie Cohen Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.229267,
+40.033569
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Miles Mack Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196015,
+39.967676
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Morris Estate Cultural Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.14732,
+40.050597
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Pleasant Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182315,
+40.057441
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at River Field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.17893,
+39.961977
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Salvatore Pachella Memorial Field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216978,
+40.046129
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Salvatore Pachella Memorial Field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216109,
+40.044944
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Salvatore Pachella Memorial Field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216776,
+40.044777
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Stenton Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.151814,
+40.024777
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Stenton Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.15184,
+40.024008
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Susan Gorgas Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.222825,
+40.036365
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at The Lonnie Young Recreation Center of East Germantown",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.159307,
+40.049753
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at The Lonnie Young Recreation Center of East Germantown",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.158863,
+40.050242
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Tiffany Fletcher Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216065,
+39.965787
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Vernon Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.177197,
+40.034852
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at W. Freeland Kendrick Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212488,
+40.028902
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at W. Freeland Kendrick Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211895,
+40.028305
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at West Mill Creek Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.223283,
+39.96771
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at William B. Simons Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.157533,
+40.060678
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at William B. Simons Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.158484,
+40.059613
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at William B. Simons Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.158567,
+40.061358
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at William B. Simons Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.159415,
+40.060286
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at William H. (Billy) Markward Memorial Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183929,
+39.9477
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Wister Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.160758,
+40.032598
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Baseball / softball field at Wisters Woods Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.152725,
+40.032201
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Boyce Field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "in John F. Boyce Memorial Field",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.207024,
+40.032488
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Central High School Baseball Field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.148741,
+40.036223
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Hank DeVincent Field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.15272,
+40.036722
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Lemon Hill Fields",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "in East Fairmount Park",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.186929,
+39.972616
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Baseball / softball field",
+"name": "Sweet Briar Vale Field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "in Sweetbriar Fields",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203971,
+39.97728
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209348,
+39.960034
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.132039,
+40.067963
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.232089,
+40.046974
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189658,
+39.959858
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.238907,
+40.023215
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.207353,
+39.95896
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.157586,
+40.040271
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.164232,
+40.055508
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.167179,
+40.075601
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208398,
+40.020563
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.177584,
+40.011409
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.151175,
+40.058348
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.153587,
+40.044153
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.229189,
+39.985576
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.157503,
+40.014951
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.135056,
+40.060226
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.223991,
+40.028603
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.229014,
+40.014344
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.218047,
+39.962603
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22134,
+40.043531
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.14513,
+40.076007
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.136907,
+40.066089
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court (college campus)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on a college campus",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.178729,
+40.019316
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 courts · on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.214342,
+39.971919
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "3 courts · on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.204725,
+39.966258
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206349,
+39.950325
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.15675,
+40.019149
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.227713,
+39.953356
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212268,
+39.966426
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211327,
+39.975082
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 courts · on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.222656,
+40.04937
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.177845,
+40.054668
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 courts · on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.15263,
+40.030043
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.166583,
+40.055008
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216274,
+39.953919
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.174222,
+40.034085
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.170423,
+40.074127
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 courts · on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.149185,
+40.047278
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 courts · on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.14759,
+40.059158
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.237091,
+40.022637
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196638,
+40.046557
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21358,
+40.030953
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206857,
+40.02298
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18142,
+40.032406
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.194197,
+39.967074
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 courts · on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189027,
+40.037164
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at 33rd and Wallace Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191232,
+39.965082
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at 37th and Mount Vernon Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196689,
+39.963982
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at 48th and Woodland Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209507,
+39.941935
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at A. Albert Cherashore Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "3 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.137003,
+40.038259
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at Awbury Park and Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.164605,
+40.053734
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at Belfield Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.15639,
+40.04204
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at Charles Baker and Carol Baker Rice Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.231201,
+39.977601
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at Charles M. Finley Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.16987,
+40.064434
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at Clarence H Clark Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209225,
+39.946941
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at Clayborne and Lewis Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.198849,
+39.973546
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at Conestoga Community Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.227694,
+39.975239
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at Donald P. Finnegan Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "3 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19266,
+39.937617
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at Donna Reed Miller Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.169108,
+40.045337
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at Dorothy Emanuel Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.175539,
+40.081746
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at East Fairmount Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190539,
+39.982222
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at East Fairmount Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.187512,
+39.972866
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at Fanny Kemble Abolitionist Memorial Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.149416,
+40.039643
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at Fernhill Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.168857,
+40.020249
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at Fisher Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.131368,
+40.044129
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at Haddington-Marshall L. Shepard, Sr. Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "3 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.234375,
+39.967785
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at Happy Hollow Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.166477,
+40.024432
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at Helen G. Sturgis Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "3 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.124275,
+40.04921
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at Hunting Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.145377,
+40.018296
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at Hunting Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.145301,
+40.015397
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at Hunting Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.141875,
+40.018936
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at Jerome Brown Park Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.161114,
+40.006169
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at John A. Lee Cultural Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "3 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20983,
+39.962271
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at Joseph V. Kelly Memorial Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.228359,
+40.041552
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at Kingsessing Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "4 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.218005,
+39.942728
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at Lonnie Cohen Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.228965,
+40.033741
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at Miles Mack Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "3 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195811,
+39.967417
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at Morris Estate Cultural Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.147238,
+40.050295
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at Norman (Butch) Ellis Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "3 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20133,
+39.966037
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at Parkside Evans Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "6 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.226659,
+39.983113
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at Pleasant Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18184,
+40.058045
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at Price Street Play Lot",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18009,
+40.033111
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at Stenton Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "4 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.153301,
+40.02405
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at The Lonnie Young Recreation Center of East Germantown",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.15963,
+40.049399
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at Tiffany Fletcher Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21626,
+39.966114
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at Venice Island Performing Arts and Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.221256,
+40.022921
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at W. Freeland Kendrick Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210717,
+40.028621
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at West Mill Creek Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22199,
+39.966271
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at West Mill Creek Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224312,
+39.968553
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at William B. Simons Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.157216,
+40.060971
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at William H. (Billy) Markward Memorial Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182689,
+39.948772
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at Wissahickon Neighbors Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.213032,
+40.021681
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "Basketball court at Wister Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "4 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.160069,
+40.032438
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Basketball court",
+"name": "The Palestra",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.188636,
+39.951402
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Cricket field",
+"name": "Cricket field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.174133,
+40.023122
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Football field",
+"name": "Arrow Field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20503,
+40.029284
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Football field",
+"name": "Central High School Football Field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.146925,
+40.03595
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Football field",
+"name": "Football field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.184753,
+40.022128
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Football field",
+"name": "Football field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.218823,
+39.954351
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Football field",
+"name": "Football field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.152929,
+40.017083
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Football field",
+"name": "Football field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.166092,
+40.075959
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Football field",
+"name": "Football field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.173199,
+40.070075
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Football field",
+"name": "Football field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.23231,
+40.046268
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Football field",
+"name": "Football field (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.161929,
+40.086482
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Football field",
+"name": "Football field (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.147993,
+40.0383
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Football field",
+"name": "Football field (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.162797,
+40.057223
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Football field",
+"name": "Football field (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.174224,
+40.031187
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Football field",
+"name": "Football field (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181221,
+40.031603
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Football field",
+"name": "Football field at A. Albert Cherashore Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.136269,
+40.038054
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Football field",
+"name": "Football field at Dorothy Emanuel Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.176093,
+40.081759
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Football field",
+"name": "Football field at Haddington-Marshall L. Shepard, Sr. Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.234977,
+39.96663
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Football field",
+"name": "Football field at Helen G. Sturgis Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.124043,
+40.048709
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Football field",
+"name": "Football field at Hunting Park Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.143358,
+40.018256
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Football field",
+"name": "Football field at Kingsessing Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216651,
+39.943009
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Football field",
+"name": "Football field at Morris Estate Cultural Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.147582,
+40.05083
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Football field",
+"name": "Football field at River Field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.179118,
+39.961889
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Football field",
+"name": "Football field at School District Area (Gorgas)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.223689,
+40.035195
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Football field",
+"name": "Football field at Stenton Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.151629,
+40.025004
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Football field",
+"name": "Football field at William B. Simons Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.158132,
+40.060209
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Football field",
+"name": "Football field at William B. Simons Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.158833,
+40.060784
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Handball court",
+"name": "Handball court at William B. Simons Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.157926,
+40.061399
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Ice rink",
+"name": "Ice rink",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.187011,
+39.951738
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Lacrosse field",
+"name": "Lacrosse field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181447,
+40.023932
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Lacrosse field",
+"name": "Ravenhill Athletic Field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195385,
+40.014295
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Multi-use field",
+"name": "Multi-use field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189924,
+39.950051
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Multi-use field",
+"name": "Multi-use field at Donald P. Finnegan Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192794,
+39.938107
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Pickleball / padel court",
+"name": "Pickleball / padel court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "5 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.17579,
+40.022054
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Pickleball / padel court",
+"name": "Pickleball / padel court at Gustine Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "10 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.202455,
+40.012296
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Pickleball / padel court",
+"name": "Pickleball / padel court at Venice Island Performing Arts and Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.221523,
+40.023073
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Roller hockey rink",
+"name": "Roller hockey rink at W. Freeland Kendrick Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211895,
+40.02932
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Running track",
+"name": "Running track",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "3 tracks",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19056,
+39.950476
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Running track",
+"name": "Running track",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "3 tracks",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.153884,
+40.037907
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Running track",
+"name": "Running track",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 tracks",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.159401,
+40.080113
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Running track",
+"name": "Running track",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 tracks",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18382,
+40.021652
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Running track",
+"name": "Running track",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "4 tracks",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191498,
+39.94503
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Running track",
+"name": "Running track",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192265,
+39.944712
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Running track",
+"name": "Running track at School District Area (Gorgas)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 tracks",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.222992,
+40.035161
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Running track",
+"name": "Running track at School District Area (Gorgas)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.223433,
+40.034966
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Running track",
+"name": "Running track at School District Area (Gorgas)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.223813,
+40.035471
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Running track",
+"name": "Running track at School District Area (Gorgas)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.223372,
+40.035667
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Running track",
+"name": "Running track at School District Area (Gorgas)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224252,
+40.035278
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Running track",
+"name": "Running track at School District Area (Gorgas)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.223872,
+40.034772
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Skatepark",
+"name": "Grays Ferry Crescent Skatepark",
+"address": "",
+"phone": "",
+"website": "https://skatephilly.org/parks/grays/",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.204234,
+39.941045
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Skatepark",
+"name": "Paine's Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "in Paines Park",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180499,
+39.962793
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Soccer field",
+"name": "Ace Adams Field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.185086,
+39.950372
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Soccer field",
+"name": "Dunning-Cohen Champions Field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.186139,
+39.950725
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Soccer field",
+"name": "Rhodes B Field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190986,
+39.945815
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Soccer field",
+"name": "Rhodes Field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190062,
+39.946564
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Soccer field",
+"name": "Soccer field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181879,
+40.023312
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Soccer field",
+"name": "Soccer field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.188448,
+40.022373
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Soccer field",
+"name": "Soccer field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.188364,
+40.025506
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Soccer field",
+"name": "Soccer field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.207903,
+39.959769
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Soccer field",
+"name": "Soccer field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.132293,
+40.069403
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Soccer field",
+"name": "Soccer field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.154011,
+40.037212
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Soccer field",
+"name": "Soccer field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180727,
+40.023338
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Soccer field",
+"name": "Soccer field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.158097,
+40.015342
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Soccer field",
+"name": "Soccer field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.167744,
+40.076515
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Soccer field",
+"name": "Soccer field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.170818,
+40.031679
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Soccer field",
+"name": "Soccer field",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.123856,
+40.056106
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Soccer field",
+"name": "Soccer field (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.121011,
+40.048575
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Soccer field",
+"name": "Soccer field (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.159209,
+40.085374
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Soccer field",
+"name": "Soccer field (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.222938,
+40.049988
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Soccer field",
+"name": "Soccer field (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189251,
+40.037057
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Soccer field",
+"name": "Soccer field at Charles M. Finley Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.169043,
+40.064906
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Soccer field",
+"name": "Soccer field at Donald P. Finnegan Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192757,
+39.938115
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Soccer field",
+"name": "Soccer field at Fernhill Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.168596,
+40.017079
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Soccer field",
+"name": "Soccer field at Helen G. Sturgis Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.124073,
+40.04958
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Soccer field",
+"name": "Soccer field at Parkside Evans Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225774,
+39.985305
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Soccer field",
+"name": "Soccer field at William H. (Billy) Markward Memorial Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.184005,
+39.947724
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis court",
+"name": "Drexel Tennis Courts",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191409,
+39.9579
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis court",
+"name": "Tennis court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.201503,
+39.953477
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis court",
+"name": "Tennis court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.228807,
+40.01439
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis court",
+"name": "Tennis court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "3 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.239276,
+40.023405
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis court",
+"name": "Tennis court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "6 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.186456,
+40.024242
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis court",
+"name": "Tennis court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.187142,
+40.025136
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis court",
+"name": "Tennis court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.185219,
+40.026221
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis court",
+"name": "Tennis court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "6 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18184,
+40.024623
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis court",
+"name": "Tennis court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "6 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.187336,
+39.948956
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis court",
+"name": "Tennis court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "6 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.187323,
+39.949426
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis court",
+"name": "Tennis court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "3 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.205888,
+39.946982
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis court",
+"name": "Tennis court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "9 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208904,
+39.959336
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis court",
+"name": "Tennis court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.161862,
+40.081151
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis court",
+"name": "Tennis court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.132075,
+40.060446
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis court",
+"name": "Tennis court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "6 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.158742,
+40.081527
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis court",
+"name": "Tennis court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "4 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.166218,
+40.07519
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis court",
+"name": "Tennis court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216262,
+40.012531
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis court",
+"name": "Tennis court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "4 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189994,
+40.024159
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis court",
+"name": "Tennis court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.194463,
+40.019748
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis court",
+"name": "Tennis court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.200101,
+40.015986
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis court",
+"name": "Tennis court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "16 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.175264,
+40.022276
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis court",
+"name": "Tennis court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "4 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.155019,
+40.038596
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis court",
+"name": "Tennis court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "3 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.167693,
+40.03898
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis court",
+"name": "Tennis court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "4 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.167681,
+40.038473
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis court",
+"name": "Tennis court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191499,
+39.95791
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis court",
+"name": "Tennis court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191785,
+40.024402
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis court",
+"name": "Tennis court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.214854,
+39.951906
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis court",
+"name": "Tennis court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.145017,
+40.076093
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis court",
+"name": "Tennis court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.137623,
+40.069887
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis court",
+"name": "Tennis court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.138323,
+40.06686
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis court",
+"name": "Tennis court (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 courts · on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.205384,
+39.96629
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis court",
+"name": "Tennis court (school grounds)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 courts · on school grounds",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.223213,
+40.049435
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis court",
+"name": "Tennis court at School District Area (Gorgas)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "6 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224704,
+40.035636
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Volleyball court",
+"name": "Buckley Vollyball Courts",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189522,
+39.957341
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Volleyball court",
+"name": "Volleyball court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.200014,
+39.952778
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Volleyball court",
+"name": "Volleyball court",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195426,
+40.016398
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Volleyball court",
+"name": "Volleyball court at Helen G. Sturgis Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.124479,
+40.049232
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Volleyball court",
+"name": "Volleyball court at Lonnie Cohen Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.228657,
+40.034
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Volleyball court",
+"name": "Volleyball court at William H. (Billy) Markward Memorial Playground",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 courts",
+"source_id": "osm_sports_facilities"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183055,
+39.948479
+]
+}
+}
+]
+}

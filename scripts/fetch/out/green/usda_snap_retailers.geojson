@@ -1,0 +1,3145 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Farmers market / produce vendor (SNAP)",
+"name": "60th Street Farmers' Market 1",
+"address": "60th and Arch St. Corner, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.240433,
+39.963547
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Farmers market / produce vendor (SNAP)",
+"name": "Clark Park Farmers Market",
+"address": "43rd St And Chester Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209572,
+39.949699
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Farmers market / produce vendor (SNAP)",
+"name": "Dirtbaby Farm Inc.",
+"address": "48 Ashmead Pl S, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.167412,
+40.029236
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Farmers market / produce vendor (SNAP)",
+"name": "Germantown Farmers Market",
+"address": "5501 Germantown Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.172592,
+40.034386
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Farmers market / produce vendor (SNAP)",
+"name": "Germantown Kitchen Garden",
+"address": "215 E Penn St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.166771,
+40.034798
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Farmers market / produce vendor (SNAP)",
+"name": "Walnut Hill Community Farm",
+"address": "4610 Market St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.213562,
+39.958504
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "10 Brothers Food Market Corp",
+"address": "1801 W Venango St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.158012,
+40.008732
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "40th St Grocery",
+"address": "804 N 40th St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203125,
+39.967625
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "44 Food Market Inc",
+"address": "701 N 44th St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210785,
+39.964615
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "49 Stop Supermarket",
+"address": "4847 Walnut St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.219398,
+39.956432
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "51 Prime Market",
+"address": "5101 Walnut St Unit 1, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.223877,
+39.957027
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "52nd Street Food Market",
+"address": "1401 S 52nd St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21875,
+39.940468
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "58th Street Food Market Inc",
+"address": "131 N 58th St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.236099,
+39.963867
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "8 Brother Associated Inc",
+"address": "1127 N 40th St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.204178,
+39.973576
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "A & L Deli Grocery 1 Corp",
+"address": "5929 Ogontz Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.149323,
+40.04454
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "A And L Deli Market Inc",
+"address": "264 W Queen Ln, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.173882,
+40.026638
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "A D Mini Market 1",
+"address": "1843 N 60th St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.240974,
+39.980137
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "A&n House Of Produce",
+"address": "1830 Stenton Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.14949,
+40.051128
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "African Audio Video& Copy Center",
+"address": "5133 Baltimore Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.226692,
+39.947807
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "African Foods Inc",
+"address": "515 W Olney Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.131042,
+40.036678
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Alan Deli Grocery Inc",
+"address": "200 W Godfrey Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.123779,
+40.044823
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Arny Food Market Inc",
+"address": "5942 Haverford Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.238884,
+39.969685
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Ba Market Llc",
+"address": "539 S 52nd St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.226669,
+39.95108
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Brother Halal Meat Market",
+"address": "5621 Germantown Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.17408,
+40.035351
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Cedar Food Market Inc",
+"address": "600 S 52nd St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.226936,
+39.950306
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Cesar Mini Market 1 Inc",
+"address": "5934 Race St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.238976,
+39.964756
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Choos Market Inc",
+"address": "6709 Chew Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181633,
+40.056137
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Clapier Mini Market Inc",
+"address": "201 W Clapier St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.167137,
+40.024952
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Cna Tropical Market Inc.",
+"address": "6402 Wister St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.157928,
+40.052605
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Collado Grocery",
+"address": "4901 N Hutchinson St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.139435,
+40.026752
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Courtland Grocery Inc",
+"address": "1501 W Courtland St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.149986,
+40.023209
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "D & L Food Market I Inc",
+"address": "400 W Spencer St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.127144,
+40.04372
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "D & R Mini Market Inc",
+"address": "1120 W Louden St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.142937,
+40.025482
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "D&R Mini Market Inc",
+"address": "4753 N 13th St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.145187,
+40.025738
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "D8 Brothers Food Market & Deli Inc",
+"address": "4500 Lancaster Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212997,
+39.969727
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "E & B Super Market Inc",
+"address": "447 S 55th St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.232407,
+39.952854
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Espinal Ramos Grocery",
+"address": "2000 Medary Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.153244,
+40.050373
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Family Market Discount Store Inc",
+"address": "5141 Haverford Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.223389,
+39.964787
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Girard Food Market I Inc",
+"address": "4200 W Girard Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208984,
+39.973339
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Girard Meat Market",
+"address": "4725 W Girard Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.217529,
+39.97298
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Girard Neighorhood Food Market Inc",
+"address": "4058 W Girard Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20623,
+39.97364
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Gomez Supermarket",
+"address": "4562 Wayne Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.163132,
+40.022877
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Good Neighbor Mini Market Inc",
+"address": "700 N 37th St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196663,
+39.96595
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Gregory Grocery Llc 1",
+"address": "5027 Arch St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22168,
+39.961407
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Groceries Store Produce & Market Inc",
+"address": "809 E Chelten Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.164757,
+40.045906
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Grullon Mini Market",
+"address": "2139 E Chelten Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.157043,
+40.052113
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "HKHG Inc",
+"address": "1335 W Olney Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.143661,
+40.038906
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Ha Ha's Market 1",
+"address": "5035 N Broad St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.146683,
+40.029766
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Happy Day Food Market Inc",
+"address": "6000 Vine St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.239944,
+39.966564
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "High Deli Grocery",
+"address": "461 High St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.172012,
+40.044945
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "International Foods Market",
+"address": "6019 N 5th St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.128708,
+40.043304
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "International Store",
+"address": "4203 Walnut St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206467,
+39.954617
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Ja Tropical Market Inc",
+"address": "253 N 52nd St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224274,
+39.964611
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Jaquez Grocery",
+"address": "301 E Price St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.172623,
+40.039719
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Joan Supermarket",
+"address": "6154 Master St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.242836,
+39.972279
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Joaquin Grocery",
+"address": "1601 E Tulpehocken St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.161041,
+40.060814
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "John Deli Shop",
+"address": "311 E Church Ln, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.168419,
+40.037437
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Jose Alexander Cruz Inc",
+"address": "957 N 43rd St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210381,
+39.971317
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Joseph Food Market Inc",
+"address": "1726 W Cheltenham Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.144783,
+40.066204
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "L G Mini Market 1",
+"address": "1400 N 52nd St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.226456,
+39.974354
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Lancaster Meat Market 1 Inc",
+"address": "5654 Lancaster Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.235741,
+39.980816
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Leidy Mini Market",
+"address": "4178 Leidy Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.2099,
+39.974945
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Lopez Food Market Inc.",
+"address": "401 N 54th St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.227875,
+39.966496
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Low Price Super Store",
+"address": "5237 Market St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.226021,
+39.960377
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Lpc Grocery",
+"address": "850 N 50th St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22049,
+39.967197
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Lu Enterprises Inc",
+"address": "4836 Spruce St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.219437,
+39.953583
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Makkah Market Inc",
+"address": "4249 Walnut St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208466,
+39.95509
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Marializ Food Market",
+"address": "4561 N 13th St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.146027,
+40.022572
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Mariam Market Llc",
+"address": "5142 Walnut St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22496,
+39.95668
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Mariam Produce Market",
+"address": "5557 N 5th St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.130241,
+40.036255
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Marilin Grocery Inc",
+"address": "5401 Race St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.228119,
+39.96373
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Mecca Fresh Meat Market",
+"address": "5730 Old York Road, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.144539,
+40.040741
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Morton Food Market Inc",
+"address": "6201 Morton St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.176247,
+40.045624
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Mt Mini Market Inc",
+"address": "61 N 56th St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.232346,
+39.962437
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "My Destiny Super Market",
+"address": "4928 Old York Rd, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.146286,
+40.028347
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "New Life Grocery Llc",
+"address": "5882 N 7th St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.133324,
+40.041824
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "New Tolo Food Market",
+"address": "1801 W Rockland St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.153709,
+40.028648
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "New York Deli & Market",
+"address": "5656 N 5th St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.130455,
+40.037876
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "O & M Halal Inc/Al-Salem 1",
+"address": "5101 Germantown Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.165359,
+40.030216
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "P & R Mini Market",
+"address": "280 W Washington Ln, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.186951,
+40.03701
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Pat's Caribbean Market",
+"address": "1527 E Wadsworth Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.17337,
+40.079731
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Pj Grocery Llc 1",
+"address": "7100 Louise St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.155525,
+40.060848
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Progressive Meat And Food Market Inc",
+"address": "5821 Germantown Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.175987,
+40.037342
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "R & J Food Market Inc",
+"address": "3601 N 22nd St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.16449,
+40.009701
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "R & L Supermarket Llc",
+"address": "4222 Germantown Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.155518,
+40.018791
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Race Supermarket",
+"address": "156 N 52nd St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224327,
+39.962978
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Rochell Inc/ Tnt Market",
+"address": "1847 72nd Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.147316,
+40.063847
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Rodriguez Mini Market",
+"address": "6731 Ogontz Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.149323,
+40.057175
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Rosado Deli Grocery Inc.",
+"address": "100 N 60th St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.240639,
+39.963673
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Royal Meats",
+"address": "1619 E Wadsworth Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.172005,
+40.081207
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Seng Hong Oriental Market Inc",
+"address": "4901 Old York Rd, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.146324,
+40.027676
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Shop And Save Food Market II Inc",
+"address": "1400 N 60th St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.239876,
+39.972858
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Sijo Deli Grocery Inc",
+"address": "5600 Chew Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.162941,
+40.044071
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Silver Beauty Inc",
+"address": "4924 Baltimore Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.222397,
+39.947807
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Sm International Inc",
+"address": "5153 Walnut St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225159,
+39.956932
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Spencer Food Market",
+"address": "134 W Spencer St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.121887,
+40.043163
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Stop One Food Market And Deli",
+"address": "6510 N 21st St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.155495,
+40.053738
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Sunshine Food Market",
+"address": "4261 Lancaster Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209641,
+39.968056
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Super Deli Real Corporation",
+"address": "4098 Lancaster Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.205505,
+39.964821
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "T & J Family Grocery Inc",
+"address": "301 W Coulter St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.176262,
+40.027809
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "TNT Grocery 5 Inc",
+"address": "5801 Market St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.236923,
+39.961765
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Third Wheel Cheese Co.",
+"address": "707 S 50th St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.222534,
+39.947552
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Today Mini Market",
+"address": "7353 Thouron Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.159119,
+40.065826
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Town Supermarket Inc",
+"address": "5031 Germantown Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.164787,
+40.029873
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Tumbuctu African Market Inc",
+"address": "5643 N 5th St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.129951,
+40.037392
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "United Food Market",
+"address": "500 E Walnut Ln, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.171448,
+40.04789
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Victoria's Grocery Inc",
+"address": "1823 W Butler St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.157906,
+40.011913
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Walnut Supermarket Inc",
+"address": "5131 Walnut St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224838,
+39.957157
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Warrington Mini Market Inc",
+"address": "5125 Warrington Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.222298,
+39.944412
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Wister Food Market Ii",
+"address": "368 E Wister St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.160309,
+40.034184
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Wyalusing Mini Market Inc",
+"address": "550 N 56th St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.232239,
+39.968716
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "YMG Supermarket Inc",
+"address": "6400 Stenton Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.167427,
+40.060394
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (SNAP)",
+"name": "Yuliana Deli Market Inc",
+"address": "401 N 60th St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.239265,
+39.968182
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Specialty food store (SNAP)",
+"name": "Andy's Seafood Market Inc",
+"address": "7801 Ogontz Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.157715,
+40.07188
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Specialty food store (SNAP)",
+"name": "Jp Seafood Market",
+"address": "4820 Spruce St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.218979,
+39.953465
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Specialty food store (SNAP)",
+"name": "L and P Fish Market Inc.",
+"address": "4064 Lancaster Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20446,
+39.964405
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Specialty food store (SNAP)",
+"name": "Mr.Hook Fish & Chicken Inc.",
+"address": "206 S 52nd St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225822,
+39.956692
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Specialty food store (SNAP)",
+"name": "Nassirou Oumarou",
+"address": "Corner of S 44th St and Sansom St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209892,
+39.955795
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Specialty food store (SNAP)",
+"name": "New Alaska King Crab House",
+"address": "4834 Lancaster Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.218887,
+39.97308
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Specialty food store (SNAP)",
+"name": "Patrice With The Treats",
+"address": "199 W Champlost St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.123764,
+40.042053
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Specialty food store (SNAP)",
+"name": "Philly Farm Inc",
+"address": "1425 W Lycoming St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.151253,
+40.015224
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Specialty food store (SNAP)",
+"name": "Philly Foodworks Farm Stand",
+"address": "1978 W Hunting Park Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.160378,
+40.01239
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Specialty food store (SNAP)",
+"name": "Solomon Fruit And Produce",
+"address": "48th & Spruce Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.218155,
+39.953617
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Specialty food store (SNAP)",
+"name": "The Crab Shack",
+"address": "4806 N 16th St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.150848,
+40.026978
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Super store (SNAP)",
+"name": "Fresh Grocer",
+"address": "5601 Chestnut St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.233696,
+39.959587
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Super store (SNAP)",
+"name": "Fresh Grocer Of Wyncote 415",
+"address": "1000 Easton Rd Ste 100, Wyncote",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.170715,
+40.08289
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Super store (SNAP)",
+"name": "Melrose Park Har Inc Dba Han Ah R",
+"address": "7320 Old York Rd # 108, Elkins Park",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.136253,
+40.062687
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Super store (SNAP)",
+"name": "Shop Rite of Roxborough 519",
+"address": "6901 Ridge Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.227577,
+40.043316
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Super store (SNAP)",
+"name": "Shoprite of Cheltenham 426",
+"address": "2471 W Cheltenham Ave, Wyncote",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.156906,
+40.075386
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Super store (SNAP)",
+"name": "Shoprite of Fox Street 430",
+"address": "2800 Fox Street Unit A, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.175133,
+40.011044
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Super store (SNAP)",
+"name": "Shoprite of Parkside 419",
+"address": "1575 N 52nd St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225105,
+39.978737
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Super store (SNAP)",
+"name": "Target 3247",
+"address": "7162 Ridge Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.231621,
+40.045139
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Super store (SNAP)",
+"name": "Target Store 2527",
+"address": "2450 Shoppers Ln, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.15509,
+40.075687
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Super store (SNAP)",
+"name": "The Fresh Grocer",
+"address": "5301 Chew Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.158714,
+40.041813
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Super store (SNAP)",
+"name": "The Fresh Grocer Of Grays Ferry",
+"address": "3021 Grays Ferry Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.193932,
+39.939213
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Super store (SNAP)",
+"name": "Walmart 5229",
+"address": "1000 Easton Rd Ste 200, Wyncote",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.170715,
+40.08289
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Super store (SNAP)",
+"name": "Walnut Foods LLC",
+"address": "4301 Walnut St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209229,
+39.95496
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (SNAP)",
+"name": "ACME 2762",
+"address": "5927-59 Ridge Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211998,
+40.030903
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (SNAP)",
+"name": "ALDI 54",
+"address": "4421 Market St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.213013,
+39.959282
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (SNAP)",
+"name": "ALDI 58",
+"address": "8200 Ogontz Ave, Wyncote",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.160385,
+40.080406
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (SNAP)",
+"name": "ALDI 60011 60011",
+"address": "6119 N Broad St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.14296,
+40.046883
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (SNAP)",
+"name": "Acme 2397",
+"address": "4001 Walnut St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203156,
+39.954479
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (SNAP)",
+"name": "Afor Market Philadelphia Llc",
+"address": "5228 Market St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.226051,
+39.959728
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (SNAP)",
+"name": "Al Rayyan Market Corporation 1",
+"address": "121 S 43rd St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208626,
+39.955406
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (SNAP)",
+"name": "Aldi 43",
+"address": "3101 W Girard Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.187256,
+39.975094
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (SNAP)",
+"name": "Arkady Dvor T/A A&N House Of Prod",
+"address": "5929 Greene St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180038,
+40.036335
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (SNAP)",
+"name": "Chelten Market Inc",
+"address": "176-82 W Chelten Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.178497,
+40.032089
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (SNAP)",
+"name": "Cousin's Fresh Market 2 Inc",
+"address": "5429 W Girard Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.222183,
+39.972221
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (SNAP)",
+"name": "Giant Food Store 6561",
+"address": "60 N 23rd St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.177917,
+39.95665
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (SNAP)",
+"name": "Giant Heirloom Market 6551",
+"address": "3401 Chestnut St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192802,
+39.954498
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (SNAP)",
+"name": "Grocery Outlet 744",
+"address": "4301 Chestnut St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209038,
+39.956764
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (SNAP)",
+"name": "Grocery Outlet Of University City 744",
+"address": "4301 Chestnut St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208916,
+39.956749
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (SNAP)",
+"name": "Mariposa Food Coop",
+"address": "4824 Baltimore Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.220596,
+39.947994
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (SNAP)",
+"name": "Save A Lot 24712",
+"address": "5601 Vine St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.232117,
+39.965656
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (SNAP)",
+"name": "Save A Lot 24858",
+"address": "5834 Pulaski Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182274,
+40.031597
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (SNAP)",
+"name": "Save A Lot 45141",
+"address": "6301 Chew Ave, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.173515,
+40.050827
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (SNAP)",
+"name": "Save-A-Lot 60138",
+"address": "4424 N Broad St, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "SNAP authorized",
+"source_id": "usda_snap_retailers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.148659,
+40.021107
+]
+}
+}
+]
+}

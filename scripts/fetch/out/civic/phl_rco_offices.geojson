@@ -1,0 +1,2345 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "10th Democratic Ward",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Type: Ward · Boundary covers the Pennypacker site · Mapped inside its boundary (no public office or meeting address could be placed) · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.154003,
+40.061058
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "12th Ward Democratic Committee",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Type: Ward · Boundary covers the Fitler site · Mapped inside its boundary (no public office or meeting address could be placed) · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.166514,
+40.036124
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "13th Democratic Ward",
+"address": "a. 13th Ward RCO",
+"phone": "",
+"website": "",
+"detail": "Type: Ward · Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.15441,
+40.015707
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "21st Ward Democratic Committee",
+"address": "Adam Kowalsky Post, 504 Hermit Street, Philadelphia PA 19128",
+"phone": "",
+"website": "",
+"detail": "Type: Ward · Boundary covers the AMY Northwest site · Mapped at its meeting place · Registered through 2028",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20761,
+40.023908
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "21st Ward Republicans",
+"address": "471 Kingsley St, Philadelphia, PA, 19128, USA",
+"phone": "",
+"website": "",
+"detail": "Type: Ward · Boundary covers the AMY Northwest site · Mapped at its office address · Registered through 2028",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209634,
+40.025867
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "22nd Ward Democratic RCO",
+"address": "Lovett Library, 6945 Germantown Ave, Philadelphia, PA 19119",
+"phone": "",
+"website": "",
+"detail": "Type: Ward · Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.187586,
+40.056146
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "27th Republican Ward",
+"address": "4256 Regent Square, Philadelphia, PA 19104, Also 12th District Police Headquarters, 6448 Woodland Avenue, Philadelphia,",
+"phone": "",
+"website": "https://www.facebook.com/profile.php?id=100093459258009",
+"detail": "Type: Ward · Boundary covers the Robeson site · Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208062,
+39.947482
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "3rd Ward Executive Committee",
+"address": "5953 Pine Street, Philadelphia, PA 19143",
+"phone": "",
+"website": "",
+"detail": "Type: Ward · Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.241171,
+39.955438
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "42nd Democratic Ward",
+"address": "Majestic Hall, 800 W. Olney Avenue, Philaselphia, PA 19120",
+"phone": "",
+"website": "",
+"detail": "Type: Ward · Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.135405,
+40.037007
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "44th Democratic Ward",
+"address": "1 North 50th St Philadelphia, PA 19139",
+"phone": "",
+"website": "https://www.instagram.com/44thwardphilly/",
+"detail": "Type: Ward · Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.220834,
+39.959552
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "46th Republican Ward",
+"address": "4256 Regent Square Philadelphia, PA 19104",
+"phone": "",
+"website": "https://www.facebook.com/profile.php?id=100093459258009",
+"detail": "Type: Ward · Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208062,
+39.947482
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "46th Ward Democratic Committee",
+"address": "Christy Rec Center, 728 South 55th Street, Phila, Pa 19143",
+"phone": "",
+"website": "",
+"detail": "Type: Ward · Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.233305,
+39.949114
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "50th Democratic Ward",
+"address": "In-person:, 1000 E. Hortter Street, (Finley Recreation Center), Philadelphia, PA 19150, OR",
+"phone": "",
+"website": "",
+"detail": "Type: Ward · Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.170806,
+40.06468
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "51st Republican Ward",
+"address": "5513 Paschall Ave, Philadelphia, PA 19143",
+"phone": "",
+"website": "",
+"detail": "Type: Ward · Mapped at its office address · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.219336,
+39.934375
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "51st Ward Democratic Executive Committee",
+"address": "Kingsessing Library 1201 S 51st Street. Philadelphia, PA 19143",
+"phone": "",
+"website": "https://phldems.org/ward/51st-ward/",
+"detail": "Type: Ward · Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.218931,
+39.942401
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "52nd Democratic Ward",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Type: Ward · Mapped inside its boundary (no public office or meeting address could be placed) · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.221492,
+39.992164
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "59th Democratic Ward",
+"address": "Faith Chapel Church, 108 E. Price Street, Philadelphia, PA 19144",
+"phone": "",
+"website": "",
+"detail": "Type: Ward · Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.174205,
+40.03781
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "A Concerned Community Association (ACCA)",
+"address": "5801 Ogontz Ave., Philadelphia, PA 19141",
+"phone": "",
+"website": "",
+"detail": "Boundary covers the Wagner site · Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.150107,
+40.042213
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "ACANA CDC- United Southwest Neighbors",
+"address": "5532 Chester Avenue, Philadelphia, PA 19143",
+"phone": "",
+"website": "",
+"detail": "Mapped at its meeting place · Registered through 2028",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224977,
+39.938163
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "ACHIEVEability",
+"address": "5901 Market Street Suite 410, Philadelphia, PA 19139",
+"phone": "",
+"website": "https://achieveability.org/",
+"detail": "Mapped at its office address · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.238847,
+39.96178
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Allegheny West Civic Association",
+"address": "2330 W Allegheny Ave Philadelhia, PA 19132",
+"phone": "",
+"website": "",
+"detail": "Mapped at its office address · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.168881,
+40.003594
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Awbury Arboretum Neighbors",
+"address": "5725 Sprague Street, Philadelphia, PA 19138",
+"phone": "",
+"website": "https://aaneighbors.wixsite.com/aaneighbors",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.162487,
+40.04913
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Baynton Hill Neighbors",
+"address": "293 East Bringhurst St, Philadelphia, PA 19144",
+"phone": "",
+"website": "https://www.facebook.com/groups/BHNARCO",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.164671,
+40.034591
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Belmont Alliance Civic Association CDC",
+"address": "871 North Holly Street Floor #2 Phialdelphia PA, 19104",
+"phone": "",
+"website": "https://www.belmontalliance.org",
+"detail": "Mapped at its office address · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206934,
+39.969282
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Blue Bell Hill Civic Association",
+"address": "Mt. Airy United Fellowship Church, 701 West Johnson Street, 19144",
+"phone": "",
+"website": "https://www.facebook.com/groups/BlueBellHillCivic/",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.194909,
+40.034133
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Brewerytown Sharswood Community Civic Association",
+"address": "",
+"phone": "",
+"website": "https://www.brewerytownsharswood.org",
+"detail": "Mapped inside its boundary (no public office or meeting address could be placed) · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.178032,
+39.978057
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Building Bridges In Greater Olney (B.B.G.O.)",
+"address": "101 W. Olney Ave Philadelphia, PA. 19120",
+"phone": "",
+"website": "https://www.instagram.com/building.bridges.greater.olney/",
+"detail": "Mapped at its meeting place · Registered through 2028",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.122641,
+40.03548
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Cathedral Park Community Development Association",
+"address": "4987 W. Thompson Street, Philadelphia, PA 19131",
+"phone": "",
+"website": "https://www.CathedralParkCDC.org",
+"detail": "Mapped at its office address · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.222448,
+39.973415
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Cedar Park Neighbors",
+"address": "4740 Baltimore Ave, Philadelphia, PA 19143 & via",
+"phone": "",
+"website": "https://www.cedarparkneighbors.org",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.217987,
+39.948457
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Cedar Point Park Neighborhood Association",
+"address": "Renewal Presbyterian Church, 4633 Cedar Avenue, (Corner of 47th & Cedar Avenue), Philadelphia, PA 19143",
+"phone": "",
+"website": "",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.215671,
+39.949134
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Celestial Community Development Corporation",
+"address": "2800 W. Thompson St, Philadelphia,Pa 19121",
+"phone": "",
+"website": "",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181559,
+39.976054
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Centennial Parkside Community Development Corporation",
+"address": "Christ Community Baptist Church, 1224 North 41st Street, also held on the sites",
+"phone": "",
+"website": "https://www.Centennialparkside.org",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206661,
+39.974678
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Center City Residents Association (CCRA)",
+"address": "1900 Market St, FL 8, Philadelphia, PA 19103",
+"phone": "",
+"website": "www.centercityresidents.org",
+"detail": "Mapped at its office address · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.171679,
+39.953321
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Central Manayunk Council",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Mapped inside its boundary (no public office or meeting address could be placed) · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216269,
+40.023022
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Central Roxborough Civic Association (CRCA)",
+"address": "",
+"phone": "",
+"website": "https://crca.us",
+"detail": "Boundary covers the AMY Northwest site · Mapped inside its boundary (no public office or meeting address could be placed) · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.214225,
+40.030586
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Chew and Belfield Neighbors Club Incorporated",
+"address": "6211 Chew Ave, PO Box 14134, Philadelphia PA 19138",
+"phone": "",
+"website": "https://1981cbnc.wixsite.com/cbnc",
+"detail": "Mapped at its office address · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.172067,
+40.050003
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "City Avenue Special Services District of Philadelphia and Lower Merion",
+"address": "1 Belmont Avenue Suite 700, Bala Cynwyd, PA 19004",
+"phone": "",
+"website": "https://cityave.org",
+"detail": "Type: SSD · Mapped at its office address · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22071,
+40.0041
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Cliveden Hills Association",
+"address": "True Life Fellowship Church, 6400 Ardleigh Street, Philadelphia, PA 19119",
+"phone": "",
+"website": "",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.172206,
+40.056783
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Cobbs Creek Area Residents",
+"address": "221 S 60th St, Philadelphia, PA, 19139, USA",
+"phone": "",
+"website": "",
+"detail": "Mapped at its meeting place · Registered through 2028",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.241402,
+39.958529
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Cobbs Creek Watershed RCO",
+"address": "648 South 51st Street Philadelphia, PA 19143",
+"phone": "",
+"website": "",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225171,
+39.949228
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Community Action Group",
+"address": "2900 W Allegheny Avenue Philadelphia, PA 19129",
+"phone": "",
+"website": "",
+"detail": "Mapped at its meeting place · Registered through 2028",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.176999,
+40.00465
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Concerned Neighbors for Change",
+"address": "2101 W. 65th Avenue/Faith Fellowship Baptist Church",
+"phone": "",
+"website": "",
+"detail": "Mapped at its office address · Registered through 2028",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.155341,
+40.053174
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Dearnley Park Civic Association",
+"address": "",
+"phone": "",
+"website": "https://dearnleyparkcivic.org",
+"detail": "Mapped inside its boundary (no public office or meeting address could be placed) · Registered through 2028",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.24114,
+40.045741
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Drexel Area Property Association",
+"address": "3070 Spring Garden St Philadelphia, PA 19104",
+"phone": "",
+"website": "http://daparco.org/",
+"detail": "Boundary covers the Blankenburg, Robeson site · Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.187256,
+39.963328
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "East Falls Community Council",
+"address": "East Falls Presbyterian Church, 3800 Vaux Street, Philadelphia. PA. 19129",
+"phone": "",
+"website": "https://www.facebook.com/EastFallsCC/",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189899,
+40.015816
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "East Mt. Airy Neighbors",
+"address": "",
+"phone": "",
+"website": "https://eastmtairyneighbors.org",
+"detail": "Mapped inside its boundary (no public office or meeting address could be placed) · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.177478,
+40.058234
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "East Parkside Residential Association",
+"address": "1224 N 41st St., Philadelphia, PA 19104",
+"phone": "",
+"website": "",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206661,
+39.974678
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Empowered Community Development Corporation",
+"address": "Francis Myers Recreation Center - 5801 Kingsessing Ave, Philadelphia, PA 19143, 12th District Police - 6448 Woodland Ave",
+"phone": "",
+"website": "https://ecdcphl.org",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.227358,
+39.934664
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Fairmount Civic Association",
+"address": "The City School 860 N. 24th St Philadelphia, PA 19130",
+"phone": "",
+"website": "www.fairmountcivicassociation.org",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.176194,
+39.971456
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Fitler Square Neighborhood Association",
+"address": "Markward Playground, 400 S. Taney Street, Philadelphia, PA 19146",
+"phone": "",
+"website": "https://www.fitlersquareneighbors.org/",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183328,
+39.947776
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Foxx Lane RCO",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Mapped inside its boundary (no public office or meeting address could be placed) · Registered through 2028",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189307,
+40.023343
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Friends of Clark Park",
+"address": "in-person meetings at the HMS school (4400 Baltimore Ave, Philadelphia, PA 19104",
+"phone": "",
+"website": "https://www.friendsofclarkpark.org/",
+"detail": "Mapped at its meeting place · Registered through 2028",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211323,
+39.949181
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Garden Court Community Association",
+"address": "Board",
+"phone": "",
+"website": "www.gardencourtca.org",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.214733,
+39.952156
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Grays Ferry Coalition of Neighbors",
+"address": "William Barrett Nabuurs Center, 2744 Dickinson Street, Philadelphia, PA 19146",
+"phone": "",
+"website": "",
+"detail": "Mapped at its office address · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190571,
+39.934537
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Grays Ferry Community Council",
+"address": "1501 S. 29th Street, Philadelphia, PA 19146",
+"phone": "",
+"website": "",
+"detail": "Mapped at its office address · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192494,
+39.934785
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "HMC Squared Community Association, INC",
+"address": "",
+"phone": "",
+"website": "https://www.facebook.com/HMC2Community/",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.238439,
+39.975009
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Hestonville Civic Association",
+"address": "1623 N. 54th Street, Philadelphia, PA 19131, United States",
+"phone": "",
+"website": "",
+"detail": "Mapped at its meeting place · Registered through 2028",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.229825,
+39.977319
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Jayhawks Community Association",
+"address": "48th & Woodland Playground, 1414 S. 47th Street, Philadelphia, PA 19143",
+"phone": "",
+"website": "",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209699,
+39.942303
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Kingsessing Area Civic Association",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Mapped inside its boundary (no public office or meeting address could be placed) · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21742,
+39.941869
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Lancaster Avenue 21st Century Business Association",
+"address": "3500 Lancaster Ave, 19104",
+"phone": "",
+"website": "",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192482,
+39.957897
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Logan Civic Association",
+"address": "725 W Lindley Avenue and 1950 W Rockland, Philadelphia, PA 19141",
+"phone": "",
+"website": "",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.136618,
+40.029415
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Logan Community Enterprise Center, Inc.",
+"address": "5510 N. Marshall St., Philadelphia, PA 19140",
+"phone": "",
+"website": "",
+"detail": "Mapped at its office address · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.1336,
+40.035799
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Logan Square Neighborhood Association",
+"address": "2000 Market Street, Suite 1470, Philadelphia, PA 19103",
+"phone": "",
+"website": "https://www.lsnaphilly.org",
+"detail": "Mapped at its office address · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.173261,
+39.953523
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Manayunk Neighborhood Council",
+"address": "471 Ripka Street, Philadelphia PA 19128",
+"phone": "",
+"website": "http://www.manayunkcouncil.org/",
+"detail": "Mapped at its office address · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21911,
+40.035569
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Mantua Civic Association",
+"address": "Mantua Community Center, 3729 #1 Melon St, Philadelphia, PA, 19104",
+"phone": "",
+"website": "",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196735,
+39.965308
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Mill Creek Advisory Council",
+"address": "4700 Brown Street, Philadelphia, PA 19139",
+"phone": "",
+"website": "",
+"detail": "Boundary covers the Blankenburg site · Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.215498,
+39.966369
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Mt. Airy Business Improvement District",
+"address": "6703 Germantown Avenue, Suite 240, Philadelphia, PA 19119",
+"phone": "",
+"website": "http://www.mtairybid.com/zoning.html",
+"detail": "Type: NID · Mapped at its office address · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.185315,
+40.051933
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Nicetown CDC",
+"address": "4414 Germantown Avenue, 3rd floor Suites A&B, 19140",
+"phone": "",
+"website": "https://www.facebook.com/p/Nicetown-CDC-100064500472114/",
+"detail": "Mapped at its office address · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.15798,
+40.021416
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Nicetown-Tioga Improvement Team",
+"address": "",
+"phone": "",
+"website": "https://nicetowntioga.weebly.com/",
+"detail": "Mapped inside its boundary (no public office or meeting address could be placed) · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.149484,
+40.008704
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "North of Washington Avenue Coalition",
+"address": "2234 Montrose Street, Philadelphia, PA 19146",
+"phone": "",
+"website": "nowacphila.org",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180072,
+39.941182
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Nueva Esperanza Housing and Economic Development",
+"address": "4261 N 5th Street and via",
+"phone": "",
+"website": "https://www.esperanza.us/",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.134907,
+40.016002
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Oak Lane Community Action Association",
+"address": "6637 N. 11th Street, Philadelphia, PA 19126",
+"phone": "",
+"website": "",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.136533,
+40.053361
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Oak Lane/Wister Community Coalition",
+"address": "2161 Grange St Philadelphia, PA 19138",
+"phone": "",
+"website": "",
+"detail": "Boundary covers the Wagner site · Mapped at its office address · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.157812,
+40.043385
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Overbrook West Neighbors, Inc.",
+"address": "6101 W. Oxford Street Philadelphia, PA 19151",
+"phone": "",
+"website": "https://www.overbrookwestneighbors.com/initiatives/registered-community-organization/",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.242689,
+39.980114
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Parkside Association",
+"address": "1719 N 52nd Street Suite \"G\", Philadelphia Pa 19131",
+"phone": "",
+"website": "",
+"detail": "Mapped at its office address · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224283,
+39.981038
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Penn Knox Neighborhood Association",
+"address": "Monthly",
+"phone": "",
+"website": "http://pennknox.com",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.171419,
+40.033534
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "People's Emergency Center Community Development Corporation",
+"address": "Rowan House - 325 N. 39th Street Philadelphia, Pa 19104",
+"phone": "",
+"website": "",
+"detail": "Boundary covers the Blankenburg site · Mapped at its office address · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19984,
+39.959668
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Philly Thrive (SWPDC)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Mapped inside its boundary (no public office or meeting address could be placed) · Registered through 2028",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.202347,
+39.930477
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Pomona Cherokee Civic Council (PCCC) RCO",
+"address": "Germantown Mennonite Church, 21 West Washington Lane, Philadelphia, PA 19144",
+"phone": "",
+"website": "https://www.facebook.com/19144PCCC",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181363,
+40.04287
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Powelton Village Civic Association",
+"address": "Metropolitan Baptist Church, 3500 Baring St, Philadelphia 19104, or, Via",
+"phone": "",
+"website": "www.poweltonvillage.org",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192731,
+39.961206
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Price-Knox Neighbors Assn.",
+"address": "219 W Rittenhouse St, Philadelphia, PA 19144",
+"phone": "",
+"website": "www.priceknox.org",
+"detail": "Mapped at its office address · Registered through 2028",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.179606,
+40.03477
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "RAH Civic Association",
+"address": "3217 W. Clearfield Street, Philadelphia, PA 19132",
+"phone": "",
+"website": "https://www.rahcivic.org",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182325,
+40.003998
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Regent Square Civic Association",
+"address": "4233 Regent Sq, Philadelphia, PA, 19104, USA",
+"phone": "",
+"website": "",
+"detail": "Mapped at its office address · Registered through 2028",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.207654,
+39.94761
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Residents Organized for Advocacy and Direction",
+"address": "Zion Hill Memorial Baptist Church, 2702 Ellsworth Street, Phila, PA 19146",
+"phone": "",
+"website": "https://www.facebook.com/residents.advocacydirection/",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.188423,
+39.939465
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Ridge Park Civic Association",
+"address": "",
+"phone": "",
+"website": "https://ridgeparkcivic.org/",
+"detail": "Mapped inside its boundary (no public office or meeting address could be placed) · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22734,
+40.038646
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Roxborough Development Corporation",
+"address": "6120 Ridge Avenue, Philadelphia, PA 19128",
+"phone": "",
+"website": "https://www.Roxboroughpa.com",
+"detail": "Type: SSD · Boundary covers the AMY Northwest site · Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.215773,
+40.033878
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "S.A.F.E. Streets Coalition",
+"address": "921 S 48th St, Philadelphia, PA, 19143, USA",
+"phone": "",
+"website": "",
+"detail": "Mapped at its office address · Registered through 2028",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21704,
+39.946634
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "SoLo/Germantown Civic Association",
+"address": "5058 Wayne Ave (in person suspended) Phila PA 19144",
+"phone": "",
+"website": "https://www.sologermantown.com/",
+"detail": "Boundary covers the Fitler site · Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.16859,
+40.025815
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "South Street West Improvement District, Inc",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Mapped inside its boundary (no public office or meeting address could be placed) · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.174393,
+39.944842
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "South of South Neighborhood Association (SOSNA)",
+"address": "625 S 23rd St, Philadelphia, PA 19146",
+"phone": "",
+"website": "https://www.sosnaphilly.org/",
+"detail": "Mapped at its office address · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.179685,
+39.9453
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Southwest Philadelphia District Services (SWPDS)",
+"address": "Kingsessing Recreation Center, 4901 Kingsessing Avenue, Philadelphia PA 19143",
+"phone": "",
+"website": "",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.215352,
+39.943092
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Spruce Hill Community Association",
+"address": "Spruce Hill Community Center, 257 S 45th St, Philadelphia, PA 19104",
+"phone": "",
+"website": "www.sprucehillca.org",
+"detail": "Boundary covers the Robeson site · Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211908,
+39.953771
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Tasker-Morris Neighbors Association",
+"address": "3001 Moore St., Philadelphia, PA 19145",
+"phone": "",
+"website": "https://www.facebook.com/TMNAPhilly/",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.194985,
+39.93147
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "The Nicetown Congress",
+"address": "4600 N 16th St, Philadelphia, PA 19140",
+"phone": "",
+"website": "",
+"detail": "Mapped at its office address · Registered through 2028",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.151532,
+40.023446
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Tioga United, Inc.",
+"address": "1539 W. Venango St, Philadelphia PA 19140 and /or",
+"phone": "",
+"website": "https://www.tu-nac.org/",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.154222,
+40.00806
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Upper North Coalition of Community Councils",
+"address": "Sturgis Playground and Recreation Center, 200 W 65th Ave., Philadelphia, PA 19126",
+"phone": "",
+"website": "",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.122863,
+40.049566
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Upper North Neighbors Association",
+"address": "2823 N. Croskey Street, Philadelphia, PA 19132",
+"phone": "",
+"website": "",
+"detail": "Mapped at its office address · Registered through 2028",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.167881,
+39.997672
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Wakefield 49ers Community Development and Improvement Association",
+"address": "4926 Wakefield Street, Philadelphia, PA 19144",
+"phone": "",
+"website": "",
+"detail": "Mapped at its office address · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.160882,
+40.03066
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Walnut Hill Community Association",
+"address": "The Enterprise Center, Community Development Corporation Suite 1, The Enterprise Center, Community Development Corporati",
+"phone": "",
+"website": "https://www.facebook.com/WalnutHillCA/",
+"detail": "Mapped at its office address · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212176,
+39.958357
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Washington Avenue Property Owners Association",
+"address": "c/o Knickerbocker Properties, 2118 Washington Avenue, Suite 2000, Philadelphia, PA 19146",
+"phone": "",
+"website": "",
+"detail": "Mapped at its office address · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.178602,
+39.939256
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "West Belmont Civic Association",
+"address": "New Church Down the Way Ministries, 4234 Ogden Street, Philadelphia, PA 19104",
+"phone": "",
+"website": "http://westbelmontcivic.org/",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209071,
+39.968812
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "West Central Germantown Neighbors",
+"address": "58 West Tulpehocken Street, Philadelphia, PA 19144-2608",
+"phone": "",
+"website": "https://www.wcgnonline.org/",
+"detail": "Mapped at its office address · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181072,
+40.04105
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "West Chelten Neighbors Association",
+"address": "Weavers Way Germantown Office Community Room 326B Chelten Avenue, Philadelphia, PA 19144",
+"phone": "",
+"website": "https://www.westchelten.org",
+"detail": "Mapped at its meeting place · Registered through 2028",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.170411,
+40.039933
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "West Mount Airy Neighbors, Inc.",
+"address": "",
+"phone": "",
+"website": "https://wman.net/zoning/",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.194392,
+40.04549
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "West Philadelphia Community Development Corporation",
+"address": "4216 Parkside Avenue - 2nd Fl, Philadelphia, PA 19104",
+"phone": "",
+"website": "",
+"detail": "Mapped at its office address · Registered through 2028",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210077,
+39.976468
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "West Philadelphia Economic Development Council",
+"address": "255 S. 58th Street, Philadelphia, PA 19139",
+"phone": "",
+"website": "",
+"detail": "Boundary covers the Robeson site · Mapped at its office address · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.237671,
+39.956986
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "West Philly Plan + Preserve",
+"address": "",
+"phone": "",
+"website": "https://www.instagram.com/westphillyplanpreserve/",
+"detail": "Boundary covers the Robeson site · Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.218601,
+39.947941
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "West Philly Together",
+"address": "605 N. 52nd Street, Philadelphia , PA 19131",
+"phone": "",
+"website": "",
+"detail": "Mapped at its office address · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225333,
+39.969665
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "West Philly United Neighbors",
+"address": "10 S 43rd Street, Philadelphia, PA 19104",
+"phone": "",
+"website": "",
+"detail": "Boundary covers the Robeson site · Mapped at its meeting place · Registered through 2028",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208287,
+39.95749
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "West Powelton Saunders Park RCO",
+"address": "428 N. 41st Street, Philadelphia, PA. 19104",
+"phone": "",
+"website": "https://www.wpsprco.org/",
+"detail": "Boundary covers the Robeson site · Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.205427,
+39.960483
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Wingohocking & Wister Neighbors",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Mapped inside its boundary (no public office or meeting address could be placed) · Registered through 2028",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.165677,
+40.037526
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Wissahickon Interested Citizens Association",
+"address": "",
+"phone": "",
+"website": "http://wissahickon.us/",
+"detail": "Mapped inside its boundary (no public office or meeting address could be placed) · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.2055,
+40.020475
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Wissahickon Neighbors Civic Association (WNCA)",
+"address": "3815 Terrace St, Philadelphia, PA 19128",
+"phone": "",
+"website": "https://wissnca.com",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211828,
+40.019533
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Woodland Terrace HomeOwners Association",
+"address": "516 Woodland Terrace, Philadelphia, PA 19104",
+"phone": "",
+"website": "",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.204657,
+39.949646
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Wynnefield Community Neighborhood Association",
+"address": "1905 N 54th St., Philadelphia, PA 19131",
+"phone": "",
+"website": "www.wynnefieldcommunity.org",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.231821,
+39.985973
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Wynnefield Heights Civic Association",
+"address": "",
+"phone": "",
+"website": "https://www.facebook.com/WynnefieldHeightsCivicAssociation",
+"detail": "Mapped at its meeting place · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209473,
+40.002474
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Registered Community Organization",
+"name": "Wynnefield Residents Association",
+"address": "John C Anderson Cultural Center, 5301 Overbrook Ave - Phila, PA 19131",
+"phone": "",
+"website": "www.facebook.com/WynnefieldResidentsAssociation",
+"detail": "Mapped at its office address · Registered through 2027",
+"source_id": "phl_rco_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.233327,
+39.994944
+]
+}
+}
+]
+}

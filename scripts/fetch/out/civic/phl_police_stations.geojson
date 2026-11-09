@@ -1,0 +1,145 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Police district station",
+"name": "14th Police District",
+"address": "E Haines St & Germantown Ave",
+"phone": "215-686-3140",
+"website": "",
+"detail": "",
+"source_id": "phl_police_stations"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.176999,
+40.038424
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Police district station",
+"name": "16th Police District",
+"address": "W Lancaster Ave & N 39th St",
+"phone": "215-686-3160",
+"website": "",
+"detail": "",
+"source_id": "phl_police_stations"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.200153,
+39.961926
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Police district station",
+"name": "18th Police District",
+"address": "S 55th St & Pine St",
+"phone": "215-686-3180",
+"website": "",
+"detail": "",
+"source_id": "phl_police_stations"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.232169,
+39.954284
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Police district station",
+"name": "19th Police District",
+"address": "N 61st St & W Thompson St",
+"phone": "215-686-3190",
+"website": "",
+"detail": "",
+"source_id": "phl_police_stations"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.240903,
+39.97131
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Police district station",
+"name": "35th Police District",
+"address": "N Broad St & W Champlost St",
+"phone": "215-686-3350",
+"website": "",
+"detail": "",
+"source_id": "phl_police_stations"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.143652,
+40.044494
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Police district station",
+"name": "39th Police District",
+"address": "2201 W Hunting Park Ave",
+"phone": "215-686-3390",
+"website": "",
+"detail": "",
+"source_id": "phl_police_stations"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.164253,
+40.010894
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Police district station",
+"name": "5th Police District",
+"address": "Ridge Ave & Cinnaminson St",
+"phone": "215-686-3050",
+"website": "",
+"detail": "",
+"source_id": "phl_police_stations"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224397,
+40.040191
+]
+}
+}
+]
+}

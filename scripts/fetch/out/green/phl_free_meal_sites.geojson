@@ -1,0 +1,1765 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Community fridge",
+"name": "Germantown Community Fridge",
+"address": "20 W. Armat St.",
+"phone": "",
+"website": "https://www.germantowncommunityfridge.com/",
+"detail": "",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.17407,
+40.034648
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Community fridge",
+"name": "Lena St. Community Fridge",
+"address": "5424 Lena Street",
+"phone": "",
+"website": "https://www.facebook.com/germantowncommunityfridge/",
+"detail": "",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.169569,
+40.035118
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Community fridge",
+"name": "Mama-Tee Fridge at Hue Boba Cafe",
+"address": "4600 Woodland Ave",
+"phone": "",
+"website": "https://www.mamateefridge.com/",
+"detail": "",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209761,
+39.944335
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Community fridge",
+"name": "Mt. Airy Community Fridge",
+"address": "6900 Stenton Ave",
+"phone": "267-415-6532",
+"website": "https://mtairyeats.wordpress.com/",
+"detail": "",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.176685,
+40.065864
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Community fridge / Food pantry",
+"name": "Germantown Community Fridge",
+"address": "19 E. High St.",
+"phone": "",
+"website": "https://www.germantowncommunityfridge.com/",
+"detail": "Network: Caring for Friends · Open Mon, Wed",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.177292,
+40.039781
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "48th Street Mount Pleasant Baptist Church",
+"address": "5539 Vine St",
+"phone": "215-474-4906",
+"website": "",
+"detail": "Network: Philabundance · Open Sat",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.230954,
+39.965522
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Belfield Advisory Counsel",
+"address": "2109 W Chew Avenue",
+"phone": "215-685-2220",
+"website": "https://www.belfieldrec.com/",
+"detail": "Network: Caring for Friends · Open Thu",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.156346,
+40.042078
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Brand New Life Christian Center",
+"address": "6301 Germantown Ave",
+"phone": "215-844-0790",
+"website": "",
+"detail": "Network: Philabundance · Open Sat",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180666,
+40.043739
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Bryn Mawr Avenue New Testament Church of God",
+"address": "2227 Bryn Mawr Ave",
+"phone": "",
+"website": "",
+"detail": "Network: Philabundance · Open Mon, Wed, Thu",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.226493,
+39.991465
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Calvary Agape Outreach Service",
+"address": "6114 Haverford Ave",
+"phone": "215-472-3460",
+"website": "",
+"detail": "Network: Philabundance · Open Tue, Fri",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.241275,
+39.971063
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Calvary's New Breed/Mt. Calvary Family Worship Centee",
+"address": "1438 S 51st Street",
+"phone": "",
+"website": "",
+"detail": "Network: Caring for Friends · Open Sat",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.215591,
+39.939112
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Champlost Homes Tenant Council",
+"address": "1953 W Nedro Ave.",
+"phone": "215-435-5396",
+"website": "",
+"detail": "Network: Philabundance · Open Wed, Fri",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.153437,
+40.0437
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Chelten Christian Crusade",
+"address": "609 E Chelten Ave",
+"phone": "215-849-6614",
+"website": "",
+"detail": "Network: Philabundance · Open Tue, Thu",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.167139,
+40.043317
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Chosen 300 Ministries Inc.",
+"address": "3959 Lancaster Ave",
+"phone": "215-765-9806",
+"website": "",
+"detail": "Network: Philabundance · Open Mon, Tue, Fri",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.202015,
+39.963144
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Episcopal Community Service St. Barnabas Community Resource Center",
+"address": "6006 West Girard Ave",
+"phone": "215-528-5400",
+"website": "",
+"detail": "Network: SHARE · Open Tue, Wed, Thu, Fri",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.239805,
+39.969854
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Episcopal Community Services",
+"address": "6006 W Girard Ave",
+"phone": "215-351-1400",
+"website": "",
+"detail": "Network: Philabundance · Open Tue, Wed, Thu, Fri",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.239805,
+39.969854
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Faith Chapel Church FCDC",
+"address": "108 E. Price St.",
+"phone": "",
+"website": "",
+"detail": "Network: Philabundance · Open Thu",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.173873,
+40.037799
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Faith Fellowship Baptist Church",
+"address": "2101 W 65th Ave",
+"phone": "215-224-7932",
+"website": "https://www.ffbc2101.org/",
+"detail": "Network: Caring for Friends · Open Fri",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.155555,
+40.053432
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Faith Temple COGIC",
+"address": "7485 Briar Rd",
+"phone": "",
+"website": "",
+"detail": "Network: Caring for Friends · Open Tue",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.154255,
+40.068512
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Family Support Circle",
+"address": "2059 E Chelten Ave",
+"phone": "267-335-5857",
+"website": "",
+"detail": "Network: SHARE · Open Tue",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.154059,
+40.051885
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "First Redemption Evangelical Church",
+"address": "4400 North Broad St",
+"phone": "",
+"website": "",
+"detail": "Network: Caring for Friends · Open Wed",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.149286,
+40.020473
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Germantown Avenue Crisis Ministry",
+"address": "35 W Chelten Ave",
+"phone": "215-843-2340",
+"website": "",
+"detail": "Network: Philabundance · Open Thu",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.175781,
+40.034885
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Germantown SDA Church",
+"address": "W Chelten Ave. and Wayne Ave.",
+"phone": "215-849-6967",
+"website": "",
+"detail": "Network: Philabundance · Open Sat",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.178915,
+40.031754
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Giving of Self Partnership",
+"address": "6101 Limekiln Pike",
+"phone": "215-927-6100",
+"website": "",
+"detail": "Network: Philabundance · Open Mon, Wed, Fri",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.148855,
+40.046529
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Grace Lutheran Church",
+"address": "3529 Haverford Ave",
+"phone": "215-222-3570",
+"website": "",
+"detail": "Network: Philabundance · Open Wed",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.193514,
+39.963909
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Grace Tabernacle Christian Church",
+"address": "1519 S 52nd St (Parking Lot)",
+"phone": "",
+"website": "",
+"detail": "Network: Philabundance · Open Thu",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216643,
+39.938869
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Greater St Matthew’s Baptist Church",
+"address": "1538 W Wingohocking Street",
+"phone": "215-455-3700",
+"website": "https://www.gsmbcphilly.org/",
+"detail": "Network: Caring for Friends · Open Tue",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.151565,
+40.021644
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Haitian Evangelical Baptist Church",
+"address": "814 E Chelten Ave",
+"phone": "610-506-1878",
+"website": "",
+"detail": "Network: Philabundance · Open Thu",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.164377,
+40.045816
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Holsey Temple CME Church",
+"address": "5305-5315 Germantown Ave",
+"phone": "215-848-2210",
+"website": "",
+"detail": "Network: Philabundance · Open Tue",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.169479,
+40.032555
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Holy Temple Lord and Savior",
+"address": "5116 Market St",
+"phone": "",
+"website": "",
+"detail": "Network: Philabundance · Open Tue",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22329,
+39.959671
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "House of Faith Outreach Ministry",
+"address": "1001 W Wingohocking Street",
+"phone": "",
+"website": "",
+"detail": "Network: Caring for Friends · Open Sat",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.142028,
+40.020899
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Howard L Lanier III Community Development Corporation",
+"address": "5240 Chestnut St",
+"phone": "",
+"website": "https://www.hll3communitycorp.org/home",
+"detail": "Network: Caring for Friends · Open Tue",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.226882,
+39.958294
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Interfaith Food Cupboard",
+"address": "3600 Baring St",
+"phone": "",
+"website": "",
+"detail": "Network: SHARE · Open Sat",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19418,
+39.960881
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Kitchen of Love",
+"address": "8500 pickering St",
+"phone": "215-868-4092",
+"website": "https://kitchenofloveinpa.wixsite.com/kitchen-of-love",
+"detail": "Network: Caring for Friends · Open Wed",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.174908,
+40.081689
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Martin Luther King Jr. Association For Nonviolence Inc. (MLK)",
+"address": "3001 Walnut St.",
+"phone": "215-751-9309",
+"website": "",
+"detail": "Network: SHARE · Open Sat",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.184184,
+39.951869
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Masjidullah Center for Human Excellence",
+"address": "7401 Limekiln Pike",
+"phone": "215-621-7800",
+"website": "",
+"detail": "Network: Philabundance · Open Mon, Tue",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.158296,
+40.067046
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Men Who Care of Germantown Inc",
+"address": "180 E Tulpehocken St",
+"phone": "267-335-4786",
+"website": "https://www.menwhocareofgermantown.org/general-7",
+"detail": "Network: SHARE · Open Sat",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.176603,
+40.04506
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Mighty Writers West",
+"address": "3520 Fairmount Ave",
+"phone": "",
+"website": "https://mightywriters.org/",
+"detail": "Network: Caring for Friends · Open Mon, Thu",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.193793,
+39.966095
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Mount Zion United Holy Church",
+"address": "4118 Haverford Ave",
+"phone": "215-349-6734",
+"website": "",
+"detail": "Network: Philabundance · Open Wed",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206328,
+39.962474
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Mt. Vernon Manor",
+"address": "769 N 39th St",
+"phone": "215-475-9492",
+"website": "",
+"detail": "Network: SHARE · Open Wed",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.200339,
+39.967366
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "New Beginnings Pentecostal",
+"address": "502 E Haines St.",
+"phone": "215-843-2727",
+"website": "",
+"detail": "Network: Philabundance · Open Sun",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.170454,
+40.044509
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "New Era Baptist Church",
+"address": "6618 Wyncote Ave.",
+"phone": "",
+"website": "",
+"detail": "Network: Philabundance · Open Thu",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.153973,
+40.055569
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "New Hope AME Zion Church",
+"address": "5802 Musgrave St.",
+"phone": "215-668-9703",
+"website": "",
+"detail": "Network: SHARE · Open Sat",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.16892,
+40.044004
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "New Life Community Center",
+"address": "4726 N Broad St",
+"phone": "215-457-8321",
+"website": "",
+"detail": "Network: SHARE · Open Thu",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.147907,
+40.025442
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "New Testament Church of God",
+"address": "935 S 53rd St",
+"phone": "215-472-6630",
+"website": "",
+"detail": "Network: SHARE · Open Sat",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22704,
+39.945606
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "North Light Community Center",
+"address": "175 Green Ln",
+"phone": "215-483-4800",
+"website": "",
+"detail": "Network: Philabundance · Open Mon, Fri",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22456,
+40.028667
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Our Lady of Hope",
+"address": "5200 N. Broad St",
+"phone": "215-868-1390",
+"website": "https://nutritionaldevelopmentservices.org/",
+"detail": "Network: Nutritional Development Services · Open Mon",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.146509,
+40.032404
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Page Academy CDC",
+"address": "1524 W Champlost Ave",
+"phone": "",
+"website": "",
+"detail": "Network: Philabundance · Open Thu",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.145647,
+40.044639
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Parkside Association of Philadelphia",
+"address": "1719 N 52nd St, Suite G",
+"phone": "215-877-1198",
+"website": "",
+"detail": "Network: SHARE · Open Thu",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22407,
+39.981528
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Penn Asian Senior Services",
+"address": "6926 Old York Rd",
+"phone": "",
+"website": "",
+"detail": "Network: Philabundance · Open Mon, Tue, Wed, Thu, Fri",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.138623,
+40.058869
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Philadelphia Episcopal Cathedral",
+"address": "19 S 38th St",
+"phone": "215-386-0234",
+"website": "",
+"detail": "Network: Philabundance · Open Mon",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.198137,
+39.955721
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Philadelphia Masjid",
+"address": "4700 Wyalusing Ave",
+"phone": "215-475-7597",
+"website": "",
+"detail": "Network: Caring for Friends, SHARE · Open Thu",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216164,
+39.969823
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Philadelphia VA Medical Center",
+"address": "3900 Woodland Ave",
+"phone": "215-823-5800",
+"website": "",
+"detail": "Network: Caring for Friends · Open Fri",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203049,
+39.946802
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Prayer Warrior Ministry",
+"address": "4822 Aspen Street",
+"phone": "",
+"website": "",
+"detail": "Network: Caring for Friends · Open Wed",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.217311,
+39.96495
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Provision of Grace World Mission Church",
+"address": "1950 W Rockland St",
+"phone": "215-324-9066",
+"website": "",
+"detail": "Network: Philabundance · Open Thu",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.156043,
+40.028709
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Refuge Evangelical Baptist Church",
+"address": "1100 Oak Ln",
+"phone": "215-224-2024",
+"website": "",
+"detail": "Network: Philabundance · Open Tue",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.136326,
+40.054875
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Remnant Church of God",
+"address": "7708-7712 Ogontz Ave",
+"phone": "215-924-2610",
+"website": "",
+"detail": "Network: Philabundance · Open Wed, Fri",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.157869,
+40.071015
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Saint Luke's Episcopal Church",
+"address": "5421 Germantown Ave",
+"phone": "215-844-8544",
+"website": "",
+"detail": "Network: Philabundance · Open Sat",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.170977,
+40.033784
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Saint Paul's Outreach",
+"address": "5900 N 5th St.",
+"phone": "",
+"website": "",
+"detail": "Network: Philabundance · Open Tue, Wed, Thu",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.12955,
+40.041118
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Salvation Army West Philadelphia Corps",
+"address": "5501 Market St",
+"phone": "215-474-1010",
+"website": "",
+"detail": "Network: Philabundance · Open Wed, Thu",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.230853,
+39.960878
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "SavannahCare Simple Senior Solutions",
+"address": "5601 Westminister Ave",
+"phone": "",
+"website": "https://www.savannahcare.org/",
+"detail": "Network: Caring for Friends · Open Thu",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.232035,
+39.967482
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Second Antioch Baptist Church",
+"address": "912 N 41st St",
+"phone": "215-387-6774",
+"website": "",
+"detail": "Network: SHARE · Open Wed, Sat",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206079,
+39.970802
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "St. Barbara",
+"address": "5359 Lebanon Ave (side entrance)",
+"phone": "215-473-1044",
+"website": "https://nutritionaldevelopmentservices.org/",
+"detail": "Network: Nutritional Development Services · Open Tue",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.231859,
+39.987692
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "St. Benedict Food Bank",
+"address": "1940 E Chelten Ave",
+"phone": "215-548-2700",
+"website": "",
+"detail": "Network: SHARE · Open Mon, Fri",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.151657,
+40.051565
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Summer Homes for Hope",
+"address": "814 N 41st St.",
+"phone": "",
+"website": "",
+"detail": "Network: Philabundance · Open Mon",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.205751,
+39.967707
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Tammi’s Pantry",
+"address": "917 S 50th Street",
+"phone": "",
+"website": "",
+"detail": "Network: Caring for Friends · Open Tue",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.221062,
+39.946326
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "The Charles Foundation",
+"address": "605 N 52nd St",
+"phone": "208-740-3649",
+"website": "",
+"detail": "Network: SHARE · Open Mon",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225121,
+39.969701
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "The Children of The Promise",
+"address": "1454 Thouron Ave",
+"phone": "",
+"website": "",
+"detail": "Network: Caring for Friends · Open Sun",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.171486,
+40.072907
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "The Church of the Holy Apostles and the Mediator",
+"address": "260 S 51st St.",
+"phone": "215-472-3000",
+"website": "",
+"detail": "Network: Philabundance · Open Wed, Fri",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224016,
+39.95481
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "The Word in Action International Ministries",
+"address": "1539 W. Courtland Street (enter on 16th St)",
+"phone": "215-324-7665",
+"website": "",
+"detail": "Network: Philabundance · Open Mon, Tue, Wed, Thu",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.151162,
+40.023705
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Truth Baptist Church",
+"address": "4666-4668 N 15th St",
+"phone": "",
+"website": "",
+"detail": "Network: Philabundance · Open Tue",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.149733,
+40.024267
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Two Ladies of Christ",
+"address": "4125 Ludlow St",
+"phone": "",
+"website": "",
+"detail": "Network: Philabundance · Open Wed",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.205632,
+39.95696
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Upper Room Missionary Baptist Church",
+"address": "7236 Ogontz Ave",
+"phone": "",
+"website": "",
+"detail": "Network: Philabundance · Open Mon, Tue, Wed, Thu",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.155098,
+40.064742
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Victory Kingdom Fellowship Ministry",
+"address": "5745 N 5th St",
+"phone": "267-225-0902",
+"website": "https://www.victorykingdomfellowshipministryinc.online/",
+"detail": "Network: Caring for Friends · Open Wed",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.129602,
+40.039088
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Vine Memorial Baptist Church",
+"address": "5600 w girard Ave",
+"phone": "215-472-1189",
+"website": "http://www.vinememorialbaptistchurch.org/",
+"detail": "Network: Caring for Friends · Open Fri",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.232814,
+39.970476
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "We Love To Give",
+"address": "5315 Wingohocking terrace",
+"phone": "",
+"website": "",
+"detail": "Network: Caring for Friends",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.16342,
+40.037658
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry",
+"name": "Wharton Wesley Helping Hands",
+"address": "5341 Catharine St",
+"phone": "215-472-6777",
+"website": "",
+"detail": "Network: Philabundance · Open Wed",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.229906,
+39.949337
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Food pantry / Free meal site",
+"name": "West Philadelphia SDA",
+"address": "4527 Haverford Ave.",
+"phone": "215-222-5707",
+"website": "",
+"detail": "Network: Philabundance · Open Wed, Sun",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.213328,
+39.962622
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Free grocery site",
+"name": "Canaan Family Life Center",
+"address": "302 West School House Lane",
+"phone": "267-270-4520",
+"website": "https://www.canaanfamilylife.org/",
+"detail": "Open Tue, Thu",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.178212,
+40.028902
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Free grocery site",
+"name": "Face to Face Germantown",
+"address": "123 E Price St",
+"phone": "215-438-7939",
+"website": "https://facetofacegermantown.org",
+"detail": "Open Thu",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.174097,
+40.038369
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Free grocery site",
+"name": "Feed the People Philly",
+"address": "5120 Chestnut St",
+"phone": "",
+"website": "https://www.feedthepeoplephilly.com/",
+"detail": "Open Sat",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.223672,
+39.958222
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Free grocery site",
+"name": "Why Not Prosper",
+"address": "717 E. Chelten Ave",
+"phone": "610-716-1113",
+"website": "https://www.why-not-prosper.org/",
+"detail": "Open Mon, Tue",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.165735,
+40.044681
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Free grocery site / Free meal site",
+"name": "Drexel University Dornsife Center for Neighborhood Partnerships",
+"address": "3509 Brandywine Street",
+"phone": "215-571-4013",
+"website": "https://drexel.edu/dornsifecenter/",
+"detail": "Open Tue",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.193142,
+39.963386
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Free market",
+"name": "Mt. Vernon Baptist Church",
+"address": "458 E Rittenhouse St",
+"phone": "410-227-8725",
+"website": "",
+"detail": "Network: Small Things Philly · Open Sat",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.171,
+40.042349
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Free market",
+"name": "Now Faith Worship Center",
+"address": "1159 Chelten Ave",
+"phone": "267-423-0349",
+"website": "https://www.nowfaithworshipcenter.com",
+"detail": "Network: Small Things Philly · Open Sat",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.138475,
+40.049893
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Free market",
+"name": "Small Things Philly Market - House of Hope",
+"address": "1300 W. Hunting Park Ave",
+"phone": "215-559-9212",
+"website": "https://www.smallthingsphilly.org/",
+"detail": "Network: Small Things Philly · Open Thu, Sat",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.147266,
+40.016569
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Free meal site",
+"name": "Bible Way Baptist Church",
+"address": "1323 N 52nd St.",
+"phone": "215-477-0778",
+"website": "",
+"detail": "Network: Philabundance · Open Mon, Tue",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225863,
+39.97385
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Free meal site",
+"name": "First United Methodist Church of Germantown",
+"address": "19 E. High Street",
+"phone": "",
+"website": "https://www.germantowncommunityfridge.com/",
+"detail": "Open Sat",
+"source_id": "phl_free_meal_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.177537,
+40.039717
+]
+}
+}
+]
+}

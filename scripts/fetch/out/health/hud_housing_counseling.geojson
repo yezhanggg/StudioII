@@ -1,0 +1,105 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.238742,
+     39.96198
+    ]
+   },
+   "properties": {
+    "category": "social_services",
+    "kind": "HUD-approved housing counseling agency",
+    "name": "Affordable Housing Centers of Pennsylvania - West Philadephia",
+    "address": "5901 Market Street, Suite 104",
+    "phone": "215-765-1221",
+    "website": "https://www.ahcopa.org/",
+    "detail": "mortgage default counseling, post-purchase workshops, pre-purchase counseling, homebuyer education, rental counseling · languages: English",
+    "source_id": "hud_housing_counseling"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.172667,
+     40.034158
+    ]
+   },
+   "properties": {
+    "category": "social_services",
+    "kind": "HUD-approved housing counseling agency",
+    "name": "Center in the Park",
+    "address": "5818 Germantown Ave",
+    "phone": "215-848-7722",
+    "website": "",
+    "detail": "mortgage default counseling, default workshops, financial / credit counseling, financial workshops, home improvement counseling, reverse mortgage counseling, post-purchase workshops, pre-purchase counseling, homebuyer education, rental counseling, rental workshops · languages: English",
+    "source_id": "hud_housing_counseling"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.207167,
+     39.956072
+    ]
+   },
+   "properties": {
+    "category": "social_services",
+    "kind": "HUD-approved housing counseling agency",
+    "name": "Intercultural Family Services, Incorporated",
+    "address": "4240 Chestnut St",
+    "phone": "215-386-1298",
+    "website": "",
+    "detail": "mortgage default counseling, financial / credit counseling, home improvement counseling, reverse mortgage counseling, post-purchase workshops, pre-purchase counseling, homebuyer education, rental counseling · languages: English",
+    "source_id": "hud_housing_counseling"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.141419,
+     40.052963
+    ]
+   },
+   "properties": {
+    "category": "social_services",
+    "kind": "HUD-approved housing counseling agency",
+    "name": "Northwest Counseling Service",
+    "address": "6521 N Broad St",
+    "phone": "215-324-7500",
+    "website": "http://www.nwcsinc.org",
+    "detail": "mortgage default counseling, financial / credit counseling, financial workshops, pre-purchase counseling, homebuyer education, rental counseling · languages: English,HIN",
+    "source_id": "hud_housing_counseling"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.171481,
+     40.081362
+    ]
+   },
+   "properties": {
+    "category": "social_services",
+    "kind": "HUD-approved housing counseling agency",
+    "name": "West Oak Lane Community Development",
+    "address": "1624 E Wadsworth Ave",
+    "phone": "215-224-8339",
+    "website": "http://www.westoaklanecdc.org/",
+    "detail": "mortgage default counseling, financial / credit counseling, pre-purchase counseling, rental counseling · languages: English",
+    "source_id": "hud_housing_counseling"
+   }
+  }
+ ]
+}

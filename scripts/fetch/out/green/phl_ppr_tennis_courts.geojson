@@ -1,0 +1,465 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis courts",
+"name": "Tennis courts at A Albert Cherashore Playground",
+"address": "900 W Chew Ave",
+"phone": "",
+"website": "",
+"detail": "2 courts",
+"source_id": "phl_ppr_tennis_courts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.137271,
+40.037905
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis courts",
+"name": "Tennis courts at Awbury Park and Recreation Center",
+"address": "6101 Ardleigh St",
+"phone": "",
+"website": "",
+"detail": "7 courts",
+"source_id": "phl_ppr_tennis_courts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.163766,
+40.052853
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis courts",
+"name": "Tennis courts at Awbury Park and Recreation Center",
+"address": "6101 Ardleigh St",
+"phone": "",
+"website": "",
+"detail": "3 courts",
+"source_id": "phl_ppr_tennis_courts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.164787,
+40.053351
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis courts",
+"name": "Tennis courts at Charles M Finley Playground",
+"address": "1006 E Hortter St",
+"phone": "",
+"website": "",
+"detail": "4 courts",
+"source_id": "phl_ppr_tennis_courts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.169814,
+40.064124
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis courts",
+"name": "Tennis courts at Donna Reed Miller Recreation Center",
+"address": "5826 McMahon Ave",
+"phone": "",
+"website": "",
+"detail": "1 court",
+"source_id": "phl_ppr_tennis_courts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.167968,
+40.045121
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis courts",
+"name": "Tennis courts at Fernhill Park",
+"address": "4600 Morris St",
+"phone": "",
+"website": "",
+"detail": "3 courts",
+"source_id": "phl_ppr_tennis_courts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.168684,
+40.020663
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis courts",
+"name": "Tennis courts at Fisher Park",
+"address": "572 W Spencer St",
+"phone": "",
+"website": "",
+"detail": "3 courts",
+"source_id": "phl_ppr_tennis_courts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.131297,
+40.043767
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis courts",
+"name": "Tennis courts at Garden Court",
+"address": "4710 Spruce St",
+"phone": "",
+"website": "",
+"detail": "2 courts",
+"source_id": "phl_ppr_tennis_courts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21657,
+39.953149
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis courts",
+"name": "Tennis courts at Gustine Recreation Center",
+"address": "4842 Ridge Ave",
+"phone": "",
+"website": "",
+"detail": "8 courts",
+"source_id": "phl_ppr_tennis_courts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203363,
+40.012546
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis courts",
+"name": "Tennis courts at Happy Hollow Recreation Center",
+"address": "4800 Wayne Ave",
+"phone": "",
+"website": "",
+"detail": "2 courts",
+"source_id": "phl_ppr_tennis_courts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.166459,
+40.023222
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis courts",
+"name": "Tennis courts at Helen G Sturgis Playground",
+"address": "6420 N 2nd St",
+"phone": "",
+"website": "",
+"detail": "3 courts",
+"source_id": "phl_ppr_tennis_courts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.124361,
+40.049535
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis courts",
+"name": "Tennis courts at Hunting Park",
+"address": "1101 W Hunting Park Ave",
+"phone": "",
+"website": "",
+"detail": "6 courts",
+"source_id": "phl_ppr_tennis_courts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.141894,
+40.015177
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis courts",
+"name": "Tennis courts at John A Lee Cultural Center",
+"address": "4372 Haverford Ave",
+"phone": "",
+"website": "",
+"detail": "2 courts",
+"source_id": "phl_ppr_tennis_courts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210738,
+39.960966
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis courts",
+"name": "Tennis courts at Kingsessing Recreation Center",
+"address": "4901 Kingsessing Ave",
+"phone": "",
+"website": "",
+"detail": "2 courts",
+"source_id": "phl_ppr_tennis_courts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.218349,
+39.942467
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis courts",
+"name": "Tennis courts at Morris Estate Cultural Center",
+"address": "1610 Chelten Ave",
+"phone": "",
+"website": "",
+"detail": "1 court",
+"source_id": "phl_ppr_tennis_courts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.146841,
+40.050302
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis courts",
+"name": "Tennis courts at Parkside Evans Recreation Center",
+"address": "5271 Parkside Ave",
+"phone": "",
+"website": "",
+"detail": "9 courts",
+"source_id": "phl_ppr_tennis_courts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.226373,
+39.983976
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis courts",
+"name": "Tennis courts at Pleasant Playground",
+"address": "305 Slocum St",
+"phone": "",
+"website": "",
+"detail": "4 courts",
+"source_id": "phl_ppr_tennis_courts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182977,
+40.05689
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis courts",
+"name": "Tennis courts at Stenton Park",
+"address": "1699 W Courtland St",
+"phone": "",
+"website": "",
+"detail": "1 court",
+"source_id": "phl_ppr_tennis_courts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.152669,
+40.023839
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis courts",
+"name": "Tennis courts at West Mill Creek Playground",
+"address": "5100 Westminster Ave",
+"phone": "",
+"website": "",
+"detail": "2 courts",
+"source_id": "phl_ppr_tennis_courts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225063,
+39.969301
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis courts",
+"name": "Tennis courts at William B Simons Recreation Center",
+"address": "7224 Woolston Ave",
+"phone": "",
+"website": "",
+"detail": "7 courts",
+"source_id": "phl_ppr_tennis_courts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.158308,
+40.061742
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis courts",
+"name": "Tennis courts at William H (Billy) Markward Memorial Playground",
+"address": "400 S Lecount St",
+"phone": "",
+"website": "",
+"detail": "2 courts",
+"source_id": "phl_ppr_tennis_courts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182809,
+39.948066
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis courts",
+"name": "Tennis courts at William H (Billy) Markward Memorial Playground",
+"address": "400 S Lecount St",
+"phone": "",
+"website": "",
+"detail": "2 courts",
+"source_id": "phl_ppr_tennis_courts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183163,
+39.948408
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Tennis courts",
+"name": "Tennis courts at Wisters Woods Park",
+"address": "1998 Belfield Ave",
+"phone": "",
+"website": "",
+"detail": "5 courts",
+"source_id": "phl_ppr_tennis_courts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.158255,
+40.034539
+]
+}
+}
+]
+}

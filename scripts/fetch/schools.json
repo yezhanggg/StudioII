@@ -1,0 +1,50 @@
+[
+ {
+  "slug": "wagner",
+  "short": "Wagner",
+  "name": "General Louis Wagner School",
+  "address": "1701 W Chelten Ave",
+  "lat": 40.051752,
+  "lng": -75.147691
+ },
+ {
+  "slug": "blankenburg",
+  "short": "Blankenburg",
+  "name": "Rudolph Blankenburg School",
+  "address": "4600 W Girard Ave",
+  "lat": 39.972356,
+  "lng": -75.214753
+ },
+ {
+  "slug": "robeson",
+  "short": "Robeson",
+  "name": "Paul Robeson High School for Human Services",
+  "address": "4125 Ludlow St",
+  "lat": 39.95698,
+  "lng": -75.205382
+ },
+ {
+  "slug": "pennypacker",
+  "short": "Pennypacker",
+  "name": "Samuel Pennypacker School",
+  "address": "1858 E Washington Ln",
+  "lat": 40.065141,
+  "lng": -75.159036
+ },
+ {
+  "slug": "fitler",
+  "short": "Fitler",
+  "name": "Fitler Academics Plus School",
+  "address": "140 W Seymour St",
+  "lat": 40.0261,
+  "lng": -75.166337
+ },
+ {
+  "slug": "amynw",
+  "short": "AMY Northwest",
+  "name": "Academy for the Middle Years at Northwest",
+  "address": "6000 Ridge Ave",
+  "lat": 40.030951,
+  "lng": -75.213119
+ }
+]

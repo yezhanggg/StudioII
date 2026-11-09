@@ -1,0 +1,105 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.154218,
+     40.064392
+    ]
+   },
+   "properties": {
+    "category": "older_adults",
+    "kind": "Senior center",
+    "name": "Older Adult Center - West Oak Lane Building",
+    "address": "7210 Ogontz Avenue",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_older_adults"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.139701,
+     40.058841
+    ]
+   },
+   "properties": {
+    "category": "older_adults",
+    "kind": "Senior services",
+    "name": "Penn Asian Senior Services",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_older_adults"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.212638,
+     39.956661
+    ]
+   },
+   "properties": {
+    "category": "older_adults",
+    "kind": "Adult day center",
+    "name": "Penn Living Independently For Elders",
+    "address": "4508 Chestnut Street",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_older_adults"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.154697,
+     40.006839
+    ]
+   },
+   "properties": {
+    "category": "older_adults",
+    "kind": "Senior center",
+    "name": "Tioga Presbyterian Apartments: Philadelphia Senior Center Tioga Branch",
+    "address": "1531 West Tioga Street",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_older_adults"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.206593,
+     39.972251
+    ]
+   },
+   "properties": {
+    "category": "older_adults",
+    "kind": "Senior center",
+    "name": "West Philadelphia Senior Community Center",
+    "address": "1016 North 41st Street",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_older_adults"
+   }
+  }
+ ]
+}

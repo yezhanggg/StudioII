@@ -1,0 +1,257 @@
+[
+ {
+  "id": "phl_schools",
+  "title": "Schools (district, charter, private, Archdiocese)",
+  "categories": [
+   "schools"
+  ],
+  "publisher": "City of Philadelphia, Department of Planning and Development",
+  "landing_url": "https://opendataphilly.org/datasets/schools/",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/Schools/FeatureServer/0/query",
+  "license": "City of Philadelphia License (OpenDataPhilly)",
+  "retrieved": "2026-11-09",
+  "data_date": "layer last edited 2026-08-26",
+  "records": 117,
+  "notes": "All school points in the City layer; the candidate schools themselves were left out (Academy for the Middle Years at Northwest, Fitler Academics Plus School, General Louis Wagner School, Paul Robeson High School for Human Services, Rudolph Blankenburg School, Samuel Pennypacker School). Enrollment and grades are as the City layer states them; the layer covers Philadelphia only."
+ },
+ {
+  "id": "nces_ccd_public_schools_outside_phl",
+  "title": "Public school locations outside Philadelphia, 2024-25 (NCES Common Core of Data)",
+  "categories": [
+   "schools"
+  ],
+  "publisher": "U.S. Department of Education, National Center for Education Statistics (EDGE / CCD)",
+  "landing_url": "https://nces.ed.gov/programs/edge/Geographic/SchoolLocations",
+  "api_url": "https://nces.ed.gov/opengis/rest/services/K12_School_Locations/EDGE_ADMINDATA_PUBLICSCH_2425/MapServer/1/query",
+  "license": "Public domain (U.S. federal government data)",
+  "retrieved": "2026-11-09",
+  "data_date": "school year 2024-25",
+  "records": 3,
+  "notes": "Only schools outside Philadelphia County (the City Schools layer stops at the city line); full-time virtual schools and closed schools were left out."
+ },
+ {
+  "id": "nces_pss_private_schools",
+  "title": "Private school locations, 2023-24 (NCES Private School Survey), gap fill",
+  "categories": [
+   "schools"
+  ],
+  "publisher": "U.S. Department of Education, National Center for Education Statistics (EDGE / PSS)",
+  "landing_url": "https://nces.ed.gov/programs/edge/Geographic/SchoolLocations",
+  "api_url": "https://nces.ed.gov/opengis/rest/services/K12_School_Locations/EDGE_GEOCODE_PRIVATESCH_2324/MapServer/0/query",
+  "license": "Public domain (U.S. federal government data)",
+  "retrieved": "2026-11-09",
+  "data_date": "school year 2023-24",
+  "records": 7,
+  "notes": "Only private schools the City Schools layer does not have: those outside Philadelphia, and Philadelphia schools with no City point of a similar name within 400 m (or any school within 80 m). The survey lists schools teaching at least one of grades K-12 (some may have closed since 2023-24); this layer gives no grade span or enrollment."
+ },
+ {
+  "id": "pa_dhs_child_care_providers",
+  "title": "Child care providers including early learning programs (PA DHS certified facilities)",
+  "categories": [
+   "early_childhood"
+  ],
+  "publisher": "Pennsylvania Department of Human Services, Office of Child Development and Early Learning (OCDEL)",
+  "landing_url": "https://data.pa.gov/d/ajn5-kaxt",
+  "api_url": "https://data.pa.gov/resource/ajn5-kaxt.json",
+  "license": "Public Domain U.S. Government",
+  "retrieved": "2026-11-09",
+  "data_date": "monthly list, rows updated 2026-10-29",
+  "records": 482,
+  "notes": "Certified child care centers, group homes and family homes, plus federal Head Start locations the list carries as provider type 'Other'; 2 other 'Other' rows (private academic school programs) and the school-age-only providers were left out (the latter are in pa_dhs_school_age_child_care). Family and group homes are residences: facility name and address as published, no phone, no owner names."
+ },
+ {
+  "id": "pa_dhs_school_age_child_care",
+  "title": "School-age child care providers (PA DHS certified, school-age only)",
+  "categories": [
+   "youth"
+  ],
+  "publisher": "Pennsylvania Department of Human Services, Office of Child Development and Early Learning (OCDEL)",
+  "landing_url": "https://data.pa.gov/d/ajn5-kaxt",
+  "api_url": "https://data.pa.gov/resource/ajn5-kaxt.json",
+  "license": "Public Domain U.S. Government",
+  "retrieved": "2026-11-09",
+  "data_date": "monthly list, rows updated 2026-10-29",
+  "records": 30,
+  "notes": "Providers in the same PA DHS list whose capacity is 'School Age Provider', i.e. licensed before/after-school programs for school-age children only; kept as out-of-school-time assets."
+ },
+ {
+  "id": "phl_phlprek_sites_fy25",
+  "title": "PHLpreK program sites, FY25 enrollment",
+  "categories": [
+   "early_childhood"
+  ],
+  "publisher": "City of Philadelphia, Office of Children and Families (PHLpreK), published by PhillyStat 360",
+  "landing_url": "https://www.arcgis.com/home/item.html?id=c6ffe18c08684f5eab1192b5a0516ac4",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/PHLpreKenrollment_FY25/FeatureServer/0/query",
+  "license": "Not stated on the item (public City of Philadelphia ArcGIS Online layer)",
+  "retrieved": "2026-11-09",
+  "data_date": "FY25 slots and enrollment as of 2024-12-02 (layer last edited 2024-12-09)",
+  "records": 77,
+  "notes": "Every PHLpreK provider site in the layer. It is the most recent public PHLpreK site list found (FY25); sites added or dropped since then are not reflected."
+ },
+ {
+  "id": "pa_ocdel_prek_counts_hssap",
+  "title": "Pre-K Counts and Head Start Supplemental Assistance Program (HSSAP) funded locations",
+  "categories": [
+   "early_childhood"
+  ],
+  "publisher": "Pennsylvania Department of Education, Office of Child Development and Early Learning (OCDEL)",
+  "landing_url": "https://data.pa.gov/d/pgbt-5wid",
+  "api_url": "https://data.pa.gov/resource/pgbt-5wid.json",
+  "license": "Public Domain",
+  "retrieved": "2026-11-09",
+  "data_date": "FY2026-2027 funding (quarter ending 2026-09-30)",
+  "records": 45,
+  "notes": "Only the latest funding quarter; one point per location, with its Pre-K Counts and HSSAP slots combined. Includes School District of Philadelphia classrooms that are not DHS-licensed child care."
+ },
+ {
+  "id": "sdp_prek_sites",
+  "title": "School District of Philadelphia pre-K sites (Head Start, Bright Futures, partners), SY 2024-2025",
+  "categories": [
+   "early_childhood"
+  ],
+  "publisher": "School District of Philadelphia, Office of Research and Evaluation",
+  "landing_url": "https://www.philasd.org/research/#opendata",
+  "api_url": "https://cdn.philasd.org/offices/performance/Open_Data/School_Information/Pre_K/PRE_K_Information_2023-2024.xlsx",
+  "license": "School District of Philadelphia open data (terms at philasd.org/research)",
+  "retrieved": "2026-11-09",
+  "data_date": "school year 2024-2025 (sheet in the 2023-2024 workbook)",
+  "records": 48,
+  "notes": "District pre-K list (district-run Head Start / Bright Futures classrooms and community partner sites). The file has addresses only; points were geocoded with the City's AIS address service (Census geocoder as fallback)."
+ },
+ {
+  "id": "phl_free_library_locations",
+  "title": "Free Library of Philadelphia locations",
+  "categories": [
+   "libraries"
+  ],
+  "publisher": "Free Library of Philadelphia, published by the City of Philadelphia (maps.phl.data)",
+  "landing_url": "https://www.arcgis.com/home/item.html?id=a3bf9f696fb14d5d87ee1b184fbed711",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/library_locations/FeatureServer/0/query",
+  "license": "City of Philadelphia License (OpenDataPhilly)",
+  "retrieved": "2026-11-09",
+  "data_date": "layer last edited 2026-07-22",
+  "records": 14,
+  "notes": "Active Free Library locations (the City's current 'library_locations' layer; the older 'Free_Library_Locations' layer was last edited in 2018 and was not used)."
+ },
+ {
+  "id": "pa_public_libraries_other",
+  "title": "Public libraries outside the Free Library system (PA 'Services Near You': Public Library layer)",
+  "categories": [
+   "libraries"
+  ],
+  "publisher": "Commonwealth of Pennsylvania (Department of Education, Office of Commonwealth Libraries, via data.pa.gov)",
+  "landing_url": "https://data.pa.gov/d/da8t-93kj",
+  "api_url": "https://data.pa.gov/resource/da8t-93kj.json",
+  "license": "Public Domain U.S. Government",
+  "retrieved": "2026-11-09",
+  "data_date": "rows updated 2026-11-08",
+  "records": 2,
+  "notes": "Public libraries in the Commonwealth list that are not Free Library branches (those within 150 m of a Free Library location were dropped as duplicates); also dropped: Hosting Solutions & Library Consulting (HSLC) (a library-services office)."
+ },
+ {
+  "id": "phl_ocf_ost_sites_fy24",
+  "title": "Out-of-school-time (OST) program sites, FY24",
+  "categories": [
+   "youth"
+  ],
+  "publisher": "City of Philadelphia, Office of Children and Families (OST)",
+  "landing_url": "https://www.arcgis.com/home/item.html?id=2b66e37ec8784f73a97527f4e09f5f56",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/FY24_OST/FeatureServer/0/query",
+  "license": "Not stated on the item (public City of Philadelphia ArcGIS Online layer)",
+  "retrieved": "2026-11-09",
+  "data_date": "FY24 (2023-24) program year; layer last edited 2023-09-27",
+  "records": 78,
+  "notes": "Publicly funded after-school sites (City DHS/OCF, School District, federal 21st CCLC, Mural Arts) as the City listed them for FY24; the newest public OST site list found (FY25/26 layers in the City's OST map are not public). Sites marked 'TBD new RFP' had funded slots but no provider yet."
+ },
+ {
+  "id": "phl_pal_centers",
+  "title": "Police Athletic League (PAL) Centers",
+  "categories": [
+   "youth"
+  ],
+  "publisher": "City of Philadelphia, Police Department",
+  "landing_url": "https://opendataphilly.org/datasets/police-athletic-league-pal-centers/",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/PAL_Centers/FeatureServer/0/query",
+  "license": "City of Philadelphia License (OpenDataPhilly)",
+  "retrieved": "2026-11-09",
+  "data_date": "layer last edited 2025-05-29",
+  "records": 3,
+  "notes": "All PAL centers in the layer; the center director's name in the source was not kept."
+ },
+ {
+  "id": "nces_ipeds_postsecondary",
+  "title": "Postsecondary institution locations, 2025-26 (NCES EDGE / IPEDS)",
+  "categories": [
+   "higher_ed"
+  ],
+  "publisher": "U.S. Department of Education, National Center for Education Statistics (EDGE / IPEDS)",
+  "landing_url": "https://nces.ed.gov/programs/edge/Geographic/SchoolLocations",
+  "api_url": "https://nces.ed.gov/opengis/rest/services/Postsecondary_School_Locations/EDGE_GEOCODE_POSTSECONDARYSCH_2526/MapServer/0/query",
+  "license": "Public domain (U.S. federal government data)",
+  "retrieved": "2026-11-09",
+  "data_date": "school year 2025-26",
+  "records": 8,
+  "notes": "One point per IPEDS institution (its main address), so branch campuses are not here (see pa_pde_higher_ed_campuses). The kind is read from the institution name."
+ },
+ {
+  "id": "pa_pde_higher_ed_campuses",
+  "title": "PA higher education institutions by sector (campus locations)",
+  "categories": [
+   "higher_ed"
+  ],
+  "publisher": "Pennsylvania Department of Education",
+  "landing_url": "https://data.pa.gov/d/8u5h-xvus",
+  "api_url": "https://data.pa.gov/resource/8u5h-xvus.json",
+  "license": "Public Domain U.S. Government",
+  "retrieved": "2026-11-09",
+  "data_date": "rows updated 2024-03-21",
+  "records": 9,
+  "notes": "Full-service college locations (main campuses, branch campuses and off-campus operations such as the Community College of Philadelphia regional centers); limited instructional sites are not in this list."
+ },
+ {
+  "id": "phl_universities_colleges",
+  "title": "Universities and Colleges (City building inventory, grouped into campus points)",
+  "categories": [
+   "higher_ed"
+  ],
+  "publisher": "City of Philadelphia, Department of Planning and Development",
+  "landing_url": "https://opendataphilly.org/datasets/philadelphia-universities-and-colleges/",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/Universities_Colleges/FeatureServer/0/query",
+  "license": "City of Philadelphia License (OpenDataPhilly)",
+  "retrieved": "2026-11-09",
+  "data_date": "layer last edited 2026-06-25",
+  "records": 17,
+  "notes": "The source has one polygon per college building. Buildings of the same institution within ~200 m of each other inside the study area were grouped into one point (at the building nearest the group's center); single buildings keep their name."
+ },
+ {
+  "id": "osm_youth",
+  "title": "Youth centers, YMCA / YWCA, Boys & Girls Clubs, scouting (OpenStreetMap)",
+  "categories": [
+   "youth"
+  ],
+  "publisher": "OpenStreetMap contributors (via Overpass API)",
+  "landing_url": "https://www.openstreetmap.org",
+  "api_url": "https://overpass-api.de/api/interpreter",
+  "license": "ODbL 1.0, (c) OpenStreetMap contributors",
+  "retrieved": "2026-11-09",
+  "data_date": "OSM data as of 2026-11-09T05:24:04Z",
+  "records": 6,
+  "notes": "OSM fills the gap where no official list exists (YMCA / Boys & Girls Club branches, youth centers): features tagged as youth centres or scouting, or named YMCA, YWCA, Boys & Girls Club, PAL, Youth or Teen; schools, churches, shelters, treatment and justice facilities, playgrounds and courts were left out. Coverage depends on volunteer mapping."
+ },
+ {
+  "id": "osm_higher_ed",
+  "title": "Colleges and universities (OpenStreetMap)",
+  "categories": [
+   "higher_ed"
+  ],
+  "publisher": "OpenStreetMap contributors (via Overpass API)",
+  "landing_url": "https://www.openstreetmap.org",
+  "api_url": "https://overpass-api.de/api/interpreter",
+  "license": "ODbL 1.0, (c) OpenStreetMap contributors",
+  "retrieved": "2026-11-09",
+  "data_date": "OSM data as of 2026-11-09T05:24:04Z",
+  "records": 15,
+  "notes": "Named features tagged amenity=college or amenity=university (campus outlines become a point inside them). Used only to fill gaps in the NCES / PDE / City lists; OSM 'college' also covers some trade and career schools."
+ }
+]

@@ -1,0 +1,205 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Neighborhood Advisory Committee",
+"name": "ACHIEVEability",
+"address": "5901 Market St, Suite 410, Philadelphia, PA 19139",
+"phone": "(215) 557-8414 X8802",
+"website": "http://www.achieveability.org",
+"detail": "",
+"source_id": "phl_nac_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.239088,
+39.962063
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Neighborhood Advisory Committee",
+"name": "Brewerytown-Sharswood Civic Association",
+"address": "3000 \"D\" Master St, Philadelphia, PA 19121",
+"phone": "(267) 858-4246",
+"website": "http://www.brewerytownsharswoodnac.org",
+"detail": "",
+"source_id": "phl_nac_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.185385,
+39.97726
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Neighborhood Advisory Committee",
+"name": "Germantown United",
+"address": "5320 Germantown Ave, Philadelphia, PA 19144",
+"phone": "(215) 856-4303 x101",
+"website": "https://germantownunitedcdc.org",
+"detail": "",
+"source_id": "phl_nac_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.169404,
+40.032173
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Neighborhood Advisory Committee",
+"name": "Greater Philadelphia Asian Social Services (GPASS)",
+"address": "4943 N 5th St, Philadelphia, PA 19120",
+"phone": "(215) 456-1662 x119",
+"website": "http://www.gpasspa.org",
+"detail": "",
+"source_id": "phl_nac_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.132253,
+40.026923
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Neighborhood Advisory Committee",
+"name": "HopePHL",
+"address": "325 N 39th St, Philadelphia, PA 19104",
+"phone": "(267) 777-5819",
+"website": "https://www.hopephl.org/",
+"detail": "",
+"source_id": "phl_nac_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.199814,
+39.960323
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Neighborhood Advisory Committee",
+"name": "Hunting Park NAC",
+"address": "3760 N Delhi St, Philadelphia, PA 19140",
+"phone": "215-225-5560",
+"website": "http://www.huntingparknac.org",
+"detail": "",
+"source_id": "phl_nac_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.143631,
+40.009796
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Neighborhood Advisory Committee",
+"name": "Mt. Vernon Manor, Inc.",
+"address": "631 N 39th St, Philadelphia, PA 19104",
+"phone": "(215) 475-9492",
+"website": "http://www.mvmcdc.org",
+"detail": "",
+"source_id": "phl_nac_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19944,
+39.964139
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Neighborhood Advisory Committee",
+"name": "Nicetown CDC",
+"address": "4414 Germantown Avenue, 3rd floor, Suite B, Philadelphia, PA 19140",
+"phone": "(215) 324-9772",
+"website": "http://www.nicetowncdc.org",
+"detail": "",
+"source_id": "phl_nac_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.158112,
+40.021334
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Neighborhood Advisory Committee",
+"name": "Tioga United, Inc.",
+"address": "1539 W Venango St, Philadelphia, PA 19140",
+"phone": "267-639-6912",
+"website": "https://www.tu-nac.org/",
+"detail": "",
+"source_id": "phl_nac_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.154611,
+40.008238
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Neighborhood Advisory Committee",
+"name": "UAC/Parkside Association of Philadelphia",
+"address": "1719 N 52nd St, Philadelphia, PA 19131",
+"phone": "215-877-1198",
+"website": "https://uac.org/partners/parkside-association-of-philadelphia/",
+"detail": "",
+"source_id": "phl_nac_offices"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.223957,
+39.98107
+]
+}
+}
+]
+}

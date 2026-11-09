@@ -1,0 +1,1445 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.209694,
+     40.02698
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Urgent care",
+    "name": "AFC Urgent Care",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.232962,
+     40.044611
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Physical therapy",
+    "name": "ATI Physical Therapy",
+    "address": "Ridge Avenue",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.192353,
+     39.947495
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Clinic",
+    "name": "Abramson Cancer Center",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.217009,
+     40.035395
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Dentist",
+    "name": "All About Dental Care, P.C.",
+    "address": "",
+    "phone": "215-482-0303",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.179889,
+     40.042737
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Clinic",
+    "name": "ArchWell Health",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "Geriatrics",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.229028,
+     40.016205
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Optometrist",
+    "name": "Bala Eye Care",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.1939,
+     39.947127
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Clinic",
+    "name": "Buerger Center",
+    "address": "3500 Civic Center Boulevard",
+    "phone": "215-590-1000",
+    "website": "https://www.chop.edu/locations/buerger-center-advanced-pediatric-care",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.218036,
+     39.959822
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Clinic",
+    "name": "Children's Hospital of Philadelphia (CHOP) Karabots Pediatric Care Center, West Philadelphia",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.230139,
+     40.030378
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Physical therapy",
+    "name": "ConnectPlus Therapy",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.206164,
+     39.954178
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Dialysis center",
+    "name": "DaVita Dialysis",
+    "address": "4126 Walnut Street",
+    "phone": "800-424-6589",
+    "website": "https://davita.com/locations/pa/philadelphia/4126-walnut-st--3472/",
+    "detail": "Nephrology",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.184317,
+     39.954746
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Dialysis center",
+    "name": "DaVita Dialysis",
+    "address": "3020 Market Street",
+    "phone": "800-424-6589",
+    "website": "https://www.davita.com/locations/pa/philadelphia/3020-market-st--5033",
+    "detail": "Nephrology",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.168453,
+     40.083993
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Dialysis center",
+    "name": "DaVita Dialysis",
+    "address": "1000 Easton Road",
+    "phone": "800-424-6589",
+    "website": "https://davita.com/locations/pa/wyncote/1000-easton-rd--3477/",
+    "detail": "Nephrology",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.121109,
+     40.052986
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Dialysis center",
+    "name": "DaVita Dialysis",
+    "address": "133 Cheltenham Avenue",
+    "phone": "",
+    "website": "",
+    "detail": "Dialysis",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.216811,
+     39.966208
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Dialysis center",
+    "name": "DaVita Kidney Care",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "Nephrology",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.143289,
+     40.04394
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Dialysis center",
+    "name": "DaVita Northern Philadelphia Dialysis",
+    "address": "5933 North Broad Street",
+    "phone": "",
+    "website": "",
+    "detail": "Nephrology",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.224978,
+     39.978302
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Health center",
+    "name": "Dedicated Senior Medical Center",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.216794,
+     40.034865
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Dentist",
+    "name": "Dental Solutions",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.226169,
+     40.042631
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Dentist",
+    "name": "Doc Bresler's Cavity Busters",
+    "address": "",
+    "phone": "215-483-6633",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.191576,
+     39.956321
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Doctor's office",
+    "name": "Drexel Student Health",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.142937,
+     40.036707
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Doctor's office",
+    "name": "Einstein Emergency Room",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.179152,
+     40.032986
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Clinic",
+    "name": "Einstein Healthcare Network Germantown",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.227598,
+     40.043045
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Dentist",
+    "name": "Elaine Stefanowicz DDS",
+    "address": "",
+    "phone": "215-483-8373",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.222807,
+     39.979384
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Dentist",
+    "name": "Elite Dental",
+    "address": "",
+    "phone": "215-879-1777",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.206856,
+     39.95745
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Dialysis center",
+    "name": "FMC Dialysis Services",
+    "address": "4216 Market Street",
+    "phone": "",
+    "website": "",
+    "detail": "Nephrology",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.217065,
+     40.030968
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Dentist",
+    "name": "Family & Cosmetic Dentistry",
+    "address": "",
+    "phone": "215-482-9410",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.223178,
+     40.038267
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Dentist",
+    "name": "Family Dentistry",
+    "address": "",
+    "phone": "215-482-0504",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.235084,
+     40.043751
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Doctor's office",
+    "name": "Family Medicine John M. Buonomo, D.O.",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.219056,
+     39.953486
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Counseling center",
+    "name": "Family Therapy & Consultation Services",
+    "address": "4824 Spruce Street",
+    "phone": "215-398-1919",
+    "website": "https://ftxcs.com/outpatient-mental-health-services/",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.157274,
+     40.054704
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Dialysis center",
+    "name": "Fresenius Kidney Care",
+    "address": "2154 Stenton Avenue",
+    "phone": "215-548-3704",
+    "website": "https://www.freseniuskidneycare.com/dialysis-centers/pennsylvania/4843",
+    "detail": "Dialysis",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.236193,
+     40.036293
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Dialysis center",
+    "name": "Fresenius Kidney Care",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "Nephrology",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.23083,
+     40.04508
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Doctor's office",
+    "name": "General Practice Associates",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "General",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.215843,
+     40.033887
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Counseling center",
+    "name": "Greenridge Counseling Center",
+    "address": "",
+    "phone": "215-487-1330",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.215368,
+     40.03459
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Dentist",
+    "name": "Greenridge Dentistry",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.208752,
+     39.948791
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Health care",
+    "name": "Health Center 3",
+    "address": "4217 Chester Avenue",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.193692,
+     40.022454
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Doctor's office",
+    "name": "Hortense T. Moss Health Center",
+    "address": "4201 Henry Avenue",
+    "phone": "215-951-2986",
+    "website": "http://www.philau.edu/healthservices/",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.160898,
+     40.012843
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Clinic",
+    "name": "Hunting Park Health Center",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.202486,
+     39.956487
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Physical therapy",
+    "name": "Ivy Rehab",
+    "address": "4005 Ludlow Street",
+    "phone": "267-529-0050",
+    "website": "https://ivyrehab.com/physical-therapy-location/philadelphia-university-city-at-ludlow-st/",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.191829,
+     39.957459
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Physical therapy",
+    "name": "Ivy Rehab",
+    "address": "3400 Lancaster Avenue",
+    "phone": "215-662-0397",
+    "website": "https://ivyrehab.com/physical-therapy-location/philadelphia-university-city-pa/",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.21793,
+     40.022631
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Physical therapy",
+    "name": "IvyRehab",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.223643,
+     40.039503
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Physical therapy",
+    "name": "IvyRehab",
+    "address": "",
+    "phone": "267-385-7247",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.218149,
+     40.012658
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Dentist",
+    "name": "Jay Lackman, DMD",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.210939,
+     40.01949
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Dentist",
+    "name": "Jeffrey D. Glen, DDS",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.211892,
+     40.030298
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Dentist",
+    "name": "Joseph M. Brogan",
+    "address": "",
+    "phone": "215-482-8500",
+    "website": "",
+    "detail": "Orthodontics",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.226507,
+     39.950707
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Medical laboratory",
+    "name": "LabCorp",
+    "address": "South 52nd Street",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.218197,
+     40.012609
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Dentist",
+    "name": "M. Ilhan Uzel, DMD, DSc, N. Guzin Uzel, DMD, DMSc",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.231145,
+     40.04453
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Clinic",
+    "name": "Main Line Health",
+    "address": "7114 Ridge Avenue",
+    "phone": "",
+    "website": "https://www.mainlinehealth.org/locations/roxborough-ridge-avenue",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.231351,
+     40.044264
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Doctor's office",
+    "name": "Main Line Health Physician Offices",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.227655,
+     40.029806
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Physical therapy",
+    "name": "McKenzie Sports Physical Therapy",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.234283,
+     39.959395
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Clinic",
+    "name": "Mercy Health Associates",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.198764,
+     40.043557
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Doctor's office",
+    "name": "Mt. Airy Family Practice",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.178894,
+     40.067453
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Clinic",
+    "name": "Mt. Pleasant Medical Center",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.217654,
+     39.959577
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Clinic",
+    "name": "Nicholas and Athena Karabots Pediatric Care Center",
+    "address": "4865 Market Street",
+    "phone": "267-425-9800",
+    "website": "https://www.chop.edu/locations/karabots-pediatric-care-center-west-philadelphia",
+    "detail": "Paediatrics",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.22199,
+     39.979058
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Physical therapy",
+    "name": "NovaCare Rehabilitation",
+    "address": "",
+    "phone": "484-429-2290",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.154461,
+     40.073858
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Clinic",
+    "name": "Oak Street Health",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.15217,
+     40.063489
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Dentist",
+    "name": "PCD Dentist",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.20697,
+     39.965652
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Doctor's office",
+    "name": "PCOM Lancaster Ave Health Care Center",
+    "address": "4148 Lancaster Avenue",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.197532,
+     39.957037
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Clinic",
+    "name": "Penn Medicine",
+    "address": "3737 Market Street",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.19634,
+     39.956237
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Dentist",
+    "name": "Pennsylvania Dental Group",
+    "address": "3700 Market Street",
+    "phone": "215-387-0883",
+    "website": "https://www.padentalgroup.com/",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.194354,
+     39.955952
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Optometrist",
+    "name": "Pennsylvania Optometrics",
+    "address": "3600 Market Street",
+    "phone": "215-387-3600",
+    "website": "https://www.pennopto.com/",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.208884,
+     39.948734
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Health care",
+    "name": "Philadelphia Department of Public Health - Public Health Center 3",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.173003,
+     40.037981
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Clinic",
+    "name": "Philadelphia Public Health Center 9",
+    "address": "East Chelten Avenue",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.15615,
+     40.067806
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Clinic",
+    "name": "RediClinic",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.192683,
+     39.947353
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Clinic",
+    "name": "Roberts Proton Therapy Center",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "Radiotherapy",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.231806,
+     40.044376
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Optometrist",
+    "name": "Roxborough Eye Care",
+    "address": "Ridge Avenue",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.193241,
+     39.947335
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Clinic",
+    "name": "Scheie Eye Institute",
+    "address": "3400 Civic Center Boulevard",
+    "phone": "800-789-7366",
+    "website": "https://www.pennmedicine.org/providers/practice/scheie-eye-institute-penn-presbyterian",
+    "detail": "Ophthalmology",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.155674,
+     40.040354
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Clinic",
+    "name": "Student Health Center",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.214819,
+     40.032976
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Doctor's office",
+    "name": "The Dermatology Specialists",
+    "address": "",
+    "phone": "215-395-7546",
+    "website": "",
+    "detail": "Dermatology",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.207366,
+     39.956411
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Clinic",
+    "name": "VHA",
+    "address": "4219 Chestnut Street",
+    "phone": "",
+    "website": "https://www.va.gov/philadelphia-health-care/locations/chestnut-street-va-clinic/",
+    "detail": "Nephrology",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.214733,
+     40.032903
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Urgent care",
+    "name": "Vybe Urgent Care",
+    "address": "6060 Ridge Avenue",
+    "phone": "215-999-6060",
+    "website": "https://www.vybe.care/locations/roxborough/",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.144886,
+     40.030769
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Clinic",
+    "name": "Warren E. Smith Health Center",
+    "address": "1315 Windrim Avenue",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.213944,
+     39.939594
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Clinic",
+    "name": "Woodland Avenue Health Center",
+    "address": "5000 Woodland Avenue",
+    "phone": "",
+    "website": "https://www.gphainc.org/",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.19408,
+     39.955845
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Urgent care",
+    "name": "vybe urgent care",
+    "address": "3550 Market Street",
+    "phone": "215-405-0701",
+    "website": "https://www.vybe.care/locations/university-city/",
+    "detail": "",
+    "source_id": "osm_health_care"
+   }
+  }
+ ]
+}

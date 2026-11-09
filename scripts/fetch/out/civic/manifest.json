@@ -1,0 +1,275 @@
+[
+ {
+  "id": "phl_percent_for_art",
+  "title": "Percent for Art Locations",
+  "categories": [
+   "arts_culture"
+  ],
+  "publisher": "City of Philadelphia, Office of Arts, Culture and the Creative Economy (Creative Philadelphia)",
+  "landing_url": "https://opendataphilly.org/datasets/percent-for-art-locations/",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/Percent_for_Art_Public/FeatureServer/0/query",
+  "license": "City of Philadelphia open data terms of use (https://metadata.phila.gov/#help/help-faqs/what-are-the-terms-of-use/)",
+  "retrieved": "2026-11-09",
+  "data_date": "service last edited 2025-08-19",
+  "records": 47,
+  "notes": "Artworks commissioned under the City's Percent for Art program; only status 'Active' kept (works listed as 'Inaccessible' or 'In Progress' left out). Polygon footprints placed as a point inside the footprint."
+ },
+ {
+  "id": "phl_ppr_art_monuments",
+  "title": "PPR Art and Monuments",
+  "categories": [
+   "arts_culture"
+  ],
+  "publisher": "Philadelphia Parks & Recreation",
+  "landing_url": "https://www.arcgis.com/home/item.html?id=49a4f948606b4f428f88cf091614567a",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/PPR_Art_Monuments_point/FeatureServer/0/query",
+  "license": "City of Philadelphia open data terms of use (https://metadata.phila.gov/#help/help-faqs/what-are-the-terms-of-use/)",
+  "retrieved": "2026-11-09",
+  "data_date": "service last edited 2025-08-19",
+  "records": 149,
+  "notes": "Sculpture, fountains and monuments in the Parks & Recreation collection (inventory points). No OpenDataPhilly page was found for this layer; landing link is the City's ArcGIS item."
+ },
+ {
+  "id": "phl_city_landmarks",
+  "title": "City Landmarks (points)",
+  "categories": [
+   "arts_culture",
+   "historic"
+  ],
+  "publisher": "City of Philadelphia, Office of Innovation and Technology (CityGeo)",
+  "landing_url": "https://opendataphilly.org/datasets/city-landmarks/",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/Landmark_Points/FeatureServer/0/query",
+  "license": "City of Philadelphia open data terms of use (https://metadata.phila.gov/#help/help-faqs/what-are-the-terms-of-use/)",
+  "retrieved": "2026-11-09",
+  "data_date": "service last edited 2020-08-12",
+  "records": 207,
+  "notes": "The City's basemap landmark points, limited to the subtypes that are civic or cultural (monuments, statues and fountains, murals, entertainment venues, historic sites, places of worship); zoo exhibit points, guard boxes and ruins, archived and non-public points left out. Last edited 2020, so recent changes may be missing."
+ },
+ {
+  "id": "phl_city_facilities_civic",
+  "title": "City Facilities (Master Facilities Database) — civic and cultural subset",
+  "categories": [
+   "arts_culture",
+   "civic_safety",
+   "historic"
+  ],
+  "publisher": "City of Philadelphia, Department of Public Property",
+  "landing_url": "https://opendataphilly.org/datasets/city-facilities-master-facilities-database/",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/City_Facilities_pub/FeatureServer/0/query",
+  "license": "City of Philadelphia open data terms of use (https://metadata.phila.gov/#help/help-faqs/what-are-the-terms-of-use/)",
+  "retrieved": "2026-11-09",
+  "data_date": "service last edited 2025-11-20",
+  "records": 43,
+  "notes": "Public-facing City assets only: museum buildings (arts_culture), City-owned historic houses (historic; guard boxes, ruins, springhouses and other outbuildings dropped) and City service offices such as L&I district offices and the Public Safety Services Campus (civic_safety). Inactive and not-public assets dropped; shelters and supportive housing deliberately left out; fire and police stations come from their own layers; recreation, library and health buildings belong to other domains."
+ },
+ {
+  "id": "osm_arts_culture",
+  "title": "OpenStreetMap: museums, galleries, theaters, arts centers, public art",
+  "categories": [
+   "arts_culture"
+  ],
+  "publisher": "OpenStreetMap contributors (via Overpass API)",
+  "landing_url": "https://www.openstreetmap.org/",
+  "api_url": "https://overpass-api.de/api/interpreter",
+  "license": "Open Database License (ODbL) 1.0, © OpenStreetMap contributors",
+  "retrieved": "2026-11-09",
+  "data_date": "live OSM data as of 2026-11-09",
+  "records": 265,
+  "notes": "OSM tourism=museum|gallery|artwork|zoo and amenity=arts_centre|theatre|cinema|music_venue, plus community centres tagged or named as cultural centres. Fills gaps in the official layers (no machine-readable Mural Arts inventory is published); OSM mural coverage is partial and many artworks are unnamed."
+ },
+ {
+  "id": "phl_historic_register_sites",
+  "title": "Philadelphia Register of Historic Places — individually designated properties",
+  "categories": [
+   "historic"
+  ],
+  "publisher": "City of Philadelphia, Philadelphia Historical Commission",
+  "landing_url": "https://opendataphilly.org/datasets/philadelphia-registered-historic-properties/",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/Historic_sites_PhilReg/FeatureServer/0/query",
+  "license": "City of Philadelphia open data terms of use (https://metadata.phila.gov/#help/help-faqs/what-are-the-terms-of-use/)",
+  "retrieved": "2026-11-09",
+  "data_date": "service last edited 2026-11-06",
+  "records": 970,
+  "notes": "Properties individually designated on the Philadelphia Register, as a point inside each parcel; the layer carries addresses, not names, so the address is the name. Properties that are only contributing to a historic district are summarised by the district points (phl_historic_districts), except a school site itself, which is kept and marked 'This school site'."
+ },
+ {
+  "id": "phl_historic_districts",
+  "title": "Philadelphia Register historic districts (one point per district)",
+  "categories": [
+   "historic"
+  ],
+  "publisher": "City of Philadelphia, Philadelphia Historical Commission",
+  "landing_url": "https://opendataphilly.org/datasets/philadelphia-registered-historic-districts/",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/HistoricDistricts_Local/FeatureServer/0/query",
+  "license": "City of Philadelphia open data terms of use (https://metadata.phila.gov/#help/help-faqs/what-are-the-terms-of-use/)",
+  "retrieved": "2026-11-09",
+  "data_date": "service last edited 2026-11-06",
+  "records": 26,
+  "notes": "One point per local historic district (including thematic districts) that reaches within 1.5 miles of a site, placed inside the part of the district nearest that site; detail gives the designation date (from the property records when the district layer has none or its 1/1/3000 placeholder) and the number of Register properties in the district."
+ },
+ {
+  "id": "nps_national_register",
+  "title": "National Register of Historic Places (points)",
+  "categories": [
+   "historic"
+  ],
+  "publisher": "National Park Service, National Register of Historic Places",
+  "landing_url": "https://www.nps.gov/subjects/nationalregister/data-downloads.htm",
+  "api_url": "https://mapservices.nps.gov/arcgis/rest/services/cultural_resources/nrhp_locations/MapServer/0/query",
+  "license": "Public domain (U.S. federal government data)",
+  "retrieved": "2026-11-09",
+  "data_date": "",
+  "records": 124,
+  "notes": "Public, non-restricted National Register listings with status 'Listed' (removed listings dropped); districts appear as a single point. Website is the National Archives catalog record of the nomination. Five of the six school buildings are listed (Robeson is not) and are marked 'This school site'."
+ },
+ {
+  "id": "phmc_historical_markers",
+  "title": "Pennsylvania Historical Markers",
+  "categories": [
+   "historic"
+  ],
+  "publisher": "Pennsylvania Historical and Museum Commission (data.pa.gov)",
+  "landing_url": "https://data.pa.gov/d/xt8f-pzzz",
+  "api_url": "https://data.pa.gov/resource/xt8f-pzzz.json",
+  "license": "Public Domain",
+  "retrieved": "2026-11-09",
+  "data_date": "rows last updated 2026-11-08",
+  "records": 67,
+  "notes": "PHMC historical markers in Philadelphia at the coordinates PHMC publishes; markers whose status is 'True' (known missing) left out."
+ },
+ {
+  "id": "phl_police_stations",
+  "title": "Police Stations (district headquarters)",
+  "categories": [
+   "civic_safety"
+  ],
+  "publisher": "City of Philadelphia, Philadelphia Police Department",
+  "landing_url": "https://opendataphilly.org/datasets/police-stations/",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/Police_Stations/FeatureServer/0/query",
+  "license": "City of Philadelphia open data terms of use (https://metadata.phila.gov/#help/help-faqs/what-are-the-terms-of-use/)",
+  "retrieved": "2026-11-09",
+  "data_date": "service last edited 2026-09-04",
+  "records": 7,
+  "notes": "Police district headquarters; the published phone has no area code, so 215 was added. Some locations are given as intersections."
+ },
+ {
+  "id": "phl_fire_stations",
+  "title": "Fire Department Facilities",
+  "categories": [
+   "civic_safety"
+  ],
+  "publisher": "City of Philadelphia, Philadelphia Fire Department",
+  "landing_url": "https://opendataphilly.org/datasets/fire-department-facilities/",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/Fire_Dept_Facilities/FeatureServer/0/query",
+  "license": "City of Philadelphia open data terms of use (https://metadata.phila.gov/#help/help-faqs/what-are-the-terms-of-use/)",
+  "retrieved": "2026-11-09",
+  "data_date": "service last edited 2026-09-23",
+  "records": 15,
+  "notes": "Fire stations named by the engine and ladder companies housed there; medic and battalion units in detail (the layer's special-unit codes are not explained by the publisher and were left out). Most locations are given as intersections."
+ },
+ {
+  "id": "phl_polling_places",
+  "title": "Polling Places",
+  "categories": [
+   "civic_safety"
+  ],
+  "publisher": "City of Philadelphia, City Commissioners (Philadelphia County Board of Elections)",
+  "landing_url": "https://opendataphilly.org/datasets/polling-places/",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/POLLING_PLACES/FeatureServer/0/query",
+  "license": "City of Philadelphia open data terms of use (https://metadata.phila.gov/#help/help-faqs/what-are-the-terms-of-use/)",
+  "retrieved": "2026-11-09",
+  "data_date": "service last edited 2026-10-23",
+  "records": 189,
+  "notes": "One point per polling place (divisions voting at the same place merged; ward-divisions in detail). Accessibility and parking codes spelled out from the City Commissioners' legend (vote.phila.gov polling place list). Polling places change between elections."
+ },
+ {
+  "id": "phl_rco_offices",
+  "title": "Registered Community Organizations (office or meeting point)",
+  "categories": [
+   "community_orgs"
+  ],
+  "publisher": "City of Philadelphia, Philadelphia City Planning Commission",
+  "landing_url": "https://opendataphilly.org/datasets/registered-community-organizations-rco-boundaries/",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/Zoning_RCO/FeatureServer/0/query",
+  "license": "City of Philadelphia open data terms of use (https://metadata.phila.gov/#help/help-faqs/what-are-the-terms-of-use/)",
+  "retrieved": "2026-11-09",
+  "data_date": "service last edited 2026-11-06",
+  "records": 117,
+  "notes": "Each RCO placed at its organization address with the US Census geocoder; when that is a PO box, cannot be matched, or is the same as a contact person's own address (and not a suite or floor in an office building), its meeting place is used instead, and failing both a point inside its boundary (detail says which). Only name, type, website and which school sites the boundary covers are kept; no contact names, e-mails or phones."
+ },
+ {
+  "id": "phl_nac_offices",
+  "title": "Neighborhood Advisory Committees (offices)",
+  "categories": [
+   "community_orgs"
+  ],
+  "publisher": "City of Philadelphia, Division of Housing and Community Development",
+  "landing_url": "https://opendataphilly.org/datasets/neighborhood-advisory-committees-nacs/",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/NAC_Offices/FeatureServer/0/query",
+  "license": "City of Philadelphia open data terms of use (https://metadata.phila.gov/#help/help-faqs/what-are-the-terms-of-use/)",
+  "retrieved": "2026-11-09",
+  "data_date": "service last edited 2026-10-21",
+  "records": 10,
+  "notes": "NAC office locations; organization phone and website kept, coordinator names and e-mails not requested."
+ },
+ {
+  "id": "phl_ppr_friends_groups",
+  "title": "PPR Friends Groups",
+  "categories": [
+   "community_orgs"
+  ],
+  "publisher": "Philadelphia Parks & Recreation",
+  "landing_url": "https://opendataphilly.org/datasets/ppr-friends-group/",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/PPR_Friends_Groups/FeatureServer/0/query",
+  "license": "City of Philadelphia open data terms of use (https://metadata.phila.gov/#help/help-faqs/what-are-the-terms-of-use/)",
+  "retrieved": "2026-11-09",
+  "data_date": "service last edited 2026-08-07",
+  "records": 65,
+  "notes": "Volunteer friends groups, placed at the park they support; contact e-mails not requested."
+ },
+ {
+  "id": "pacdc_cdc_members",
+  "title": "PACDC member CDCs",
+  "categories": [
+   "community_orgs"
+  ],
+  "publisher": "Philadelphia Association of Community Development Corporations (PACDC)",
+  "landing_url": "https://pacdc.org/members-list/",
+  "api_url": "https://www.google.com/maps/d/kml?mid=1MNPGrcyP-aqpqtswG5f_vpvs5XAyEnM&forcekml=1",
+  "license": "No license stated; published by PACDC as its public member map",
+  "retrieved": "2026-11-09",
+  "data_date": "",
+  "records": 29,
+  "notes": "The 'CDC Members' layer of PACDC's public member map (Associate Members such as banks and consultants left out), placed with the US Census geocoder from the street address PACDC lists. Organization phone and website kept. Not matched by the geocoder: Called To Serve CDC, Frankford CDC, Cliveden of the National Trust."
+ },
+ {
+  "id": "osm_community_centres",
+  "title": "OpenStreetMap: community centers and social clubs",
+  "categories": [
+   "community_orgs"
+  ],
+  "publisher": "OpenStreetMap contributors (via Overpass API)",
+  "landing_url": "https://www.openstreetmap.org/",
+  "api_url": "https://overpass-api.de/api/interpreter",
+  "license": "Open Database License (ODbL) 1.0, © OpenStreetMap contributors",
+  "retrieved": "2026-11-09",
+  "data_date": "live OSM data as of 2026-11-09",
+  "records": 25,
+  "notes": "OSM amenity=community_centre|social_centre that are not City-run and not youth, older-adult or recreation centres (those belong to other categories and were left out). Non-City community centres are filed under community_orgs as community-run places; cultural centres went to arts_culture."
+ },
+ {
+  "id": "osm_places_of_worship",
+  "title": "OpenStreetMap: places of worship",
+  "categories": [
+   "worship"
+  ],
+  "publisher": "OpenStreetMap contributors (via Overpass API)",
+  "landing_url": "https://www.openstreetmap.org/",
+  "api_url": "https://overpass-api.de/api/interpreter",
+  "license": "Open Database License (ODbL) 1.0, © OpenStreetMap contributors",
+  "retrieved": "2026-11-09",
+  "data_date": "live OSM data as of 2026-11-09",
+  "records": 446,
+  "notes": "OSM amenity=place_of_worship (nodes, ways and relations, placed at the feature or its centre); religion and denomination from OSM tags in detail. Unnamed features kept with an empty name. No official citywide inventory of congregations is published."
+ }
+]

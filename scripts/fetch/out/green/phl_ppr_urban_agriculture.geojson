@@ -1,0 +1,65 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Urban agriculture project (PPR land)",
+"name": "Carousel House Farm",
+"address": "4300 Ave of the Republic",
+"phone": "",
+"website": "",
+"detail": "In West Fairmount Park",
+"source_id": "phl_ppr_urban_agriculture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.213537,
+39.97953
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Urban agriculture project (PPR land)",
+"name": "Master Gardeners Demonstration Vegetable Garden & Food Forest",
+"address": "100 N Horticultural Dr",
+"phone": "",
+"website": "https://extension.psu.edu/programs/master-gardener/counties/philadelphia/fairmount-park-demonstration-gardens",
+"detail": "In West Fairmount Park · Public hours: 8am–6pm (April 1-October 31); 8am–5pm (November 1-March 31)",
+"source_id": "phl_ppr_urban_agriculture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210658,
+39.982774
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Urban agriculture project (PPR land)",
+"name": "Saul High School - Henry Got Crops",
+"address": "7095 Henry Ave",
+"phone": "",
+"website": "https://saul.philasd.org/",
+"detail": "In Wissahickon Valley Park · Public hours: Seasonal farmers market: Tuesdays 10 am - 7 pm (10-11 am high-risk shopper hour)",
+"source_id": "phl_ppr_urban_agriculture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21929,
+40.049402
+]
+}
+}
+]
+}

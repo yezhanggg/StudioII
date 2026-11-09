@@ -1,0 +1,205 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.144583,
+     40.036937
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Hospital (general medical)",
+    "name": "Einstein Medical Center - Philadelphia",
+    "address": "5501 Old York Rd",
+    "phone": "215-456-7890",
+    "website": "",
+    "detail": "",
+    "source_id": "phl_hospitals"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.223605,
+     40.0426
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Hospital (behavioral health)",
+    "name": "Fairmount Behavioral Health Systems",
+    "address": "561 Fairthorne Avenue",
+    "phone": "215-487-4100",
+    "website": "",
+    "detail": "",
+    "source_id": "phl_hospitals"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.160406,
+     40.040104
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Hospital (behavioral health)",
+    "name": "Germantown Community Health Center",
+    "address": "1 Penn Boulevard",
+    "phone": "215-951-8000",
+    "website": "",
+    "detail": "",
+    "source_id": "phl_hospitals"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.192683,
+     39.950412
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Hospital (general medical)",
+    "name": "Hospital of the University of Pennsylvania",
+    "address": "3400 Spruce Street",
+    "phone": "215-662-4000",
+    "website": "",
+    "detail": "",
+    "source_id": "phl_hospitals"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.230265,
+     39.95243
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Hospital (general medical)",
+    "name": "Mercy Philadelphia Hospital",
+    "address": "501 South 54th Street",
+    "phone": "215-748-9000",
+    "website": "",
+    "detail": "PA DOH and SAMHSA now list this address as Hospital of the University of Pennsylvania – Cedar Avenue",
+    "source_id": "phl_hospitals"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.142797,
+     40.037793
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Hospital (rehabilitation)",
+    "name": "Moss Rehabilitation Hospital",
+    "address": "1200 W Tabor Road",
+    "phone": "215-456-9800",
+    "website": "",
+    "detail": "",
+    "source_id": "phl_hospitals"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.19948,
+     39.957214
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Hospital (general medical)",
+    "name": "Penn Presbyterian Medical Center",
+    "address": "51 North 39th street",
+    "phone": "215-662-8000",
+    "website": "",
+    "detail": "",
+    "source_id": "phl_hospitals"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.201483,
+     39.94969
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Hospital (general medical)",
+    "name": "Philadelphia VA Medical Center",
+    "address": "3900 Woodland Ave",
+    "phone": "215-823-5800",
+    "website": "",
+    "detail": "",
+    "source_id": "phl_hospitals"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.210332,
+     40.028494
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Hospital (general medical)",
+    "name": "Roxborough Memorial Hospital",
+    "address": "5800 Ridge Avenue",
+    "phone": "215-483-9900",
+    "website": "",
+    "detail": "",
+    "source_id": "phl_hospitals"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.192755,
+     39.949773
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Hospital (general medical)",
+    "name": "The Children's Hospital of Philadelphia",
+    "address": "34th Street and Civic Center Boulevard",
+    "phone": "215-590-1000",
+    "website": "",
+    "detail": "",
+    "source_id": "phl_hospitals"
+   }
+  }
+ ]
+}

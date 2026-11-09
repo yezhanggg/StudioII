@@ -1,9 +1,14 @@
-# Community Map · Six Schools
+# Community Asset Map · Wagner, Blankenburg & four other schools
+
+What is around each school, to inform the reuse of Wagner and Blankenburg. **An inventory, not a recommendation.**
+Places are grouped the way a first-time reader looks for them: Food · Health · Children & learning · Community &
+recreation · More places (off at first). Every place cites its source in its popup and in **Sources & data**.
 
 One interactive map for the studio's six candidate schools (Wagner, Blankenburg, Robeson, Pennypacker, Fitler,
-AMY Northwest), in the Market Analysis Tool's design language (Deepblue-Dashboards): a school bar, a "Zoom to"
-card with an adjustable radius, a foldable rail of layer switches, a docked legend, a compare / school / tract
-panel on the right, and basemaps, tools and address search at bottom-right.
+AMY Northwest), in the Market Analysis Tool's design language (Deepblue-Dashboards): a school bar, "How far to
+look" (¼–1½ miles), a left panel of five place groups and a few map layers, a legend, a school / compare panel on
+the right (each type of place: how many within the distance, how far the nearest), a first-visit guide, and the
+Sources & data window.
 
 - `/` all six schools · `/wagner`, `/blankenburg`, `/robeson`, `/pennypacker`, `/fitler`, `/amynw` one school
 
@@ -15,6 +20,17 @@ npm run dev          # http://localhost:5173
 npm run build        # static site in dist/ (vercel.json has the SPA rewrites)
 node scripts/check_links.mjs   # requests every website / dashboard link the map shows
 ```
+
+## Community assets: five research inventories
+
+`scripts/fetch/{education,health,green,civic,economy}.py` pull every asset from official sources (City of
+Philadelphia / OpenDataPhilly, data.pa.gov, HRSA, USDA, NCES, NPS, FDIC, NCUA, HUD, SAMHSA) and OpenStreetMap,
+within 1.5 miles of the six schools, and write `scripts/fetch/out/<domain>/` + a source manifest
+(`scripts/fetch/CONTRACT.md`). Re-run one with
+`uv run --no-project --with geopandas --with pyogrio --with requests python scripts/fetch/<domain>.py`.
+`build_data.py` merges them, removes duplicates across sources, sorts each place into a plain-language type, and
+writes `public/data/sources.json` for the documentation window. `node scripts/check_links.mjs` checks every link;
+dead ones go to `scripts/broken_links.json` and the next build leaves them out.
 
 ## Data
 

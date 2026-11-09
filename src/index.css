@@ -57,3 +57,10 @@ body { margin: 0; background: #fff; color: #1E1E1C; font-family: theme('fontFami
 /* a canvas layer must never block clicks on the layers beneath it */
 .leaflet-points-pane canvas { pointer-events: none; }
 .leaflet-pane > svg path.leaflet-interactive.stroke-only { pointer-events: visibleStroke; }
+
+/* tract popup table */
+.pp-tbl { margin-top: 6px; border-collapse: collapse; width: 100%; font-size: 12.5px; }
+.pp-tbl th { font-size: 10.5px; text-transform: uppercase; letter-spacing: .05em; color: #8C8A7C; font-weight: 600; text-align: right; padding: 0 0 2px 8px; }
+.pp-tbl td { padding: 2px 0; border-top: 1px solid #f0efea; color: #57564E; }
+.pp-tbl td.n { text-align: right; font-weight: 700; color: #1E1E1C; padding-left: 8px; font-variant-numeric: tabular-nums; }
+.pp-tbl td.c { font-weight: 400; color: #8C8A7C; }

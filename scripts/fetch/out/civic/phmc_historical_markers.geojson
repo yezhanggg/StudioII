@@ -1,0 +1,1345 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "African American Baseball in Philadelphia",
+"address": "SW corner, Belmont & Parkside Aves., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 1998 · Roadside marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21356,
+39.97762
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "American Bandstand",
+"address": "4601 Market St., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 1997 · Roadside marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21259,
+39.9585
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Christopher Saur (1693-1758)",
+"address": "at Trinity Lutheran Church, 5300 Germantown Ave., Phila.",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2009 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.16885,
+40.03211
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Connie Mack (1862-1956)",
+"address": "604 W Cliveden St., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 1998 · Roadside marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19197,
+40.03788
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Crystal Bird Fauset",
+"address": "5403 Vine St., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 1991 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22794,
+39.96513
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Dr. Mary Davis Ridgway (1873-1927)",
+"address": "Wissahickon Ave., between Lincoln Dr. and Walnut Ln., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2001 · Roadside marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18869,
+40.03149
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "ENIAC",
+"address": "200 S 33rd St., S of Walnut St., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2000 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19003,
+39.95235
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Ebenezer Maxwell Mansion",
+"address": "200 W Tulpehocken St. (Germantown), Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2008 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18367,
+40.03851
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Fairmount Park - Commonwealth Treasure",
+"address": "Kelly Dr. & Sedgely Dr., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2001 · Roadside marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18482,
+39.96961
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Fairmount Water Works",
+"address": "At waterworks, corner of Waterworks Dr. & Kelly Dr., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 1997 · Roadside marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18461,
+39.96906
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Female Medical College of Pennsylvania",
+"address": "2900 W Queen Ln., at Drexel College of Med. entrance, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 1996 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18103,
+40.01972
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "First African Presbyterian Church",
+"address": "N 42nd & Girard Ave., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 1993 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20954,
+39.97355
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "First Protest Against Slavery",
+"address": "5109 Germantown Ave. at Wister St., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 1983 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.16492,
+40.03009
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "First Troop Philadelphia City Cavalry",
+"address": "22 S 23rd St., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2021 · Roadside marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.178113,
+39.953204
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Freedom Now Rally",
+"address": "intersection of 40th St., Lancaster Ave., and Haverford Ave., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2010 · Roadside marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20232,
+39.96296
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Hakim's Bookstore and Gift Shop",
+"address": "210 S. 52nd Street",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2023 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225632,
+39.95663
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Herman Herzog (1831-1932)",
+"address": "4101 Pine St.",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2011 · Roadside marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20582,
+39.95107
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Hilary Koprowski, M.D. (1916 - 2013)",
+"address": "37th & Spruce Street",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2024 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196634,
+39.951094
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "John J. McDermott (1891-1971)",
+"address": "Kingsessing Library, 1201 S 51st St., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2014 · Roadside marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21821,
+39.94203
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "John Page Nicholson (1842-1922)",
+"address": "1805 Pine St., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 1998 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18694,
+39.94066
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "John S. Trower (1849-1911)",
+"address": "5706 Germantown Ave., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2021 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.175067,
+40.036027
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "John W. Coltrane (1926-1967)",
+"address": "1511 N 33rd St., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 1990 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18878,
+39.9803
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Joseph Huston (1866-1940)",
+"address": "5829 Wissahickon Ave., Germantown, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2005 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18546,
+40.02888
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Julian Francis Abele (1881-1950)",
+"address": "At Philadelphia Museum of Art steps, 26th & Franklin Pkwy.",
+"phone": "",
+"website": "",
+"detail": "Dedicated 1991 · Roadside marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.17958,
+39.96495
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Kelpius Community",
+"address": "Hermit Ln. near Henry Ave., Fairmount Park, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2004 · Roadside marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20085,
+40.02517
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Laura Wheeler Waring (1887-1948)",
+"address": "756 N 43rd St., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 1992 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20966,
+39.96644
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Louisa May Alcott",
+"address": "5427 Germantown Ave., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 1996 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.17139,
+40.03372
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Mount Pleasant",
+"address": "3800 Mount Pleasant Drive Philadelphia, PA 19121",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2023 · Roadside marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.199435,
+39.983618
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Muhammad's Temple of Islam #12",
+"address": "4218 Lancaster Ave., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2016 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20848,
+39.96687
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Ora Washington (1899-1971)",
+"address": "6128 Germantown Ave., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2004 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.17963,
+40.04133
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Owen Wister (1860-1938)",
+"address": "5203 Germantown Ave., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2001 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.16672,
+40.03101
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Paul Philippe Cret (1876-1945)",
+"address": "516 Woodland Terrace, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 1992 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20466,
+39.94902
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Paul Robeson (1898-1976)",
+"address": "4951 Walnut St. (at 50th), Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 1991 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22143,
+39.95651
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Philadelphia College of Pharmacy and Science",
+"address": "At entrance, S 43rd St. & Kingsessing Ave., West Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 1971 · Roadside marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20864,
+39.94676
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Philadelphia College of Textiles and Science",
+"address": "Campus, School House Ln. near Henry Ave., Germantown, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 1969 · Roadside marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19162,
+40.02131
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Philadelphia General Hospital",
+"address": "Curie Blvd. & Osler Circle, Penn campus",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2007 · Roadside marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19646,
+39.94884
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Prince Hall Grand Lodge",
+"address": "4301 N. Broad St. (Pa. 611), between St. Luke & Bristol, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 1990 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.1489,
+40.01908
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Rev. Dr. Leon Howard Sullivan (1922-2001)",
+"address": "At Zion Baptist Church, 3600 N Broad St., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2017 · Roadside marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.1517,
+40.00779
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Rev. Isaac Leeser (1806-1868)",
+"address": "Market St. between 54th & 55th, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 1998 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.23076,
+39.96082
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Rittenhouse Town",
+"address": "Lincoln Dr. at Rittenhouse St. just off Wissahickon Ave., Fairmount Park, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 1991 · Roadside marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18995,
+40.02917
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Ronald McDonald House",
+"address": "3925 Chestnut St., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2019 · Roadside marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20136,
+39.95558
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Roy Campanella (1921-1993)",
+"address": "Simon Gratz High School, N 18th St. & Hunting Park Ave., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 1996 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.1562,
+40.01465
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Ruth Plumly Thompson (1891-1976)",
+"address": "254 S Farragut St., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2018 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21507,
+39.9539
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Sadie T.M. Alexander (1898-1989)",
+"address": "700 Westview St., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 1993 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19628,
+40.04433
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Satterlee U.S.A. General Hospital",
+"address": "At Gettysburg Stone in Clark Park, between S 43rd & S 44th Sts. on Baltimore Ave., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2003 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21018,
+39.94901
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Schuylkill Arsenal",
+"address": "E Greys Ferry Rd. at Washington Ave., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2004 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18767,
+39.94042
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Schuylkill Navy of Philadelphia",
+"address": "#4 Boathouse Row, Kelly Dr., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2008 · Roadside marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.1862,
+39.96945
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Shot Tower",
+"address": "Carpenter & Front Sts., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 1997 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18694,
+39.94066
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Smith Memorial Playground & Playhouse",
+"address": "3500 Reservoir Dr., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2017 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19456,
+39.9828
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Stephen Smith (1795-1873)",
+"address": "1050 Belmont Ave., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 1991 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21215,
+39.97267
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "The Children's Hospital of Philadelphia",
+"address": "S 34th St. & Civic Center Blvd., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2002 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19298,
+39.94883
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "The Jewish Hospital",
+"address": "At hospital, 5501 Old York Rd., at intersection of Albert Einstein Dr., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2017 · Roadside marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.14461,
+40.03695
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "The Johnson House",
+"address": "6306 Germantown Ave., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 1995 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.1809,
+40.04328
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "The Kelly Family",
+"address": "At the corner of W Coulter St. & Henry Ave., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2012 · Roadside marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18896,
+40.01784
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "The Palestra",
+"address": "223 S 33rd St., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2022 · Roadside marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190167,
+39.951509
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "The Penn Relays",
+"address": "At Franklin Field track entrance, 233 S 33rd St., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 1995 · Roadside marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19068,
+39.95111
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "The Philadelphia Zoo",
+"address": "3400 W Girard Ave. at zoo entrance, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 1996 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.1958,
+39.97473
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "The Solitude",
+"address": "at site on Phila. Zoo grounds, 3400 W Girard Ave., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2009 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.1957,
+39.97198
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "The Wistar Institute of Anatomy and Biology",
+"address": "3601 Spruce St.",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2007 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195485,
+39.950934
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "The Woodlands",
+"address": "4000 Woodland Ave., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 1996 · Roadside marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20354,
+39.94907
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Walnut Lane Bridge",
+"address": "Walnut Ln., NE side of bridge over Wissahickon Creek (Germantown side), Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2008 · Roadside marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19912,
+40.03298
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Walnut Lane Bridge",
+"address": "Walnut Ln., SW side of bridge over Wissahickon Creek (Roxborough side), Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2008 · Roadside marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19151,
+40.02136
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Walter Golaski (1913-1996)",
+"address": "On Drexel campus on Lancaster Walk, near Lancaster Ave. and 34th St. interesection, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2014 · Roadside marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19081,
+39.95721
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "William Penn Charter School",
+"address": "left side of main entrance, 3000 W Schoolhouse Ln., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2015 · Roadside marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18689,
+40.02212
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Wilt Chamberlain (1936-1999)",
+"address": "Overbrook High School, N 59th St. & Lancaster Ave., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2000 · Roadside marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.23946,
+39.98113
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Wissahickon Boys Club",
+"address": "328 W Coulter St., Germantown, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2001 · Roadside marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.17713,
+40.02698
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Pennsylvania historical marker",
+"name": "Wyck House and Rose Garden",
+"address": "Germantown Ave. & Walnut Ln., Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Dedicated 2025 · City marker",
+"source_id": "phmc_historical_markers"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18,
+40.04
+]
+}
+}
+]
+}

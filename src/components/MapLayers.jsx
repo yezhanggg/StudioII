@@ -5,7 +5,7 @@
 import { useEffect, useMemo } from 'react';
 import { TileLayer, useMap } from 'react-leaflet';
 import L from 'leaflet';
-import { CATEGORY, ICONS, esc, fmtMiles, walkMinutes, assetPopup, popupHtml, quantiles, MEASURE } from '../lib/layers';
+import { TYPE, ICONS, esc, fmtInt, fmtMiles, walkMinutes, assetPopup, popupHtml, quantiles, MEASURE } from '../lib/layers';
 
 // ── panes: stacking order of everything on the map ───────────────────────
 const PANES = [
@@ -124,40 +124,45 @@ export function GeoLayer({ def, data, nearest, onTract }) {
   return null;
 }
 
-// ── census tract choropleth (the whole city) ──────────────────────────────
-export function Choropleth({ data, measure, selectedId, onTract }) {
+// ── census tract shading (the whole city); a click shows the tract beside Philadelphia ──
+const TRACT_ROWS = [['income', 'Median household income', 'Median household income'], ['poverty', 'Poverty rate', 'Poverty rate'],
+  ['unemployment', 'Unemployment rate', 'Unemployment rate'], ['children', 'Children under 18', null], ['renter', 'Renter households', 'Renter-occupied']];
+export function Choropleth({ data, measure, city }) {
   const map = useMap();
   const m = MEASURE[measure];
   const scale = useMemo(() => (data && m ? quantiles(data.features.map((f) => f.properties[m.id])) : null), [data, m]);
-
   useEffect(() => {
     if (!data || !m || !scale) return undefined;
-    const base = (p) => ({
-      pane: 'choropleth', color: p.geoid === selectedId ? '#1E1E1C' : '#ffffff', weight: p.geoid === selectedId ? 3 : 0.7, opacity: 1,
-      fillColor: scale.colorOf(p[m.id]), fillOpacity: 0.72,
-    });
+    const base = (p) => ({ pane: 'choropleth', color: '#ffffff', weight: 0.7, opacity: 1, fillColor: scale.colorOf(p[m.id]), fillOpacity: 0.7 });
     const layer = L.geoJSON(data, {
       pane: 'choropleth',
       style: (f) => base(f.properties),
       onEachFeature: (f, lyr) => {
         const p = f.properties;
         lyr.bindTooltip(`<b>Tract ${esc(p.name)}</b><br>${esc(m.label)}: <b>${esc(m.fmt(p[m.id]))}</b>`, { sticky: true, className: 'tt', direction: 'top' });
+        lyr.bindPopup(() => {
+          const rows = TRACT_ROWS.map(([k, label, prof]) => {
+            const mm = MEASURE[k];
+            const c = prof && city?.[prof] ? mm.fmt(city[prof].city) : '';
+            return `<tr><td>${esc(label)}</td><td class="n">${esc(mm.fmt(p[k]))}</td><td class="n c">${esc(c)}</td></tr>`;
+          }).join('');
+          return `<div class="pp"><div class="pp-t">Census tract ${esc(p.name)}</div><div class="pp-k">ACS 2020–2024 · ${fmtInt(p.pop)} residents</div><table class="pp-tbl"><tr><th></th><th>Tract</th><th>City</th></tr>${rows}</table><div class="pp-s">Source: US Census Bureau, American Community Survey 5-year</div></div>`;
+        }, { maxWidth: 320 });
         lyr.on('mouseover', () => { lyr.setStyle({ weight: 2.5, color: '#1E1E1C' }); lyr.bringToFront(); });
         lyr.on('mouseout', () => lyr.setStyle(base(p)));
-        lyr.on('click', () => onTract(p));
       },
     }).addTo(map);
     return () => { map.removeLayer(layer); };
-  }, [map, data, m, scale, selectedId, onTract]);
+  }, [map, data, m, scale, city]);
   return null;
 }
 
 // ── community assets: a white glyph on the family colour ──────────────────
 const iconCache = new Map();
-function assetIcon(category, near) {
-  const key = `${category}|${near}`;
+function assetIcon(type, near) {
+  const key = `${type}|${near}`;
   if (!iconCache.has(key)) {
-    const c = CATEGORY[category] || { color: '#57564E', icon: 'people' };
+    const c = TYPE[type] || { color: '#57564E', icon: 'dots' };
     const size = near ? 24 : 20;
     iconCache.set(key, L.divIcon({
       className: 'am-wrap',
@@ -169,20 +174,20 @@ function assetIcon(category, near) {
 }
 
 /** items: [{ lat, lng, p, near }] — already merged across schools and filtered */
-export function AssetLayer({ items, nearest }) {
+export function AssetLayer({ items, nearest, sourceTitle = {} }) {
   const map = useMap();
   useEffect(() => {
     const group = L.layerGroup();
     for (const it of items) {
       const p = it.p;
-      const mk = L.marker([it.lat, it.lng], { icon: assetIcon(p.category, it.near), pane: 'assets', riseOnHover: true, keyboard: true, title: p.name });
-      mk.bindTooltip(`<b>${esc(p.name)}</b><br><span class="tt-k">${esc(p.kind)}</span>`, { direction: 'top', className: 'tt' });
-      mk.bindPopup(() => withDistance(assetPopup(p), mk.getLatLng(), nearest), { maxWidth: 320, autoPanPadding: [40, 40] });
+      const mk = L.marker([it.lat, it.lng], { icon: assetIcon(p.type, it.near), pane: 'assets', riseOnHover: true, keyboard: true, title: p.name });
+      mk.bindTooltip(`<b>${esc(p.name)}</b><br><span class="tt-k">${esc(p.kind || TYPE[p.type]?.label || '')}</span>`, { direction: 'top', className: 'tt' });
+      mk.bindPopup(() => withDistance(assetPopup(p, sourceTitle[p.source_id]), mk.getLatLng(), nearest), { maxWidth: 320, autoPanPadding: [40, 40] });
       group.addLayer(mk);
     }
     group.addTo(map);
     return () => { map.removeLayer(group); };
-  }, [map, items, nearest]);
+  }, [map, items, nearest, sourceTitle]);
   return null;
 }
 

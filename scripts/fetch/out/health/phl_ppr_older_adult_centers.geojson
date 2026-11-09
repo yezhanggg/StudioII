@@ -1,0 +1,25 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.15421,
+     40.064378
+    ]
+   },
+   "properties": {
+    "category": "older_adults",
+    "kind": "Older adult center (PPR)",
+    "name": "West Oak Lane Senior Center",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "Philadelphia Parks & Recreation program site",
+    "source_id": "phl_ppr_older_adult_centers"
+   }
+  }
+ ]
+}

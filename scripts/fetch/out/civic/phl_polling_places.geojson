@@ -1,0 +1,3785 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "48th & Woodland Recreation Center",
+"address": "1414 S 47th St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 27-15, 27-16, 27-17 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209837,
+39.942517
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "A B Day School",
+"address": "6324 Crittenden St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 22-27, 22-28, 22-29 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.168162,
+40.059011
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Abbottsford Homes Community Center (PHA)",
+"address": "3226 McMichael St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 38-01 · Building fully accessible · Handicap parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180617,
+40.01178
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Awbury Recreation Center",
+"address": "6101 Ardleigh St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 59-02, 59-04 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.165422,
+40.053858
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Barber Shop [259 S 52nd St]",
+"address": "259 S 52nd St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 60-13 · Accessible with ramp · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225794,
+39.955794
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Barber Shop [6026 Callowhill St]",
+"address": "6026 Callowhill St Rear",
+"phone": "",
+"website": "",
+"detail": "Ward-division 34-04 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.240504,
+39.968377
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Barry School",
+"address": "5900 Race St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 04-19, 04-20 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.238723,
+39.96477
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Belfield Recreation Center",
+"address": "2109 W Chew Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 17-16, 17-17 · Building substantially accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.156461,
+40.042472
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Beloved St John Church",
+"address": "4541 N Broad St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 49-05 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.147811,
+40.023083
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Better Way Bible Church",
+"address": "520 N 61st St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 34-05, 34-09 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.241539,
+39.970758
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Bibleway Baptist Church",
+"address": "1323 N 52nd St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 44-01, 44-05, 44-19 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225991,
+39.97387
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Blackwell Branch Library",
+"address": "125 S 52nd St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 60-03, 60-14 · Building fully accessible · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225156,
+39.957857
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Bluford Charter School",
+"address": "5720 Media St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 04-04, 04-10, 04-16, 04-17 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.236026,
+39.974085
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Bryn Mawr Suites",
+"address": "5100 Lebanon Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 52-17 · Accessible with ramp · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.227071,
+39.989271
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Building 21 School",
+"address": "6501 Limekiln Pk",
+"phone": "",
+"website": "",
+"detail": "Ward-division 10-08, 10-20 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.15252,
+40.053818
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Calvary St Augustine Episcopal Church",
+"address": "814 N 41st St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 06-09, 06-11 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206293,
+39.968278
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Calvary United Methodist Church",
+"address": "801 S 48th St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 46-01 · Alternate entrance · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.218655,
+39.94861
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Camphor Memorial U M Church",
+"address": "5620 Wyalusing Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 04-02, 04-03 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.233021,
+39.968849
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Canaan Baptist Church",
+"address": "5430 Pulaski Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 12-22, 12-23 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.177863,
+40.028767
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Champlost Homes (PHA)",
+"address": "1953 W Nedro Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 17-15 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.153841,
+40.044215
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Church Office",
+"address": "5478 Arlington St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 52-25 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.234738,
+39.986317
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Church Property",
+"address": "659 N 56th St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 04-09 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.232379,
+39.970614
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Civic House/Univ of Penna",
+"address": "3914 Locust Walk",
+"phone": "",
+"website": "",
+"detail": "Ward-division 27-05 · Building fully accessible · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.201566,
+39.952789
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Clayborne & Lewis Community Center",
+"address": "1101 N 38th St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 24-09, 24-14 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.198968,
+39.97355
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Comegys School",
+"address": "5100 Greenway Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 27-04, 27-12, 51-03 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216478,
+39.940915
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Concerned Black Men",
+"address": "7200 N 21st St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 10-04, 10-15 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.152716,
+40.064827
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Congregation Temple Bethel",
+"address": "7350 Lowber Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 10-23 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.161121,
+40.062448
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Cook Wissahickon School",
+"address": "201 E Salaignac St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 21-14, 21-15, 21-16, 21-35 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206996,
+40.022924
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Cooke Middle School",
+"address": "1300 W Loudon St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 49-04, 49-11, 49-12, 49-13 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.146184,
+40.026063
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Corinthian Community & Education Center",
+"address": "6100 N 21st St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 17-08, 17-09, 17-10, 17-28 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.156019,
+40.048003
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "D Finnegan Recreation Center",
+"address": "1231 S 30th St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 36-26, 36-28 · Building fully accessible · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.193171,
+39.938073
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Dare to Imagine Church",
+"address": "6610 Anderson St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 22-25, 22-26 · Accessible with ramp · Handicap parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.174311,
+40.060155
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Daroff Charter School",
+"address": "5630 Vine St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 04-08 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.232924,
+39.965749
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Divine Creations Unisex Salon",
+"address": "509 S 52nd St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 46-03 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.226461,
+39.952047
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Drexel University Recreation Center",
+"address": "3301 Market St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 24-10, 24-18, 24-19 · Building fully accessible · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190542,
+39.956499
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Durham Library",
+"address": "3320 Haverford Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 24-02, 24-03, 24-11 · Building fully accessible · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191267,
+39.964303
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "El Shaddai Christian Assembly",
+"address": "1448 Greenwood St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 50-29 · Alternate entrance · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.16715,
+40.074419
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "El Shaddai Church",
+"address": "4244 Old York Rd",
+"phone": "",
+"website": "",
+"detail": "Ward-division 43-01 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.14756,
+40.018402
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Ellwood School",
+"address": "6701 N 13th St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 61-21, 61-23, 61-24 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.13862,
+40.055557
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Elmwood Community Methodist Church",
+"address": "4523 Chester Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 46-16, 46-18 · Alternate entrance · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212736,
+39.947659
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Emanuel Recreation Center",
+"address": "8500 Pickering Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 50-01, 50-04, 50-10, 50-17, 50-19, 50-22 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.175452,
+40.080798
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Emlen School",
+"address": "6501 Chew Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 22-20, 22-21, 22-22 · Accessible with ramp · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.17831,
+40.05447
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Enon Tabernacle Baptist Church (West)",
+"address": "230 W Coulter St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 12-11 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.175353,
+40.028804
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Epic Church Roxborough",
+"address": "6035 Ridge Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 21-19, 21-20, 21-27 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212837,
+40.033359
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Excelsior School of Philadelphia",
+"address": "2111 Eastburn Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 10-16, 10-18, 10-19, 10-27 · Building fully accessible · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.15656,
+40.056311
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "F S Edmonds School",
+"address": "8025 Thouron Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 50-03, 50-12, 50-14, 50-15 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.171199,
+40.073437
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Face to Face",
+"address": "123 E Price St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 59-05, 59-09, 59-16 · Building accessibility modified · Handicap parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.174044,
+40.038422
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Faith Temple Church",
+"address": "7485 Briar Rd",
+"phone": "",
+"website": "",
+"detail": "Ward-division 10-02, 10-03 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.154101,
+40.068668
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Finley Recreation Center",
+"address": "7701 Mansfield Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 10-29, 50-06, 50-08, 50-11, 50-23, 50-27 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.170479,
+40.065138
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "First United Methodist Church",
+"address": "6001 Germantown Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 59-15, 59-22 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.177948,
+40.040393
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Fisher Park Recreation Center",
+"address": "571 W Spencer St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 61-06, 61-13 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.131484,
+40.043756
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "G O S P Community Building",
+"address": "6101 Limekiln Pk",
+"phone": "",
+"website": "",
+"detail": "Ward-division 17-05, 17-11, 17-13, 17-14 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.148824,
+40.04686
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Garden Court Plaza",
+"address": "4701 Pine St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 46-02, 46-19 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216922,
+39.953014
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Germantown House (PHA)",
+"address": "5457 Wayne Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 12-15 · Alternate entrance · Handicap parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.176039,
+40.030882
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Germantown Mennonite Church",
+"address": "21 W Washington Ln",
+"phone": "",
+"website": "",
+"detail": "Ward-division 59-23 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181784,
+40.043237
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Global Leadership Academy Southwest",
+"address": "5200 Pine St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 60-10, 60-11, 60-15, 60-16 · Alternate entrance · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.227035,
+39.953824
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Grace Christian Assembly",
+"address": "610 E Mt Pleasant Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 22-23, 22-24 · Building substantially accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.179507,
+40.066898
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Greater Olney Branch Library",
+"address": "5501 N 5th St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 42-25 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.130761,
+40.035377
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Greenfield School",
+"address": "2200 Chestnut St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 08-09, 08-13, 08-27, 08-33 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.177739,
+39.952741
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Hair Salon [Vyce]",
+"address": "4828 Baltimore Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 46-09 · Building fully accessible · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22091,
+39.948489
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Haitian Evangelical Baptist Church",
+"address": "814 E Chelten Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 12-04, 12-05, 12-06, 12-07 · Building fully accessible · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.16398,
+40.045702
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Happy Hollow Recreation Center",
+"address": "4740 Wayne Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 12-17, 12-19, 12-20, 12-21, 13-02, 13-03 · Alternate entrance · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.165991,
+40.024486
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Harrington School",
+"address": "5300 Baltimore Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 51-01, 51-15, 51-16, 51-18 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.230364,
+39.947856
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Haverford Branch Library",
+"address": "5543 Haverford Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 04-14, 04-15 · Building fully accessible · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.231772,
+39.968063
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Heston School",
+"address": "1621 N 54th St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 04-05, 04-11 · Building fully accessible · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.229629,
+39.97826
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Hill Freedman World Academy",
+"address": "1100 E Mount Pleasant Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 50-02, 50-05, 50-07, 50-18 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.175052,
+40.072037
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Hillside Recreation Center",
+"address": "201 Fountain St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 21-08, 21-09, 21-13 · Building substantially accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.228938,
+40.034238
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Holmes Senior Apartments",
+"address": "5429 Chestnut St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 60-04, 60-06 · Building fully accessible · Handicap parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.230606,
+39.960038
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Holsey Temple",
+"address": "5305 Germantown Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 12-09, 12-16 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.169552,
+40.033154
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Hopephl",
+"address": "325 N 39th St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 24-08 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.199824,
+39.96053
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Houston Hall",
+"address": "3417 Spruce St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 27-11, 27-18, 27-20, 27-21, 27-22 · Building fully accessible · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.193938,
+39.950968
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Hunting Park Recreation Center",
+"address": "1101 W Hunting Park Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 43-04, 43-05 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.143929,
+40.017779
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "J B Kelly School",
+"address": "5116 Pulaski Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 12-08, 12-18, 13-01, 13-04, 13-05 · Accessible with ramp · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.172447,
+40.025202
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Jerome Brown Recreation Center",
+"address": "1919-1941 W Ontario St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 11-12, 11-17 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.16143,
+40.006467
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Katie Jackson Homes (PHA)",
+"address": "400 N 50th St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 44-13, 44-14 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.220553,
+39.964767
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Kendrick Recreation Center",
+"address": "5822-24 Ridge Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 21-10, 21-11, 21-17, 21-18 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211527,
+40.029153
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Kingsessing Library",
+"address": "1201 S 51st St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 51-02, 51-05, 51-07 · Alternate entrance · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.218284,
+39.942147
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Kingsessing Recreation Center",
+"address": "4901 Kingsessing Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 51-06, 51-08, 51-09 · Building fully accessible · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.217134,
+39.94282
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Lea School",
+"address": "4700 Locust St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 46-07, 46-22 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216743,
+39.954513
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Lee's Monuments",
+"address": "908 W Godfrey Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 49-18 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.135623,
+40.04641
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Lene's Daily Child Care IV",
+"address": "28 N 52nd St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 44-06, 44-15 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225014,
+39.961362
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Liberty Resources",
+"address": "625 N 53rd St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 44-07 · Building fully accessible · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.226768,
+39.969813
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Light of Elmwood Lodge # 45",
+"address": "5026 Spruce St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 60-09 · Building accessibility modified · Handicap parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.223311,
+39.954386
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Lindley Academy Charter School",
+"address": "900 Lindley Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 49-10, 49-15, 49-19 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.138758,
+40.029103
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Lingelbach School",
+"address": "6340 Wayne Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 21-24, 59-18 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190002,
+40.037774
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Locke School",
+"address": "4550 Haverford Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 06-04 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212515,
+39.962638
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Lonnie Young Recreation Center",
+"address": "1100 E Chelten Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 12-01 · Alternate entrance · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.16028,
+40.050027
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Love Missionary Baptist Church",
+"address": "5801 Ogontz Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 17-19 · Building substantially accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.149682,
+40.042781
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Lowell School",
+"address": "450 W Nedro Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 61-01, 61-02, 61-03, 61-04, 61-07, 61-08, 61-09 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.129115,
+40.04107
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Lucien Blackwell Community Center (PHA)",
+"address": "761 N 47th St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 06-02, 06-06, 06-16 · Building fully accessible · Handicap parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.215231,
+39.9662
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "M L King High School",
+"address": "6100 Stenton Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 59-01, 59-03 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.1612,
+40.056332
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Mantua Civic Association",
+"address": "3729 Melon St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 24-07, 24-12, 24-17 · Building fully accessible · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19725,
+39.965702
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Markward Recreation Center",
+"address": "400 S Taney St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 08-28 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183766,
+39.947789
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Martha Washington School",
+"address": "4400 Aspen St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 06-08, 06-12 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211455,
+39.966188
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Masjidullah Mosque",
+"address": "7401 Limekiln Pk",
+"phone": "",
+"website": "",
+"detail": "Ward-division 50-16, 50-20, 50-24, 50-30 · Building fully accessible · Handicap parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.158238,
+40.067844
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Mastery Cleveland Charter School",
+"address": "3701 N 19th St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 13-20, 13-21, 13-24 · Alternate entrance · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.158897,
+40.011417
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Mastery Pastorius Charter School",
+"address": "5650 Sprague St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 12-02, 12-03 · Accessible with ramp · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.161729,
+40.048439
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Mastery Pickett Charter School",
+"address": "5700 Wayne Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 59-17, 59-19 · Building accessibility modified · Handicap parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180946,
+40.032187
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Mastery Wister Charter School",
+"address": "67 E Bringhurst St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 12-10, 12-13 · Accessible with ramp · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.166513,
+40.033226
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "McMICHAEL SCHOOL",
+"address": "3543 Fairmount Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 24-04, 24-13 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.194472,
+39.96705
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Morris Estate Recreation Center",
+"address": "1610 W Chelten Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 49-03, 49-20 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.146336,
+40.050884
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Morton Homes (PHA)",
+"address": "5920 Morton St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 59-06, 59-07, 59-08 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.173029,
+40.043507
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Mt Airy Church of God in Christ",
+"address": "6401 Ogontz Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 17-01, 17-02, 17-03, 17-04, 17-06, 17-07, 17-12 · Building fully accessible · Handicap parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.14934,
+40.052645
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Mt Carmel Baptist Church",
+"address": "5732 Race St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 04-12 · Building fully accessible · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.235811,
+39.964619
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Mt Olive Baptist Church",
+"address": "638 N 37th St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 24-15, 24-16 · Building fully accessible · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196494,
+39.96499
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Mt Olivet Village (PHA)",
+"address": "642 N 41st St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 06-03, 06-05, 06-07 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206272,
+39.963995
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "New Bethel a.M.E. Church of Germantown",
+"address": "3015 W School House Ln",
+"phone": "",
+"website": "",
+"detail": "Ward-division 21-23, 38-11 · Building fully accessible · Handicap parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.188625,
+40.023564
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "New River Presbyterian Church",
+"address": "4159 W Girard Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 06-14, 06-17 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209603,
+39.973953
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Nicetown Court",
+"address": "4340 Germantown Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 13-06, 13-07, 13-08 · Building fully accessible · Handicap parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.156798,
+40.020395
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Nicetown Tioga Branch Library",
+"address": "3720 N Broad St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 13-23 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.151502,
+40.010204
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "North Light Community Center",
+"address": "175 Green Ln",
+"phone": "",
+"website": "",
+"detail": "Ward-division 21-06, 21-07, 21-12 · Building substantially accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224401,
+40.029124
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Oak Lane Library",
+"address": "6614 N 12th St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 49-06 · Alternate entrance · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.137831,
+40.054617
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Opportunity Towers",
+"address": "1717 W Hunting Park Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 13-18 · Building accessibility modified · Handicap parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.15593,
+40.016135
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Overbrook High School",
+"address": "5898 Lancaster Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 04-06, 04-21 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.238663,
+39.98156
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "PASSi - EVERGREEN CENTER",
+"address": "6926 Old York Rd",
+"phone": "",
+"website": "",
+"detail": "Ward-division 49-08, 61-22 · Building fully accessible · Handicap parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.139693,
+40.05937
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "PHMC Health Center on Cedar",
+"address": "501 S 54th St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 46-04, 46-05, 46-06, 46-11 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.229675,
+39.95241
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Parkside Association",
+"address": "1719 N 52nd St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 52-01 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224073,
+39.981451
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Parkside Evans Recreation Center",
+"address": "5300 Parkside Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 52-21 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22684,
+39.98413
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Parkway School",
+"address": "4725 Fairmount Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 44-09 · Accessible with ramp · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216134,
+39.96487
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Penn Alexander School",
+"address": "4209 Spruce St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 27-01, 27-02, 27-14, 27-23, 46-23 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208284,
+39.953298
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Pennell School",
+"address": "1800-56 W Nedro Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 17-18, 17-27 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.150893,
+40.043837
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Phila Deliverance Tabernacle",
+"address": "7501 Ogontz Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 50-26 · Accessible with ramp · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.156726,
+40.069895
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Phila Learning Academy South",
+"address": "4300 Westminster Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 06-10, 06-13 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210531,
+39.969947
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Pilgrim Church",
+"address": "3815 Terrace St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 21-01, 21-02 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211876,
+40.020093
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Pilgrim Wesleyan Church",
+"address": "6700 N Broad St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 10-07, 10-10, 10-11 · Building substantially accessible · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.141744,
+40.05581
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Pleasant Recreation Center",
+"address": "6757 Chew Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 22-12, 22-13, 22-15, 22-18, 22-19 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182599,
+40.056947
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Plymouth Hall (PHA)",
+"address": "2201 W Venango St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 13-19 · Building fully accessible · Handicap parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.164864,
+40.009734
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Powel School",
+"address": "301 N 36th St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 24-01, 24-05 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.193545,
+39.960749
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Prayer & Faith Temple COGIC",
+"address": "1541 N 61st St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 34-06, 34-10, 34-42 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.241552,
+39.975641
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Presbytery of Philadelphia",
+"address": "915 E Gowen Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 50-09, 50-21 · Building fully accessible · Handicap parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.184134,
+40.072032
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Provision of Grace World Mission Church",
+"address": "1950 W Rockland St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 17-24, 17-25, 17-29 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.156366,
+40.028965
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Queen Lane Apts Community Center (PHA)",
+"address": "324-A W Penn St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 12-24 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.175653,
+40.026977
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Rehoboth Church",
+"address": "4006 Old York Rd Rear",
+"phone": "",
+"website": "",
+"detail": "Ward-division 43-24 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.147609,
+40.014314
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Remnant Church of God",
+"address": "7708 Ogontz Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 50-13, 50-25 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.157946,
+40.071416
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Rhoads School",
+"address": "4901 Parrish St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 44-10, 44-11, 44-12 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.220147,
+39.967703
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Rittenhouse Hill Apartments",
+"address": "633 W Rittenhouse St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 59-20 · Building fully accessible · Handicap parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.186459,
+40.031645
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Riverside Presbyterian Apartments",
+"address": "158 N 23rd St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 08-23 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.177366,
+39.958287
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Robeson High School",
+"address": "4125 Ludlow St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 06-01, 27-06, 27-13 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.205772,
+39.957365
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Rosenberger Hall",
+"address": "600 S 43rd St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 27-07 · Building fully accessible · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20908,
+39.946776
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Rowen School",
+"address": "6841 N 19th St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 10-09, 10-12, 10-17, 10-21 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.148742,
+40.059133
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Roxborough High School",
+"address": "6400 Ridge Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 21-21, 21-22, 21-28, 21-31 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.222947,
+40.037859
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Roxborough Memorial Hospital",
+"address": "5800 Ridge Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 21-25, 21-26, 21-36, 21-37 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209885,
+40.02938
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Roxborough YMCA",
+"address": "7201 Ridge Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 21-41 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.232129,
+40.046047
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Salvation Army- Kroc Center",
+"address": "4200 Wissahickon Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 38-17 · Building fully accessible · Handicap parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.169772,
+40.012628
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Salvation Army- Roxborough",
+"address": "6730 Ridge Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 21-29, 21-40 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225536,
+40.041291
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Salvation Army- West Phila",
+"address": "5522 Arch St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 04-01, 04-07, 44-03, 44-04 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.232062,
+39.962594
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Saul High School",
+"address": "7100 Henry Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 21-03, 21-32, 21-38 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.221656,
+40.049808
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "School of the Future",
+"address": "4021 Parkside Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 06-15 · Building fully accessible · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203609,
+39.975518
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Second Macedonia Baptist Church",
+"address": "1301 W Ruscomb St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 49-17 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.145018,
+40.029343
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Settlement Music School-West",
+"address": "4910 Wynnefield Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 52-13 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.221847,
+39.990353
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Simpson-Fletcher Conestoga House",
+"address": "5353 Master St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 44-02 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.229237,
+39.974577
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Spectrum Community Health Center",
+"address": "5201 Haverford Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 44-16 · Building fully accessible · Handicap parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225122,
+39.965615
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Spruce Hill Community Association",
+"address": "257 S 45th St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 27-10 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211911,
+39.95373
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "St Barbara's Church",
+"address": "5359 Lebanon Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 52-18 · Alternate entrance · Handicap parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.232069,
+39.988143
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "St Matthews Manor",
+"address": "230 N 57th St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 04-13 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.234498,
+39.965856
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Stenton Park Recreation Center",
+"address": "4600 N 16th St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 13-09, 13-10, 13-11, 13-12, 13-13 · Alternate entrance · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.152896,
+40.024476
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Stephen Gold Residences",
+"address": "616 N 52nd St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 44-18 · Building fully accessible · Handicap parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225931,
+39.97075
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Stephen Smith Towers",
+"address": "1030 Belmont Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 06-18 · Building accessibility modified · Handicap parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212653,
+39.972819
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Storefront [7163 Stenton Ave]",
+"address": "7163 Stenton Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 10-26, 10-28 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.164572,
+40.059784
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Storefront [7180 Ogontz Ave]",
+"address": "7180 Ogontz Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 10-01, 10-05, 10-22 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.153572,
+40.064181
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Sturgis Recreation Center",
+"address": "200 W 65th Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 61-17, 61-18, 61-19, 61-25, 61-26 · Building fully accessible · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.123711,
+40.049509
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Suffolk Manor Apartments Bldg H (PHA)",
+"address": "1424 Clearview St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 17-20, 17-26 · Building fully accessible · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.145705,
+40.040883
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Summit Presbyterian Church",
+"address": "6757 Greene St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 22-01, 22-02, 22-05 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.194459,
+40.046303
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Sweet Union Baptist Church",
+"address": "1536 N 59th St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 04-18, 34-07 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.239022,
+39.975843
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "The Arch Building-Room 108",
+"address": "3601 Locust Walk",
+"phone": "",
+"website": "",
+"detail": "Ward-division 27-03, 27-19 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195331,
+39.952614
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "The Cedar Works Community Center",
+"address": "4919 Pentridge St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 46-08 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.221899,
+39.947867
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "The Gold Standard Restaurant",
+"address": "4800 Baltimore Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 46-17 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.219785,
+39.948572
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "The Peoples Baptist Church",
+"address": "5039 Baltimore Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 46-10 · Accessible with ramp · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224841,
+39.948295
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Tioga Family Center",
+"address": "1822 W Tioga St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 11-10 · Alternate entrance · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.159271,
+40.007028
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Tioga Presbyterian Senior Home",
+"address": "1531 W Tioga St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 11-09 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.154926,
+40.007225
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Triumph Baptist Church",
+"address": "1648 W Hunting Park Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 13-14, 13-15, 13-16, 13-17, 13-22 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.154379,
+40.015626
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Unitarian Society of Germantown",
+"address": "6511 Lincoln Dr",
+"phone": "",
+"website": "",
+"detail": "Ward-division 22-03 · Building fully accessible · Handicap parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191558,
+40.040617
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "University Square Apartment Complex",
+"address": "3901 Market St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 24-06 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.200847,
+39.957799
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Venango House",
+"address": "2104 W Venango St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 11-15, 11-16 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.164865,
+40.009732
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Venice Island Recreation Center",
+"address": "7 Lock St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 21-04 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.222252,
+40.023816
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Victory Christian Center",
+"address": "5220 Whitby Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 51-14, 51-17 · Building accessibility modified · Handicap parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22761,
+39.946922
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Walnut St West Library",
+"address": "201 S 40th St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 27-08, 27-09 · Building accessibility modified · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20257,
+39.954253
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Wesley Enhanced Living at Stapeley",
+"address": "6300 Greene St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 59-21, 59-25 · Building fully accessible · Handicap parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.185736,
+40.03951
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "West Mill Creek Recreation Center",
+"address": "5100 Parrish St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 44-17 · Building fully accessible · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.2234,
+39.967914
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "West Oak Lane Library",
+"address": "2000 Washington Ln",
+"phone": "",
+"website": "",
+"detail": "Ward-division 10-06, 10-13, 10-24, 10-25 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.157682,
+40.067159
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "West Oak Lane Older Adult Center",
+"address": "7210 Ogontz Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 50-28 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.154403,
+40.064723
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "West Phila High School",
+"address": "4901 Chestnut St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 44-08, 60-01, 60-02, 60-08, 60-12, 60-23 · Building fully accessible · Handicap parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.219854,
+39.958849
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "West Phila YMCA",
+"address": "5120 Chestnut St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 60-05 · Building accessibility modified · Handicap parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224423,
+39.958359
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Widener School",
+"address": "1500 W Olney Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 17-21, 17-22, 17-23 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.147163,
+40.037689
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Wister Recreation Center",
+"address": "4971 Baynton St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 12-12, 12-14 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.160442,
+40.032452
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Wrights Barber Shop",
+"address": "1901 72nd Ave",
+"phone": "",
+"website": "",
+"detail": "Ward-division 10-14 · Accessible with ramp · No parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.147684,
+40.064453
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Wynnefield Place",
+"address": "1717 N 54th St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 52-22, 52-23, 52-24 · Building fully accessible · Handicap parking",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.230513,
+39.983504
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Yorkhouse Apartments",
+"address": "5325 Old York Rd",
+"phone": "",
+"website": "",
+"detail": "Ward-division 49-02, 49-21 · Building fully accessible · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.144759,
+40.034252
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Polling place",
+"name": "Zion Baptist Church",
+"address": "3600 N Broad St",
+"phone": "",
+"website": "",
+"detail": "Ward-division 11-05, 13-25 · Building accessibility modified · Loading zone",
+"source_id": "phl_polling_places"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.151849,
+40.008051
+]
+}
+}
+]
+}

@@ -1,0 +1,8925 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Buddhist temple",
+"name": "Cambodian Buddhist Society",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Buddhist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.139963,
+40.031218
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Buddhist temple",
+"name": "Chùa Pháp Bảo",
+"address": "7501 Oak Lane Road, Melrose Park",
+"phone": "+12154067861",
+"website": "",
+"detail": "Buddhist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.120786,
+40.056351
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "46th Street Baptist Church",
+"address": "1261 South 46th Street, Philadelphia",
+"phone": "",
+"website": "https://46thstreetbaptistchurch.org/",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209801,
+39.944729
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Abundant Life Fellowship",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.154693,
+40.050653
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Abyssinian Baptist Church",
+"address": "4210 Germantown Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.155637,
+40.018356
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Agape Christian Chapel",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.165032,
+40.027673
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Agape Love Ministries Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.223507,
+39.944884
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Alleyne Memorial AME Zion Church",
+"address": "1249 North 55th Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · African Methodist Episcopal Zion",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.230678,
+39.972161
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Ambassadors for Christ Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.154246,
+40.051684
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Amos Healing Missionary Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.213779,
+39.970444
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Annunciation of the Blessed Virgin Mary Ukrainian Catholic Church",
+"address": "",
+"phone": "",
+"website": "https://www.ukrainianbvm.org/",
+"detail": "Christian · Ukrainian Greek Catholic",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.135741,
+40.062679
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Antioch Christian Fellowship",
+"address": "4721 Chestnut Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21626,
+39.957517
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Apostolic Universal Holiness Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224759,
+39.961502
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Baptist Ushers Brotherhood",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.201478,
+39.962844
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Basilica Shrine of Our Lady of the Miraculous Medal",
+"address": "526 East Chelten Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Roman Catholic",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.167315,
+40.042273
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Beloved Saint John Evangelistic Church",
+"address": "4541 North Broad Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.147637,
+40.022693
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Berachah Baptist Church",
+"address": "6327 Limekiln Pike, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.152644,
+40.051407
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Bethany House of Worship",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.135364,
+40.057085
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Bethel Highway Church of Christ",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208679,
+39.965916
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Better Life Christian Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.159041,
+40.028095
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Beulah Baptist Church",
+"address": "5001-21 Spruce Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.222252,
+39.954368
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Bible Believing Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.139533,
+40.031187
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Bible Ministries Fellowship Church",
+"address": "425 East Chelten Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.169453,
+40.041237
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Bibleway Freewill Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.174761,
+40.072456
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Body of Christ Ministries Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.16105,
+40.008516
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Brand New Life Christian Center",
+"address": "6301 Germantown Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180707,
+40.043705
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "CDC Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.229773,
+39.967068
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Calvary Baptist Church",
+"address": "6122 Haverford Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.241664,
+39.971097
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Calvary Center for Culture and Community",
+"address": "801 South 48th Street, Philadelphia",
+"phone": "",
+"website": "https://www.calvary-center.org/",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21856,
+39.948194
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Calvary Fellowship Germantown",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.178305,
+40.04357
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Calvary Gospel Chapel",
+"address": "4121 West Girard Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208067,
+39.973925
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Calvary Saint Augustine Episcopal Church",
+"address": "814 North 41st Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Episcopal",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206041,
+39.967673
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Calvin Church",
+"address": "5931 Master Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Presbyterian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.239391,
+39.973136
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Camphor Memorial United Methodist Church",
+"address": "5616 Wyalusing Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Methodist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.232862,
+39.968432
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Canaan Baptist Church",
+"address": "5430 Pulaski Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.177653,
+40.028474
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Catalyst for Change Church",
+"address": "3727 Baring Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196742,
+39.961063
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Cedar Park Presbyterian Church",
+"address": "7740 Limekiln Pike, Philadelphia",
+"phone": "+1 215-549-9775",
+"website": "http://cedarparkpresby.org/",
+"detail": "Christian · Presbyterian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.161423,
+40.070887
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Chestnut Hill Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.159343,
+40.051152
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Chosen Generation Church of God",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.217013,
+39.938005
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Christ Apostolic Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21531,
+39.936881
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Christ Baptist Church",
+"address": "1509 Church Lane, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.145771,
+40.046331
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Christ Baptist Church",
+"address": "4036 Aspen Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.204181,
+39.965873
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Christ Church and Saint Michael's",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182088,
+40.04063
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Christ Community Church",
+"address": "4017 Chestnut Street, Philadelphia",
+"phone": "",
+"website": "https://www.cccphila.org/",
+"detail": "Christian · Pentecostal",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203204,
+39.956087
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Christ Evangelical Baptist Church",
+"address": "403 North 60th Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.239255,
+39.968232
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Christ Holy Prayer Temple Apostolic Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.23174,
+39.955473
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Christ Tabernacle Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.172045,
+40.040292
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Christ the King Ukrainian Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.152967,
+40.020834
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Christian Stronghold Baptist Church",
+"address": "4701 Lancaster Avenue, Philadelphia",
+"phone": "",
+"website": "https://www.christianstronghold.com/",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.215382,
+39.971843
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Church in the Yunk",
+"address": "197 Green Lane, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.223948,
+40.02887
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Church of Benaiah",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.14075,
+40.028954
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Church of Broken Pieces",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.153159,
+40.064501
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Church of Faith",
+"address": "772 North 38th Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.198394,
+39.967646
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Church of Faith, Hope and Love",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.146973,
+40.026388
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Church of God Non-Sectarian",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22223,
+39.964503
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Church of God of Prophecy",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21881,
+39.967126
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Church of New Hope and Faith",
+"address": "661 North 39th Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19973,
+39.965026
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Church of Saint Alban",
+"address": "532 Fairthorne Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224887,
+40.042383
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Church of Saint Andrew and Saint Monica",
+"address": "3600 Baring Street, Philadelphia",
+"phone": "+1-215-222-7606",
+"website": "https://ssandrewmonica.org",
+"detail": "Christian · Anglican",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.194299,
+39.960784
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Church of the Apostles & Prophets",
+"address": "5902 Market Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.239022,
+39.961543
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Church of the Holy Child",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.146508,
+40.0324
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Church of the Holy Family",
+"address": "240 Hermitage Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.228655,
+40.032922
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Church of the Living God",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209291,
+39.965631
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Church of the Messiah",
+"address": "198 Herman Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.175283,
+40.044566
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Church on the Hill Main Line Assembly of God",
+"address": "221 Ashland Avenue, Belmont Hills",
+"phone": "",
+"website": "",
+"detail": "Christian · Assemblies Of God",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.238031,
+40.025551
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "City of God Pentecostal Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Pentecostal",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.141941,
+40.057948
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Citylight Church",
+"address": "4050 Main Street, Philadelphia",
+"phone": "",
+"website": "https://citylightphilly.com",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.218199,
+40.021918
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Community Baptist Church",
+"address": "428 North 40th Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.202623,
+39.961448
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Community Church of God",
+"address": "801 West Olney Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.135218,
+40.038069
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Community Church of God",
+"address": "838 1/2 North 42nd Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208168,
+39.968089
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Corinthian Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.155329,
+40.04815
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Covenant House of God",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.149519,
+40.018729
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Covenant Ministries International",
+"address": "5937 Ogontz Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.149335,
+40.04473
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Crossroads Evangelistic Church",
+"address": "139 East Chelten Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.172684,
+40.03825
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Daniel's Temple Chirstian Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212029,
+39.941897
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Dare to Imagine Church",
+"address": "6610 Anderson Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.174725,
+40.059698
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Deliverance House of God",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.229661,
+39.971497
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Deliverance Mission",
+"address": "811 East Chelten Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.164702,
+40.045967
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Deliverance Missions-Christ",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.150245,
+40.059615
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Destiny Worship Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212996,
+39.969277
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Divine Breath Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.148507,
+40.028435
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Dominican Retreat",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Catholic",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.138999,
+40.072695
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Dominion Chirstian Fellowship Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212163,
+39.941133
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "ECS Saint Barnabas Mission",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Episcopal",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.239982,
+39.969707
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Eagle's Nest Christian Fellowship",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.177453,
+40.025058
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "East Bethel Baptist Church",
+"address": "1329 West Erie Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.15024,
+40.009391
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "East Falls Presbyterian Church",
+"address": "3800 Vaux Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Presbyterian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190108,
+40.016229
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Eastern Star Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.164614,
+40.032258
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Ebenezer Redeeming Love Church",
+"address": "700 North 36th Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195181,
+39.966141
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Eglise Protestante Baptiste Oeuvres",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.146688,
+40.028791
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "El Bethel Church God in Christ",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.226355,
+39.954187
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "El Shaddai Christian Assembly",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.16702,
+40.074205
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "El-Shaddai Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.147426,
+40.018017
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Elwood Community Methodist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Methodist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212521,
+39.947248
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Emmanuel Church in Philadelphia",
+"address": "4723 Spruce Street, Philadelphia",
+"phone": "+1-215-476-0330",
+"website": "https://iemmanuel.org",
+"detail": "Christian · Evangelical",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.217424,
+39.953865
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Empowering Word Ministries",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22168,
+39.974618
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Enon Chapel Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.230309,
+39.958173
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Enon Tabernacle Baptist Church",
+"address": "2800 Cheltenham Avenue, Philadelphia",
+"phone": "+1 215-276-7200",
+"website": "https://www.enontab.org/",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.16519,
+40.077056
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Enon Tabernacle Baptist Church",
+"address": "West Coulter Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.175103,
+40.028314
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Epic Church",
+"address": "6035 Ridge Avenue, Philadelphia",
+"phone": "",
+"website": "https://www.epic.church",
+"detail": "Christian · Nondenominational",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.213634,
+40.032838
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Evangel Temple",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211931,
+39.940596
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Faith Chapel Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211073,
+39.942724
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Faith Chapel of Philadelphia",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.174027,
+40.037903
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Faith Fellowship Baptist Church",
+"address": "2101 65th Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.155459,
+40.053485
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Faith and Love Center Pentecostal",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Pentecostal",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.170909,
+40.072415
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Family Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.144445,
+40.028978
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Fellowship Bible Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206373,
+39.966103
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Fellowship Evangelistic Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22605,
+39.979821
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Fern Rock Community Baptist Church",
+"address": "6712 North Broad Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.141446,
+40.055673
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "First African Presbyterian Church",
+"address": "4159 West Girard Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Presbyterian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209667,
+39.973732
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "First Born Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.229038,
+39.960683
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "First Corinthian Baptist Church",
+"address": "5101 Pine Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224457,
+39.953591
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "First Haitian Church of God",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.154166,
+40.051941
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "First Morning Star Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.163962,
+40.032457
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "First Presbyterian Church in Germantown",
+"address": "35 West Chelten Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Presbyterian Church Usa",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.175773,
+40.035358
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "First Redemption Church",
+"address": "4400 North Broad Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Pentecostal",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.149292,
+40.020499
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "First Resurrection Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.228158,
+39.960589
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "First Timothy Baptist Church",
+"address": "3940 West Girard Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203437,
+39.974037
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "First United Baptist Church",
+"address": "3728 Haverford Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.197084,
+39.96324
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "First United Methodist Church of Germantown",
+"address": "6001 Germantown Avenue, Philadelphia",
+"phone": "",
+"website": "https://www.fumcog.org/",
+"detail": "Christian · Methodist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.177666,
+40.040057
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "For the Love of Jesus Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224856,
+39.974555
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Ford Memorial Temple",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.153463,
+40.015571
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Friendly Friends Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.24084,
+39.974155
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Galilee Baptist Church",
+"address": "459 Roxborough Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.213357,
+40.028857
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Garden of Prayer Memorial Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.205654,
+39.974147
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Gate to Heaven Ministry",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192699,
+39.964049
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Gates of Heaven Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.235527,
+39.979445
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Germantown Community Presbyterian Church",
+"address": "160 West Tulpehocken Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Presbyterian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183036,
+40.038519
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Germantown Hope Community Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.168628,
+40.026181
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Germantown Mennonite Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.1815,
+40.042818
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Glory Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.207231,
+39.965771
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "God's Church of the Apostles",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.155115,
+40.007477
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "God's Rescue Mission",
+"address": "4814 Baltimore Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.220201,
+39.948199
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Good Shepherd Christian Fellowship",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22011,
+39.973867
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Good Shepherd Community Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.214434,
+39.952657
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Goodwill Tabernade Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.232938,
+39.967993
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Gospel Light Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.158049,
+40.005334
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Grace Chapel Apostolic Church",
+"address": "4040 West Girard Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Apostolic",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.205713,
+39.973804
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Grace Christian Assembly",
+"address": "610 East Mount Pleasant Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.179524,
+40.066879
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Grace Community Church of God of Prophecy",
+"address": "4982 Master Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Pentecostal",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.222388,
+39.974455
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Grace Evangelical Lutheran Church",
+"address": "3529 Haverford Avenue, Philadelphia",
+"phone": "",
+"website": "https://www.gracelutheranphila.com/",
+"detail": "Christian · Lutheran",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.194273,
+39.963932
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Grace Tabernacle Christian Church",
+"address": "5124 Greenway Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216962,
+39.939557
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Grace Temple Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.144122,
+40.056465
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Grace United Methodist Church",
+"address": "7101 North 20th Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Methodist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.151192,
+40.062711
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Great Commission Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.154692,
+40.057085
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Greater Faith Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203967,
+39.960429
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Greater Faith Family Worship Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.151189,
+40.047773
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Greater Life Christian",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.205508,
+39.963129
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Greater Saint John Ministries",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203551,
+39.969046
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Greater Saint Matthew Baptist Church",
+"address": "1538 West Wingohocking Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.151584,
+40.021716
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Greater Saint Matthew Independent Church",
+"address": "5544 Race Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.23161,
+39.963824
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Green Lane United Methodist Church",
+"address": "470 Green Lane, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · United Methodist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21705,
+40.033695
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Harambe Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.164955,
+40.04438
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Harold O. Davis Memorial Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.141774,
+40.020936
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Hashem Christian Worship Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.149258,
+40.058978
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Heavenly Hall Full Gospel Church",
+"address": "4012 Poplar Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.204706,
+39.97275
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "High Street Church of God",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.174739,
+40.041942
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Hillard Station Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206889,
+39.96947
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Holsey Temple Christian Methodist Episcopal Church",
+"address": "Germantown Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.169463,
+40.032903
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Holy Angels Korean Catholic Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.139084,
+40.059754
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Holy Apostles and the Mediator Episcopal Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Episcopal",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224274,
+39.954643
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Holy Cross Lutheran Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Lutheran",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181173,
+40.064843
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Holy Tabernacle COGIC Pentecostal",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Pentecostal",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.198566,
+39.963408
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Holy Temple Church of God",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.239832,
+39.967967
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Holy Temple of Deliverance",
+"address": "124-128 West Seymour Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Nondenominational",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.165617,
+40.026751
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Holy Temple of God",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.149161,
+40.056568
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Holy Temple of the Lord and Savior Jesus Christ",
+"address": "5116 Market Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224086,
+39.959675
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Holy Trinity Bethlehem Presbyterian Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.142168,
+40.026834
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Holy Trinity Byzantine Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.132907,
+40.055724
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Hope Presbyterian Church",
+"address": "1301 South 33rd Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Presbyterian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.1975,
+39.937796
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "House Of Glory Philly",
+"address": "5245 Germantown Avenue, Philadelphia",
+"phone": "+1-484-466-8416; +1-267-335-2951",
+"website": "https://www.houseofgloryphilly.com/",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.167866,
+40.031781
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "House of Prayer Episcopal Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Episcopal",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.149446,
+40.046569
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Impacting Your World Christian Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.172106,
+40.034523
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Janes Memorial United Methodist Church",
+"address": "47 East Haines Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · United Methodist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.176163,
+40.039558
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Jehovah Jireh Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216666,
+39.962874
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Jehovah's Witness Kingdom Hall",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.157831,
+40.007627
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Jesus Christ Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.202006,
+39.968496
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Jesus First Exhortation Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.205343,
+39.961599
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Joy Temple Holiness Church",
+"address": "3822 North Broad Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.151015,
+40.011555
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Killingsworth Temple",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22201,
+39.965564
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Kingdom Worship Center Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.193005,
+39.962605
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Korean United Church",
+"address": "1200 West Cheltenham Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.1357,
+40.060759
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Korean World Mission Church",
+"address": "1148 70th Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.136471,
+40.058913
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "La Mott African Methodist Episcopal Church",
+"address": "1505 West Cheltenham Avenue, Elkins Park",
+"phone": "",
+"website": "",
+"detail": "Christian · African Methodist Episcopal",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.140726,
+40.06445
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Lady of Angels Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.2226,
+39.9742
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Leverington Church",
+"address": "6307 Ridge Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Presbyterian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.218638,
+40.03714
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Life Line Bible Fellowship Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.140294,
+40.030002
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Light House Church-God-Christ",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.154228,
+40.048428
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Little Rock Tabernacle Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225517,
+39.973215
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Lombard Central Presbyterian Church",
+"address": "4201 Powelton Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Presbyterian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206764,
+39.9592
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Love Missionary Baptist Fellowship",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.149613,
+40.042363
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Loyal Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.239997,
+39.966253
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Macedonia Memorial Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.151102,
+40.024097
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Macedonia Pentecostal Holiness Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Pentecostal",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.227734,
+39.97478
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Majestic Stones Baptist Church",
+"address": "800 West Olney Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.135704,
+40.036672
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Malachi Church-God in Chirst",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.2269,
+39.974349
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Memorial Church of the Good Shepherd",
+"address": "3816 The Oak Road, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183186,
+40.022206
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Messiah Maranatha Fellowship Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.153278,
+40.008233
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Metropolitian Baptist Church",
+"address": "3500 Baring Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192982,
+39.960936
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Millcreek Baptist Church",
+"address": "641 North Preston Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203324,
+39.964052
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Millennium Baptist Church",
+"address": "1630 North 52nd Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22511,
+39.980486
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Miracle Christian Center",
+"address": "4557 Germantown Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.159625,
+40.024511
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Mount Airy Church of God in Christ",
+"address": "6401 Ogontz Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Church Of God In Christ",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.149171,
+40.052282
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Mount Ephraim Baptist Church",
+"address": "2201 West Tioga Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.165054,
+40.008214
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Mount Olivet Tabernacle Baptist Church",
+"address": "647 North 42nd Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206805,
+39.963762
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Mount Pisgah African Methodist Episcopal Church",
+"address": "428 North 41st Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · African Methodist Episcopal",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.205776,
+39.961121
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Mount Vernon Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.170978,
+40.042309
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Mount Zion Fire Baptized Holiness Church of God of the Americas",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.227978,
+40.028478
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Mt Olive Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.231833,
+39.956673
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Mt. Airy Baptist Church",
+"address": "2012 69th Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.151434,
+40.058852
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Mt. Airy Church of God",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.178977,
+40.066185
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Mt. Airy United Fellowship",
+"address": "701 West Johnson Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · United Methodist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196495,
+40.033432
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Mt. Calvary Holiness",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.215604,
+39.939121
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Mt. Carmel Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.235747,
+39.964321
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Mt. Carmel Pray Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.154985,
+40.047818
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Mt. Deborah Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.205347,
+39.962479
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Mt. Moriah Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.174658,
+40.027219
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Mt. Moriah Pentecostal Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Pentecostal",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.173188,
+40.06427
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Mt. Pleasant Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.231271,
+39.965738
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Mt. Pleasant Memorial Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.175704,
+40.037226
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Mt. Pleasant Primitive Baptist Church",
+"address": "435 North 38th Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196869,
+39.961992
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Mt. Tabor Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.177846,
+40.036207
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Mt. Zion Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.213372,
+39.939938
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Mt. Zion Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.177433,
+40.037011
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Mt. Zion Holy Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208361,
+39.965694
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Mt. Zion Pentecostal Faith Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Pentecostal",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.222005,
+39.974599
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Mt. Zion United African Church of the United Brethren in Chirst",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.226504,
+39.97575
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "National Temple Church of the Living God",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.235778,
+39.972114
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "National Temple Pentecostal Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Pentecostal",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206569,
+39.973653
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Nazarene Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.152668,
+40.014303
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "New Beginnings Christian Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.161824,
+40.037178
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "New Beginnings Pentecostal Church",
+"address": "East Haines Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Pentecostal",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.17034,
+40.044299
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "New Beginnings Sanctuary of Praise Church of God in Christ",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224521,
+39.965909
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "New Bethel African Methodist Episcopal Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Episcopal",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.179668,
+40.04223
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "New Bethlehem Baptist Church",
+"address": "4030 Aspen Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.204453,
+39.965974
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "New Covenant Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.172457,
+40.027742
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "New Era Baptist Church",
+"address": "6618 Wyncote Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.153972,
+40.055572
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "New Gethsemane Baptist Church",
+"address": "917 East Chelten Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.163227,
+40.047632
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "New Hope Temple Baptist Church",
+"address": "312 West Manheim Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.170472,
+40.024331
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "New Inspirational Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.157455,
+40.021295
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "New Jerusalem Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.162763,
+40.029201
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "New Life SDA Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.14704,
+40.025275
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "New Life Tabernacle Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209331,
+39.968728
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "New Life in Christ Mission",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225342,
+39.968047
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "New Redeem Apostolic Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.163785,
+40.029475
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "New Star of Hope Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.239138,
+39.969063
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "New Tabernacle Baptist Church",
+"address": "5717 Baynton Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.17211,
+40.039403
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "New Testament Church of Christ",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216899,
+39.957273
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "New Testament Church of God",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.154032,
+40.047791
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "New Testament Church of God",
+"address": "2227 Bryn Mawr Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.226128,
+39.990817
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "New Testament Family Fellowship",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.150368,
+40.052031
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Oak Lane Presbyterian Church",
+"address": "6637 North 11th Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Presbyterian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.135949,
+40.0548
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Olivet Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.140205,
+40.028098
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Olney Baptist Church",
+"address": "239 West Chew Avenue, Philadelphia",
+"phone": "",
+"website": "https://olneybaptist.org/",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.126588,
+40.037736
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Open Door Mission True Light",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224655,
+39.966951
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Original Glorious Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.162625,
+40.046102
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Our Lady of Hope Catholic Parish",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Catholic",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.146614,
+40.032874
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Our Mother of Sorrows Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.217703,
+39.971212
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Outreach Family Fellowship",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.237262,
+39.961725
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Over Coming Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.163284,
+40.028826
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Oxford Presbyterian Church",
+"address": "8501 Stenton Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Presbyterian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.184496,
+40.071144
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Paradise Emmanuel Tabernacle Baptist Church",
+"address": "4704 Woodland Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210813,
+39.942997
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Parham Chapel Ministers and Laymens Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.226457,
+39.953693
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Park Ave Evagelistic Apostolic Church of Our Lord Jesus",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.24042,
+39.966533
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Pathway To Purpose Kingdom Ministries",
+"address": "3951 Haverford Avenue, Philadelphia",
+"phone": "+1-215-222-0420",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.201667,
+39.963066
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Pentecostal Bridgegroom Temple",
+"address": "6425 Wister Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Pentecostal",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.157216,
+40.053055
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Pentecostal Faith Assembly Church",
+"address": "5347 Pulaski Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Pentecostal",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.17501,
+40.0276
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Philadelphia AOH Church of God",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.201213,
+39.964107
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Philadelphia Church of God of Chirst",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.152719,
+40.06789
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Philadelphia Church of Jesus Christ",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.228305,
+39.977389
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Philadelphia Deliverance Tabernacle",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.156617,
+40.069434
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Philadelphia Episcopal Cathedral",
+"address": "South 38th Street, Philadelphia",
+"phone": "",
+"website": "https://www.philadelphiacathedral.org/",
+"detail": "Christian · Episcopal",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.197822,
+39.955669
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Philadelphia Prayer Praise",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224022,
+39.955741
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Philadelphia Seventh Day Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180189,
+40.062036
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Philippian Baptist Church",
+"address": "5801 North Broad Street, Philadelphia",
+"phone": "",
+"website": "https://www.philippianbaptist.org/",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.143811,
+40.041517
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Pilgrim Church",
+"address": "3815 Terrace Street, Philadelphia",
+"phone": "",
+"website": "https://www.pilgrimphilly.org/",
+"detail": "Christian · Presbyterian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211707,
+40.019742
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Pilgrim Wesleyan Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.14189,
+40.055439
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Pleasant grove Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.200054,
+39.962123
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Polite Temple Baptist Church",
+"address": "40 East Price Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.174427,
+40.03735
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Poplar Street AME Zion Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · African Methodist Episcopal Zion",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.168973,
+40.044085
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Power House of God",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.16121,
+40.048799
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Praise Power and Deliverance Ministries",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.169844,
+40.04498
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Praise Temple Apostolic Way",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.140795,
+40.032489
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Prayer and Faith Temple",
+"address": "1541 North 61st Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.241338,
+39.975282
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Providence Baptist Church of Germantown",
+"address": "87 East Haines Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.1754,
+40.040185
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Ray of Hope Outreach for Christ Ministries",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.144186,
+40.042839
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Redeemer Tabernacle Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224082,
+39.963708
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Redemption and Restoration Ministries",
+"address": "28 South 58th Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.237146,
+39.960832
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Reeve Memorial United Presbyterian",
+"address": "50 Aspen Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Presbyterian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.219967,
+39.965017
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Reformation Lutheran Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Lutheran",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.170539,
+40.070305
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Reformed Episcopal Church of the Atonement",
+"address": "203 West Walnut Lane, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Episcopal",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182368,
+40.03746
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Refuge Apostolic Church",
+"address": "201 North 52nd Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Apostolic",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.223968,
+39.963287
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Refuge Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.220314,
+39.974012
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Refuge Evangelical Baptist Church",
+"address": "1100 Oak Lane, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.136618,
+40.054648
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Refuge Temple House of Prayer",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.13361,
+40.054893
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Rehoboth Full Gospel Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191492,
+39.965908
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Rehoboth Temple Church of God",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.144816,
+40.023946
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Remant Church of God",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.15775,
+40.071165
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Renaissance Haitian Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.144843,
+40.027128
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Renewal Presbyterian Church",
+"address": "4633 Cedar Avenue, Philadelphia",
+"phone": "",
+"website": "https://renewalchurch.org/",
+"detail": "Christian · Presbyterian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216759,
+39.949405
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Resurrection Baptist Church",
+"address": "5401 Lansdowne Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.230183,
+39.977267
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Resurrection Evangelistic Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.146094,
+40.028537
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Resurrection Life Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.156434,
+40.006966
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Richardson Chapel Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.219126,
+39.973294
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Risen Christ Fellowship",
+"address": "5310 Morris Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Reformed",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.175705,
+40.025546
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Rock Church of God",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.155172,
+40.065572
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Sabbath Faith Adventist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.135199,
+40.045113
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Saint Andrews Fellowship Baptist Church",
+"address": "4910 Wayne Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.166719,
+40.024694
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Saint Athanasius Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.154913,
+40.062414
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Saint Barbara's Roman Catholic Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Catholic",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.231878,
+39.987753
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Saint David's Episcopal Church",
+"address": "150 Dupont Street, Philadelphia",
+"phone": "+1-215-482-2345",
+"website": "http://stdavidsmanayunk.org/",
+"detail": "Christian · Anglican",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.227163,
+40.029185
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Saint Francis de Sales Church",
+"address": "4625 Springfield Avenue, Philadelphia",
+"phone": "+1 215-222-5819",
+"website": "https://www.saintfrancisdesales.net/",
+"detail": "Christian · Roman Catholic",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.215221,
+39.947398
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Saint Helena Catholic Church",
+"address": "6127 North 5th Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.127999,
+40.04507
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Saint James Community Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.166463,
+40.044661
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Saint James Holy Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.154626,
+40.064727
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Saint John the Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.219983,
+40.024843
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Saint Joseph Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.227999,
+39.964746
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Saint Josephat's Church",
+"address": "124 Cotton Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.221492,
+40.026259
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Saint Jude Baptist Church",
+"address": "626-632 North 38th Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.197814,
+39.964418
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Saint Luke's Episcopal Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Episcopal",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.170508,
+40.034097
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Saint Mary's Church",
+"address": "3916 Locust Walk, Philadelphia",
+"phone": "+1 215 386 3916",
+"website": "https://www.stmarysatpenn.org/",
+"detail": "Christian · Episcopal",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.201829,
+39.952505
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Saint Matthews Church",
+"address": "215 North 57th Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.23375,
+39.964836
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Saint Paul Holy Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.234653,
+39.968067
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Saint Paul Tabernacle",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211525,
+39.940489
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Saint Paul UH Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.198523,
+39.9632
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Saint Peter Fire Baptized Holiness Church",
+"address": "5702 Vine Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Pentecostal",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.234172,
+39.965686
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Saint Peter's Evangelical Lutheran Church",
+"address": "7401 Briar Road, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Evangelical Lutheran",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.154016,
+40.067642
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Saint Philips Church",
+"address": "525 North 53rd Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.226335,
+39.969099
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Saint Raymond's Catholic Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Catholic",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.167478,
+40.07211
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Saint Timothy's Episcopal Church",
+"address": "5720 Ridge Avenue, Philadelphia",
+"phone": "+1-215-483-1529",
+"website": "http://www.sttimothysrox.com/",
+"detail": "Christian · Episcopal",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210431,
+40.027591
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Saint Vincent De Paul Church",
+"address": "109 East Price Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Roman Catholic",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.174344,
+40.038362
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Saint Vladimir Ukrainian Orthodox Cathedral",
+"address": "6740 North 5th Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.127058,
+40.054073
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Saints Agatha and James Catholic Church",
+"address": "111 South 38th Street, Philadelphia",
+"phone": "+1 267-787-5000",
+"website": "https://www.saintsaj.org/",
+"detail": "Christian · Catholic",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.198157,
+39.954796
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Saints Tabernacle Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.139798,
+40.041266
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Salvation Army",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225343,
+40.040917
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Second Antioch Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206164,
+39.970734
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Second Church Christ Scientist",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.188505,
+40.023495
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Second Macedona Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.14496,
+40.029048
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Second Mt. Zion Baptist Church",
+"address": "3814 Parrish Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19922,
+39.96874
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Second Timothy baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.220165,
+39.966501
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Shalom Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.140071,
+40.026855
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Sisters of IHM",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.219548,
+39.957567
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Solid Rock Church of God",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.237072,
+39.961692
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Solid Rock Fellowship Pentecostal Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Pentecostal",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.227455,
+39.971137
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "St Stephen's Baptist Church",
+"address": "3913 North Broad Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.150088,
+40.012872
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "St Stephen's Memorial Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.178335,
+40.039119
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "St. Andrew's Collegiate Chapel",
+"address": "4205 Spruce Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.207321,
+39.952657
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "St. Benedict Catholic Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Catholic",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.151375,
+40.051488
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "St. Ignatius of Loyola Outreach",
+"address": "636 North 43rd Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209433,
+39.96393
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "St. Mark's Lutheran Church",
+"address": "6340 North Broad Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Lutheran",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.142682,
+40.050258
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "St. Paul's Episcopal Church",
+"address": "7809 Old York Road, Elkins Park",
+"phone": "+1 215-635-4185",
+"website": "https://www.stpaulselkinspark.org/",
+"detail": "Christian · Episcopal",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.133102,
+40.071355
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "St. Paul's Evangelical Lutheran Church",
+"address": "5900 North 5th Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Lutheran",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.129838,
+40.041446
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "St. Peter's Church of God",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.240607,
+39.975796
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Summit Presbyterian Church",
+"address": "6757 Greene Street, Philadelphia",
+"phone": "",
+"website": "https://www.summitpres.net/",
+"detail": "Christian · Presbyterian Church Usa",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.194292,
+40.045878
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Sweet Union Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.238604,
+39.975484
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Tabernacle United Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196853,
+39.954517
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Taylor Memorial Baptist Church",
+"address": "3813-21 Germantown Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.151318,
+40.011443
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Temple of Christ Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.219462,
+39.973497
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Temple of Christ of the Apostolic Faith",
+"address": "700 West Tabor Road, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.135758,
+40.03449
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "The Church in the Lord Jesus Christ of the Apostles' Doctrine Inc",
+"address": "237 North 52nd Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224166,
+39.964167
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "The Church of Jesus Christ of Latter-day Saints",
+"address": "3913 Chestnut Street, Philadelphia",
+"phone": "",
+"website": "https://local.churchofjesuschrist.org/en/us/pa/philadelphia/3913-chestnut-street",
+"detail": "Christian · Mormon",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.200484,
+39.955837
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "The Church of Jesus Christ of Latter-day Saints",
+"address": "4710 North Broad Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Mormon",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.148197,
+40.02525
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "The Church of Jesus Christ of Philadelphia",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.226036,
+39.973582
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "The Church of the Lord Jesus Christ of the Apostolic Faith",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22083,
+39.948368
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "The Church of the Lord Jesus Christ of the Apostolic Faith",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.176951,
+40.025146
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "The House of Prayer for All People",
+"address": "2127 East Chelten Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.156653,
+40.052027
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "The Peoples Baptist Church",
+"address": "5039 Baltimore Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224818,
+39.947997
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "The Summit Lighthouse of Philadelphia",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.215677,
+40.033744
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "The Temple of Prayer",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.232037,
+39.959121
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "The Universal Church",
+"address": "3801 North Broad Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.150242,
+40.011066
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Third Eternal Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.160802,
+40.042586
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Third NEI Baptist Missionary",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225562,
+39.954117
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Tower of Pentecost Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Pentecostal",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.15432,
+40.068591
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Transfiguration Baptist Church",
+"address": "3732 Fairmount Avenue, Philadelphia",
+"phone": "+1 215-387-5708",
+"website": "https://www.tbcphilly.org/",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.197626,
+39.965536
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Tried Stone Pentecostal Church",
+"address": "6533 Wyncote Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Pentecostal",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.155801,
+40.053579
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Trinity Lutheran Church",
+"address": "22 West Penn Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Lutheran",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.169486,
+40.031649
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Triumph Baptist Church",
+"address": "1648 West Hunting Park Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.154463,
+40.015156
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Triumphant Life Ministries",
+"address": "2105 East Chelten Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.155706,
+40.051951
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "True Grace Memorial House-Prayer",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.178466,
+40.03566
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "True Holiness Temple",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203643,
+39.969637
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "True Light Fellowship Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.171988,
+40.056297
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "True United Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.144983,
+40.048269
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "True Worship Church of God in Christ Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.160113,
+40.068345
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Truth Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.147045,
+40.025066
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Truth Holy Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211668,
+39.940654
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Tyree AME Church",
+"address": "3800 Hamilton Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · African Methodist Episcopal",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.197221,
+39.961301
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Union Tabernacle Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.219289,
+39.973405
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "United Fellowship Church of God of Prophecy",
+"address": "2145 East Chelten Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.157545,
+40.052166
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "United Gaspel Crusade's Conference Christian Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.227691,
+39.965993
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "United House and Prayer Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.178305,
+40.036109
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "United House-Prayer for All",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.204181,
+39.962857
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "University City Chinese Christian Church",
+"address": "4501 Walnut Street, Philadelphia",
+"phone": "",
+"website": "https://www.ucccc.org/",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211918,
+39.955508
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "University Lutheran Church",
+"address": "3637 Chestnut Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196182,
+39.955207
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Victory Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208654,
+39.96344
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Victory Christian Center",
+"address": "5220 Whitby Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.227458,
+39.946564
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Victory Community Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.165684,
+40.030666
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Victory Outreach Church of West Philadelphia",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210777,
+39.965564
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Victory Outreach Ministries",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.219777,
+39.941068
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Vine Memorial Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.23283,
+39.970477
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Ward African Methodist Episcopal Church",
+"address": "734 North 43rd Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209684,
+39.965922
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Way of the Cross Church-Christ",
+"address": "4647 North Broad Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.147396,
+40.024234
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Wayland Memorial Baptist Church",
+"address": "5126 Baltimore Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.226831,
+39.947564
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "West Philadelphia Assembly for Christ",
+"address": "3624 Haverford Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195405,
+39.963533
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "West Philadelphia Mennonite Fellowship",
+"address": "123 South 51st Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Mennonite",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.223088,
+39.95753
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "West Philadelphia Seventh-day Advantist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Seventh Day Adventist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212554,
+39.963009
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "West Side Church of God",
+"address": "3914 Lancaster Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.201125,
+39.962145
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Wharton-Wesley United Methodist Church",
+"address": "5341 Catharine Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · United Methodist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.23061,
+39.949634
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Wissahickon Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210204,
+40.019629
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Wister Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.149051,
+40.057091
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Woodcrest United Church of Christ",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.172449,
+40.073852
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Woodland Presbyterian Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Presbyterian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206907,
+39.950944
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Word in Action International Ministries",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.151151,
+40.023751
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Word-Light Christian",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192774,
+39.964041
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Wynnefield Baptist Church",
+"address": "5353 Gainor Road, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.232117,
+39.989292
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Zion Baptist Church Of Philadelphia",
+"address": "3600 North Broad Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.152023,
+40.007974
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Zion Hill Baptist Church",
+"address": "5301 Spruce Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.228544,
+39.955234
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "Zion Hill Church of God",
+"address": "529 East Washington Lane, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.174389,
+40.05024
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Church",
+"name": "greater White Rock Baptist Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Baptist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.232494,
+39.961404
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Kingdom Hall",
+"name": "",
+"address": "5619 Walnut Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Jehovah's Witnesses",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.234456,
+39.958578
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Kingdom Hall",
+"name": "",
+"address": "6826 Ardleigh Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Jehovah's Witnesses",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180396,
+40.061521
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Kingdom Hall",
+"name": "",
+"address": "601 North 43rd Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Jehovah's Witnesses",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208736,
+39.962662
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Kingdom Hall",
+"name": "",
+"address": "1835 West Ruscomb Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Jehovah's Witnesses",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.15427,
+40.030408
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Kingdom Hall",
+"name": "",
+"address": "419 Locust Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Christian · Jehovah's Witnesses",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.168306,
+40.039204
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Kingdom Hall",
+"name": "Jehovah's Witness Kingdom Hall",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Jehovah's Witnesses",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.149092,
+40.056861
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Kingdom Hall",
+"name": "Kingdom Hall of Jehovah's Witnesses",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Christian · Jehovah's Witnesses",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.228575,
+39.967402
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Mosque",
+"name": "A.I.C. Islamic Center",
+"address": "4431 Walnut Street, Philadelphia",
+"phone": "",
+"website": "https://www.aicp.org/",
+"detail": "Muslim",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211349,
+39.955473
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Mosque",
+"name": "Germantown Masjid",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Muslim",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.163476,
+40.028932
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Mosque",
+"name": "Masjid Al-Jamia",
+"address": "4228 Walnut Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Muslim",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208385,
+39.954635
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Mosque",
+"name": "Masjid Muhammad",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Muslim",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.162557,
+40.037312
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Mosque",
+"name": "Masjid Salaam",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Muslim",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206648,
+39.974095
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Mosque",
+"name": "Masjidullah",
+"address": "7401 Limekiln Pike, Philadelphia",
+"phone": "+1 215-424-8022",
+"website": "https://www.masjidullah.org/",
+"detail": "Muslim",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.15839,
+40.067589
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Mosque",
+"name": "Muhammad Mosque 12",
+"address": "5727 Germantown Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Muslim",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.175193,
+40.036688
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Mosque",
+"name": "Nasir Mosque",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Muslim",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.139609,
+40.03069
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Multifaith center",
+"name": "Our House of Perpetual Light",
+"address": "338 North 42nd Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Multifaith · Catholic",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206628,
+39.959828
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Place of worship",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19778,
+39.962534
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Place of worship",
+"name": "",
+"address": "5901 North Park Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.142396,
+40.042908
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Place of worship",
+"name": "Capacity Church Philly",
+"address": "5301 Wayne Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.1724,
+40.028542
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Place of worship",
+"name": "From the Heart Church Ministries",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.161318,
+40.009758
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Place of worship",
+"name": "Saint Francis of Assisi Roman Catholic Church",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.163352,
+40.026733
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Synagogue",
+"name": "Congregation Temple Beth-El",
+"address": "7350 Lowber Avenue, Philadelphia",
+"phone": "+1 215-276-4330",
+"website": "",
+"detail": "Jewish",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.161062,
+40.062323
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Synagogue",
+"name": "Mishkan Shalom Synagogue",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Jewish",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212035,
+40.026404
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Synagogue",
+"name": "Temple Adath Jeshurun",
+"address": "7763 Old York Road, Elkins Park",
+"phone": "",
+"website": "",
+"detail": "Jewish · Conservative",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.133517,
+40.070195
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Synagogue",
+"name": "Temple Judea",
+"address": "7110 North Broad Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "Jewish",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.140168,
+40.061732
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Synagogue",
+"name": "Temple Shalom House of Yahvah",
+"address": "1524 West Champlost Avenue, Philadelphia",
+"phone": "",
+"website": "https://www.tshoy.org/",
+"detail": "Jewish",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.146374,
+40.04459
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Unitarian Universalist congregation",
+"name": "Unitarian Society of Germantown",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Unitarian Universalist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191222,
+40.040238
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "worship",
+"kind": "Unitarian Universalist congregation",
+"name": "Unitarian Universalist Church of the Restoration",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Unitarian Universalist",
+"source_id": "osm_places_of_worship"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.17701,
+40.06584
+]
+}
+}
+]
+}

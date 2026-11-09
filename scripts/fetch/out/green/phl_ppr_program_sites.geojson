@@ -1,0 +1,865 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Pool (program site)",
+"name": "Kelly Pool",
+"address": "4200 Lansdowne Dr",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.207746,
+39.97905
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "33rd and Wallace Playground",
+"address": "3302 Wallace St",
+"phone": "",
+"website": "",
+"detail": "Building, no gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190813,
+39.965037
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "48th and Woodland Playground",
+"address": "4740 Woodland Ave",
+"phone": "",
+"website": "",
+"detail": "Building, no gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209808,
+39.941956
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "A Albert Cherashore Playground",
+"address": "900 W Chew Ave",
+"phone": "",
+"website": "",
+"detail": "Building, no gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.136801,
+40.038305
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "Awbury Park and Recreation Center",
+"address": "6101 Ardleigh St",
+"phone": "",
+"website": "",
+"detail": "Building, no gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.163634,
+40.053863
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "Belfield Recreation Center",
+"address": "2109 W Chew Ave",
+"phone": "",
+"website": "",
+"detail": "Building with gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.156303,
+40.042174
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "Carousel House Recreation Center",
+"address": "4300 Avenue Of The Republic",
+"phone": "",
+"website": "",
+"detail": "Building with gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212706,
+39.979252
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "Charles Baker and Carol Baker Rice Recreation Center",
+"address": "5433 Lansdowne Ave",
+"phone": "",
+"website": "",
+"detail": "Building, no gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.231187,
+39.977231
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "Charles M Finley Playground",
+"address": "1006 E Hortter St",
+"phone": "",
+"website": "",
+"detail": "Building with gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.169832,
+40.064686
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "Clayborne and Lewis Playground",
+"address": "1101 N 38th St",
+"phone": "",
+"website": "",
+"detail": "Building, no gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.198963,
+39.973481
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "Conestoga Community Playground",
+"address": "5300 Media St",
+"phone": "",
+"website": "",
+"detail": "Building, no gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.228112,
+39.975517
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "Donald P Finnegan Recreation Center",
+"address": "1231 S 30th St",
+"phone": "",
+"website": "",
+"detail": "Building, no gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192933,
+39.937746
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "Donna Reed Miller Recreation Center",
+"address": "5826 McMahon Ave",
+"phone": "",
+"website": "",
+"detail": "Building with gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.168686,
+40.045422
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "Dorothy Emanuel Recreation Center",
+"address": "8545 Provident St",
+"phone": "",
+"website": "",
+"detail": "Building with gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.175663,
+40.081451
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "Fisher Park",
+"address": "572 W Spencer St",
+"phone": "",
+"website": "",
+"detail": "Building, no gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.131066,
+40.043548
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "Gustine Recreation Center",
+"address": "4842 Ridge Ave",
+"phone": "",
+"website": "",
+"detail": "Building with gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203589,
+40.013356
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "Haddington-Marshall L Shepard Sr Recreation Center",
+"address": "5700 Haverford Ave",
+"phone": "",
+"website": "",
+"detail": "Building with gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.23418,
+39.96727
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "Happy Hollow Recreation Center",
+"address": "4800 Wayne Ave",
+"phone": "",
+"website": "",
+"detail": "Building with gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.166272,
+40.023693
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "Helen G Sturgis Playground",
+"address": "6420 N 2nd St",
+"phone": "",
+"website": "",
+"detail": "Building, no gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.123814,
+40.049107
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "Hunting Park Recreation Center",
+"address": "1101 W Hunting Park Ave",
+"phone": "",
+"website": "",
+"detail": "Building with gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.143653,
+40.017662
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "James L Wright Playground",
+"address": "3340 Haverford Ave",
+"phone": "",
+"website": "",
+"detail": "Building with gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190867,
+39.963768
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "Jerome Brown Park Playground",
+"address": "1987 W Ontario St",
+"phone": "",
+"website": "",
+"detail": "Building, no gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.1614,
+40.006242
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "John A Lee Cultural Center",
+"address": "4372 Haverford Ave",
+"phone": "",
+"website": "",
+"detail": "Building, no gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210728,
+39.961664
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "Kingsessing Recreation Center",
+"address": "4901 Kingsessing Ave",
+"phone": "",
+"website": "",
+"detail": "Building with gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.217013,
+39.942848
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "Lloyd Hall Recreation Center",
+"address": "800 Kelly Dr",
+"phone": "",
+"website": "",
+"detail": "Building with gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.185091,
+39.969055
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "Lonnie Cohen Recreation Center",
+"address": "201 Fountain St",
+"phone": "",
+"website": "",
+"detail": "Building with gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.229087,
+40.033951
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "Miles Mack Playground",
+"address": "736 N 36th St",
+"phone": "",
+"website": "",
+"detail": "Building, no gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195622,
+39.967479
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "Morris Estate Cultural Center",
+"address": "1610 Chelten Ave",
+"phone": "",
+"website": "",
+"detail": "Building, no gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.146363,
+40.050542
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "Morton Playground",
+"address": "88 E Haines St",
+"phone": "",
+"website": "",
+"detail": "Building, no gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.174266,
+40.039705
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "Norman (Butch) Ellis Playground",
+"address": "714 N 39th St",
+"phone": "",
+"website": "",
+"detail": "Building, no gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.200883,
+39.965932
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "Parkside Evans Recreation Center",
+"address": "5271 Parkside Ave",
+"phone": "",
+"website": "",
+"detail": "Building, no gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.226586,
+39.983262
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "Pleasant Playground",
+"address": "305 Slocum St",
+"phone": "",
+"website": "",
+"detail": "Building, no gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182398,
+40.057092
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "Stenton Park",
+"address": "1699 W Courtland St",
+"phone": "",
+"website": "",
+"detail": "Building, no gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.152315,
+40.024498
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "The Lonnie Young Recreation Center of East Germantown",
+"address": "1100 E Chelten Ave",
+"phone": "",
+"website": "",
+"detail": "Building with gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.159564,
+40.049999
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "Tiffany Fletcher Recreation Center",
+"address": "4728 Brown St",
+"phone": "",
+"website": "",
+"detail": "Building, no gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.215817,
+39.96598
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "Venice Island Performing Arts and Recreation Center",
+"address": "25 Lock St",
+"phone": "",
+"website": "",
+"detail": "Building, no gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22184,
+40.023309
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "W Freeland Kendrick Recreation Center",
+"address": "5878 Ridge Ave",
+"phone": "",
+"website": "",
+"detail": "Building with gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211353,
+40.028828
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "West Mill Creek Playground",
+"address": "5100 Westminster Ave",
+"phone": "",
+"website": "",
+"detail": "Building, no gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.223025,
+39.967467
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "William B Simons Recreation Center",
+"address": "7224 Woolston Ave",
+"phone": "",
+"website": "",
+"detail": "Building with gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.157485,
+40.06157
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "William H. (Billy) Markward Memorial Playground",
+"address": "400 S Lecount St",
+"phone": "",
+"website": "",
+"detail": "Building, no gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183273,
+39.947995
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation center",
+"name": "Wister Playground",
+"address": "4971 Baynton St",
+"phone": "",
+"website": "",
+"detail": "Building, no gym",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.160266,
+40.032377
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation site (no building)",
+"name": "37th and Mount Vernon Playground",
+"address": "614 N 37th St",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196503,
+39.964011
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Recreation site (no building)",
+"name": "Jacob Stinger Park",
+"address": "1400 S 32nd St",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_ppr_program_sites"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.197743,
+39.936217
+]
+}
+}
+]
+}

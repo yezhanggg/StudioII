@@ -110,8 +110,9 @@ def fc(gdf, props, simplify_ft=0, dp=5):
     for _, r in g.iterrows():
         geom = r.geometry
         if geom is not None and geom.geom_type == "GeometryCollection":     # make_valid / clipping leftovers
-            parts = [x for x in geom.geoms if x.geom_type in ("Polygon", "MultiPolygon", "LineString", "MultiLineString")]
-            geom = unary_union(parts) if parts else None
+            polys = [x for x in geom.geoms if x.geom_type in ("Polygon", "MultiPolygon")]
+            lines_ = [x for x in geom.geoms if x.geom_type in ("LineString", "MultiLineString")]
+            geom = unary_union(polys) if polys else unary_union(lines_) if lines_ else None
         if geom is None or geom.is_empty:
             continue
         p = {k: v for k, v in props(r).items() if v not in ("", None)}
@@ -324,183 +325,128 @@ for slug, v in SCH.items():
     else:
         v["neighborhood"] = None
 
-# ================================================================ community assets
-CITY_SVC = "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services"
-PPR = {"PPR_REC": "Recreation center", "PPR_PLAY": "Playground", "PPR_OAC": "Older adult center", "PPR_POOL": "Pool", "PPR_ENVIRON": "Environmental center",
-       "PPR_ICE": "Ice rink", "PPR_GOLF": "Golf course", "PPR_HIST": "Historic site", "PPR_COMM": "Community center"}
+# ================================================================ community assets: the five domain inventories
+# scripts/fetch/<domain>.py write scripts/fetch/out/<domain>/*.geojson + manifest.json (see scripts/fetch/CONTRACT.md).
 PACDC = json.loads((CA / "_source/pacdc_cdc_members.json").read_text())
 key = lambda s: re.sub(r"[^a-z0-9]", "", re.sub(r"\(.*?\)|\b(inc|the|corporation|corp|cdc|community development)\b", "", s.lower()))
 is_cdc = lambda name: bool(re.search(r"\bCDC\b|community development|revitalization corp|development corp", name, re.I)) or any(key(name) and key(name) == key(p) for p in PACDC)
-GEOCODED = CA / "_source/data/geocoded.json"
-
-
-def city(name, slug, pt, meters, layer=0):
-    f = CACHE / f"city_{name}_{slug}_{int(meters)}.geojson"
-    if not f.exists():
-        r = requests.get(f"{CITY_SVC}/{name}/FeatureServer/{layer}/query", timeout=120, headers=UA, params={
-            "where": "1=1", "geometry": f"{pt.x},{pt.y}", "geometryType": "esriGeometryPoint", "inSR": 4326, "spatialRel": "esriSpatialRelIntersects",
-            "distance": meters, "units": "esriSRUnit_Meter", "outFields": "*", "outSR": 4326, "f": "geojson"})
-        r.raise_for_status(); f.write_text(r.text)
-    g = gpd.read_file(f)
-    return g if len(g) else gpd.GeoDataFrame({"geometry": []}, geometry="geometry", crs=4326)
-
-
-def city_all(name, layer=0):
-    f = CACHE / f"cityall_{name}_{layer}.geojson"
-    if not f.exists():
-        r = requests.get(f"{CITY_SVC}/{name}/FeatureServer/{layer}/query", timeout=120, headers=UA,
-                         params={"where": "1=1", "outFields": "*", "outSR": 4326, "f": "geojson", "resultRecordCount": 5000})
-        r.raise_for_status(); f.write_text(r.text)
-    return read(f)
-
-
-def geocode(address):
-    memo = json.loads(GEOCODED.read_text()) if GEOCODED.exists() else {}
-    mine = CACHE / "geocoded.json"; own = json.loads(mine.read_text()) if mine.exists() else {}
-    if address in memo:
-        return memo[address]
-    if address not in own:
-        try:
-            r = requests.get("https://geocoding.geo.census.gov/geocoder/locations/onelineaddress", timeout=60, headers=UA,
-                             params={"address": address, "benchmark": "Public_AR_Current", "format": "json"}).json()
-            m = r["result"]["addressMatches"]; own[address] = [m[0]["coordinates"]["x"], m[0]["coordinates"]["y"]] if m else None
-        except Exception:
-            own[address] = None
-        mine.write_text(json.dumps(own, indent=1))
-    return own[address]
-
-
-def child_care(slug, pt):
-    def fetch():
-        r = requests.get("https://data.pa.gov/resource/ajn5-kaxt.json", timeout=120, headers=UA,
-                         params={"$where": f"within_circle(geocoded_column, {pt.y}, {pt.x}, 1700)", "$limit": 5000})
-        r.raise_for_status(); return r.json()
-    out = []
-    for a in cached_json(f"child_care_{slug}.json", fetch):
-        if not a.get("geocoded_column") or a.get("provider_type") == "Other" or a.get("capacity") == "School Age Provider":
-            continue
-        if re.search(SELF[slug], a.get("facility_name", "").upper()):
-            continue
-        x, y = a["geocoded_column"]["coordinates"]
-        out.append({"category": "Child care", "kind": clean(a["provider_type"]).capitalize(), "name": title(a["facility_name"]), "address": title(a.get("facility_address")),
-                    "source": "PA Department of Human Services child care providers", "geometry": Point(x, y)})
-    return out
-
-
-def worship(slug, pt):
-    def fetch():
-        import time
-        q = f'[out:json][timeout:90];nwr["amenity"="place_of_worship"](around:1700,{pt.y},{pt.x});out center tags;'
-        last = None
-        for attempt in range(6):                     # Overpass is busy at times: back off, then try a mirror
-            url = ("https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter")[attempt % 2]
-            try:
-                r = requests.post(url, data={"data": q}, timeout=180, headers=UA)
-                r.raise_for_status(); return r.json()["elements"]
-            except Exception as e:
-                last = e; time.sleep(10 * (attempt + 1))
-        raise last
-    out = []
-    for e in cached_json(f"worship_{slug}.json", fetch):
-        t = e.get("tags", {}); lat = e.get("lat") or e.get("center", {}).get("lat"); lon = e.get("lon") or e.get("center", {}).get("lon")
-        if lat is None:
-            continue
-        addr = " ".join(x for x in (t.get("addr:housenumber"), t.get("addr:street")) if x)
-        rel = t.get("religion", "").replace("_", " ")
-        out.append({"category": "Places of worship", "kind": "Place of worship", "name": t.get("name") or "Place of worship", "address": addr,
-                    "detail": rel.capitalize() if rel and rel != "christian" else "", "source": "OpenStreetMap", "geometry": Point(lon, lat)})
-    return out
-
-
-def rows(g, cat, kind, name, address="", detail="", phone="", web="", source="City of Philadelphia"):
-    def val(r, a):
-        if callable(a):
-            return clean(a(r))
-        v = col(r, a) if isinstance(a, str) and a else None
-        return clean(v) if v is not None else (a if isinstance(a, str) and a and a.lower() not in {c.lower() for c in r.index} else "")
-    out = []
-    for _, r in g.iterrows():
-        if r.geometry is None:
-            continue
-        out.append({"category": cat, "kind": val(r, kind), "name": title(val(r, name)), "address": title(val(r, address)), "detail": val(r, detail),
-                    "phone": val(r, phone), "website": val(r, web), "source": source,
-                    "geometry": r.geometry if r.geometry.geom_type == "Point" else r.geometry.representative_point()})
-    return out
-
-
-def rebuild_assets(slug, pt):
-    """Community Asset/_source/01_assets.py for one school."""
-    R = []
-    g = city("Schools", slug, pt, 1609.344)
-    g = g[~g.apply(lambda r: bool(re.search(SELF[slug], clean(col(r, "school_name")).upper())), axis=1)] if len(g) else g
-    tmap = {"DISTRICT": "District school", "CHARTER": "Charter school", "PRIVATE": "Private school", "ARCHDIOCESE": "Archdiocese school", "CONTRACTED": "Contracted school"}
-    R += rows(g, "Schools", lambda r: tmap.get(clean(col(r, "type_specific")).upper(), title(col(r, "type_specific")) + " school"), "school_name_label", "street_address",
-              lambda r: f"Grades {clean(col(r, 'grade_org'))}" + (f" · {int(num(col(r, 'enrollment'))):,} students" if num(col(r, "enrollment")) else ""), "phone_number")
-    R += rows(city("Free_Library_Locations", slug, pt, 1609.344), "Libraries", "Free Library branch", lambda r: clean(col(r, "Branch")) + " Library", "Street_Address", source="Free Library of Philadelphia")
-    g = city("PPR_Program_Sites", slug, pt, 1609.344)
-    if len(g):
-        R += rows(g[g.program_type != "PPR_OAC"], "Parks and recreation", lambda r: PPR.get(r.program_type, "Recreation site"), "park_name", source="Philadelphia Parks & Recreation")
-        R += rows(g[g.program_type == "PPR_OAC"], "Older adult centers", "Older adult center", "park_name", source="Philadelphia Parks & Recreation")
-    R += rows(city("PCA_SeniorCenters", slug, pt, 1609.344), "Older adult centers", "Senior center", "Name", "Address", phone="Phone_Number", source="Philadelphia Corporation for Aging")
-    R += rows(city("Health_Centers", slug, pt, 1609.344), "Health care", lambda r: "City health center" if clean(col(r, "organization")) == "PDPH" else "Community health center",
-              "name", "full_address", "organization", "phone", "website")
-    R += rows(city("Hospitals", slug, pt, 1609.344), "Health care", lambda r: "Hospital" + (f" ({clean(col(r, 'hospital_type')).lower()})" if clean(col(r, "hospital_type")) else ""),
-              "hospital_name", "street_address", phone="phone_number")
-    R += rows(city("Fire_Dept_Facilities", slug, pt, 1609.344), "Fire and police", "Fire station",
-              lambda r: " / ".join(x for x in (f"Engine {int(num(col(r, 'eng')))}" if num(col(r, "eng")) else "", f"Ladder {int(num(col(r, 'lad')))}" if num(col(r, "lad")) else "") if x) or "Fire station",
-              "location", source="Philadelphia Fire Department")
-    R += rows(city("Police_Stations", slug, pt, 1609.344), "Fire and police", "Police station",
-              lambda r: f"{int(num(col(r, 'dist_num')))}th Police District" if num(col(r, "dist_num")) else "Police station", "location", source="Philadelphia Police Department")
-    g = city("free_meal_sites", slug, pt, 1609.344)
-    g = g[g.status.fillna("").str.lower().eq("active")] if len(g) and "status" in g else g
-    R += rows(g, "Food access", "Food pantry or free meal site", "site_name", "address", lambda r: title(col(r, "category")), "phone_number", "website")
-    R += rows(city("Farmers_Markets", slug, pt, 1609.344), "Food access", "Farmers market", "name", "address", "operator", "contact_phone", "contact_website")
-    R += rows(city("Registered_Community_Gardens", slug, pt, 1609.344), "Food access", "Community garden", "garden_name", "address", web="contact_website", source="Philadelphia Parks & Recreation")
-    R += rows(city("PPR_Urban_Agriculture_Projects", slug, pt, 1609.344), "Food access", "Urban agriculture project", "project_name", "address", "park_name", web="contact_website", source="Philadelphia Parks & Recreation")
-    R += rows(city("PPR_Friends_Groups", slug, pt, 1609.344), "Community organizations", "Park friends group", "friends_group_name", "address", "public_name", web="contact_website", source="Philadelphia Parks & Recreation")
-    R += rows(city("NAC_Offices", slug, pt, 2 * 1609.344), "Community organizations", lambda r: "Neighborhood Advisory Committee" + (" · CDC" if is_cdc(clean(col(r, "organization"))) else ""),
-              "organization", "street_address", phone="phone_number", web="website_url")
-    for r in RCO_CDC:
-        xy = geocode(r["address"])
-        if xy:
-            R.append({**r, "geometry": Point(xy)})
-    R += child_care(slug, pt)
-    R += worship(slug, pt)
-    a = gpd.GeoDataFrame(R, geometry="geometry", crs=4326)
-    a["miles"] = (a.to_crs(FT).distance(gpd.GeoSeries([pt], crs=4326).to_crs(FT).iloc[0]) / MILE).round(2)
-    a = a[(a.miles <= 1) | ((a.category == "Community organizations") & (a.miles <= 2))]
-    a = a.sort_values(["category", "miles"]).drop_duplicates(["category", "name", "address"])
-    org = a.category == "Community organizations"
-    a = pd.concat([a[org].assign(k=a[org].name.map(key)).drop_duplicates("k").drop(columns="k"), a[~org]]).sort_values(["category", "miles"]).reset_index(drop=True)
-    a["within_half_mile"] = a.miles <= 0.5
-    return a.fillna("")
-
-
-rco_city = read(P2 / "phl_rco_registered_community_orgs_citywide.geojson").rename(columns=str.lower)
 one_line = lambda v: re.sub(r"\s*,(\s*,)+\s*", ", ", re.sub(r"\s*[\r\n]+\s*", ", ", str(v or ""))).strip(", ").strip()
-RCO_CDC = []
-for _, r in rco_city.assign(name=lambda d: d.organization_name.map(clean)).drop_duplicates("name").iterrows():
-    if is_cdc(r["name"]):
-        RCO_CDC.append({"category": "Community organizations", "kind": "Registered community organization · CDC", "name": r["name"], "address": one_line(r.organization_address),
-                        "detail": "", "phone": "", "website": clean(r.websites), "source": "City of Philadelphia, RCO registry; address placed by the Census geocoder"})
+rco_city = read(P2 / "phl_rco_registered_community_orgs_citywide.geojson").rename(columns=str.lower)
 
-studio_assets = {s: pd.read_csv(CA / f"Raw_Source/{n}_Community_Assets.csv") for s, n in STUDIO_DONE.items()}
-walk_inv = read(TR / "amenities.geojson")
+FETCH = Path(__file__).resolve().parent / "fetch/out"
+CATS = ["schools", "early_childhood", "libraries", "youth", "higher_ed", "health_care", "pharmacies", "older_adults", "social_services",
+        "food", "gardens_farms", "parks_rec", "arts_culture", "historic", "civic_safety", "community_orgs", "economic", "worship"]
+MANIFEST, CONTEXT_SRC, parts = [], {}, []
+for mf in sorted(FETCH.glob("*/manifest.json")):
+    for m in json.loads(mf.read_text()):
+        m["domain"] = mf.parent.name
+        f = mf.parent / f"{m['id']}.geojson"
+        if not f.exists():
+            print(f"  manifest lists {m['id']} but {f.name} is missing"); continue
+        if m.get("context"):
+            CONTEXT_SRC[m["id"]] = (m, f); continue
+        g = read(f).to_crs(4326)
+        g = g[g.geometry.notna() & ~g.geometry.is_empty].copy()
+        if not len(g):
+            MANIFEST.append(m); continue
+        g["geometry"] = [x if x.geom_type == "Point" else x.representative_point() for x in g.geometry]
+        for c in ("category", "kind", "name", "address", "phone", "website", "detail"):
+            g[c] = g[c].map(clean) if c in g else ""
+        g["source_id"] = m["id"]
+        g["rank"] = 1 if "openstreetmap" in (m.get("publisher", "") + m.get("title", "")).lower() else 0   # official sources win over OSM
+        bad = ~g.category.isin(CATS)
+        if bad.any():
+            print(f"  {m['id']}: {int(bad.sum())} rows with unknown category {sorted(set(g.category[bad]))[:4]} dropped")
+        parts.append(g[~bad][["category", "kind", "name", "address", "phone", "website", "detail", "source_id", "rank", "geometry"]])
+        MANIFEST.append(m)
+INV = gpd.GeoDataFrame(pd.concat(parts, ignore_index=True), crs=4326) if parts else gpd.GeoDataFrame(columns=["category", "geometry"], crs=4326)
+INV_FT = INV.to_crs(FT)
+print(f"inventory: {len(INV):,} records from {len(MANIFEST)} datasets ({len(CONTEXT_SRC)} context datasets)")
+
+STOP = {"the", "of", "inc", "llc", "and", "at", "a", "philadelphia", "phila", "center", "centre", "school", "church", "co"}
+def toks(n):
+    return {t for t in re.findall(r"[a-z0-9]+", n.lower().replace("&", " and ")) if t not in STOP}
 
 
-def studio_asset_rows(slug):
-    a = studio_assets[slug].copy()
-    inv = walk_inv[walk_inv.school == STUDIO_DONE[slug]]
-    src = {(clean(r["name"]), clean(r["address"])): clean(r["source"]) for _, r in inv.iterrows()}
-    a["source"] = [clean(s) if clean(s) and not clean(s).startswith("<function") else (src.get((clean(n), clean(ad))) or "15-minute walk inventory (Transportation)")
-                   for s, n, ad in zip(a.source, a["name"], a.address)]
-    return gpd.GeoDataFrame(a, geometry=gpd.points_from_xy(a.longitude, a.latitude), crs=4326).fillna("")
+def inventory_for(v):
+    """Every inventory record within 1.5 miles (community organizations 2) of a school, de-duplicated across
+    sources: the same kind of place with the same or a similar name within 150 m (or any name within 25 m when
+    one source left it unnamed) is one place; the official source's record is kept."""
+    d = INV_FT.geometry.distance(v["center_ft"]) / MILE
+    keep = (d <= 1.5) | ((INV.category == "community_orgs") & (d <= 2))
+    a = INV[keep].copy(); a["miles"] = d[keep].round(3).values
+    a_ft = a.to_crs(FT)
+    a["x"], a["y"] = a_ft.geometry.x.values, a_ft.geometry.y.values
+    a = a.sort_values(["rank", "miles"])
+    out = []
+    for cat, g in a.groupby("category", sort=False):
+        kept = []
+        for r in g.itertuples():
+            t = toks(r.name)
+            dup = False
+            for k in kept:
+                dist = math.hypot(r.x - k[0], r.y - k[1])
+                if dist > 500:
+                    continue
+                kt = k[2]
+                same = t and kt and (t == kt or len(t & kt) / max(1, min(len(t), len(kt))) >= 0.67)
+                if (same and dist <= 500) or (dist <= 80 and (not t or not kt)):
+                    dup = True; break
+            if not dup:
+                kept.append((r.x, r.y, t)); out.append(r.Index)
+    return a.loc[out].drop(columns=["x", "y", "rank"]).sort_values(["category", "miles"])
+
+
+BROKEN = set(json.loads((Path(__file__).resolve().parent / "broken_links.json").read_text())) if (Path(__file__).resolve().parent / "broken_links.json").exists() else set()
+web = lambda u: "" if not u or u in BROKEN or ("https://" + u.strip()) in BROKEN or u.strip() in ("https://", "http://") else u   # scripts/check_links.mjs
+
+
+# Plain-language types in five groups (src/lib/layers.js TYPES): what a first-time reader looks for.
+GROUP_OF = {"grocery": "food", "market": "food", "meals": "food", "garden": "food",
+            "pharmacy": "health", "health_center": "health", "clinic": "health", "hospital": "health",
+            "public_school": "learning", "private_school": "learning", "childcare": "learning", "library": "learning", "youth": "learning", "college": "learning",
+            "park": "community", "playground": "community", "rec": "community", "sports": "community", "senior": "community",
+            "worship": "more", "groups": "more", "services": "more", "arts": "more", "history": "more", "safety": "more", "money": "more"}
+def classify(cat, src, kind):
+    k = (kind or "").lower()
+    if cat == "food":
+        if src == "phl_free_meal_sites": return "meals"
+        if src == "phl_farmers_markets" or "farmers market" in k: return "market"
+        return "grocery"
+    if cat == "gardens_farms": return "garden"
+    if cat == "pharmacies": return "pharmacy"
+    if cat == "health_care":
+        if "hospital" in k: return "hospital"
+        if src in ("hrsa_health_center_sites", "phl_health_centers"): return "health_center"
+        return "clinic"
+    if cat == "schools": return "private_school" if re.search(r"private|archdiocese|catholic|parochial", k) else "public_school"
+    if cat == "early_childhood": return "childcare"
+    if cat == "libraries": return "library"
+    if cat == "youth": return "youth"
+    if cat == "higher_ed": return "college"
+    if cat == "parks_rec":
+        if src in ("phl_ppr_playgrounds", "phl_ppr_spraygrounds") or "playground" in k: return "playground"
+        if src in ("phl_ppr_program_sites", "phl_ppr_swimming_pools"): return "rec"
+        if src in ("phl_ppr_tennis_courts", "osm_sports_facilities") or re.search(r"athletic|field|court|track", k): return "sports"
+        return "park"
+    if cat == "older_adults": return "senior"
+    return {"worship": "worship", "community_orgs": "groups", "social_services": "services", "arts_culture": "arts", "historic": "history",
+            "civic_safety": "safety", "economic": "money"}.get(cat, "groups")
 
 
 def asset_fc(a):
-    return fc(a, lambda r: {"category": clean(r.category), "kind": clean(r.kind), "name": clean(r["name"]), "address": clean(r.address),
-                            "detail": clean(r.detail), "phone": re.sub(r"\.0$", "", clean(r.phone)), "website": clean(r.website),
-                            "source": clean(r.source), "miles": num(r.miles, 2)})
+    return fc(a, lambda r: {"category": r.category, "type": classify(r.category, r.source_id, r.kind), "kind": r.kind, "name": r["name"] or r.kind, "address": r.address, "detail": r.detail,
+                            "phone": re.sub(r"\.0$", "", r.phone), "website": web(r.website), "source_id": r.source_id, "miles": round(float(r.miles), 2)})
+
+
+# the studio's own inventory for the two finalists, mapped to the new kinds, for the check at the end
+STUDIO_KIND = {"Schools": "schools", "Child care": "early_childhood", "Libraries": "libraries", "Parks and recreation": "parks_rec", "Health care": "health_care",
+               "Older adult centers": "older_adults", "Community organizations": "community_orgs", "Fire and police": "civic_safety", "Places of worship": "worship"}
+def studio_counts(slug):
+    t = pd.read_csv(CA / f"Raw_Source/{STUDIO_DONE[slug]}_Community_Assets.csv")
+    t = t[t.miles <= 1]
+    cat = t.apply(lambda r: STUDIO_KIND.get(r.category) or ("gardens_farms" if re.search(r"garden|agricult", str(r.kind), re.I) else "food"), axis=1)
+    return cat.value_counts().to_dict()
 
 
 # ================================================================ walk areas (rebuilt for the four)
@@ -557,20 +503,17 @@ walk_summary = pd.read_csv(M / "Transportation1/15-Minute Walk/Raw_Source/Walk_A
 # ================================================================ per-school outputs
 summary = []
 checks = []
+NEAR = {}
 for slug in ORDER:
     v = SCH[slug]; pt = v["center"]; s = v["row"]; short = SHORT[slug]; log = []
-    # assets
-    if slug in STUDIO_DONE:
-        a = studio_asset_rows(slug)
-        try:
-            rb = rebuild_assets(slug, pt)
-            checks.append((short, a.groupby("category").size().to_dict(), rb.groupby("category").size().to_dict()))
-        except Exception as e:
-            checks.append((short, {}, {"error": str(e)[:80]}))
-    else:
-        a = rebuild_assets(slug, pt)
+    # assets: the five inventories, measured from this school
+    a = inventory_for(v)
     log.append(save(f"{slug}/assets.json", asset_fc(a)))
     counts = {c: {"half": int((d.miles <= 0.5).sum()), "mile": int((d.miles <= 1).sum())} for c, d in a.groupby("category")}
+    a["group"] = [GROUP_OF[classify(c, sid, k)] for c, sid, k in zip(a.category, a.source_id, a.kind)]
+    NEAR[slug] = a[a.miles <= 1].groupby(["source_id", "group"]).size()
+    if slug in STUDIO_DONE:
+        checks.append((short, studio_counts(slug), a[a.miles <= 1].category.value_counts().to_dict()))
 
     # RCOs (contact names, emails and phones of private people are left out)
     if slug in STUDIO_DONE:
@@ -581,7 +524,7 @@ for slug in ORDER:
     rco_ft = rco.to_crs(FT)
     rco["covers"] = rco_ft.buffer(0).contains(v["center_ft"]).values
     rprops = lambda r: {"name": clean(r.organization_name), "type": clean(r.org_type), "covers": bool(r.covers), "cdc": is_cdc(clean(r.organization_name)),
-                        "meets": one_line(r.meeting_location_address), "website": clean(r.websites), "expires": clean(r.expirationyear).replace(".0", "")}
+                        "meets": one_line(r.meeting_location_address), "website": web(clean(r.websites)), "expires": clean(r.expirationyear).replace(".0", "")}
     log.append(save(f"{slug}/rco.json", fc(rco.sort_values("covers"), rprops, simplify_ft=4)))
     rco_list = sorted([rprops(r) for _, r in rco.iterrows()], key=lambda d: (not d["covers"], d["name"]))
 
@@ -621,34 +564,27 @@ for slug in ORDER:
         sites_fc["features"].append({"type": "Feature", "properties": {"slug": slug, "kind": "neighborhood", "source": v["neighborhood"]["source"]}, "geometry": v["neighborhood"]["geometry"]})
 print(save("sites.json", sites_fc))
 
-# ================================================================ context layers (around all six)
+# ================================================================ context layers (around all six) — a short list
+import shutil
+shutil.rmtree(OUT / "ctx", ignore_errors=True)
 log = []
-tr = tracts20.copy()
-log.append(save("ctx/tracts.json", fc(tr, lambda r: {"geoid": r.GEOID, "name": clean(r.NAME), **tract_measures(r.GEOID)}, simplify_ft=10)))
+log.append(save("ctx/tracts.json", fc(tracts20, lambda r: {"geoid": r.GEOID, "name": clean(r.NAME), **tract_measures(r.GEOID)}, simplify_ft=10)))
 
 pk = read(P2 / "phl_ppr_properties_citywide.geojson")
 pk = pk[~pk.get("property_classification", pd.Series("", index=pk.index)).isin(["TRAFFIC_ISLAND_MEDIAN", "PATHWAY", "OPERATIONAL_INTERNAL"])]
 pk["geometry"] = pk.geometry.make_valid()
 log.append(save("ctx/parks.json", fc(in_region(pk), lambda r: {"name": title(col(r, "label", "public_name", "park_name")), "acres": num(col(r, "acreage"), 1)}, simplify_ft=3)))
 
-cc = read(P2 / "phl_commercial_corridors_citywide.geojson") if (P2 / "phl_commercial_corridors_citywide.geojson").exists() else read(next(DS.rglob("phl_commercial_corridors_citywide.geojson")))
-log.append(save("ctx/corridors.json", fc(in_region(cc), lambda r: {"name": clean(r["name"]), "type": clean(r.corridor_type), "storefronts": num(r.comm_count),
-                                                                  "vacant": num(r.vac_count), "vac_rate": clean(r.vac_rate), "stage": clean(r.stage), "year": num(r.survey_year)}, simplify_ft=2)))
-bid = read(next(DS.rglob("business_improvement_districts.geojson")))
-log.append(save("ctx/bids.json", fc(in_region(bid), lambda r: {"name": title(r.organization), "phone": clean(r.phone), "website": clean(r.website)}, simplify_ft=3)))
+cc = read(next(DS.rglob("phl_commercial_corridors_citywide.geojson")))
+log.append(save("ctx/corridors.json", fc(in_region(cc), lambda r: {"name": clean(r["name"]), "storefronts": num(r.comm_count), "vacant": num(r.vac_count), "year": num(r.survey_year)}, simplify_ft=2)))
 
-# transit: SEPTA routes (bus, trolley, metro) and Regional Rail lines
 routes = read(next(DS.rglob("septa_transit_routes_spring2025.geojson")))
-METRO = {"B1", "B2", "B3", "L1", "M1", "MFL", "BSL", "BSO", "MFO", "NHSL"}
-TROLLEY = {"T1", "T2", "T3", "T4", "T5", "G1", "D1", "D2", "10", "11", "13", "15", "34", "36", "101", "102"}
-mode = lambda a: "Metro" if a in METRO else "Trolley" if a in TROLLEY else "Bus"
-routes["mode"] = routes.LineAbbr.astype(str).map(mode)
+METRO, TROLLEY = {"B1", "B2", "B3", "L1", "M1"}, {"T1", "T2", "T3", "T4", "T5", "G1", "D1", "D2"}
+routes["mode"] = routes.LineAbbr.astype(str).map(lambda x: "Metro" if x in METRO else "Trolley" if x in TROLLEY else "Bus")
 rr = read(next(DS.rglob("septa_regional_rail_lines.geojson")))
 rr = rr.assign(LineAbbr=rr.Route_Name, LineName=rr.Route_Name + " Line", mode="Regional Rail")
-lines = pd.concat([routes[["LineAbbr", "LineName", "mode", "geometry"]], rr[["LineAbbr", "LineName", "mode", "geometry"]]])
-lines = gpd.GeoDataFrame(lines, crs=4326)
+lines = gpd.GeoDataFrame(pd.concat([routes[routes["mode"] != "Bus"][["LineAbbr", "LineName", "mode", "geometry"]], rr[["LineAbbr", "LineName", "mode", "geometry"]]]), crs=4326)
 log.append(save("ctx/transit_lines.json", fc(in_region(lines, clip=True), lambda r: {"route": clean(r.LineAbbr), "name": clean(r.LineName), "mode": r["mode"]}, simplify_ft=10)))
-print("  route modes:", lines.groupby("mode").LineAbbr.apply(lambda s: ", ".join(sorted(set(map(str, s)))[:30])).to_dict())
 
 stops = read(next(DS.rglob("septa_bus_stop_ridership_fall2025.geojson"))).to_crs(FT)
 stops = stops[stops.within(unary_union([v["center_ft"].buffer(0.75 * MILE) for v in SCH.values()]))]
@@ -656,94 +592,76 @@ for c in ("WK_Ons", "WK_Offs"):
     stops[c] = pd.to_numeric(stops[c], errors="coerce").fillna(0)
 st = stops.groupby("Stop_Code").agg(name=("Stop", "first"), mode=("Mode", "first"), routes=("Route", lambda x: ", ".join(sorted(set(map(str, x)), key=lambda z: (len(z), z)))),
                                      ons=("WK_Ons", "sum"), offs=("WK_Offs", "sum"), geometry=("geometry", "first")).reset_index()
-st = gpd.GeoDataFrame(st, geometry="geometry", crs=FT)
-log.append(save("ctx/transit_stops.json", fc(st, lambda r: {"name": clean(r["name"]), "mode": clean(r["mode"]), "routes": r.routes, "ons": int(r.ons), "offs": int(r.offs)})))
-stations = []
-for f, m_ in (("septa_metro_stations.geojson", "Metro"), ("septa_regional_rail_stations.geojson", "Regional Rail")):
-    p = next(DS.rglob(f), None)
-    if p:
-        g = read(p)
-        stations.append(gpd.GeoDataFrame({"name": [title(col(r, "Station_Name", "station_name", "Station", "STATION", "name", "Name", "stop_name")) for _, r in g.iterrows()],
-                                          "line": [clean(col(r, "Line_Name", "line", "Line", "Route", "route_name")) for _, r in g.iterrows()], "mode": m_}, geometry=g.geometry, crs=g.crs))
-if stations:
-    sa = gpd.GeoDataFrame(pd.concat(stations), crs=4326)
-    log.append(save("ctx/rail_stations.json", fc(in_region(sa), lambda r: {"name": r["name"], "line": r.line, "mode": r["mode"]})))
+log.append(save("ctx/transit_stops.json", fc(gpd.GeoDataFrame(st, geometry="geometry", crs=FT), lambda r: {"name": clean(r["name"]), "mode": clean(r["mode"]), "routes": r.routes, "ons": int(r.ons), "offs": int(r.offs)})))
 
-bike = read(next(DS.rglob("phl_bike_network_citywide.geojson")))
-log.append(save("ctx/bike_lanes.json", fc(in_region(bike, clip=True), lambda r: {"kind": clean(r.bikewaytyp) or clean(r.facityp)}, simplify_ft=3)))
-indego = next(DS.rglob("indego_stations_phila_api.geojson"), None)
-if indego:
-    ig = read(indego)
-    log.append(save("ctx/bike_share.json", fc(in_region(ig), lambda r: {"name": clean(col(r, "name", "addressStreet")), "docks": num(col(r, "totalDocks", "docks", "capacity"))})))
 hin = read(next(DS.rglob("vision_zero_high_injury_network_2025.geojson")))
 log.append(save("ctx/hin.json", fc(in_region(hin, clip=True), lambda r: {"street": title(r.stname)}, simplify_ft=3)))
 
-# crashes: the studio's per-school PennDOT extracts (2020–2024), within a mile of any school
-cr = []
-for slug in ORDER:
-    g = read(P4 / f"{slug}_penndot_crashes_2020_2024_1mi_box.geojson") if (P4 / f"{slug}_penndot_crashes_2020_2024_1mi_box.geojson").exists() else read(next(DS.rglob(f"{slug}_penndot_crashes_2020_2024_1mi_box.geojson")))
-    cr.append(g)
-cr = gpd.GeoDataFrame(pd.concat(cr), crs=4326).drop_duplicates("crn")
-cr = in_region(cr, NEAR1)
-n = lambda r, *c: sum(num(r.get(x)) or 0 for x in c if x in r.index)
-log.append(save("ctx/crashes.json", fc(cr, lambda r: {"year": num(r.crash_year), "killed": int(n(r, "fatal_count")), "serious": int(n(r, "susp_serious_inj_count", "maj_inj_count")),
-                                                       "ksi": bool(n(r, "fatal_count", "susp_serious_inj_count", "maj_inj_count")),
-                                                       "ped": bool(n(r, "ped_count")), "bike": bool(n(r, "bicycle_count"))})))
-try:
-    gd = city_all("School_Crossing_Guards", 0)
-    log.append(save("ctx/crossing_guards.json", fc(in_region(gd), lambda r: {"name": title(col(r, "address", "location", "intersection"))})))
-    cams = pd.concat([city_all("ASE_October_2025_WFL1", 1).assign(kind="School-zone speed camera"), city_all("ASE_October_2025_WFL1", 2).assign(kind="Speed-camera corridor")])
-    cams = gpd.GeoDataFrame(cams, crs=4326)
-    log.append(save("ctx/speed_cameras.json", fc(in_region(cams), lambda r: {"kind": r.kind, "status": clean(col(r, "Status", "status")), "school": title(col(r, "SCHOOL_NAM"))})))
-except Exception as e:
-    print("  crossing guards / speed cameras:", e)
-
-# economy & land: the studio's per-school extracts, joined
 def per_school(stem):
-    gs = []
-    for slug in ORDER:
-        p = next(DS.rglob(f"{slug}_{stem}.geojson"), None)
-        if p:
-            gs.append(read(p))
-    return gpd.GeoDataFrame(pd.concat(gs), crs=4326)
-
-KIND = {"Restaurants and take-out": ["Food Preparing and Serving", "Food Preparing and Serving (30+ SEATS)", "Food Caterer", "Sidewalk Cafe"],
-        "Food stores": ["Food Establishment, Retail Permanent Location", "Food Establishment, Retail Perm Location (Large)", "Food Estab, Retail Non-Permanent Location (Annual)", "Food Manufacturer / Wholesaler"],
-        "Auto repair, sales and towing": ["Motor Vehicle Repair / Fuel Dispensing", "Tire Dealer", "Vendor - Motor Vehicle Sales", "Tow Truck", "Tow Company", "Auto Wrecking / Waste Handling", "Public Garage / Parking Lot"],
-        "Child care": ["Child Care Facility"]}
-NOT_A_BUSINESS = ["Rental", "Dumpster License - Private Property", "Dumpster License - Public ROW", "Vacant Residential Property / Lot", "Vacant Commercial Property", "High Rise",
-                  "Hazardous Materials", "Handbill Distribution", "Annual Small Games Of Chance", "Special Assembly Occupancy"]
-bz = per_school("li_business_licenses_active_1mi").drop_duplicates("licensenum")
-bz = bz[~bz.licensetype.isin(NOT_A_BUSINESS) & bz.geometry.notna()]
-bz = bz.drop_duplicates(["business_name", "address"])
-log.append(save("ctx/businesses.json", fc(in_region(bz, NEAR1), lambda r: {"name": title(r.business_name), "kind": next((k for k, v in KIND.items() if r.licensetype in v), "Other businesses"),
-                                                                           "license": clean(r.licensetype), "address": title(r.address)})))
+    return gpd.GeoDataFrame(pd.concat([read(p) for slug in ORDER for p in [next(DS.rglob(f"{slug}_{stem}.geojson"), None)] if p]), crs=4326)
 zn = per_school("zoning_basedistricts_1mi").drop_duplicates("objectid")
 log.append(save("ctx/zoning.json", fc(zn, lambda r: {"code": clean(r.long_code), "group": clean(r.zoninggroup)}, simplify_ft=3)))
 LU = {1: "Residential", 2: "Commercial", 3: "Industrial", 4: "Civic and institutional", 5: "Transportation", 6: "Culture and recreation", 7: "Parks and open space", 8: "Water", 9: "Vacant"}
 lu = per_school("landuse_1mi").drop_duplicates("objectid")
-lu = lu[lu.geometry.notna()].to_crs(FT)
-lu["geometry"] = lu.geometry.buffer(0)
+lu = lu[lu.geometry.notna()].to_crs(FT); lu["geometry"] = lu.geometry.buffer(0)
 lu["use"] = pd.to_numeric(lu.c_dig1, errors="coerce").map(LU)
-lu = lu.dissolve(by="use").reset_index()
-log.append(save("ctx/land_use.json", fc(lu, lambda r: {"use": r.use}, simplify_ft=6)))
+log.append(save("ctx/land_use.json", fc(lu.dissolve(by="use").reset_index(), lambda r: {"use": r.use}, simplify_ft=6)))
 
-oz = read(next(DS.rglob("phl_opportunity_zones_citywide.geojson")))
-oz = oz.assign(layer="Opportunity Zone", name=oz.iloc[:, oz.columns.get_loc("Population_2016_Tract_GIS_PLA_4")].astype(str) if "Population_2016_Tract_GIS_PLA_4" in oz else "")
-ra = read(next(DS.rglob("phl_redevelopment_certified_areas_citywide.geojson")))
-ra = ra.assign(layer="Redevelopment area", name=ra["name"].map(title))
-inc = gpd.GeoDataFrame(pd.concat([oz[["layer", "name", "geometry"]], ra[["layer", "name", "geometry"]]]), crs=4326)
-log.append(save("ctx/incentives.json", fc(in_region(inc), lambda r: {"layer": r.layer, "name": clean(r["name"])}, simplify_ft=8)))
-ah = read(next(DS.rglob("affordable_housing_production_dpd.geojson")))
-log.append(save("ctx/affordable_housing.json", fc(in_region(ah), lambda r: {"name": clean(r.project_name), "units": num(r.total_units), "year": num(r.fiscal_year_complete),
-                                                                         "status": clean(r.status), "type": clean(r.project_type)})))
-sg = read(next(DS.rglob("commerce_storefront_improvement_grants.geojson")))
-log.append(save("ctx/storefront_grants.json", fc(in_region(sg), lambda r: {"name": clean(r.user_business_name), "year": num(r.fiscal_year), "amount": num(r.user_grant_amount, 0)})))
-fr = read(ODP / "07 Community Assets - ODP/raw/phl_neighborhood_food_retail.geojson")
-fr = fr[fr.HPSS_ACCESS.fillna("").isin(["Low Access", "No Access"])]
-log.append(save("ctx/food_access.json", fc(in_region(fr), lambda r: {"access": clean(r.HPSS_ACCESS), "supermarket": clean(r.SUPERMARKET_ACCESS),
-                                                                  "hpss": num(r.TOTAL_HPSS), "lpss": num(r.TOTAL_LPSS)}, simplify_ft=4)))
+# housing and vacant land: the economy agent's context datasets
+def ctx_frames(pred):
+    out = []
+    for cid, (m, f) in CONTEXT_SRC.items():
+        if pred(cid, m):
+            g = read(f).to_crs(4326); g["_src"] = cid; g["_title"] = f"{m.get('title', cid)} ({m.get('publisher', '')})"; out.append(g)
+    return out
+def program(cid, r):
+    t = clean(col(r, "program")).lower() if "program" in r.index else ""
+    if "public housing" in t or "pha" in t:
+        return "Public housing"
+    if "lihtc" in t:
+        return "Tax credit housing"
+    return "Affordable housing"
+hs = ctx_frames(lambda cid, m: re.search(r"housing|lihtc|pha", cid, re.I))
+if hs:
+    h = gpd.GeoDataFrame(pd.concat(hs), crs=4326)
+    h["geometry"] = [x if x.geom_type == "Point" else x.representative_point() for x in h.geometry]
+    log.append(save("ctx/housing.json", fc(in_region(h, NEAR1), lambda r: {"name": title(col(r, "name", "project_name", "development", "property_name")) or "Housing development",
+                                                                         "units": num(col(r, "units", "total_units", "li_units", "n_units")), "program": program(r._src, r),
+                                                                         "detail": " · ".join(x for x in (clean(col(r, "type")), clean(col(r, "status")), f"{int(num(col(r, 'year')))}" if num(col(r, "year")) else "") if x), "source": r._title})))
+vs = ctx_frames(lambda cid, m: re.search(r"vacant|land_bank|landbank", cid, re.I))
+if vs:
+    vg = gpd.GeoDataFrame(pd.concat(vs), crs=4326)
+    vg["geometry"] = [x if x.geom_type == "Point" else x.representative_point() for x in vg.geometry]
+    log.append(save("ctx/vacant.json", fc(in_region(vg, NEAR1), lambda r: {"address": title(col(r, "address")), "public": clean(col(r, "owner_type")) == "public",
+                                                                       "owner": clean(col(r, "public_owner")), "zoning": clean(col(r, "zoning"))})))
 print("context: " + " · ".join(log))
+
+# ================================================================ sources.json: the documentation window
+NEAR_BY_SOURCE = {}
+for slug, ser in NEAR.items():
+    for (sid, grp), n in ser.items():
+        NEAR_BY_SOURCE.setdefault(sid, {}).setdefault(slug, {})[grp] = int(n)
+CAT_GROUP = {"food": "food", "gardens_farms": "food", "pharmacies": "health", "health_care": "health", "schools": "learning", "early_childhood": "learning",
+             "libraries": "learning", "youth": "learning", "higher_ed": "learning", "parks_rec": "community", "older_adults": "community"}
+assets_doc = [{k: m.get(k, "") for k in ("id", "title", "publisher", "landing_url", "api_url", "license", "retrieved", "data_date", "records", "notes", "domain")}
+              | {"groups": sorted({CAT_GROUP.get(c, "more") for c in m.get("categories", [])}), "near": NEAR_BY_SOURCE.get(m["id"], {})} for m in MANIFEST]
+CONTEXT_DOCS = json.loads((Path(__file__).resolve().parent / "context_sources.json").read_text())
+for cid, (m, f) in CONTEXT_SRC.items():
+    CONTEXT_DOCS.append({"id": cid, "layer": "Public & affordable housing" if re.search(r"housing|lihtc|pha", cid, re.I) else "Vacant & Land Bank land",
+                         "title": m.get("title", cid), "publisher": m.get("publisher", ""), "landing_url": m.get("landing_url") or m.get("api_url", ""), "notes": m.get("notes", "")})
+METHODS = [
+    {"title": "What the map is for", "text": "An inventory of what exists around each site, to inform how Wagner and Blankenburg could be reused. It does not rank sites or recommend uses; empty categories are reported as facts, not as needs."},
+    {"title": "Collection", "text": "Five inventories (education, health and social services, food and open space, civic and culture, economy and housing) were pulled from the publishers listed under Asset sources, within 1.5 miles of each of the six schools (community organizations within 2 miles). Official City, Commonwealth and federal sources come first; OpenStreetMap fills kinds the official sources do not cover, and is labelled as such."},
+    {"title": "De-duplication", "text": "The same kind of place listed by two sources (same or very similar name within about 500 m, or an unnamed record within 80 m) is counted once, keeping the official source's record."},
+    {"title": "Distances and the radius", "text": "Distances are straight lines from the school (the centroid of its building parcel), shown in miles; walk times assume the studio's pace of 80 m a minute. The radius slider changes the ring, the counts and the within-radius filter; nothing is inventoried beyond 1.5 miles."},
+    {"title": "15-minute walk", "text": "Areas reachable along the OpenStreetMap walk network in 5, 10 and 15 minutes from the street corner nearest the school, with reachable streets widened 25 m and small enclosed gaps filled; residents from 2020 Census blocks. Wagner and Blankenburg use the studio's own walk areas; the other four use the same method."},
+    {"title": "Study-area profile", "text": "Census tract counts from the ACS 2020–2024 5-year estimates, each weighted by the share of the tract's 2020 residents living within half a mile of the school (block population); medians by the aggregate median method. Rebuilding Wagner and Blankenburg this way reproduces the studio's published figures."},
+    {"title": "Catchments and building ratings", "text": "Attendance boundaries are the School District's 2024 catchments (all grades whose assignment is the school). Building condition, program, utilization and vulnerability ratings are the District's Facilities Master Plan scores as recorded in the studio's site list."},
+    {"title": "Privacy and safety", "text": "No private individuals: RCO contact names, emails and phones are left out, as are domestic-violence shelters, residential treatment sites and other locations sources mark confidential. Family child care homes appear as the State lists them."},
+    {"title": "Caveats", "text": "Open data lags reality: places close and open, OpenStreetMap coverage is uneven, and some City layers carry older survey dates (see each source's data date). Census tract estimates carry wide margins of error. Check anything decisive on the ground."},
+]
+(OUT / "sources.json").write_text(json.dumps({"built": pd.Timestamp.now().strftime("%B %-d, %Y"), "assets": assets_doc, "context": CONTEXT_DOCS, "methods": METHODS}, separators=(",", ":")))
+print("wrote sources.json:", len(assets_doc), "asset datasets,", len(CONTEXT_DOCS), "context entries")
 
 (OUT / "schools.json").write_text(json.dumps({"built": pd.Timestamp.now().strftime("%Y-%m-%d"), "acs_year": ACS_YEAR, "schools": summary}, separators=(",", ":")))
 print("wrote", OUT / "schools.json")
@@ -757,4 +675,4 @@ for slug, name in STUDIO_DONE.items():
         print(f"    {k:<26} studio {studio_v:>12,.3f}   rebuilt {mine_v:>12,.3f}")
 for short, studio_c, rebuilt_c in checks:
     cats = sorted(set(studio_c) | set(rebuilt_c))
-    print(f"  {short} assets  " + " · ".join(f"{c.split()[0]} {studio_c.get(c, 0)}/{rebuilt_c.get(c, 0)}" for c in cats) + "   (studio/rebuilt)")
+    print(f"  {short} assets within 1 mile, studio inventory / new inventory: " + " · ".join(f"{c} {studio_c.get(c, 0)}/{rebuilt_c.get(c, 0)}" for c in cats))

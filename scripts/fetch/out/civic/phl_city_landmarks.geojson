@@ -1,0 +1,4145 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "125 Years",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191556,
+39.953239
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "21st Ward War Memorial",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In Gorgas Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.221041,
+40.036733
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Admiral David Dixon Porter",
+"address": "North Concourse Dr",
+"phone": "",
+"website": "",
+"detail": "In Smith Memorial Arch",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206429,
+39.977707
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Admiral John A.B. Dahlgren",
+"address": "North Concourse Dr",
+"phone": "",
+"website": "",
+"detail": "In Smith Memorial Arch",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206542,
+39.977671
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Africa",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190607,
+39.949342
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Air",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In Schuylkill Banks",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.178683,
+39.957276
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Alexander von Humboldt",
+"address": "MLK Dr Near Black Rd",
+"phone": "",
+"website": "",
+"detail": "In West Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20586,
+39.982302
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "America",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190549,
+39.949301
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "American War Mother and Her Sons",
+"address": "1901 Lindley Ave",
+"phone": "",
+"website": "",
+"detail": "In Wister's Woods Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.155655,
+40.035686
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Andrew Gregg Curtin",
+"address": "North Concourse Dr",
+"phone": "",
+"website": "",
+"detail": "In Smith Memorial Arch",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206567,
+39.977681
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Anne d'Harnoncourt Sculpture Garden",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182002,
+39.966916
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Antillean Couple",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19481,
+39.953744
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Asia",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190955,
+39.949587
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Atmosphere & Environment",
+"address": "2500 Spring Garden St",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181793,
+39.965962
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Benjamin Franklin",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.193662,
+39.951935
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Benjamin Franklin",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196965,
+39.952203
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Birth of a Nation",
+"address": "Kelly Dr",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190433,
+39.97275
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Black Forest (Polyhedron Forms)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192505,
+39.952548
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Blessed Mother Shrine",
+"address": "5101 Parkside Ave",
+"phone": "",
+"website": "",
+"detail": "In West Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22118,
+39.981086
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Boulder Basin",
+"address": "Belmont Ave and North Horticultural Dr",
+"phone": "",
+"website": "",
+"detail": "In Shofuso Japanese House and Garden",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21307,
+39.981283
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Cascades Fountain",
+"address": "2500 Spring Garden St",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180028,
+39.964948
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Catholic Total Abstinence Fountain",
+"address": "Concourse and State Drs",
+"phone": "",
+"website": "",
+"detail": "In West Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.219657,
+39.982399
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Charles Curtis Harrison",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.198079,
+39.950398
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Charles Lennig",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.194193,
+39.951309
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Chief Justice John Marshall",
+"address": "2500 Spring Garden St",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181789,
+39.966217
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Children At Play",
+"address": "5800 Wissahickon Ave",
+"phone": "",
+"website": "",
+"detail": "In Saylor Grove",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.187231,
+40.030041
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Chinese Water Stone",
+"address": "Belmont Ave and North Horticultural Dr",
+"phone": "",
+"website": "",
+"detail": "In Shofuso Japanese House and Garden",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212778,
+39.981474
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Chrysanthemum Lantern",
+"address": "Belmont Ave and North Horticultural Dr",
+"phone": "",
+"website": "",
+"detail": "In West Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210937,
+39.981852
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Chrysanthemum Lantern",
+"address": "Belmont Ave and North Horticultural Dr",
+"phone": "",
+"website": "",
+"detail": "In Shofuso Japanese House and Garden",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212712,
+39.981451
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Civil War Soldiers' and Sailors' Monument",
+"address": "Belmont Ave and South Georges Hill Dr",
+"phone": "",
+"website": "",
+"detail": "In West Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216,
+39.98594
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Column + Capital",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191618,
+39.951076
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Construction For Outdoors #7",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195553,
+39.949169
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Consultation",
+"address": "Medical Dr and Penn Presbyterian Dwy",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.198805,
+39.958178
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Corinthian Column Capitals (N)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190837,
+39.949458
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Corinthian Column Capitals (S)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190719,
+39.949373
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Covenant",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.200688,
+39.95271
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Cowboy",
+"address": "Kelly Dr",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.193788,
+39.977761
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Dickens and Little Nell",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In Clarence H Clark Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20955,
+39.948721
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Double Lake Falls",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.193138,
+39.951458
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Dr. William Pepper",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.193809,
+39.951247
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Eagle",
+"address": "North Concourse Dr",
+"phone": "",
+"website": "",
+"detail": "In Smith Memorial Arch",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206574,
+39.977254
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Eagle (One of Two)",
+"address": "North Concourse Dr",
+"phone": "",
+"website": "",
+"detail": "In Smith Memorial Arch",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206317,
+39.977666
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Edgar Fahs Smith",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19214,
+39.951626
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Elation: in Red",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.188589,
+39.952677
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Eli Kirk Price Fountain",
+"address": "Spring Garden St and Ben Franklin Pkwy",
+"phone": "",
+"website": "",
+"detail": "In Eakins Oval",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.179589,
+39.963897
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Ellen Phillips Samuel Memorial",
+"address": "Kelly Dr",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191369,
+39.974542
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Eltanin",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189827,
+39.952648
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Europe",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190898,
+39.949546
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Flame",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In Drexel University",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189032,
+39.958697
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Florentine Lion",
+"address": "52nd St and Parkside Ave",
+"phone": "",
+"website": "",
+"detail": "In West Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.222076,
+39.982649
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Foley Fountain",
+"address": "Horticultural Center",
+"phone": "",
+"website": "",
+"detail": "In West Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209495,
+39.983518
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Fountain of the Sea Horses",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183634,
+39.967564
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Franz Schubert",
+"address": "Belmont Ave and North Horticultural Dr",
+"phone": "",
+"website": "",
+"detail": "In West Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209149,
+39.983551
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Frederick Graff Memorial",
+"address": "Fairmount Water Works Dr",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183234,
+39.965641
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Gambol II (Mare and Foal)",
+"address": "Belmont Ave and North Horticultural Dr",
+"phone": "",
+"website": "",
+"detail": "In West Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.213966,
+39.982572
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "General Anthony Wayne",
+"address": "2500 Spring Garden St",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180902,
+39.96473
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "General Casimir Pulaski",
+"address": "2500 Spring Garden St",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182396,
+39.966857
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "General Friedrich von Steuben",
+"address": "2500 Spring Garden St",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182906,
+39.967239
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "General George B. McClellan",
+"address": "North Concourse Dr",
+"phone": "",
+"website": "",
+"detail": "In Smith Memorial Arch",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206609,
+39.977269
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "General George Gorden Meade",
+"address": "North Concourse Dr",
+"phone": "",
+"website": "",
+"detail": "In Smith Memorial Arch",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206697,
+39.977459
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "General James A. Beaver",
+"address": "North Concourse Dr",
+"phone": "",
+"website": "",
+"detail": "In Smith Memorial Arch",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206729,
+39.977434
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "General John Frederick Hartranft",
+"address": "North Concourse Dr",
+"phone": "",
+"website": "",
+"detail": "In Smith Memorial Arch",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206713,
+39.977408
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "General Nathaniel Greene",
+"address": "2500 Spring Garden St",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182917,
+39.966831
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "General Peter Muhlenberg",
+"address": "2500 Spring Garden St",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181971,
+39.966599
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "General Richard Montgomery",
+"address": "2500 Spring Garden St",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18266,
+39.966643
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "General Ulysses S. Grant",
+"address": "Kelly and Fountain Green Drs",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.197891,
+39.980805
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "George and Meta Conor-Wood Memorial Fountain",
+"address": "MLK Dr South of Black Rd, West Side of Dr",
+"phone": "",
+"website": "",
+"detail": "In West Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.205821,
+39.981424
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Giuseppe Verdi",
+"address": "Belmont Ave and North Horticultural Dr",
+"phone": "",
+"website": "",
+"detail": "In West Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209501,
+39.983116
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Goethe",
+"address": "Belmont Ave and North Horticultural Dr",
+"phone": "",
+"website": "",
+"detail": "In West Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212024,
+39.98372
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Graff Fountain",
+"address": "Kelly Dr & Aquarium Dr",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183221,
+39.965412
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Grizzly",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In Fitler Square",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180021,
+39.947617
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Grow Old Along With Me. The Best is Yet to Be",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.200654,
+39.957337
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Guardian Lion : Female",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191006,
+39.949112
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Guardian Lion : Male",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191159,
+39.949218
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Harrison Fountain",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196434,
+39.979652
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Henry Howard Houston Memorial",
+"address": "Lincoln Dr and Harvey St",
+"phone": "",
+"website": "",
+"detail": "In Wissahickon Valley Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18727,
+40.032003
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Henry M. Phillips Memorial Fountain",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180605,
+39.965337
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Hill Pavilion Fountain",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.199918,
+39.95021
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Homage to Gerogia O'Keefe",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.198403,
+39.951569
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Horticulture Center Reflection Pool",
+"address": "4180 Horticulture Dr",
+"phone": "",
+"website": "",
+"detail": "In West Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211904,
+39.983248
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Immigrant",
+"address": "Kelly Dr",
+"phone": "",
+"website": "",
+"detail": "In Ellen Phillips Samuel Memorial",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190879,
+39.973805
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Italian Fountain",
+"address": "Kelly & Aquarium Drs",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183686,
+39.96753
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Ivy Composition #2",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.193301,
+39.954114
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "James A. Garfield Monument",
+"address": "Kelly Dr Below Girard Ave Bridge; Opposite Ellen Phillips Samuel Mem*",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190484,
+39.973849
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "James H. Windrim, Esq.",
+"address": "North Concourse Dr",
+"phone": "",
+"website": "",
+"detail": "In Smith Memorial Arch",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206421,
+39.977727
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Jerusalem Stabile",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192646,
+39.952026
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Jizo Bosatsu",
+"address": "Belmont Ave and North Horticultural Dr",
+"phone": "",
+"website": "",
+"detail": "In Shofuso Japanese House and Garden",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21269,
+39.981481
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "John B. Gest, Esq.",
+"address": "North Concourse Dr",
+"phone": "",
+"website": "",
+"detail": "In Smith Memorial Arch",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206688,
+39.977306
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "John B. Kelly",
+"address": "Kelly Dr Near Rowing Grandstand",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.201795,
+39.986052
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "John Harrison 1773-1833",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191665,
+39.951158
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "John Paul Jones",
+"address": "2500 Spring Garden St",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182649,
+39.96705
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Joseph Haydn",
+"address": "Belmont Ave and North Horticultural Dr",
+"phone": "",
+"website": "",
+"detail": "In West Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208572,
+39.983025
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Kasuga Lantern",
+"address": "Belmont Ave and North Horticultural Dr",
+"phone": "",
+"website": "",
+"detail": "In Shofuso Japanese House and Garden",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212633,
+39.981079
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Kelly Family Gates",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.194973,
+39.952785
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "LOVE",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.194845,
+39.951831
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Laborer",
+"address": "Kelly Dr",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191577,
+39.974683
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Law, Prosperity, and Power",
+"address": "South George's Hill Dr",
+"phone": "",
+"website": "",
+"detail": "In West Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.223261,
+39.984443
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Life Savers",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.199502,
+39.951093
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Lily Composition #3",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19627,
+39.951447
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Lincoln Monument",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.184458,
+39.969571
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Lindemann Fountain",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.197192,
+39.95246
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Lion Fighter",
+"address": "2500 Spring Garden St",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180088,
+39.964589
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Lion's Head Fountain",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191487,
+39.94977
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Lions",
+"address": "Belmont Ave and North Horticultural Dr",
+"phone": "",
+"website": "",
+"detail": "In West Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208952,
+39.983567
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Lowry Fountain",
+"address": "Fountain St and Ridge Ave",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.222998,
+40.037985
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Main Quad Fountain",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In Drexel University",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.188389,
+39.954802
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Major General George Gordon Meade",
+"address": "Lansdowne Dr",
+"phone": "",
+"website": "",
+"detail": "In West Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208154,
+39.981061
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Major General John Fulton Reynolds",
+"address": "North Concourse Dr",
+"phone": "",
+"website": "",
+"detail": "In Smith Memorial Arch",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206591,
+39.977621
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Major General S.W. Crawford",
+"address": "North Concourse Dr",
+"phone": "",
+"website": "",
+"detail": "In Smith Memorial Arch",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206676,
+39.97732
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Major General Winfield Scott Hancock",
+"address": "North Concourse Dr",
+"phone": "",
+"website": "",
+"detail": "In Smith Memorial Arch",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206358,
+39.977689
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Mario the Magnificent",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In Drexel University",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189309,
+39.955393
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Market Square War Memorial",
+"address": "5501 Germantown Ave",
+"phone": "",
+"website": "",
+"detail": "In Market Square",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.172252,
+40.034313
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Marquis de Lafayette",
+"address": "2500 Spring Garden St",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183179,
+39.967022
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Mary and Jesus",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In Old Cathedral Cemetery",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.217452,
+39.971104
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Masnad from the Torso Series",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19923,
+39.952706
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Memorial Gates",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.194436,
+39.950826
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Miner",
+"address": "Kelly Dr",
+"phone": "",
+"website": "",
+"detail": "In Ellen Phillips Samuel Memorial",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190807,
+39.973387
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Momentum",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In Drexel University",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189609,
+39.955956
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Morton McMichael",
+"address": "Lemon Hill Dr",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189,
+39.973147
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Mounted Amazon Attacked by Panther",
+"address": "2500 Spring Garden St",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.179633,
+39.964958
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Mt Pleasant Garden",
+"address": "3800 Mt Pleasant Dr",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.200087,
+39.983264
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Newkirk Monument",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206322,
+39.940002
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Night",
+"address": "Belmont Ave and North Horticultural Dr",
+"phone": "",
+"website": "",
+"detail": "In West Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21073,
+39.9828
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Orb Washbasin",
+"address": "Belmont Ave and North Horticultural Dr",
+"phone": "",
+"website": "",
+"detail": "In Shofuso Japanese House and Garden",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212819,
+39.981475
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Orestes & Pylades Fountain",
+"address": "33rd St at Oxford Ave",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189223,
+39.98129
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Panda",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195233,
+39.948074
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Peace Fountain",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183126,
+39.965397
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Peace Symbol",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.194072,
+39.952555
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Pegasus with Calliope",
+"address": "4201 Ave of the Rep Ave",
+"phone": "",
+"website": "",
+"detail": "In West Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209365,
+39.978873
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Pegasus with Erato",
+"address": "4201 Ave of the Rep Ave",
+"phone": "",
+"website": "",
+"detail": "In West Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209631,
+39.978975
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Penn Monolith",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192307,
+39.952706
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Plateau 2005",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.202554,
+39.953413
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Playing Angels",
+"address": "Kelly and Fountain Green Drs",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.198833,
+39.980206
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Ploughman",
+"address": "Kelly Dr",
+"phone": "",
+"website": "",
+"detail": "In Ellen Phillips Samuel Memorial",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190658,
+39.973433
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Poet",
+"address": "Kelly Dr",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191376,
+39.974433
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Preacher",
+"address": "Kelly Dr",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191377,
+39.974357
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Pretzel",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In Pretzel Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.221297,
+40.025649
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Prometheus Strangling the Vulture",
+"address": "2500 Spring Garden St",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180951,
+39.965599
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Puma",
+"address": "Kelly Dr, Behind Philadelphia Museum of Art",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182914,
+39.96777
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Pyramid",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195399,
+39.94924
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Quadrature #1",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.193934,
+39.949535
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Rebecca at the Well",
+"address": "Belmont Ave and North Horticultural Dr",
+"phone": "",
+"website": "",
+"detail": "In West Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20867,
+39.983613
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Reverend Dr. John Witherspoon",
+"address": "Belmont Ave and North Horticultural Dr",
+"phone": "",
+"website": "",
+"detail": "In West Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208972,
+39.984046
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Reverend George Whitefield",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.197326,
+39.95045
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Rittenhouse Town Sundial",
+"address": "5800 Wissahickon Ave",
+"phone": "",
+"website": "",
+"detail": "In Wissahickon Valley Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189782,
+40.029556
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Rocky",
+"address": "Kelly Dr and Spring Garden St",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.179294,
+39.965133
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Rond Point Fountain",
+"address": "Kelly Dr",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190558,
+39.973067
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Saint George and the Dragon",
+"address": "MLK Dr Near Black Rd",
+"phone": "",
+"website": "",
+"detail": "In West Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.205879,
+39.983044
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Schiller",
+"address": "Belmont Ave and North Horticultural Dr",
+"phone": "",
+"website": "",
+"detail": "In West Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211844,
+39.982793
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Scholar, Football Player: A Drinking Fountain",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.197108,
+39.950705
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Scientist",
+"address": "Kelly Dr",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191506,
+39.974633
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Sculpture Garden Wall Fountain",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182636,
+39.967393
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Settling of the Seaboard",
+"address": "Kelly Dr",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190333,
+39.972469
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Silenus and the Infant Bacchus",
+"address": "Kelly Dr North of Fairmount Ave",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182717,
+39.968735
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Singing Rock Sitting Place",
+"address": "Belmont Ave and North Horticultural Dr",
+"phone": "",
+"website": "",
+"detail": "In West Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209176,
+39.982705
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Six Triangles",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196594,
+39.949043
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Slave",
+"address": "Kelly Dr",
+"phone": "",
+"website": "",
+"detail": "In Ellen Phillips Samuel Memorial",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191017,
+39.973757
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Sleeve Lantern",
+"address": "Belmont Ave and North Horticultural Dr",
+"phone": "",
+"website": "",
+"detail": "In Shofuso Japanese House and Garden",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.213054,
+39.981192
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Small Lantern",
+"address": "Belmont Ave and North Horticultural Dr",
+"phone": "",
+"website": "",
+"detail": "In Shofuso Japanese House and Garden",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.213114,
+39.98128
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Smith Memorial Arch",
+"address": "North Concourse Dr",
+"phone": "",
+"website": "",
+"detail": "In Smith Memorial Arch",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20656,
+39.977492
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Snow Viewing Lantern",
+"address": "Belmont Ave and North Horticultural Dr",
+"phone": "",
+"website": "",
+"detail": "In Shofuso Japanese House and Garden",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212808,
+39.981184
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Social Consciousness",
+"address": "2500 Spring Garden St",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181437,
+39.966232
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Solomon",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.194768,
+39.952697
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Spanning the Continent",
+"address": "Kelly Dr",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190688,
+39.973329
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Spirit of Enterprise",
+"address": "Kelly Dr",
+"phone": "",
+"website": "",
+"detail": "In Ellen Phillips Samuel Memorial",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190869,
+39.97359
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Split Button",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19369,
+39.952209
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Spring",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203643,
+39.952647
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Stephen B. Girard",
+"address": "2500 Spring Garden St",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182305,
+39.966332
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Stone Age in America",
+"address": "Kelly Dr Between Boat House Row and Ellen Phillips Samuel Memorial",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190185,
+39.97198
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Stone Basin (Wellhead)",
+"address": "Kelly Dr, Behind Philadelphia Museum of Art",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.184295,
+39.968928
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Sundial",
+"address": "Belmont Ave and North Horticultural Dr",
+"phone": "",
+"website": "",
+"detail": "In West Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212653,
+39.983159
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Takayama Pagoda",
+"address": "Belmont Ave and North Horticultural Dr",
+"phone": "",
+"website": "",
+"detail": "In Shofuso Japanese House and Garden",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212621,
+39.981386
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "The Journeyer",
+"address": "Belmont Ave and North Horticultural Dr",
+"phone": "",
+"website": "",
+"detail": "In West Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209375,
+39.983519
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "The Pilgrim",
+"address": "Kelly Dr at Lemon Hill Dr",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18867,
+39.970091
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "The Puritan",
+"address": "Kelly Dr",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190322,
+39.972408
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "The Quaker",
+"address": "Kelly Dr",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190359,
+39.972515
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "The Revolutionary War Soldier",
+"address": "Kelly Dr",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190424,
+39.972688
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "The Statesman",
+"address": "Kelly Dr",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190465,
+39.972796
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "The Wedges",
+"address": "East Fairmount Park, Kelly Dr and Sedgley Dr",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18413,
+39.970102
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "The Wrestlers",
+"address": "Belmont Ave and North Horticultural Dr",
+"phone": "",
+"website": "",
+"detail": "In West Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209959,
+39.984233
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Thomas Sovereign Gates",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19421,
+39.950576
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Thorfinn Karlsefni",
+"address": "Kelly Dr",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190025,
+39.970199
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Tiger at Bay",
+"address": "Kelly Dr, Between Philadelphia Museum of Art and Sedgeley Dr",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18215,
+39.968427
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Toleration",
+"address": "Near Walnut Ln Bridge",
+"phone": "",
+"website": "",
+"detail": "In Wissahickon Valley Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.199782,
+40.035177
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Toro Garden Lantern",
+"address": "Belmont Ave and North Horticultural Dr",
+"phone": "",
+"website": "",
+"detail": "In Shofuso Japanese House and Garden",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212819,
+39.981419
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Turtle",
+"address": "3201-45 Midvale Ave",
+"phone": "",
+"website": "",
+"detail": "In McMichael Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.187952,
+40.017756
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Turtle Family",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In Fitler Square",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180077,
+39.947557
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "University Museum Fountain",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190756,
+39.949443
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "University Museum Fountain 2",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190858,
+39.94936
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "War Memorial Flagpole",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190177,
+39.951374
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Washington Monument",
+"address": "2500 Spring Garden St",
+"phone": "",
+"website": "",
+"detail": "In Eakins Oval",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.179146,
+39.964255
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Water Works Fountain",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183221,
+39.965412
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Wave Forms",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191947,
+39.954505
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "We Lost",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189029,
+39.952692
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Welcoming Freedom",
+"address": "Kelly Dr",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191003,
+39.97387
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Welsh Fountain",
+"address": "42nd St. & Parkside Ave.",
+"phone": "",
+"website": "",
+"detail": "In John Welsh Memorial Fountain",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210075,
+39.978032
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Wheatsheaf Fountain",
+"address": "Kelly Dr",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191144,
+39.974124
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "William Leonidas Springs Fountain",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In Wissahickon Valley Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.197872,
+40.022525
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument, statue or fountain",
+"name": "Youthful Franklin",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190952,
+39.950776
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Mural",
+"name": "Blue Yonder Wander",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In University of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.200751,
+39.955064
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Mural",
+"name": "Tribute to Tuskegee",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In Univeristy of Pennsylvania",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.200004,
+39.955949
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Historic site (City landmark)",
+"name": "Class of 1956 Trolley",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19684,
+39.951154
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Historic site (City landmark)",
+"name": "Historic Rittenhouse Town",
+"address": "210 Rittenhousetown Ln",
+"phone": "",
+"website": "",
+"detail": "In Wissahickon Valley Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191677,
+40.028792
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Historic site (City landmark)",
+"name": "Lock 69",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In Manayunk Canal",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.220016,
+40.022946
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Historic site (City landmark)",
+"name": "Lock 70",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "In Manayunk Canal",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.219785,
+40.022739
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Historic site (City landmark)",
+"name": "New Mill House",
+"address": "640 Water Works Dr",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.184188,
+39.966833
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Historic site (City landmark)",
+"name": "The Cliffs House",
+"address": "3400 Reservoir Dr",
+"phone": "",
+"website": "",
+"detail": "In East Fairmount Park",
+"source_id": "phl_city_landmarks"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.194104,
+39.979413
+]
+}
+}
+]
+}

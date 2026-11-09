@@ -1,0 +1,85 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.17166,
+     40.038908
+    ]
+   },
+   "properties": {
+    "category": "social_services",
+    "kind": "County Assistance Office (PA DHS)",
+    "name": "Philadelphia County Assistance Office – Chelten District",
+    "address": "301 E Chelten Ave Fl 1",
+    "phone": "215-560-5200",
+    "website": "",
+    "detail": "SNAP, cash assistance, Medical Assistance and LIHEAP applications",
+    "source_id": "pa_dhs_county_assistance_offices"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.235687,
+     39.961199
+    ]
+   },
+   "properties": {
+    "category": "social_services",
+    "kind": "County Assistance Office (PA DHS)",
+    "name": "Philadelphia County Assistance Office – Delancey / Elmwood Districts",
+    "address": "5740 Market St Fl 2",
+    "phone": "215-560-3700",
+    "website": "",
+    "detail": "SNAP, cash assistance, Medical Assistance and LIHEAP applications",
+    "source_id": "pa_dhs_county_assistance_offices"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.145429,
+     40.032873
+    ]
+   },
+   "properties": {
+    "category": "social_services",
+    "kind": "County Assistance Office (PA DHS)",
+    "name": "Philadelphia County Assistance Office – Glendale District",
+    "address": "5201 Old York Road",
+    "phone": "215-560-4600",
+    "website": "",
+    "detail": "SNAP, cash assistance, Medical Assistance and LIHEAP applications",
+    "source_id": "pa_dhs_county_assistance_offices"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.220841,
+     39.980456
+    ]
+   },
+   "properties": {
+    "category": "social_services",
+    "kind": "County Assistance Office (PA DHS)",
+    "name": "Philadelphia County Assistance Office – West / Long Term & Independent Living Districts",
+    "address": "5070 Parkside Ave",
+    "phone": "215-560-6100",
+    "website": "",
+    "detail": "SNAP, cash assistance, Medical Assistance and LIHEAP applications",
+    "source_id": "pa_dhs_county_assistance_offices"
+   }
+  }
+ ]
+}

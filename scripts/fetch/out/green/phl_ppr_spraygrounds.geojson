@@ -1,0 +1,465 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Sprayground",
+"name": "Sprayground at 48th and Woodland Playground",
+"address": "4700 Paschall Ave",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_ppr_spraygrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209243,
+39.941608
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Sprayground",
+"name": "Sprayground at Carroll Park",
+"address": "5801 W Girard Ave",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_ppr_spraygrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.236682,
+39.971163
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Sprayground",
+"name": "Sprayground at Charles Baker and Carol Baker Rice Recreation Center",
+"address": "5433 Lansdowne Ave",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_ppr_spraygrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.231152,
+39.977206
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Sprayground",
+"name": "Sprayground at Charles M Finley Playground",
+"address": "1006 E Hortter St",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_ppr_spraygrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.169919,
+40.065328
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Sprayground",
+"name": "Sprayground at Donna Reed Miller Recreation Center",
+"address": "5826 McMahon Ave",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_ppr_spraygrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.168632,
+40.045554
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Sprayground",
+"name": "Sprayground at Helen G Sturgis Playground",
+"address": "6420 N 2nd St",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_ppr_spraygrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.123901,
+40.04917
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Sprayground",
+"name": "Sprayground at Miles Mack Playground",
+"address": "736 N 36th St",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_ppr_spraygrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195468,
+39.967267
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Sprayground",
+"name": "Sprayground at Parkside Evans Recreation Center",
+"address": "5271 Parkside Ave",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_ppr_spraygrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.226592,
+39.982649
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Sprayground",
+"name": "Sprayground at Stenton Park",
+"address": "1699 W Courtland St",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_ppr_spraygrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.152514,
+40.024052
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Sprayground",
+"name": "Sprayground at Venice Island Performing Arts and Recreation Center",
+"address": "25 Lock St",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_ppr_spraygrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.222504,
+40.023686
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Sprayground",
+"name": "Sprayground at William H (Billy) Markward Memorial Playground",
+"address": "400 S Lecount St",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_ppr_spraygrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183245,
+39.948109
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Sprayground",
+"name": "Sprayground at Wissahickon Neighbors Playground",
+"address": "3901 Terrace St",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_ppr_spraygrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21322,
+40.021504
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Sprayground",
+"name": "Sprayground at Wister Playground",
+"address": "4971 Baynton St",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_ppr_spraygrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.160168,
+40.03209
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Sprinkler",
+"name": "Sprinkler at 33rd and Wallace Playground",
+"address": "3302 Wallace St",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_ppr_spraygrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190772,
+39.965182
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Sprinkler",
+"name": "Sprinkler at Awbury Park and Recreation Center",
+"address": "6101 Ardleigh St",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_ppr_spraygrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.165608,
+40.053663
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Sprinkler",
+"name": "Sprinkler at Haddington-Marshall L Shepard Sr Recreation Center",
+"address": "5700 Haverford Ave",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_ppr_spraygrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.234071,
+39.967386
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Sprinkler",
+"name": "Sprinkler at Happy Hollow Recreation Center",
+"address": "4800 Wayne Ave",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_ppr_spraygrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.166075,
+40.024122
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Sprinkler",
+"name": "Sprinkler at Jerome Brown Park Playground",
+"address": "1987 W Ontario St",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_ppr_spraygrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.161293,
+40.006236
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Sprinkler",
+"name": "Sprinkler at John A Lee Cultural Center",
+"address": "4372 Haverford Ave",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_ppr_spraygrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21019,
+39.961953
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Sprinkler",
+"name": "Sprinkler at Norman (Butch) Ellis Playground",
+"address": "714 N 39th St",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_ppr_spraygrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.201008,
+39.966022
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Sprinkler",
+"name": "Sprinkler at Pleasant Playground",
+"address": "305 Slocum St",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_ppr_spraygrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182463,
+40.05689
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Sprinkler",
+"name": "Sprinkler at Tiffany Fletcher Recreation Center",
+"address": "4728 Brown St",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_ppr_spraygrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.215741,
+39.966046
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Sprinkler",
+"name": "Sprinkler at West Mill Creek Playground",
+"address": "5100 Westminster Ave",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_ppr_spraygrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.222554,
+39.966875
+]
+}
+}
+]
+}

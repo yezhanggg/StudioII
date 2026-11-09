@@ -1,0 +1,585 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community development corporation",
+"name": "ACHIEVEAbility",
+"address": "5901 Market Street, Suite 410, Philadelphia",
+"phone": "(215) 748-8800",
+"website": "https://www.achieveability.org/",
+"detail": "PACDC member",
+"source_id": "pacdc_cdc_members"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.238847,
+39.96178
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community development corporation",
+"name": "African Cultural Alliance of North America (ACANA)",
+"address": "5530 Chester Avenue, Philadelphia",
+"phone": "(215) 729-8225",
+"website": "http://acanaus.org/",
+"detail": "PACDC member",
+"source_id": "pacdc_cdc_members"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224951,
+39.938182
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community development corporation",
+"name": "Centennial Parkside CDC",
+"address": "3479 W Girard Avenue, Philadelphia",
+"phone": "(267) 225-8356",
+"website": "http://centennialparkside.org/",
+"detail": "PACDC member",
+"source_id": "pacdc_cdc_members"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.197219,
+39.974957
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community development corporation",
+"name": "East Falls Development Corporation",
+"address": "3580 Indian Queen Lane, Philadelphia",
+"phone": "(215) 848-8084",
+"website": "http://www.discovereastfalls.org/",
+"detail": "PACDC member",
+"source_id": "pacdc_cdc_members"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190834,
+40.009766
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community development corporation",
+"name": "Empowered CDC",
+"address": "5437 Baltimore Ave, Unit 4, Philadelphia",
+"phone": "(267) 481-7256",
+"website": "https://www.empoweredcdc.com/",
+"detail": "PACDC member",
+"source_id": "pacdc_cdc_members"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.232443,
+39.947688
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community development corporation",
+"name": "Esperanza",
+"address": "4261 N 5th Street, Philadelphia",
+"phone": "(215) 324-0746",
+"website": "http://www.esperanza.us/",
+"detail": "PACDC member",
+"source_id": "pacdc_cdc_members"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.134907,
+40.016002
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community development corporation",
+"name": "Germantown United CDC",
+"address": "5320 Germantown Avenue, Philadelphia",
+"phone": "(215) 603-3690",
+"website": "http://germantownunitedcdc.org/",
+"detail": "PACDC member",
+"source_id": "pacdc_cdc_members"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.169316,
+40.032303
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community development corporation",
+"name": "HMC Squared Community Association",
+"address": "1536 N 59th St, Philadelphia",
+"phone": "(215) 839-9753",
+"website": "https://www.facebook.com/HMC2Community/",
+"detail": "PACDC member",
+"source_id": "pacdc_cdc_members"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.238439,
+39.975009
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community development corporation",
+"name": "HopePHL",
+"address": "325 N 39th Street, Philadelphia",
+"phone": "(267) 777-5800",
+"website": "https://www.hopephl.org/",
+"detail": "PACDC member",
+"source_id": "pacdc_cdc_members"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19984,
+39.959668
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community development corporation",
+"name": "ICPIC New Africa Center CDC",
+"address": "4243 Lancaster Avenue, Philadelphia",
+"phone": "(610) 352-0424",
+"website": "http://www.newafricacenter.com/",
+"detail": "PACDC member",
+"source_id": "pacdc_cdc_members"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209289,
+39.967535
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community development corporation",
+"name": "Inglis Housing Corporation",
+"address": "2600 Belmont Avenue, Philadelphia",
+"phone": "(215)-878-5600",
+"website": "https://pacdc.org/members/member-list/inglis.org",
+"detail": "PACDC member",
+"source_id": "pacdc_cdc_members"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.219366,
+39.998903
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community development corporation",
+"name": "Jumpstart Tioga",
+"address": "3131 N Broad St, Unit 1 PMB 2040, Philadelphia",
+"phone": "267 262-9396",
+"website": "https://www.jumpstarttioga.org/",
+"detail": "PACDC member",
+"source_id": "pacdc_cdc_members"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.153087,
+40.000503
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community development corporation",
+"name": "Lancaster Avenue 21st Century Business Association CDC (LA21)",
+"address": "3500 Lancaster Avenue, Philadelphia",
+"phone": "(215) 883-0109",
+"website": "https://www.la21philly.org/",
+"detail": "PACDC member",
+"source_id": "pacdc_cdc_members"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192482,
+39.957897
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community development corporation",
+"name": "Lower North Philadelphia CDC",
+"address": "3000 Master Street, Philadelphia",
+"phone": "(267) 225-2605",
+"website": "https://lnpcdc.org/",
+"detail": "PACDC member",
+"source_id": "pacdc_cdc_members"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.185078,
+39.977822
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community development corporation",
+"name": "Mantua Enterprise for Community Culture and Artistry",
+"address": "3500 Lancaster Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "PACDC member",
+"source_id": "pacdc_cdc_members"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192482,
+39.957897
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community development corporation",
+"name": "Mission First Housing Group",
+"address": "2042 Arch Street, Philadelphia",
+"phone": "(215) 557-8484",
+"website": "http://missionfirsthousing.org/",
+"detail": "PACDC member",
+"source_id": "pacdc_cdc_members"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.173598,
+39.955652
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community development corporation",
+"name": "Mt. Airy CDC",
+"address": "6703 Germantown Avenue, Philadelphia",
+"phone": "(215) 844-6021",
+"website": "https://mtairycdc.org/",
+"detail": "PACDC member",
+"source_id": "pacdc_cdc_members"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.185315,
+40.051933
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community development corporation",
+"name": "NewCourtland",
+"address": "6970 Germantown Avenue, Philadelphia",
+"phone": "(888) 530-4913",
+"website": "https://www.newcourtland.org/",
+"detail": "PACDC member",
+"source_id": "pacdc_cdc_members"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.187909,
+40.056441
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community development corporation",
+"name": "Nicetown CDC",
+"address": "4300 Germantown Avenue, Philadelphia",
+"phone": "(215) 329-1824",
+"website": "https://nicetowncdc.org/",
+"detail": "PACDC member",
+"source_id": "pacdc_cdc_members"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.156054,
+40.019505
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community development corporation",
+"name": "North 10 Philadelphia",
+"address": "3890 N 10th St, Philadelphia",
+"phone": "(267) 908-9000",
+"website": "https://north10phl.org/",
+"detail": "PACDC member",
+"source_id": "pacdc_cdc_members"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.143709,
+40.011505
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community development corporation",
+"name": "Northwest CLT Corporation",
+"address": "5421 Germantown Avenue, Philadelphia",
+"phone": "(215) 621-7745",
+"website": "https://www.northwestclt.org/",
+"detail": "PACDC member",
+"source_id": "pacdc_cdc_members"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.170895,
+40.033371
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community development corporation",
+"name": "Olney Community Collaborative",
+"address": "5458 N 5th Street, Philadelphia",
+"phone": "(267) 331-9091",
+"website": "https://olneycollab.com/",
+"detail": "PACDC member",
+"source_id": "pacdc_cdc_members"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.1312,
+40.03357
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community development corporation",
+"name": "Overbrook West Neighbors CDC",
+"address": "6027 Clifford Terrace, Philadelphia",
+"phone": "(215) 681-6937",
+"website": "http://www.overbrookwestneighbors.com/",
+"detail": "PACDC member",
+"source_id": "pacdc_cdc_members"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.241515,
+39.981961
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community development corporation",
+"name": "Park to Broad Arts & Business District",
+"address": "2914 W Girard Avenue, Philadelphia",
+"phone": "(215) 232-4766",
+"website": "https://www.parktobroad.org/",
+"detail": "PACDC member",
+"source_id": "pacdc_cdc_members"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183764,
+39.974545
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community development corporation",
+"name": "Sister Clara Muhammad CDC",
+"address": "4700 Wyalusing Avenue, Phladelphia",
+"phone": "(215) 473-2600",
+"website": "https://www.sisterclaramuhammadcdc.org/",
+"detail": "PACDC member",
+"source_id": "pacdc_cdc_members"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216009,
+39.970593
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community development corporation",
+"name": "Smart Futures CDC",
+"address": "4303 Westminster Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "PACDC member",
+"source_id": "pacdc_cdc_members"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210248,
+39.96985
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community development corporation",
+"name": "SoHi Center for Immigration & Community Development",
+"address": "6055 N 5th Street, Philadelphia",
+"phone": "(215) 276-8830",
+"website": "www.sohicenter.org",
+"detail": "PACDC member",
+"source_id": "pacdc_cdc_members"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.128837,
+40.043743
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community development corporation",
+"name": "The Business Center",
+"address": "7500 Germantown Avenue, Suite 113, Philadelphia",
+"phone": "(215) 247-2473",
+"website": "https://www.thebizctr.com/",
+"detail": "PACDC member",
+"source_id": "pacdc_cdc_members"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195193,
+40.064892
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community development corporation",
+"name": "Tioga United",
+"address": "1926 W Venango Street, Philadelphia",
+"phone": "(215) 771-5699",
+"website": "https://www.tu-nac.org/",
+"detail": "PACDC member",
+"source_id": "pacdc_cdc_members"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.159984,
+40.008685
+]
+}
+}
+]
+}

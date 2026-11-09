@@ -1,0 +1,225 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.143706,
+     40.03706
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Outpatient mental health",
+    "name": "Albert Einstein Medical Center",
+    "address": "5501 Old York Road",
+    "phone": "215-456-9070",
+    "website": "https://www.jeffersonhealth.org/einstein",
+    "detail": "Separate inpatient psychiatric unit of a general hospital",
+    "source_id": "samhsa_treatment_outpatient"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.219054,
+     39.969404
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Outpatient mental health",
+    "name": "Community Council for MH/MR",
+    "address": "4900 Wyalusing Avenue",
+    "phone": "215-473-7033",
+    "website": "https://www.cchss.org",
+    "detail": "Outpatient mental health facility",
+    "source_id": "samhsa_treatment_outpatient"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.197976,
+     39.948269
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Outpatient mental health and substance use treatment",
+    "name": "Consortium Inc – Drug Abuse Rehabilitation Program",
+    "address": "451 South University Avenue",
+    "phone": "215-596-8000",
+    "website": "https://consortiuminc.org/",
+    "detail": "Community mental health center",
+    "source_id": "samhsa_treatment_outpatient"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.172414,
+     40.015953
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Outpatient mental health and substance use treatment",
+    "name": "Drexel Medicine Caring Together Prog",
+    "address": "4700 Wissahickon Avenue",
+    "phone": "215-967-2130",
+    "website": "https://www.drexelmed.edu/caringtogether",
+    "detail": "",
+    "source_id": "samhsa_treatment_outpatient"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.171365,
+     40.033972
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Outpatient substance use treatment",
+    "name": "Merakey – Parkside Recovery Germantown",
+    "address": "5429 Germantown Avenue",
+    "phone": "215-754-0240",
+    "website": "https://www.merakey.org",
+    "detail": "",
+    "source_id": "samhsa_treatment_outpatient"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.208773,
+     40.021012
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Outpatient mental health",
+    "name": "Northern Childrens Services",
+    "address": "5301 Ridge Avenue",
+    "phone": "215-482-1423",
+    "website": "https://www.northernchildren.org",
+    "detail": "Outpatient mental health facility",
+    "source_id": "samhsa_treatment_outpatient"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.203326,
+     39.956956
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Outpatient substance use treatment",
+    "name": "Penn Presbyterian Medical Center – Total Recovery at Penn Medicine",
+    "address": "4040 Market Street, 2nd Floor",
+    "phone": "215-662-8747",
+    "website": "https://www.med.upenn.edu/recovery",
+    "detail": "",
+    "source_id": "samhsa_treatment_outpatient"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.201541,
+     39.949668
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Outpatient mental health and substance use treatment",
+    "name": "Philadelphia VA Medical Center (PVAMC) – Addiction Recovery Unit",
+    "address": "39th and Woodland Avenue",
+    "phone": "215-823-4070",
+    "website": "https://www.va.gov/philadelphia-health-care/locations/",
+    "detail": "Veterans Affairs Medical Center or other VA healthcare facility",
+    "source_id": "samhsa_treatment_outpatient"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.200044,
+     39.94842
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Outpatient substance use treatment",
+    "name": "Philadelphia VA Medical Center (PVAMC) – Opioid Treatment Program",
+    "address": "3900 Woodland Avenue",
+    "phone": "215-823-5809",
+    "website": "https://",
+    "detail": "",
+    "source_id": "samhsa_treatment_outpatient"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.144915,
+     40.030755
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Outpatient mental health",
+    "name": "WES Health Centers – Outpatient Center",
+    "address": "1315 Windrim Avenue",
+    "phone": "215-455-3900",
+    "website": "https://www.drwes.org/",
+    "detail": "Outpatient mental health facility",
+    "source_id": "samhsa_treatment_outpatient"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.140892,
+     40.055295
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Outpatient mental health",
+    "name": "Wedge Medical Center",
+    "address": "6701 North Broad Street",
+    "phone": "215-276-3922",
+    "website": "https://www.wedgepc.com",
+    "detail": "Outpatient mental health facility",
+    "source_id": "samhsa_treatment_outpatient"
+   }
+  }
+ ]
+}

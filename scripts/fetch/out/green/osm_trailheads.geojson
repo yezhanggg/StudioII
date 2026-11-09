@@ -1,0 +1,685 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Trailhead / park entrance",
+"name": "100 Steps Entrance",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "in Wissahickon Valley Park",
+"source_id": "osm_trailheads"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.205591,
+40.017075
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Trailhead / park entrance",
+"name": "Blue Bell Field Trailhead",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "in Blue Bell Park",
+"source_id": "osm_trailheads"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195189,
+40.030852
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Trailhead / park entrance",
+"name": "Daisy Field Entrance",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "in Wissahickon Valley Park",
+"source_id": "osm_trailheads"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20252,
+40.024649
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Trailhead / park entrance",
+"name": "Gorgas Lane Entrance",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_trailheads"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.219682,
+40.042962
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Trailhead / park entrance",
+"name": "Greene Street Entrance",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "in Carpenter's Woods",
+"source_id": "osm_trailheads"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.199441,
+40.048533
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Trailhead / park entrance",
+"name": "Henry Avenue East Entrance",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "in Wissahickon Valley Park",
+"source_id": "osm_trailheads"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195211,
+40.023138
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Trailhead / park entrance",
+"name": "Henry Avenue West Entrance",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "in Wissahickon Valley Park",
+"source_id": "osm_trailheads"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.197147,
+40.025589
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Trailhead / park entrance",
+"name": "Hermit Lane East Entrance",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "in Wissahickon Valley Park",
+"source_id": "osm_trailheads"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.199865,
+40.025578
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Trailhead / park entrance",
+"name": "Hermit Lane Trailhead",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "in Wissahickon Valley Park",
+"source_id": "osm_trailheads"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.200045,
+40.024842
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Trailhead / park entrance",
+"name": "Historic Rittenhouse Town Trailhead",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "in Historic Rittenhouse Town",
+"source_id": "osm_trailheads"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192239,
+40.028846
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Trailhead / park entrance",
+"name": "Jannette Street Entrance",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_trailheads"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209543,
+40.034828
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Trailhead / park entrance",
+"name": "Kitchens Lane Trailhead",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "in Wissahickon Valley Park",
+"source_id": "osm_trailheads"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203216,
+40.037755
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Trailhead / park entrance",
+"name": "Livezey Lane Lower Trailhead",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "in Wissahickon Valley Park",
+"source_id": "osm_trailheads"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.213276,
+40.049244
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Trailhead / park entrance",
+"name": "Mount Pleasant Place Entrance",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "in Wissahickon Valley Park",
+"source_id": "osm_trailheads"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.205085,
+40.043671
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Trailhead / park entrance",
+"name": "Mt. Airy Avenue Entrance",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "in Wissahickon Valley Park · Access to White Trail, Orange Trail, and Forbidden Drive. Street parking in neighborhood.",
+"source_id": "osm_trailheads"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208763,
+40.043262
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Trailhead / park entrance",
+"name": "North Mount Pleasant Road Entrance",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "in Carpenter's Woods",
+"source_id": "osm_trailheads"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.202839,
+40.045897
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Trailhead / park entrance",
+"name": "Pachella Field Trailhead",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "in Salvatore Pachella Memorial Field",
+"source_id": "osm_trailheads"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216825,
+40.046527
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Trailhead / park entrance",
+"name": "Park Line Drive Entrance",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "in Wissahickon Valley Park",
+"source_id": "osm_trailheads"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.198285,
+40.036411
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Trailhead / park entrance",
+"name": "Ridge Avenue East Entrance",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "in Wissahickon Valley Park",
+"source_id": "osm_trailheads"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.205912,
+40.014832
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Trailhead / park entrance",
+"name": "Ridge Avenue Trailhead",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "in Wissahickon Valley Park",
+"source_id": "osm_trailheads"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206917,
+40.015098
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Trailhead / park entrance",
+"name": "Roxborough Avenue Trailhead",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_trailheads"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.205526,
+40.032559
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Trailhead / park entrance",
+"name": "Scotforth Road Entrance",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_trailheads"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.205139,
+40.04166
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Trailhead / park entrance",
+"name": "Ten Box Trailhead",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "in Wissahickon Valley Park",
+"source_id": "osm_trailheads"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.193126,
+40.027915
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Trailhead / park entrance",
+"name": "Thomas Mansion Trailhead",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "in Clifford Park",
+"source_id": "osm_trailheads"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19019,
+40.034911
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Trailhead / park entrance",
+"name": "Trailhead",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_trailheads"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.230865,
+40.021794
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Trailhead / park entrance",
+"name": "Trailhead",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_trailheads"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.214792,
+40.016763
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Trailhead / park entrance",
+"name": "Trailhead",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_trailheads"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.197256,
+39.941825
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Trailhead / park entrance",
+"name": "Vicaris Street Entrance",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "in Wissahickon Valley Park",
+"source_id": "osm_trailheads"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203651,
+40.019744
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Trailhead / park entrance",
+"name": "Walnut Lane Entrance",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "in Wissahickon Valley Park",
+"source_id": "osm_trailheads"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.193883,
+40.032088
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Trailhead / park entrance",
+"name": "Wayne Avenue Entrance",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "in Carpenter's Woods",
+"source_id": "osm_trailheads"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.200286,
+40.044325
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Trailhead / park entrance",
+"name": "West Ellen Street Entrance",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "in Carpenter's Woods",
+"source_id": "osm_trailheads"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.199516,
+40.04642
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Trailhead / park entrance",
+"name": "Westview Avenue Entrance",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "in Wissahickon Valley Park",
+"source_id": "osm_trailheads"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.201312,
+40.038356
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Trailhead / park entrance",
+"name": "Wissahickon Avenue Entrance",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "in Carpenter's Woods",
+"source_id": "osm_trailheads"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203119,
+40.043901
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Trailhead / park entrance",
+"name": "Wissahickon Hall Trailhead",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "in Wissahickon Valley Park",
+"source_id": "osm_trailheads"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20112,
+40.017176
+]
+}
+}
+]
+}

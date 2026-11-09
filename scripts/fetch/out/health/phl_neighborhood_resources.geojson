@@ -1,0 +1,205 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.239088,
+     39.962063
+    ]
+   },
+   "properties": {
+    "category": "social_services",
+    "kind": "Neighborhood Energy Center",
+    "name": "ACHIEVEability",
+    "address": "5901 Market St, Suite 410",
+    "phone": "215-557-8414",
+    "website": "https://achieveability.org",
+    "detail": "",
+    "source_id": "phl_neighborhood_resources"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.239052,
+     39.962056
+    ]
+   },
+   "properties": {
+    "category": "social_services",
+    "kind": "Housing counseling agency",
+    "name": "Affordable Housing Centers of PA",
+    "address": "5901 Market St, Suite 104",
+    "phone": "215-648-1728",
+    "website": "https://ahcopa.org",
+    "detail": "Eviction Diversion, Mortgage Foreclosure, One Philly Mortgage, Philly First Home · specialty: senior",
+    "source_id": "phl_neighborhood_resources"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.176077,
+     40.037068
+    ]
+   },
+   "properties": {
+    "category": "social_services",
+    "kind": "Neighborhood Energy Center and Housing counseling agency",
+    "name": "Center in the Park",
+    "address": "5818 Germantown Ave",
+    "phone": "215-848-7722",
+    "website": "https://centerintheparkphila.org",
+    "detail": "Eviction Diversion, Philly First Home · specialty: senior",
+    "source_id": "phl_neighborhood_resources"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.17571,
+     40.035362
+    ]
+   },
+   "properties": {
+    "category": "social_services",
+    "kind": "Neighborhood Energy Center",
+    "name": "Germantown Crisis Ministry",
+    "address": "35 W Chelten Ave",
+    "phone": "215-843-2340",
+    "website": "https://crisisministry.org",
+    "detail": "",
+    "source_id": "phl_neighborhood_resources"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.207524,
+     39.956706
+    ]
+   },
+   "properties": {
+    "category": "social_services",
+    "kind": "Housing counseling agency",
+    "name": "Intercultural Family Services",
+    "address": "4225 Chestnut St",
+    "phone": "215-386-1298",
+    "website": "https://ifsinc.org",
+    "detail": "Eviction Diversion, Mortgage Foreclosure, Philly First Home",
+    "source_id": "phl_neighborhood_resources"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.199442,
+     39.964137
+    ]
+   },
+   "properties": {
+    "category": "social_services",
+    "kind": "Neighborhood Energy Center",
+    "name": "Mt. Vernon Manor CDC",
+    "address": "631 N 39th St",
+    "phone": "215-475-9492",
+    "website": "https://mvmcdc.org",
+    "detail": "",
+    "source_id": "phl_neighborhood_resources"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.156084,
+     40.019215
+    ]
+   },
+   "properties": {
+    "category": "social_services",
+    "kind": "Neighborhood Energy Center",
+    "name": "Nicetown CDC",
+    "address": "4300 Germantown Ave, 3rd fl, Suite B",
+    "phone": "215-329-1827",
+    "website": "https://nicetowncdc.org",
+    "detail": "",
+    "source_id": "phl_neighborhood_resources"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.141284,
+     40.053003
+    ]
+   },
+   "properties": {
+    "category": "social_services",
+    "kind": "Housing counseling agency",
+    "name": "Northwest Counseling Service",
+    "address": "6521 N Broad St",
+    "phone": "215-324-7500",
+    "website": "https://nwcsinc.org",
+    "detail": "Eviction Diversion, Mortgage Foreclosure, Philly First Home",
+    "source_id": "phl_neighborhood_resources"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.211982,
+     39.969386
+    ]
+   },
+   "properties": {
+    "category": "social_services",
+    "kind": "Neighborhood Energy Center",
+    "name": "We Never Say Never",
+    "address": "4427 Lancaster Ave",
+    "phone": "215-452-0440",
+    "website": "",
+    "detail": "",
+    "source_id": "phl_neighborhood_resources"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.171564,
+     40.08111
+    ]
+   },
+   "properties": {
+    "category": "social_services",
+    "kind": "Housing counseling agency",
+    "name": "West Oak Lane CDC",
+    "address": "1624 Wadsworth Ave",
+    "phone": "215-224-8339",
+    "website": "https://westoaklanecdc.org",
+    "detail": "Eviction Diversion, Mortgage Foreclosure, Philly First Home",
+    "source_id": "phl_neighborhood_resources"
+   }
+  }
+ ]
+}

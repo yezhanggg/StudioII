@@ -1,0 +1,2545 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Garden / farm on PPR land",
+"name": "Garden Court",
+"address": "4710 Spruce St",
+"phone": "",
+"website": "",
+"detail": "0.6 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216598,
+39.953208
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Garden / farm on PPR land",
+"name": "Saul High School Farm",
+"address": "7107 Henry Ave",
+"phone": "",
+"website": "",
+"detail": "35.3 acres · part of Wissahickon Valley Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.218903,
+40.049652
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Athletic fields / sports complex",
+"name": "Arrow Field",
+"address": "640 W Walnut Ln",
+"phone": "",
+"website": "",
+"detail": "3.4 acres · part of Wissahickon Valley Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.204748,
+40.02943
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Athletic fields / sports complex",
+"name": "Belmont Plateau",
+"address": "1800 Belmont Mansion Dr",
+"phone": "",
+"website": "",
+"detail": "47.0 acres · part of West Fairmount Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212019,
+39.988445
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Athletic fields / sports complex",
+"name": "Dairy Fields",
+"address": "3700 Mount Pleasant Dr",
+"phone": "",
+"website": "",
+"detail": "14.8 acres · part of East Fairmount Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.198286,
+39.985338
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Athletic fields / sports complex",
+"name": "David P. Montgomery Field",
+"address": "5366 Hermit Ln",
+"phone": "",
+"website": "",
+"detail": "3.3 acres · part of Wissahickon Valley Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203244,
+40.022108
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Athletic fields / sports complex",
+"name": "John F. Boyce Memorial Field",
+"address": "5901 Henry Ave",
+"phone": "",
+"website": "",
+"detail": "3.4 acres · part of Wissahickon Valley Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206864,
+40.032425
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Athletic fields / sports complex",
+"name": "Kelly Pool",
+"address": "4200 Lansdowne Dr",
+"phone": "",
+"website": "",
+"detail": "1.3 acres · part of West Fairmount Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.207913,
+39.979052
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Athletic fields / sports complex",
+"name": "Ohio House Fields",
+"address": "4700 States Dr",
+"phone": "",
+"website": "",
+"detail": "4.9 acres · part of West Fairmount Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216371,
+39.984078
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Athletic fields / sports complex",
+"name": "Paines Park",
+"address": "400 Martin Luther King Drive",
+"phone": "",
+"website": "",
+"detail": "2.8 acres · part of Benjamin Franklin Parkway",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180392,
+39.962819
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Athletic fields / sports complex",
+"name": "River Field",
+"address": "302 N 24th St",
+"phone": "",
+"website": "",
+"detail": "6.6 acres · part of Benjamin Franklin Parkway",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.179021,
+39.961648
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Athletic fields / sports complex",
+"name": "Salvatore Pachella Memorial Field",
+"address": "6901 Henry Ave",
+"phone": "",
+"website": "",
+"detail": "9.5 acres · part of Wissahickon Valley Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216635,
+40.045429
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Athletic fields / sports complex",
+"name": "School District Area (Gorgas)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "8.4 acres · part of Susan Gorgas Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.223587,
+40.035307
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Athletic fields / sports complex",
+"name": "Sedgley Woods Disc Golf Course",
+"address": "3400 Reservoir Dr",
+"phone": "",
+"website": "",
+"detail": "21.1 acres · part of East Fairmount Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192783,
+39.980638
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Athletic fields / sports complex",
+"name": "Sweetbriar Fields",
+"address": "3700 Sweetbriar Ln",
+"phone": "",
+"website": "",
+"detail": "10.1 acres · part of West Fairmount Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20393,
+39.977289
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Conservation land",
+"name": "Boone Park",
+"address": "4200 Boone St",
+"phone": "",
+"website": "",
+"detail": "1.8 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.218823,
+40.025671
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Conservation land",
+"name": "Germany Hill",
+"address": "4849 Smick St",
+"phone": "",
+"website": "",
+"detail": "10.8 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.23191,
+40.034867
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Conservation land",
+"name": "Peters Island",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "1.9 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.201641,
+39.988389
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Golf course",
+"name": "33rd and Oxford Driving Range",
+"address": "3300 Reservoir Dr",
+"phone": "",
+"website": "",
+"detail": "8.2 acres · part of East Fairmount Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190133,
+39.980039
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Golf course",
+"name": "Walnut Lane Golf Club",
+"address": "5819 Magdalena St",
+"phone": "",
+"website": "",
+"detail": "67.3 acres · part of Wissahickon Valley Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203738,
+40.032071
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Natural area",
+"name": "Blue Bell Park",
+"address": "844 W Walnut Ln",
+"phone": "",
+"website": "",
+"detail": "8.3 acres · part of Wissahickon Valley Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.194776,
+40.031254
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Natural area",
+"name": "Carpenter's Woods",
+"address": "801 W Sedgwick St",
+"phone": "",
+"website": "",
+"detail": "42.2 acres · part of Wissahickon Valley Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.200708,
+40.045838
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Natural area",
+"name": "Clifford Park",
+"address": "6141 Wissahickon Ave",
+"phone": "",
+"website": "",
+"detail": "23.1 acres · part of Wissahickon Valley Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190726,
+40.03483
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Natural area",
+"name": "Glendinning Rock Garden",
+"address": "1299 Brewery Hill Dr",
+"phone": "",
+"website": "",
+"detail": "2.8 acres · part of East Fairmount Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191068,
+39.976443
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Natural area",
+"name": "Harpers Hollow Park",
+"address": "5850 Ogontz Ave",
+"phone": "",
+"website": "",
+"detail": "3.6 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.151797,
+40.042153
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Natural area",
+"name": "Wisters Woods Park",
+"address": "1998 Belfield Ave",
+"phone": "",
+"website": "",
+"detail": "61.0 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.157259,
+40.037625
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Neighborhood park",
+"name": "22nd and Ontario Park",
+"address": "3400 N 22nd St",
+"phone": "",
+"website": "",
+"detail": "0.1 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.165461,
+40.006507
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Neighborhood park",
+"name": "Ann P. Nichols Park",
+"address": "5430 Race St",
+"phone": "",
+"website": "",
+"detail": "0.9 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22958,
+39.963469
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Neighborhood park",
+"name": "Ben Barkan Park",
+"address": "4998 Spruce St",
+"phone": "",
+"website": "",
+"detail": "0.8 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.221603,
+39.953806
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Neighborhood park",
+"name": "Clarence H Clark Park",
+"address": "4301 Chester Ave",
+"phone": "",
+"website": "",
+"detail": "12.0 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209965,
+39.948772
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Neighborhood park",
+"name": "Cliveden Park",
+"address": "501 E Johnson St",
+"phone": "",
+"website": "",
+"detail": "6.0 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.177132,
+40.05182
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Neighborhood park",
+"name": "Cloverly Park",
+"address": "5425 Wissahickon Ave",
+"phone": "",
+"website": "",
+"detail": "2.5 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180839,
+40.025651
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Neighborhood park",
+"name": "Fairview Park",
+"address": "4418 Manayunk Ave",
+"phone": "",
+"website": "",
+"detail": "1.0 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.220177,
+40.030414
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Neighborhood park",
+"name": "Fanny Kemble Abolitionist Memorial Park",
+"address": "5641 Ogontz Ave",
+"phone": "",
+"website": "",
+"detail": "8.0 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.149635,
+40.04007
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Neighborhood park",
+"name": "Howell Park",
+"address": "5215 Greene St",
+"phone": "",
+"website": "",
+"detail": "1.6 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.168595,
+40.030405
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Neighborhood park",
+"name": "Joseph V. Kelly Memorial Playground",
+"address": "440 Parker Ave",
+"phone": "",
+"website": "",
+"detail": "2.8 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22818,
+40.041755
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Neighborhood park",
+"name": "Kay Park",
+"address": "4712 Pulaski Ave",
+"phone": "",
+"website": "",
+"detail": "1.5 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.166627,
+40.021963
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Neighborhood park",
+"name": "Loudoun Park",
+"address": "4650 Germantown Ave",
+"phone": "",
+"website": "",
+"detail": "7.7 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.161186,
+40.025886
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Neighborhood park",
+"name": "Lucien E. Blackwell Park",
+"address": "4615 Fairmount Ave",
+"phone": "",
+"website": "",
+"detail": "2.1 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.214733,
+39.964793
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Neighborhood park",
+"name": "McMichael Park",
+"address": "3201 Midvale Ave",
+"phone": "",
+"website": "",
+"detail": "5.8 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.187602,
+40.018151
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Neighborhood park",
+"name": "Nicetown Park",
+"address": "4301 Germantown Ave",
+"phone": "",
+"website": "",
+"detail": "3.0 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.154689,
+40.019823
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Neighborhood park",
+"name": "Pretzel Park",
+"address": "4300 Silverwood St",
+"phone": "",
+"website": "",
+"detail": "2.0 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.221166,
+40.025619
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Neighborhood park",
+"name": "Price Street Play Lot",
+"address": "185 W Price St",
+"phone": "",
+"website": "",
+"detail": "0.2 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.17998,
+40.033186
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Neighborhood park",
+"name": "Sabatino La Noce Park",
+"address": "5119 Rochelle Ave",
+"phone": "",
+"website": "",
+"detail": "0.6 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210724,
+40.017686
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Neighborhood park",
+"name": "Susan Gorgas Park",
+"address": "6424 Ridge Ave",
+"phone": "",
+"website": "",
+"detail": "12.7 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.221523,
+40.036385
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Neighborhood park",
+"name": "Triangle Park",
+"address": "5419 Upland Way",
+"phone": "",
+"website": "",
+"detail": "0.6 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.231933,
+39.98339
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Neighborhood park",
+"name": "Wakefield Park",
+"address": "5300 N 16th St",
+"phone": "",
+"website": "",
+"detail": "14.6 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.150463,
+40.032349
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Neighborhood park",
+"name": "West Penn Park",
+"address": "353 W Penn St",
+"phone": "",
+"website": "",
+"detail": "0.1 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.176346,
+40.026287
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Neighborhood park",
+"name": "Wingohocking Park",
+"address": "1200 W Wingohocking St",
+"phone": "",
+"website": "",
+"detail": "8.3 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.145125,
+40.020497
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Neighborhood park",
+"name": "Wissahickon Neighbors Playground",
+"address": "3901 Terrace St",
+"phone": "",
+"website": "",
+"detail": "0.4 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.213147,
+40.021629
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park",
+"name": "Ivy Ridge Greenway",
+"address": "4850 Umbria St",
+"phone": "",
+"website": "",
+"detail": "3.7 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.231733,
+40.031211
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park",
+"name": "Philadelphia Zoo",
+"address": "3400 W Girard Ave",
+"phone": "",
+"website": "",
+"detail": "55.0 acres · part of West Fairmount Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196003,
+39.971591
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (event space)",
+"name": "Belmont Grove",
+"address": "2076 Belmont Mansion Dr",
+"phone": "",
+"website": "",
+"detail": "11.8 acres · part of West Fairmount Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.214763,
+39.991693
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (event space)",
+"name": "Fairmount Park Horticulture Center",
+"address": "4200 Horticultural Dr",
+"phone": "",
+"website": "",
+"detail": "39.2 acres · part of West Fairmount Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211542,
+39.983359
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (event space)",
+"name": "The Discovery Center at East Fairmount Reservoir",
+"address": "3395 Reservoir Dr",
+"phone": "",
+"website": "",
+"detail": "51.2 acres · part of East Fairmount Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.194172,
+39.985104
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (event space)",
+"name": "The Mann Center for the Performing Arts",
+"address": "5038 Avenue Of The Republic",
+"phone": "",
+"website": "",
+"detail": "20.3 acres · part of West Fairmount Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.222538,
+39.983863
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (historic site)",
+"name": "Boathouse Row",
+"address": "870 Kelly Dr",
+"phone": "",
+"website": "",
+"detail": "4.2 acres · part of East Fairmount Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.188895,
+39.969766
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (historic site)",
+"name": "Fairmount Water Works Historic Area",
+"address": "650 Water Works Dr",
+"phone": "",
+"website": "",
+"detail": "5.4 acres · part of East Fairmount Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183234,
+39.965981
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (historic site)",
+"name": "Historic Rittenhouse Town",
+"address": "6014 Wissahickon Ave",
+"phone": "",
+"website": "",
+"detail": "10.6 acres · part of Wissahickon Valley Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189246,
+40.029929
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (museum grounds)",
+"name": "Shofuso Japanese Garden",
+"address": "4301 Lansdowne Dr",
+"phone": "",
+"website": "",
+"detail": "1.1 acres · part of West Fairmount Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212864,
+39.981303
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park (museum grounds)",
+"name": "The Philadelphia Museum of Art",
+"address": "2600 Benjamin Franklin Pky",
+"phone": "",
+"website": "",
+"detail": "24.5 acres · part of East Fairmount Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181218,
+39.965862
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "26th and Pennsylvania Playground",
+"address": "2700 Pennsylvania Ave",
+"phone": "",
+"website": "",
+"detail": "0.1 acres · part of East Fairmount Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181901,
+39.968687
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "33rd and Wallace Playground",
+"address": "3302 Wallace St",
+"phone": "",
+"website": "",
+"detail": "0.9 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190856,
+39.9651
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "37th and Mount Vernon Playground",
+"address": "614 N 37th St",
+"phone": "",
+"website": "",
+"detail": "0.5 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196497,
+39.964018
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "48th and Woodland Playground",
+"address": "4740 Woodland Ave",
+"phone": "",
+"website": "",
+"detail": "4.8 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210308,
+39.941887
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "A. Albert Cherashore Playground",
+"address": "900 W Chew Ave",
+"phone": "",
+"website": "",
+"detail": "5.2 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.136535,
+40.03802
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Allens Lane Art Center",
+"address": "651 W Allens Ln",
+"phone": "",
+"website": "",
+"detail": "6.6 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203702,
+40.051371
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Awbury Park and Recreation Center",
+"address": "6101 Ardleigh St",
+"phone": "",
+"website": "",
+"detail": "27.9 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.163585,
+40.053632
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Belfield Recreation Center",
+"address": "2109 W Chew Ave",
+"phone": "",
+"website": "",
+"detail": "4.0 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.15652,
+40.043278
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Carousel House Recreation Center",
+"address": "4300 Avenue Of The Republic",
+"phone": "",
+"website": "",
+"detail": "5.2 acres · part of West Fairmount Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212896,
+39.979069
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Charles Baker and Carol Baker Rice Recreation Center",
+"address": "5433 Lansdowne Ave",
+"phone": "",
+"website": "",
+"detail": "0.8 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.231202,
+39.977377
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Charles M. Finley Playground",
+"address": "1006 E Hortter St",
+"phone": "",
+"website": "",
+"detail": "6.6 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.169563,
+40.064937
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Clayborne and Lewis Playground",
+"address": "1101 N 38th St",
+"phone": "",
+"website": "",
+"detail": "0.6 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.198946,
+39.973466
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Conestoga Community Playground",
+"address": "5300 Media St",
+"phone": "",
+"website": "",
+"detail": "2.5 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.227244,
+39.975237
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Donald P. Finnegan Recreation Center",
+"address": "1231 S 30th St",
+"phone": "",
+"website": "",
+"detail": "2.8 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192825,
+39.938073
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Donna Reed Miller Recreation Center",
+"address": "5826 McMahon Ave",
+"phone": "",
+"website": "",
+"detail": "5.2 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.168339,
+40.044974
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Dorothy Emanuel Recreation Center",
+"address": "8545 Provident St",
+"phone": "",
+"website": "",
+"detail": "3.7 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.175961,
+40.081546
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Ernest L. Tustin Recreation Center",
+"address": "1951 N 60th St",
+"phone": "",
+"website": "",
+"detail": "4.3 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.239729,
+39.981772
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Fernhill Park",
+"address": "4600 Morris St",
+"phone": "",
+"website": "",
+"detail": "42.6 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.169627,
+40.018585
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Fisher Park",
+"address": "572 W Spencer St",
+"phone": "",
+"website": "",
+"detail": "24.5 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.131456,
+40.04323
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Gustine Recreation Center",
+"address": "4842 Ridge Ave",
+"phone": "",
+"website": "",
+"detail": "8.9 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203037,
+40.01294
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Haddington-Marshall L. Shepard, Sr. Recreation Center",
+"address": "5700 Haverford Ave",
+"phone": "",
+"website": "",
+"detail": "8.2 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.234725,
+39.966736
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Happy Hollow Recreation Center",
+"address": "4800 Wayne Ave",
+"phone": "",
+"website": "",
+"detail": "4.6 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.166428,
+40.023865
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Helen G. Sturgis Playground",
+"address": "6420 N 2nd St",
+"phone": "",
+"website": "",
+"detail": "5.8 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.123895,
+40.048857
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Hunting Park Recreation Center",
+"address": "1101 W Hunting Park Ave",
+"phone": "",
+"website": "",
+"detail": "5.4 acres · part of Hunting Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.14364,
+40.017921
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Jacob Stinger Park",
+"address": "1400 S 32nd St",
+"phone": "",
+"website": "",
+"detail": "3.1 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.197672,
+39.936442
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "James L. Wright Playground",
+"address": "3340 Haverford Ave",
+"phone": "",
+"website": "",
+"detail": "0.5 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191187,
+39.963899
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Jerome Brown Park Playground",
+"address": "1987 W Ontario St",
+"phone": "",
+"website": "",
+"detail": "2.6 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.161896,
+40.007892
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "John A. Lee Cultural Center",
+"address": "4372 Haverford Ave",
+"phone": "",
+"website": "",
+"detail": "9.6 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210275,
+39.961766
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Kingsessing Recreation Center",
+"address": "4901 Kingsessing Ave",
+"phone": "",
+"website": "",
+"detail": "9.2 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.217168,
+39.942754
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Lloyd Hall Recreation Center",
+"address": "800 Kelly Dr",
+"phone": "",
+"website": "",
+"detail": "1.4 acres · part of East Fairmount Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.185296,
+39.969065
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Lonnie Cohen Recreation Center",
+"address": "201 Fountain St",
+"phone": "",
+"website": "",
+"detail": "4.1 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.229636,
+40.033461
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Miles Mack Playground",
+"address": "736 N 36th St",
+"phone": "",
+"website": "",
+"detail": "2.5 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195798,
+39.967577
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Morris Estate Cultural Center",
+"address": "1610 Chelten Ave",
+"phone": "",
+"website": "",
+"detail": "6.4 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.146768,
+40.050491
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Morton Playground",
+"address": "88 E Haines St",
+"phone": "",
+"website": "",
+"detail": "2.6 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.174329,
+40.039967
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Norman (Butch) Ellis Playground",
+"address": "714 N 39th St",
+"phone": "",
+"website": "",
+"detail": "1.5 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.200924,
+39.965952
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Parkside Evans Recreation Center",
+"address": "5271 Parkside Ave",
+"phone": "",
+"website": "",
+"detail": "6.3 acres · part of West Fairmount Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.226464,
+39.983859
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Pleasant Playground",
+"address": "305 Slocum St",
+"phone": "",
+"website": "",
+"detail": "4.8 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181959,
+40.057438
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Smith Memorial Playground and Playhouse",
+"address": "3418 Smith Memorial Dr",
+"phone": "",
+"website": "",
+"detail": "15.3 acres · part of East Fairmount Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195896,
+39.981994
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Stenton Park",
+"address": "1699 W Courtland St",
+"phone": "",
+"website": "",
+"detail": "14.8 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.152809,
+40.024636
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "The Lonnie Young Recreation Center of East Germantown",
+"address": "1100 E Chelten Ave",
+"phone": "",
+"website": "",
+"detail": "5.2 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.159246,
+40.050028
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Tiffany Fletcher Recreation Center",
+"address": "4728 Brown St",
+"phone": "",
+"website": "",
+"detail": "2.6 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.215967,
+39.965821
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Venice Island Performing Arts and Recreation Center",
+"address": "25 Lock St",
+"phone": "",
+"website": "",
+"detail": "1.7 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.222075,
+40.023364
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "W. Freeland Kendrick Recreation Center",
+"address": "5878 Ridge Ave",
+"phone": "",
+"website": "",
+"detail": "8.0 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21179,
+40.028833
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "West Mill Creek Playground",
+"address": "5100 Westminster Ave",
+"phone": "",
+"website": "",
+"detail": "5.3 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.222642,
+39.967209
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "William B. Simons Recreation Center",
+"address": "7224 Woolston Ave",
+"phone": "",
+"website": "",
+"detail": "13.1 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.157998,
+40.060978
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "William H. (Billy) Markward Memorial Playground",
+"address": "400 S Lecount St",
+"phone": "",
+"website": "",
+"detail": "3.8 acres · part of Schuylkill River Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183308,
+39.947992
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Park / recreation site",
+"name": "Wister Playground",
+"address": "4971 Baynton St",
+"phone": "",
+"website": "",
+"detail": "2.9 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.160568,
+40.032559
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Square / plaza",
+"name": "Carroll Park",
+"address": "5801 W Girard Ave",
+"phone": "",
+"website": "",
+"detail": "5.6 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.236722,
+39.971014
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Square / plaza",
+"name": "Cedar Park",
+"address": "4917 Baltimore Ave",
+"phone": "",
+"website": "",
+"detail": "0.8 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.222533,
+39.948222
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Square / plaza",
+"name": "Clarkson Park",
+"address": "5475 N Broad St",
+"phone": "",
+"website": "",
+"detail": "2.1 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.144941,
+40.036514
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Square / plaza",
+"name": "Etting Park",
+"address": "3255 N Marston St",
+"phone": "",
+"website": "",
+"detail": "0.3 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.174213,
+40.00586
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Square / plaza",
+"name": "Fitler Square",
+"address": "2301 Pine St",
+"phone": "",
+"website": "",
+"detail": "0.7 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180063,
+39.947667
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Square / plaza",
+"name": "Gilbert Stuart Park",
+"address": "5132 Germantown Ave",
+"phone": "",
+"website": "",
+"detail": "0.3 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.166863,
+40.030741
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Square / plaza",
+"name": "Hunting Park",
+"address": "1101 W Hunting Park Ave",
+"phone": "",
+"website": "",
+"detail": "71.1 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.144033,
+40.016897
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Square / plaza",
+"name": "Malcolm X Memorial Park",
+"address": "5100 Pine St",
+"phone": "",
+"website": "",
+"detail": "6.3 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225385,
+39.952663
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Square / plaza",
+"name": "Mantua Community Garden",
+"address": "520 N 34th St",
+"phone": "",
+"website": "",
+"detail": "0.1 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191772,
+39.963618
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Square / plaza",
+"name": "Market Square Park",
+"address": "5501 Germantown Ave",
+"phone": "",
+"website": "",
+"detail": "0.3 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.172266,
+40.034296
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Square / plaza",
+"name": "Philadelphia Stars Negro League Memorial Park",
+"address": "1538 Belmont Ave",
+"phone": "",
+"website": "",
+"detail": "0.2 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.213758,
+39.977722
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Square / plaza",
+"name": "Saylors Grove",
+"address": "669 W Rittenhouse St",
+"phone": "",
+"website": "",
+"detail": "3.3 acres · part of Wissahickon Valley Park",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.187277,
+40.029836
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Square / plaza",
+"name": "Schuylkill River Park",
+"address": "300 S 25th St",
+"phone": "",
+"website": "",
+"detail": "3.9 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181941,
+39.94887
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Square / plaza",
+"name": "Sister Clara Muhammad Square",
+"address": "1035 N 48th St",
+"phone": "",
+"website": "",
+"detail": "3.6 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216635,
+39.971148
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Square / plaza",
+"name": "Taras Shevchenko Park",
+"address": "5301 N Broad St",
+"phone": "",
+"website": "",
+"detail": "1.3 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.14537,
+40.034461
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Square / plaza",
+"name": "Vernon Park",
+"address": "5754 Germantown Ave",
+"phone": "",
+"website": "",
+"detail": "8.5 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.176445,
+40.035891
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Watershed park",
+"name": "East Fairmount Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "440.3 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192873,
+39.978533
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Watershed park",
+"name": "West Fairmount Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "1,032.6 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210152,
+39.979125
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Watershed park",
+"name": "Wissahickon Valley Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "1,681.1 acres",
+"source_id": "phl_ppr_properties"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.200052,
+40.033536
+]
+}
+}
+]
+}

@@ -1,0 +1,45 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.182249,
+     40.009752
+    ]
+   },
+   "properties": {
+    "category": "older_adults",
+    "kind": "LIFE (PACE) center",
+    "name": "InnovAge PA LIFE – Henry Avenue",
+    "address": "3232 Henry Avenue",
+    "phone": "844-994-0562",
+    "website": "",
+    "detail": "Living Independence for the Elderly: day center and all-inclusive care for adults 55+",
+    "source_id": "pa_dhs_life_centers"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.212572,
+     39.956649
+    ]
+   },
+   "properties": {
+    "category": "older_adults",
+    "kind": "LIFE (PACE) center",
+    "name": "Mercy LIFE West Philadelphia",
+    "address": "4508 Chestnut St",
+    "phone": "267-787-8282",
+    "website": "",
+    "detail": "Living Independence for the Elderly: day center and all-inclusive care for adults 55+",
+    "source_id": "pa_dhs_life_centers"
+   }
+  }
+ ]
+}

@@ -1,0 +1,205 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Farmers market",
+"name": "52nd & Haverford Farmers Market",
+"address": "Haverford Ave & N. Winton St. (outside Spectrum Health)",
+"phone": "215-575-0444",
+"website": "https://Thefoodtrust.org",
+"detail": "Run by The Food Trust · Wed 11:00–15:00 · Jul–Oct · accepts SNAP, FMNP, Philly Food Bucks",
+"source_id": "phl_farmers_markets"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225021,
+39.96542
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Farmers market",
+"name": "Black Farmers Market",
+"address": "5200 Pine Street",
+"phone": "",
+"website": "https://www.getfreshdaily.org",
+"detail": "Sat 11:00–15:00 · May–Nov · accepts SNAP",
+"source_id": "phl_farmers_markets"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22686,
+39.953327
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Farmers market",
+"name": "Clark Park Farmers Market",
+"address": "4300 Baltimore Ave",
+"phone": "215-575-0444",
+"website": "https://thefoodtrust.org/what-we-do/farmers-markets/",
+"detail": "Run by The Food Trust · Sat 10:00–14:00 · year-round · accepts SNAP, FMNP, Philly Food Bucks",
+"source_id": "phl_farmers_markets"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209269,
+39.949053
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Farmers market",
+"name": "Germantown Kitchen Garden",
+"address": "215 East Penn St",
+"phone": "",
+"website": "https://germantownkitchengarden.com",
+"detail": "Sat 09:00–01:00 · May–Oct · accepts SNAP, FMNP, Philly Food Bucks",
+"source_id": "phl_farmers_markets"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.16694,
+40.034946
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Farmers market",
+"name": "Grumblethorpe Youth Farmstand",
+"address": "5267 Germantown Ave",
+"phone": "",
+"website": "https://www.philalandmarks.org/gyvs",
+"detail": "Run by Philadelphia Society for the Preservation of Landmarks · Sat 09:30–13:30 · Jun–Aug · accepts SNAP, FMNP, Philly Food Bucks",
+"source_id": "phl_farmers_markets"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.168349,
+40.031947
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Farmers market",
+"name": "Henry Got Crops Farm Market",
+"address": "7095 Henry Avenue",
+"phone": "",
+"website": "https://weaversway.coop",
+"detail": "Tue 11:00–19:00, Fri 12:00–18:00, Sat 10:00–15:00 · Mar–Dec · accepts SNAP, FMNP, Philly Food Bucks",
+"source_id": "phl_farmers_markets"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.219559,
+40.049162
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Farmers market",
+"name": "Pencoyd Farmers Market",
+"address": "3720 Main St, Philadelphia, PA 19127",
+"phone": "",
+"website": "https://pencoydfarmersmarket.marketpress.site/",
+"detail": "Sat 10:00–14:00 · year-round",
+"source_id": "phl_farmers_markets"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211499,
+40.016186
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Farmers market",
+"name": "Pretzel Park Farmers Market",
+"address": "4300 Silverwood Street",
+"phone": "215-508-5606",
+"website": "http://friendsofpretzelpark.org",
+"detail": "Run by Friends of Pretzel Park · Sat 10:00–14:00 · year-round · accepts FMNP",
+"source_id": "phl_farmers_markets"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.221029,
+40.025576
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Farmers market",
+"name": "Schuylkill River Park Farmers Market",
+"address": "300 S. 25th Street",
+"phone": "",
+"website": "https://www.egreenevents.com",
+"detail": "Sun 9:00–13:00 · May–Dec",
+"source_id": "phl_farmers_markets"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181187,
+39.949052
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Farmers market",
+"name": "University Square",
+"address": "36th and Walnut St",
+"phone": "",
+"website": "https://egreenevents.com/university-square-market",
+"detail": "Wed 10:00–17:00 · accepts FMNP",
+"source_id": "phl_farmers_markets"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.194783,
+39.953141
+]
+}
+}
+]
+}

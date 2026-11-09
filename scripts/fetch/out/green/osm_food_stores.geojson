@@ -1,0 +1,685 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Grocery store (OSM)",
+"name": "A&N Produce",
+"address": "5929 Greene Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_food_stores"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.179876,
+40.036592
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Produce market (OSM)",
+"name": "Locust Walk Fruit Stand",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_food_stores"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20245,
+39.952884
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Produce market (OSM)",
+"name": "R&R Produce",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_food_stores"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.230107,
+40.044351
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Produce market (OSM)",
+"name": "Weavers Way Co-op",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_food_stores"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.219411,
+40.049406
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (OSM)",
+"name": "ALDI",
+"address": "6119 North Broad Street, Philadelphia",
+"phone": "833-460-7011",
+"website": "https://stores.aldi.us/pa/philadelphia/6119-n-broad-street",
+"detail": "",
+"source_id": "osm_food_stores"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.142268,
+40.046645
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (OSM)",
+"name": "Acme",
+"address": "4001 Walnut Street, Philadelphia",
+"phone": "445-888-3634",
+"website": "https://local.acmemarkets.com/pa/philadelphia/4001-walnut-st.html",
+"detail": "",
+"source_id": "osm_food_stores"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.202821,
+39.954462
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (OSM)",
+"name": "Acme",
+"address": "5927 Ridge Avenue, Philadelphia",
+"phone": "215-487-7180",
+"website": "https://local.acmemarkets.com/pa/philadelphia/5927-59-ridge-ave.html",
+"detail": "",
+"source_id": "osm_food_stores"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211226,
+40.031663
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (OSM)",
+"name": "Aldi",
+"address": "8200 Ogontz Avenue, Wyncote",
+"phone": "888-460-1058",
+"website": "https://stores.aldi.us/pa/wyncote/8200-ogontz-avenue",
+"detail": "",
+"source_id": "osm_food_stores"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.159922,
+40.077036
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (OSM)",
+"name": "Aldi",
+"address": "4421 Market Street, Philadelphia",
+"phone": "833-460-5054",
+"website": "https://stores.aldi.us/pa/philadelphia/4421-market-street",
+"detail": "",
+"source_id": "osm_food_stores"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212999,
+39.959337
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (OSM)",
+"name": "Alrayyan Food Market",
+"address": "121 South 43rd Street, Philadelphia",
+"phone": "215-999-3663",
+"website": "",
+"detail": "",
+"source_id": "osm_food_stores"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208366,
+39.95545
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (OSM)",
+"name": "Eight Brothers",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_food_stores"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.202707,
+39.962956
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (OSM)",
+"name": "Giant",
+"address": "3401 Chestnut Street, Philadelphia",
+"phone": "445-888-3022",
+"website": "https://stores.giantfoodstores.com/pa/philadelphia/3401-chestnut-street",
+"detail": "",
+"source_id": "osm_food_stores"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191909,
+39.954824
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (OSM)",
+"name": "Giant",
+"address": "60 North 23rd Street, Philadelphia",
+"phone": "215-587-0270",
+"website": "https://stores.giantfoodstores.com/pa/philadelphia/60-north-23rd-street",
+"detail": "",
+"source_id": "osm_food_stores"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.177684,
+39.956471
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (OSM)",
+"name": "Grocery Outlet",
+"address": "4301 Chestnut Street, Philadelphia",
+"phone": "267-866-0955",
+"website": "https://www.groceryoutlet.com/circulars/storeid/744",
+"detail": "",
+"source_id": "osm_food_stores"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209024,
+39.956616
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (OSM)",
+"name": "H Mart",
+"address": "7320 Old York Road, Cheltenham Township",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_food_stores"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.137126,
+40.063093
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (OSM)",
+"name": "Makkah Market",
+"address": "4249 Walnut Street, Philadelphia",
+"phone": "",
+"website": "https://www.makkahmarketpa.com/",
+"detail": "",
+"source_id": "osm_food_stores"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208468,
+39.955126
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (OSM)",
+"name": "Mariposa Food Co-Op",
+"address": "4824 Baltimore Avenue, Philadelphia",
+"phone": "215-729-2121",
+"website": "https://mariposa.coop/",
+"detail": "",
+"source_id": "osm_food_stores"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.220651,
+39.948046
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (OSM)",
+"name": "Palm Tree Market",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_food_stores"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.223951,
+40.026247
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (OSM)",
+"name": "Save-A-Lot",
+"address": "",
+"phone": "",
+"website": "https://savealot.com/grocery-stores/philadelphia-19139-24712/",
+"detail": "",
+"source_id": "osm_food_stores"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.233254,
+39.966708
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (OSM)",
+"name": "Save-A-Lot",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_food_stores"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.234829,
+39.979479
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (OSM)",
+"name": "Save-A-Lot",
+"address": "",
+"phone": "",
+"website": "https://savealot.com/grocery-stores/philadelphia-19138-45141/",
+"detail": "",
+"source_id": "osm_food_stores"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.173473,
+40.051296
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (OSM)",
+"name": "Save-A-Lot",
+"address": "",
+"phone": "",
+"website": "https://savealot.com/grocery-stores/philadelphia-19144-24858/",
+"detail": "",
+"source_id": "osm_food_stores"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18236,
+40.031294
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (OSM)",
+"name": "Save-A-Lot",
+"address": "4424 North Broad Street, Philadelphia",
+"phone": "215-324-3982",
+"website": "https://savealot.com/grocery-stores/philadelphia-19140-60138/",
+"detail": "",
+"source_id": "osm_food_stores"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.149775,
+40.021054
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (OSM)",
+"name": "ShopRite",
+"address": "6901 Ridge Avenue, Philadelphia",
+"phone": "215-482-9570",
+"website": "https://www.shoprite.com",
+"detail": "",
+"source_id": "osm_food_stores"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.227238,
+40.044042
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (OSM)",
+"name": "ShopRite",
+"address": "2471 West Cheltenham Avenue, Wyncote",
+"phone": "215-887-7300",
+"website": "https://www.shoprite.com/sm/planning/rsid/426",
+"detail": "",
+"source_id": "osm_food_stores"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.157183,
+40.075525
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (OSM)",
+"name": "ShopRite",
+"address": "2800 Fox Street, Philadelphia",
+"phone": "215-717-1222",
+"website": "https://www.shoprite.com/sm/planning/rsid/430",
+"detail": "",
+"source_id": "osm_food_stores"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.174636,
+40.009545
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (OSM)",
+"name": "ShopRite",
+"address": "1575 North 52nd Street, Philadelphia",
+"phone": "215-220-8700",
+"website": "https://www.shoprite.com/sm/planning/rsid/419",
+"detail": "",
+"source_id": "osm_food_stores"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224262,
+39.978173
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (OSM)",
+"name": "Supremo Foodmarket",
+"address": "4301 Walnut Street, Philadelphia",
+"phone": "215-387-3070",
+"website": "https://www.supremofoods.com/",
+"detail": "",
+"source_id": "osm_food_stores"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209134,
+39.955254
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (OSM)",
+"name": "The Fresh Grocer",
+"address": "1000 Easton Road, Wyncote",
+"phone": "215-376-0111",
+"website": "https://www.thefreshgrocer.com/pd/stores/PA/Wyncote/The-Fresh-Grocer-of-Wyncote/1E82123767",
+"detail": "",
+"source_id": "osm_food_stores"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.166127,
+40.081885
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (OSM)",
+"name": "The Fresh Grocer",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_food_stores"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.193333,
+39.940219
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (OSM)",
+"name": "The Fresh Grocer",
+"address": "5601 Chestnut Street, Philadelphia",
+"phone": "",
+"website": "https://www.thefreshgrocer.com/",
+"detail": "",
+"source_id": "osm_food_stores"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.234131,
+39.960835
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (OSM)",
+"name": "The NouVaux Market",
+"address": "3539 Vaux Street, Philadelphia",
+"phone": "215-438-7600",
+"website": "",
+"detail": "",
+"source_id": "osm_food_stores"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.188317,
+40.014317
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (OSM)",
+"name": "Weavers Way Co-op",
+"address": "328 West Chelten Avenue, Philadelphia",
+"phone": "",
+"website": "https://weaversway.coop/pages/germantown-now-open",
+"detail": "",
+"source_id": "osm_food_stores"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180924,
+40.02932
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "food",
+"kind": "Supermarket (OSM)",
+"name": "Weavers Way Co‑op",
+"address": "",
+"phone": "215-843-2350",
+"website": "https://weaversway.coop/stores/stores-mt-airy/",
+"detail": "",
+"source_id": "osm_food_stores"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19601,
+40.046547
+]
+}
+}
+]
+}

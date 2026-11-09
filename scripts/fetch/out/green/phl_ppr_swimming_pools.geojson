@@ -1,0 +1,305 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Outdoor pool",
+"name": "Awbury Pool",
+"address": "6167 Ardleigh St",
+"phone": "",
+"website": "",
+"detail": "at Awbury Park and Recreation Center",
+"source_id": "phl_ppr_swimming_pools"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.165379,
+40.053927
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Outdoor pool",
+"name": "Baker Pool",
+"address": "5444 Hunter St",
+"phone": "",
+"website": "",
+"detail": "at Charles Baker and Carol Baker Rice Recreation Center",
+"source_id": "phl_ppr_swimming_pools"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.231168,
+39.977368
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Outdoor pool",
+"name": "Belfield Pool",
+"address": "2112 Conlyn St",
+"phone": "",
+"website": "",
+"detail": "at Belfield Recreation Center",
+"source_id": "phl_ppr_swimming_pools"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.156314,
+40.04233
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Outdoor pool",
+"name": "Ellis Pool",
+"address": "708 N 39th St",
+"phone": "",
+"website": "",
+"detail": "at Norman (Butch) Ellis Playground",
+"source_id": "phl_ppr_swimming_pools"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.200499,
+39.966101
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Outdoor pool",
+"name": "Fletcher Pool",
+"address": "4728 Brown St",
+"phone": "",
+"website": "",
+"detail": "at Tiffany Fletcher Recreation Center",
+"source_id": "phl_ppr_swimming_pools"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.215571,
+39.965764
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Outdoor pool",
+"name": "Hunting Park Pool",
+"address": "1101 W Hunting Park Ave",
+"phone": "",
+"website": "",
+"detail": "at Hunting Park Recreation Center · ADA lift",
+"source_id": "phl_ppr_swimming_pools"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.143123,
+40.017712
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Outdoor pool",
+"name": "Kelly Pool",
+"address": "4216 Lansdowne Dr",
+"phone": "",
+"website": "",
+"detail": "at Kelly Pool · ADA lift",
+"source_id": "phl_ppr_swimming_pools"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.207879,
+39.979103
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Outdoor pool",
+"name": "Kendrick Pool",
+"address": "5890 Ridge Ave",
+"phone": "",
+"website": "",
+"detail": "at W Freeland Kendrick Recreation Center",
+"source_id": "phl_ppr_swimming_pools"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211487,
+40.029729
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Outdoor pool",
+"name": "Kingsessing Pool",
+"address": "4970 Chester Ave",
+"phone": "",
+"website": "",
+"detail": "at Kingsessing Recreation Center · ADA lift",
+"source_id": "phl_ppr_swimming_pools"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.217362,
+39.94263
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Outdoor pool",
+"name": "Lee Pool",
+"address": "4376 Haverford Ave",
+"phone": "",
+"website": "",
+"detail": "at John A Lee Cultural Center",
+"source_id": "phl_ppr_swimming_pools"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211211,
+39.961382
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Outdoor pool",
+"name": "Lonnie Young Pool",
+"address": "5659 Ardleigh St",
+"phone": "",
+"website": "",
+"detail": "at Lonnie Young Recreation Center of East Germantown",
+"source_id": "phl_ppr_swimming_pools"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.159412,
+40.049284
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Outdoor pool",
+"name": "Morris Estate Pool",
+"address": "1610 Chelten Ave",
+"phone": "",
+"website": "",
+"detail": "at Morris Estate Cultural Center",
+"source_id": "phl_ppr_swimming_pools"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.146415,
+40.049919
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Outdoor pool",
+"name": "OConnor Pool",
+"address": "570 S 26th St",
+"phone": "",
+"website": "",
+"detail": "at William H (Billy) Markward Memorial Playground",
+"source_id": "phl_ppr_swimming_pools"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183329,
+39.946127
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Outdoor pool",
+"name": "Pleasant Pool",
+"address": "320 Slocum St",
+"phone": "",
+"website": "",
+"detail": "at Pleasant Playground · ADA lift",
+"source_id": "phl_ppr_swimming_pools"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182006,
+40.0568
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Outdoor pool",
+"name": "Shepard Pool",
+"address": "398 N 57th St",
+"phone": "",
+"website": "",
+"detail": "at Haddington-Marshall L Shepard Sr Recreation Center",
+"source_id": "phl_ppr_swimming_pools"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.234031,
+39.966843
+]
+}
+}
+]
+}

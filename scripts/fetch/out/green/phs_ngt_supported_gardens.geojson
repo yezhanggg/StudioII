@@ -1,0 +1,1785 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "43rd Street Garden",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209478,
+39.964365
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "5000 Cedars Garden",
+"address": "5018 Cedar Ave",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.223702,
+39.949924
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "50th Street Community Garden",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS and Neighborhood Gardens Trust",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216134,
+39.941677
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "60th Street AchieveABILITY Garden",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.240285,
+39.963444
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Ahimsa House Community Garden",
+"address": "5005 Cedar Ave",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.223207,
+39.950172
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Antioch Urban Garden",
+"address": "4721 Chestnut Street",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216251,
+39.957565
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Aspen Farms Community Garden",
+"address": "",
+"phone": "",
+"website": "https://www.ngtrust.org/aspen-farms/",
+"detail": "Supported by PHS and Neighborhood Gardens Trust",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.217986,
+39.965205
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Awbury Community Garden",
+"address": "901 E Washington Ln",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.171162,
+40.05296
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Awbury Farm Camp",
+"address": "901 E Washington Ln",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.171366,
+40.052987
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Belmont Academy Charter School (preschool)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.205708,
+39.970448
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Belmont Charter Elementary, Middle School, and Inquiry Charter Gardens",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.204636,
+39.966406
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "C.W. Henry School Garden",
+"address": "601-647 Carpenter Ln",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196494,
+40.045979
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "CHOP Karabots",
+"address": "4865 Market St",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.217717,
+39.9593
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Carousel House",
+"address": "4300 Avenue Of The Republic",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21075,
+39.978983
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Chester Avenue Community Garden",
+"address": "4713-15 Chester Ave",
+"phone": "",
+"website": "https://www.ngtrust.org/chester-avenue/",
+"detail": "Supported by PHS and Neighborhood Gardens Trust",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.214672,
+39.945702
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Chester Avenue Garden (West)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Supported by Neighborhood Gardens Trust",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.221017,
+39.940754
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Cloud 9 Friends Garden for Peace and Understanding",
+"address": "834 N Preston St.",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.204438,
+39.968239
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Cloud 9 Kirkbride Rehabilitation",
+"address": "111 N 49th St",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.218216,
+39.962932
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Co-op Green Resource Center (GRC) @ Awbury Arboretum",
+"address": "901 E Washington Ln",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.171115,
+40.053004
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "CommUnity Garden @ The Creek",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS and Neighborhood Gardens Trust",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.215288,
+39.96583
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "DITO, Inc. Segue Garden",
+"address": "1636-1638 Church Ln",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.147619,
+40.046121
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Depaul House",
+"address": "5725 Sprague St",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.162381,
+40.049182
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Depaul USA Saint Raymonds House Garden",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.166862,
+40.071827
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Earth's Keepers Urban Farm @ Kingsessing Recreation Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21722,
+39.942677
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Face to Face Community Garden",
+"address": "123 East Rittenhouse",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.175085,
+40.038732
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Farm 51",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.219323,
+39.942399
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Farm Explorer Garden at Hope Bridge & Small Community Beds Belmont",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.204842,
+39.969154
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Farm Explorer Garden at Sarah Allen Homes",
+"address": "4035 Parrish St",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.205028,
+39.968386
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Fernhill Food Forest",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.168403,
+40.019589
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Five Loaves Two Fish Garden of Hestonville",
+"address": "1701-1711 N 55th St",
+"phone": "",
+"website": "https://www.ngtrust.org/five-loaves-two-fish/",
+"detail": "Supported by PHS and Neighborhood Gardens Trust",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.232194,
+39.979127
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Flossie Hendrick Community Garden",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS and Neighborhood Gardens Trust",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.152741,
+40.010952
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Food Moxie - Henry Got Crops Farm (Saul)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.219547,
+40.049428
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Food Moxie @ Awbury Arboretum",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.171467,
+40.053875
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Food Moxie @ MLK High School",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.161703,
+40.057205
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Food Moxie @ Stenton Family Manor",
+"address": "1314 E Tulpehocken St",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.164265,
+40.056666
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Freedom Greens and Gardens",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22669,
+39.953391
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Furtick Farms",
+"address": "4301 Wayne Ave",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS and Neighborhood Gardens Trust",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.156677,
+40.018938
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Garden R.U.N.",
+"address": "242-248 Monastery Ave",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.219051,
+40.028595
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Germantown Community Fridge Garden",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.177639,
+40.039881
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Germantown Kitchen Garden",
+"address": "215 E Penn St",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.166786,
+40.034818
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Germantown Life Enrichment Center",
+"address": "5722-5728 Greene St",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.177319,
+40.034436
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Girarden Wellness Garden",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20938,
+39.973795
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Grays Ferry Community Garden",
+"address": "1500-1518 Grays Ferry Ave",
+"phone": "",
+"website": "https://www.ngtrust.org/grays-ferry/",
+"detail": "Supported by PHS and Neighborhood Gardens Trust",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208918,
+39.941016
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Grumblethorpe",
+"address": "5267-5269 Germantown Ave",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.168502,
+40.032086
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Hansberry Garden and Nature Center",
+"address": "5150 Wayne Ave",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.171027,
+40.027051
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Holly Street Neighbors Community Garden",
+"address": "321-323 N Holly St",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS and Neighborhood Gardens Trust",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.205618,
+39.95948
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Illadelph Gardens by Black + Planted",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.170517,
+40.055402
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Jannatain Garden",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.151746,
+40.019316
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Mantua Urban Peace Garden",
+"address": "3700-3712 Brown St",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.197126,
+39.967912
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Mastery Pickett Community Garden",
+"address": "5700 Wayne Ave",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180344,
+40.032406
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Mill Creek Community Garden",
+"address": "4901 Brown St",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.218879,
+39.966256
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Mill Creek Urban Farm",
+"address": "4901 Brown St",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.218912,
+39.966323
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Monumental Baptist Church Community Garden",
+"address": "241 S 50th St, 4946-4948 LOCUST ST",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.221414,
+39.95517
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Moore to Love Garden",
+"address": "6011 Wister St",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS and Neighborhood Gardens Trust",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.158073,
+40.045448
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Ms Verna's Garden (Paxon Street Garden)",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS and Neighborhood Gardens Trust",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216157,
+39.939366
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Neighbors Woodland",
+"address": "",
+"phone": "",
+"website": "https://www.ngtrust.org/neighbors-woodland/",
+"detail": "Supported by PHS and Neighborhood Gardens Trust",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212545,
+40.021911
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Nicholson Church Lane Community Garden",
+"address": "234-248 Church Ln",
+"phone": "",
+"website": "https://www.ngtrust.org/church-lane/",
+"detail": "Supported by PHS and Neighborhood Gardens Trust",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.169017,
+40.036503
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Northstar Park Garden and Orchard",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206438,
+39.972634
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Old Tennis Court Farm",
+"address": "5407 Wissahickon Ave",
+"phone": "",
+"website": "https://www.ngtrust.org/old-tennis-court/",
+"detail": "Supported by PHS and Neighborhood Gardens Trust",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180541,
+40.024855
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Our Lady of Hope Garden",
+"address": "5200-5202 N Broad St",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.146432,
+40.032395
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "PGP Neighborhood Family Garden",
+"address": "6336 Ardleigh Street",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.170828,
+40.055801
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "POP Learning Orchard @ The Woodlands",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.204879,
+39.948339
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Pastorius Community Garden",
+"address": "10 E Pastorius St",
+"phone": "",
+"website": "https://www.ngtrust.org/pastorius/",
+"detail": "Supported by PHS and Neighborhood Gardens Trust",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.17909,
+40.041925
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Penn & Greene Garden",
+"address": "65 W Penn St",
+"phone": "",
+"website": "https://www.ngtrust.org/penn-and-green/",
+"detail": "Supported by PHS and Neighborhood Gardens Trust",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.170837,
+40.031014
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Penn Park Farm",
+"address": "3000 Walnut St",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.184153,
+39.951565
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Pentridge Children's Garden",
+"address": "",
+"phone": "",
+"website": "https://www.ngtrust.org/pentridge-childrens/",
+"detail": "Supported by PHS and Neighborhood Gardens Trust",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.221844,
+39.947297
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Philadelphia Masjid",
+"address": "4700 Wyalusing Ave",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216175,
+39.969816
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Pleasant Playground Community Garden",
+"address": "6757 Chew Avenue",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18273,
+40.056684
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Pocket Farm",
+"address": "4914-4916 Kingsessing Ave",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21567,
+39.942658
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Pulaski Zeralda Garden",
+"address": "4533-4539 Pulaski Ave",
+"phone": "",
+"website": "https://www.ngtrust.org/pulaski-zeralda/",
+"detail": "Supported by PHS and Neighborhood Gardens Trust",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.164173,
+40.021255
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "ReEntry Community Farm",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22194,
+39.972483
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Roots Community Garden",
+"address": "571 W Spencer St",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.130311,
+40.044066
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Saint Bernard Community Garden",
+"address": "1008-1010 S St Bernard St",
+"phone": "",
+"website": "https://www.ngtrust.org/saint-bernard/",
+"detail": "Supported by PHS and Neighborhood Gardens Trust",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.218061,
+39.944234
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Sansom Street Garden",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.215576,
+39.956604
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Schuylkill River Park Community Garden",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181534,
+39.949413
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Sloan Street Community Garden",
+"address": "310-324 Sloan St",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.201251,
+39.959587
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Summer Winter Community Garden",
+"address": "",
+"phone": "",
+"website": "https://www.ngtrust.org/summer-winter/",
+"detail": "Supported by PHS and Neighborhood Gardens Trust",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.188786,
+39.959193
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "The Great Garden @ Awbury Arboretum",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.170014,
+40.055436
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Tioga Hope Park & Garden",
+"address": "2000-2008 W Tioga Ave",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS and Neighborhood Gardens Trust",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.161734,
+40.007055
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Unitarian Universalists of Mt Airy (UUMA) Community Garden",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.177012,
+40.065985
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Viola Street Garden",
+"address": "4200-4204 Viola St",
+"phone": "",
+"website": "http://ngtrust.org/viola-street-garden/",
+"detail": "Supported by PHS and Neighborhood Gardens Trust",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210156,
+39.975643
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Walnut Hill Community Farm",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS and Neighborhood Gardens Trust",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.213559,
+39.958447
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Warrington Community Garden",
+"address": "",
+"phone": "",
+"website": "https://www.ngtrust.org/warrington/",
+"detail": "Supported by PHS and Neighborhood Gardens Trust",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.217485,
+39.947734
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Weavers Way Farms: Henry Got Crops Farm @ Saul",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.219498,
+40.049306
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Weavers Way Mort Brooks Memorial Farm @ Awbury",
+"address": "901 E Washington Ln",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.171212,
+40.052886
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "West Philly Peace Park",
+"address": "4929 W Girard Ave",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.220155,
+39.972785
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Winter Street Community Garden",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.178577,
+39.961086
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Wiota Street Community Garden",
+"address": "4016-4024 Powelton Ave",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS and Neighborhood Gardens Trust",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.202896,
+39.958956
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden",
+"name": "Wyck House",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Supported by PHS",
+"source_id": "phs_ngt_supported_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.17844,
+40.039882
+]
+}
+}
+]
+}

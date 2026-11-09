@@ -1,0 +1,85 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.151995,
+     40.009094
+    ]
+   },
+   "properties": {
+    "category": "social_services",
+    "kind": "Legal services",
+    "name": "Community Legal Services of Philadelphia",
+    "address": "1410 W. Erie Ave",
+    "phone": "215-227-2400",
+    "website": "",
+    "detail": "Legal Services",
+    "source_id": "phl_bme_resources"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.173311,
+     40.035031
+    ]
+   },
+   "properties": {
+    "category": "social_services",
+    "kind": "Family / fatherhood support",
+    "name": "Delaware Valley Peace Commission (DVPC)",
+    "address": "5549 Germantown Ave",
+    "phone": "267-902-3866",
+    "website": "https://www.dvrpc.org",
+    "detail": "Community development, Economic development, Fatherhood & parenting support, Re-entry, Violence prevention, Workforce development, Health & wellness, Youth development, Homelessness & housing",
+    "source_id": "phl_bme_resources"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.216207,
+     39.957775
+    ]
+   },
+   "properties": {
+    "category": "social_services",
+    "kind": "Family / fatherhood support",
+    "name": "Level Up Philly",
+    "address": "4721 Chestnut Street",
+    "phone": "215-416-9680",
+    "website": "https://levelupphilly.org/",
+    "detail": "Education, Fatherhood & parenting support, Violence prevention, Workforce development, Youth development, Homelessness & housing",
+    "source_id": "phl_bme_resources"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.198174,
+     39.954492
+    ]
+   },
+   "properties": {
+    "category": "social_services",
+    "kind": "Legal services",
+    "name": "Philadelphia Lawyers for Social Equity Criminal Record Clearing Program",
+    "address": "111 S. 38th St., 3rd Floor",
+    "phone": "267-519-5323",
+    "website": "",
+    "detail": "Legal services",
+    "source_id": "phl_bme_resources"
+   }
+  }
+ ]
+}

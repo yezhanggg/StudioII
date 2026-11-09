@@ -1,0 +1,65 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.171229,
+     40.039353
+    ]
+   },
+   "properties": {
+    "category": "social_services",
+    "kind": "WIC office",
+    "name": "Germantown WIC Office",
+    "address": "301 East Chelten Ave 1st Floor",
+    "phone": "215-248-1500",
+    "website": "",
+    "detail": "Women, Infants & Children nutrition program",
+    "source_id": "phl_wic_offices"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.144108,
+     40.041131
+    ]
+   },
+   "properties": {
+    "category": "social_services",
+    "kind": "WIC office",
+    "name": "Olney-Logan WIC Office",
+    "address": "5751 North Broad St",
+    "phone": "215-927-1950",
+    "website": "",
+    "detail": "Women, Infants & Children nutrition program",
+    "source_id": "phl_wic_offices"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.234557,
+     39.980476
+    ]
+   },
+   "properties": {
+    "category": "social_services",
+    "kind": "WIC office",
+    "name": "Overbrook WIC Office",
+    "address": "5610 Lancaster Ave Suite 1400",
+    "phone": "215-477-3360",
+    "website": "",
+    "detail": "Women, Infants & Children nutrition program",
+    "source_id": "phl_wic_offices"
+   }
+  }
+ ]
+}

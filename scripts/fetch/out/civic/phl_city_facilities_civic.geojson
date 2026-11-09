@@ -1,0 +1,865 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "City-owned museum building",
+"name": "Memorial Hall",
+"address": "4201 Ave of the Rep Ave",
+"phone": "",
+"website": "",
+"detail": "Occupant: Please Touch Museum",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209154,
+39.979514
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "City-owned museum building",
+"name": "Philadelphia Museum of Art (PMA)",
+"address": "2500 Spring Garden St",
+"phone": "",
+"website": "",
+"detail": "Occupant: Philadelphia Museum of Art",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181064,
+39.965669
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "City service office",
+"name": "L&I North District Office",
+"address": "88 E. Haines St",
+"phone": "",
+"website": "",
+"detail": "Occupant: Licenses & Inspections",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.175196,
+40.03973
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "City service office",
+"name": "L&I West District Office",
+"address": "4221-29 Market St",
+"phone": "",
+"website": "",
+"detail": "Occupant: Licenses & Inspections",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.207499,
+39.958144
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Abraham Rittenhouse Home",
+"address": "236 Rittenhouse Town Ln",
+"phone": "",
+"website": "",
+"detail": "Occupant: Historic Rittenhouse Town, Inc. · Rittenhouse Town",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189521,
+40.029924
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Belmont Mansion Building",
+"address": "2000 Belmont Mansion Dr",
+"phone": "",
+"website": "",
+"detail": "Occupant: Philadelphia Parks & Recreation · West Fairmount Park",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21306,
+39.990927
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Belmont Yard Pumping Station",
+"address": "2000 Martin Luther King Dr",
+"phone": "",
+"website": "",
+"detail": "Occupant: Public use",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203578,
+39.989991
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "CASE Building",
+"address": "4400 S Concourse Dr",
+"phone": "",
+"website": "",
+"detail": "Occupant: Public use · West Fairmount Park",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212881,
+39.977987
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Catherwood Building",
+"address": "3400 W Girard Ave",
+"phone": "",
+"website": "",
+"detail": "Occupant: Philadelphia Zoo · Philadelphia Zoo",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196728,
+39.973582
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Cedar Grove",
+"address": "4001 Lansdowne Dr",
+"phone": "",
+"website": "",
+"detail": "Occupant: Philadelphia Museum of Art",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.204445,
+39.979183
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Glen Fern",
+"address": "1100 Livezey La",
+"phone": "",
+"website": "",
+"detail": "Occupant: Public use · Wissahickon Valley Park",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21324,
+40.049431
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Hatfield House",
+"address": "3301 W Girard Ave",
+"phone": "",
+"website": "",
+"detail": "Occupant: Philadelphia Parks & Recreation · East Fairmount Park",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.1883,
+39.975931
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Hermitage Building",
+"address": "5000 Hermit Ln",
+"phone": "",
+"website": "",
+"detail": "Occupant: Public use · Wissahickon Valley Park",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.200424,
+40.024533
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Historic Rittenhouse Town",
+"address": "210 Rittenhousetown Ln",
+"phone": "",
+"website": "",
+"detail": "Occupant: Philadelphia Parks & Recreation · Rittenhouse Town",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191677,
+40.028792
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Jacob Kelter House",
+"address": "6331 Wissahickon Ave",
+"phone": "",
+"website": "",
+"detail": "Occupant: Philadelphia Parks & Recreation · Clifford Park",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19205,
+40.034735
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Japanese House & Garden",
+"address": "Horticultural Center Grounds",
+"phone": "",
+"website": "",
+"detail": "Occupant: Public use · Horticulture Center",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212919,
+39.981343
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "John Boelsen House 2",
+"address": "West River Dr",
+"phone": "",
+"website": "",
+"detail": "Occupant: Philadelphia Parks & Recreation · John Boelsen House",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.202986,
+39.98964
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Kitchens Lane Complex",
+"address": "1027 Kitchens Ln",
+"phone": "",
+"website": "",
+"detail": "Occupant: Public use · Wissahickon Valley Park",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203354,
+40.038282
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Lemon Hill Building",
+"address": "801 Lemon Hill Dr",
+"phone": "",
+"website": "",
+"detail": "Occupant: Philadelphia Parks & Recreation · East Fairmount Park",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18751,
+39.971381
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Lemon Hill Mansion",
+"address": "Sedgley Dr at Lemon Hill",
+"phone": "",
+"website": "",
+"detail": "Occupant: Philadelphia Parks & Recreation · East Fairmount Park",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.187183,
+39.970747
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Letitia Street House",
+"address": "3400 W Girard Ave",
+"phone": "",
+"website": "",
+"detail": "Occupant: Public use · West Fairmount Park",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196958,
+39.97541
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Logan House",
+"address": "4101 Old York Rd",
+"phone": "",
+"website": "",
+"detail": "Occupant: Public use · Hunting Park",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.146875,
+40.015316
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Loudoun Mansion",
+"address": "4650 Germantown Ave",
+"phone": "",
+"website": "",
+"detail": "Occupant: Philadelphia Parks & Recreation · Loudoun Park",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.160686,
+40.025694
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Monastery Mansion",
+"address": "Wissahickon Creek and Kitchens Ln",
+"phone": "",
+"website": "",
+"detail": "Occupant: Philadelphia Parks & Recreation · Wissahickon Valley Park",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203484,
+40.036164
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Mount Pleasant Mansion",
+"address": "3800 Mt Pleasant Dr",
+"phone": "",
+"website": "",
+"detail": "Occupant: Philadelphia Museum of Art",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19986,
+39.983371
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "New Mill House",
+"address": "640 Water Works Dr",
+"phone": "",
+"website": "",
+"detail": "Occupant: Public use · Water Works",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.184188,
+39.966833
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Ohio House",
+"address": "1700 Belmont Ave",
+"phone": "",
+"website": "",
+"detail": "Occupant: Philadelphia Parks & Recreation · West Fairmount Park",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216208,
+39.985001
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Old Mill House",
+"address": "640 Water Works Dr",
+"phone": "",
+"website": "",
+"detail": "Occupant: Philadelphia Parks & Recreation · East Fairmount Park",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183543,
+39.966533
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Ormiston Mansion",
+"address": "2000 Reservoir Dr",
+"phone": "",
+"website": "",
+"detail": "Occupant: Philadelphia Parks & Recreation · East Fairmount Park",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196263,
+39.988694
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Park Trolley Headquarters",
+"address": "4121 Horticultural Dr",
+"phone": "",
+"website": "",
+"detail": "Occupant: Public use · Horticulture Center",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209255,
+39.984703
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Ridgeland Mansion",
+"address": "4100 Chamounix Dr",
+"phone": "",
+"website": "",
+"detail": "Occupant: Philadelphia Parks & Recreation · West Fairmount Park",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210186,
+39.99266
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Rockland Mansion",
+"address": "3810 Mt Pleasant Dr",
+"phone": "",
+"website": "",
+"detail": "Occupant: Philadelphia Parks & Recreation · East Fairmount Park",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.199838,
+39.985826
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Solitude",
+"address": "3400 W Girard Ave",
+"phone": "",
+"website": "",
+"detail": "Occupant: Philadelphia Zoo · Philadelphia Zoo",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195467,
+39.9726
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Stenton Mansion",
+"address": "4600 N 16th St",
+"phone": "",
+"website": "",
+"detail": "Occupant: Philadelphia Parks & Recreation",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.153731,
+40.024813
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Sweetbriar Mansion",
+"address": "Lansdown Ave",
+"phone": "",
+"website": "",
+"detail": "Occupant: Philadelphia Parks & Recreation · West Fairmount Park",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.200864,
+39.976987
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "The Cliffs House",
+"address": "3400 Reservoir Dr",
+"phone": "",
+"website": "",
+"detail": "Occupant: Philadelphia Parks & Recreation · East Fairmount Park",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.194104,
+39.979413
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Thomas Mansion",
+"address": "6331 Wissahickon Ave",
+"phone": "",
+"website": "",
+"detail": "Occupant: Philadelphia Parks & Recreation · Clifford Park",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189881,
+40.034926
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Tugboat House at Belmont Landing (Rowing Facility for Disabled)",
+"address": "1399 West River Dr",
+"phone": "",
+"website": "",
+"detail": "Occupant: Phila Rowing Program for the Disabled, Inc. · West Fairmount Park",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.204459,
+39.98076
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Vernon House",
+"address": "5710-18 Germantown Ave",
+"phone": "",
+"website": "",
+"detail": "Occupant: Public use · Vernon Park",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.176335,
+40.035736
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Water Works Careakers House",
+"address": "640 Water Works Dr",
+"phone": "",
+"website": "",
+"detail": "Occupant: Public use · Water Works",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183522,
+39.966058
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Water Works Engine House",
+"address": "640 Water Works Dr",
+"phone": "",
+"website": "",
+"detail": "Occupant: Public use · Water Works",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183439,
+39.965864
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Water Works House",
+"address": "640 Water Works Dr",
+"phone": "",
+"website": "",
+"detail": "Occupant: Public use · Water Works",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183559,
+39.96635
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "City-owned historic house or site",
+"name": "Watering Committee Building",
+"address": "640 Water Works Dr",
+"phone": "",
+"website": "",
+"detail": "Occupant: Philadelphia Parks & Recreation · East Fairmount Park",
+"source_id": "phl_city_facilities_civic"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18368,
+39.966633
+]
+}
+}
+]
+}

@@ -1,0 +1,505 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community center",
+"name": "Abbottsford Homes Community Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_community_centres"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180441,
+40.011343
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community center",
+"name": "Center in the Park",
+"address": "5710 Germantown Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_community_centres"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.17646,
+40.036603
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community center",
+"name": "Community Education Center",
+"address": "3500 Lancaster Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_community_centres"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192626,
+39.957701
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community center",
+"name": "Curtis Hall",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_community_centres"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.150818,
+40.086254
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community center",
+"name": "E R Tustin Community Center",
+"address": "5901 West Columbia Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_community_centres"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.240967,
+39.981789
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community center",
+"name": "Emmanuel Advancement Center",
+"address": "401 Lindley Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_community_centres"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.130567,
+40.029259
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community center",
+"name": "Grace Tabernacle Christian Lifestyle Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_community_centres"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.217029,
+39.939186
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community center",
+"name": "Holy Temple Community Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_community_centres"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.23936,
+39.967967
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community center",
+"name": "LaMott Community Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_community_centres"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.141908,
+40.067291
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community center",
+"name": "Lucien Blackwell Community Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_community_centres"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21481,
+39.965556
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community center",
+"name": "Mill Creek Community Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_community_centres"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.215613,
+39.96618
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community center",
+"name": "North Light Community Center",
+"address": "179 Green Lane, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_community_centres"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224265,
+40.028706
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community center",
+"name": "Penn-Drexel Newman Center",
+"address": "111 South 38th Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_community_centres"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.197983,
+39.954474
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community center",
+"name": "Sharon Community Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_community_centres"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.240743,
+39.950843
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community center",
+"name": "Sturgis Community Center",
+"address": "200 West 65th Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_community_centres"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.123592,
+40.049127
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community center",
+"name": "The Cedar Works",
+"address": "4925 Pentridge Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_community_centres"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.222055,
+39.947509
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community center",
+"name": "The Scout House",
+"address": "726 Wigard Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_community_centres"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225408,
+40.053532
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community center",
+"name": "Von Colin Community Center Building",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_community_centres"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.176244,
+39.963925
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Community center",
+"name": "West Philadelphia Community Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_community_centres"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.193816,
+39.963649
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Fraternal or social club",
+"name": "Alpha Phi",
+"address": "4045 Walnut Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_community_centres"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.204843,
+39.954647
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Fraternal or social club",
+"name": "Loyal Order of Odd Fellows",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_community_centres"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.174126,
+40.035542
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Veterans post",
+"name": "Adam Kowalski Post #1",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_community_centres"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.207224,
+40.024559
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Veterans post",
+"name": "American Legion",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_community_centres"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.223643,
+40.03893
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Veterans post",
+"name": "American Legion Hall Post 355",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_community_centres"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.244358,
+40.018663
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Veterans post",
+"name": "Hattal-Taylor VFW Post 333",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_community_centres"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.217988,
+40.030907
+]
+}
+}
+]
+}

@@ -1,0 +1,2485 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register historic district",
+"name": "Drexel Development Historic District",
+"address": "Roughly bounded by Pine, Delancy, 39th and 40th Sts.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997202",
+"detail": "Listed 1982-11 · NRIS 82001546",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.202262,
+39.950857
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register historic district",
+"name": "Old Germantown Academy And Headmasters' Houses",
+"address": "Schoolhouse Lane and Greene St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997258",
+"detail": "Listed 1972-01 · NRIS 72001168",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.173799,
+40.032884
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register historic district",
+"name": "Peale, Charles Willson, House",
+"address": "2100 Clarkson Ave.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71994323",
+"detail": "Listed 1966-10 · NRIS 66000687",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.155259,
+40.038178
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register historic district",
+"name": "Sansom Row",
+"address": "3402--3436 Sansom St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997002",
+"detail": "Listed 1977-12 · NRIS 77001190",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192553,
+39.953396
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register historic district",
+"name": "Woodland Terrace",
+"address": "501-519, 500-520 Woodland Ter.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997426",
+"detail": "Listed 1972-03 · NRIS 72001176",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.204832,
+39.94905
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "32nd St. and Lancaster Ave. Philadelphia Armory",
+"address": "Jct. of 32nd St. and Lancaster Ave.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993819",
+"detail": "Listed 1991-11 · NRIS 91001703",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18987,
+39.957094
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Bell Telephone Exchange Building",
+"address": "8-12 N. Preston St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997446",
+"detail": "Listed 2002-03 · NRIS 02000227",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203688,
+39.957882
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Bellevue Worsted Mills",
+"address": "5115-5139 Belfield Ave.",
+"phone": "",
+"website": "",
+"detail": "Listed 2021-09 · NRIS 100006880",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.159417,
+40.037242
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Belmont Mansion",
+"address": "Both banks of Schuylkill River and Wissahickon Creek, from Spring Garden St. to Northwestern Ave.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997246",
+"detail": "Listed 1972-02 · NRIS 72001151",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.213658,
+39.990863
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Belmont School",
+"address": "4030--4060 Brown St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993631",
+"detail": "Listed 1988-11 · NRIS 88002245",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.204534,
+39.96689
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Birney, Gen. David B., School",
+"address": "900 W. Lindley St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993699",
+"detail": "Listed 1988-11 · NRIS 88002246",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.1385,
+40.029336
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Blankenburg, Reudolph, School",
+"address": "4600 Girard Ave.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993541",
+"detail": "This school site (Rudolph Blankenburg School) · Listed 1988-11 · NRIS 88002248",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21509,
+39.972457
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Breslyn Apartments",
+"address": "4624-4642 Walnut St., 201-213 S. 47th St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71996944",
+"detail": "Listed 1982-11 · NRIS 82001544",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.215037,
+39.955429
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Brooks, George L., School",
+"address": "5629--5643 Haverford Ave.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993605",
+"detail": "Listed 1986-12 · NRIS 86003266",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.233579,
+39.968277
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Centennial National Bank",
+"address": "3200 Market St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997014",
+"detail": "Listed 1971-03 · NRIS 71000721",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.186937,
+39.955027
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Central High School",
+"address": "Olney and Ogontz Aves.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993765",
+"detail": "Listed 1986-12 · NRIS 86003267",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.138399,
+40.037445
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Clarkson-Watson House",
+"address": "5275-5277 Germantown Ave.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997154",
+"detail": "Listed 1973-04 · NRIS 73001661",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.168629,
+40.03227
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Cliffs, The",
+"address": "East Fairmount Park near 33rd St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71996958",
+"detail": "Listed 1972-03 · NRIS 72001147",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.194148,
+39.979432
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "College Hall, University Of Pennsylvania",
+"address": "Bounded by Walnut, Spruce, 34th, and 36th Sts.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997250",
+"detail": "Listed 1978-02 · NRIS 78002444",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189152,
+39.951419
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Conyngham-Hacker House",
+"address": "5214 Germantown Ave.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997030",
+"detail": "Listed 1972-01 · NRIS 72001149",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.167454,
+40.0311
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Cooke, Jay, Junior High School",
+"address": "4735 Old York Rd.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993727",
+"detail": "Listed 1988-11 · NRIS 88002259",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.14611,
+40.025543
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Delmar Apartments",
+"address": "319 W. Chelton Ave.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997460",
+"detail": "Listed 1982-11 · NRIS 82001545",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18128,
+40.029638
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Deshler-Morris House",
+"address": "5442 Germantown Ave.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997350",
+"detail": "Listed 1972-01 · NRIS 72000095",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.172406,
+40.033715
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Dobson, James, School",
+"address": "4665 Umbria St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993639",
+"detail": "Listed 1988-11 · NRIS 88002264",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.230277,
+40.031262
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Dunlap, Thomas, School",
+"address": "5031 Race St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993531",
+"detail": "Listed 1986-12 · NRIS 86003277",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.221618,
+39.962895
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Emlen, Eleanor Cope, School of Practice",
+"address": "6501 Chew St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993773",
+"detail": "Listed 1988-11 · NRIS 88002267",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.178062,
+40.054149
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "First Baptist Church of Germantown",
+"address": "40 East Price St.",
+"phone": "",
+"website": "",
+"detail": "Listed 2023-08 · NRIS 100009240",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.174458,
+40.037369
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Fitler School",
+"address": "SE Seymour and Knox Sts.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993607",
+"detail": "This school site (Fitler Academics Plus School) · Listed 1986-12 · NRIS 86003281",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.16627,
+40.026056
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Frank, Henry S., Memorial Synagogue",
+"address": "York and Tabor Rds.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71996948",
+"detail": "Listed 1983-07 · NRIS 83002267",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.143322,
+40.037079
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Fulton, Robert, School",
+"address": "60--68 E. Haines St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993677",
+"detail": "Listed 1986-12 · NRIS 86003284",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.174976,
+40.039378
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Furness Library",
+"address": "34th St. below Walnut on University of Pennsylvania campus",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997280",
+"detail": "Listed 1972-05 · NRIS 72001154",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192765,
+39.951582
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Germantown Fireproof Storage Warehouse",
+"address": "231-253 Church Ln.",
+"phone": "",
+"website": "",
+"detail": "Listed 2022-07 · NRIS 100007864",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.169622,
+40.036579
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Germantown Grammar School",
+"address": "McCallum and Haines Sts.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993619",
+"detail": "Listed 1986-12 · NRIS 86003287",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.177786,
+40.037932
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Germantown Grammar School (Boundary Increase)",
+"address": "45 W. Haines St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993613",
+"detail": "Listed 2006-05 · NRIS 06000430",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.178253,
+40.037571
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Gillespie, Elizabeth Duane, Junior High School",
+"address": "3901--3961 N. 18th St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993641",
+"detail": "Listed 1989-04 · NRIS 88002275",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.156279,
+40.013276
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Gratz, Simon, High School",
+"address": "3901--3961 N. 18th St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993643",
+"detail": "Listed 1989-04 · NRIS 88002276",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.156279,
+40.013276
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Grays Road Recreation Center",
+"address": "2501 Christian St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997292",
+"detail": "Listed 1988-04 · NRIS 88000448",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18462,
+39.942282
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Grumblethorpe",
+"address": "5267 Germantown Ave.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997032",
+"detail": "Listed 1972-03 · NRIS 72001155",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.168484,
+40.032045
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Grumblethorpe Tenant House",
+"address": "5269 Germantown Ave.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997034",
+"detail": "Listed 1972-06 · NRIS 72001156",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.16864,
+40.03212
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Haines, Hanson, House",
+"address": "4801 Springfield Ave.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71996988",
+"detail": "Listed 1985-01 · NRIS 85000179",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216647,
+39.946145
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Hajoca Corporation Headquarters and Showroom",
+"address": "3025 Walnut St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997438",
+"detail": "Listed 2003-02 · NRIS 03000079",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.185057,
+39.952507
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Hanna, William B., School",
+"address": "5720--5738 Media St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993478",
+"detail": "Listed 1986-12 · NRIS 86003288",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.235831,
+39.976282
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Happy Hollow Recreation Center",
+"address": "4740 Wayne Ave.",
+"phone": "",
+"website": "",
+"detail": "Listed 2014-04 · NRIS 14000184",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.165912,
+40.024385
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Harris Building",
+"address": "2121-41 Market St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997514",
+"detail": "Listed 2001-08 · NRIS 01000928",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.178619,
+39.952698
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Hatfield House",
+"address": "Fairmount Park, 33rd St. near Girard Ave.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71996946",
+"detail": "Listed 1972-03 · NRIS 72001157",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.188164,
+39.975568
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Henry, Charles Wolcott, School",
+"address": "601--645 W. Carpenter Ln.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993559",
+"detail": "Listed 1988-11 · NRIS 88002279",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196563,
+40.04592
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Holmes Junior High School",
+"address": "5429--5455 Chestnut St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993767",
+"detail": "Listed 1988-11 · NRIS 88002281",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.230739,
+39.959453
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Hotel Pennsylvania",
+"address": "3900 Chestnut St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997430",
+"detail": "Listed 2012-12 · NRIS 12001097",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.200022,
+39.957013
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Howe, Julia Ward, School",
+"address": "1301--1331 Grange St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993701",
+"detail": "Listed 1988-11 · NRIS 88002284",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.14251,
+40.041224
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Howell House",
+"address": "5218 Germantown Ave.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71996954",
+"detail": "Listed 1972-01 · NRIS 72001159",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.167571,
+40.03128
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Interstate Storage Warehouse",
+"address": "3935-61 Germantown Avenue",
+"phone": "",
+"website": "",
+"detail": "Listed 2025-04 · NRIS 100011702",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.152063,
+40.013634
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Ivy Lodge",
+"address": "29 E. Penn St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71996966",
+"detail": "Listed 1972-02 · NRIS 72001161",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.168048,
+40.034433
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Johnson, John, House",
+"address": "6306 Germantown Ave.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997038",
+"detail": "Listed 1972-01 · NRIS 72001162",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18122,
+40.043306
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Keystone Mill",
+"address": "201 Leverington Avenue",
+"phone": "",
+"website": "",
+"detail": "Listed 2024-07 · NRIS 100010575",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.226132,
+40.030952
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Kinsey, John L., School",
+"address": "Sixty-fifth Ave. and Limekiln Pike",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993466",
+"detail": "Listed 1986-12 · NRIS 86003297",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.152266,
+40.053285
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "La Blanche Apartments",
+"address": "5100 Walnut St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997396",
+"detail": "Listed 1985-03 · NRIS 85000470",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224172,
+39.956222
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Lea, Henry C., School of Practice",
+"address": "242 S. 47th St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993745",
+"detail": "Listed 1988-11 · NRIS 88002291",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216438,
+39.953984
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Leader Theater",
+"address": "4102-4104 Lancaster Ave.",
+"phone": "",
+"website": "",
+"detail": "Listed 2021-08 · NRIS 100006793",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.205844,
+39.964946
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Levering, William, School",
+"address": "5938 Ridge Ave.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993585",
+"detail": "This school site (Academy for the Middle Years at Northwest) · Listed 1988-11 · NRIS 88002292",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.213046,
+40.030845
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Logan Demonstration School",
+"address": "5000 N. 17th St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993779",
+"detail": "Listed 1988-11 · NRIS 88002293",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.151982,
+40.030941
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Lowell, James Russell, School",
+"address": "5801--5851 N. 5th St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993525",
+"detail": "Listed 1988-11 · NRIS 88002295",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.129028,
+40.040609
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Mann, William, School",
+"address": "1835--1869 N. 54th St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993561",
+"detail": "Listed 1988-11 · NRIS 88002297",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.231295,
+39.985401
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Marine Corps Depot of Supplies, Schuykill Warehouse",
+"address": "700-734 Schuykill Ave.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997524",
+"detail": "Listed 2004-11 · NRIS 04001228",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18691,
+39.945116
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Maxwell, Ebenezer, House",
+"address": "200 W. Tulpehocken St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997020",
+"detail": "Listed 1971-02 · NRIS 71000728",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183647,
+40.038283
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Mayfair House",
+"address": "401 W. Johnson St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997054",
+"detail": "Listed 1982-04 · NRIS 82003811",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191381,
+40.03728
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Meehan, Thomas, School",
+"address": "5347--5353 Pulaski St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993573",
+"detail": "Listed 1988-11 · NRIS 88002312",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.175415,
+40.027665
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Memorial Hall",
+"address": "West Fairmount Park",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71994329",
+"detail": "Listed 1976-12 · NRIS 76001665",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209197,
+39.979357
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Mennonite Meetinghouse",
+"address": "6119 Germantown Ave.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997536",
+"detail": "Listed 1973-07 · NRIS 73001663",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.178967,
+40.041354
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Milmoral",
+"address": "1150 Church Rd., Wyncote",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71996901",
+"detail": "Listed 2003-01 · NRIS 02001746",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.145965,
+40.084079
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Monastery, The",
+"address": "Fairmount Park, Kitchen's Lane at Wissahickon Creek",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997040",
+"detail": "Listed 1972-03 · NRIS 72001164",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203334,
+40.036088
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "National Bank of North Philadelphia",
+"address": "3701 N. Broad St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71996940",
+"detail": "Listed 1985-05 · NRIS 85001131",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.148655,
+40.009683
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Oaks Cloister",
+"address": "5829 Wissahickon Ave & 3 Lehman Ln.",
+"phone": "",
+"website": "",
+"detail": "Listed 2019-04 · NRIS 100003636",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.185275,
+40.02884
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Overbrook High School",
+"address": "Fifty-ninth and Lancaster Ave.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993599",
+"detail": "Listed 1986-12 · NRIS 86003313",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216674,
+39.954795
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Penn Wynn House",
+"address": "2201 Bryn Mawr Ave.",
+"phone": "",
+"website": "",
+"detail": "Listed 2017-08 · NRIS 100001572",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.226105,
+39.990353
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Pennell, Joseph, School",
+"address": "1800--1856 Nedro St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993655",
+"detail": "Listed 1988-11 · NRIS 88002309",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.150837,
+40.043196
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Pennsylvania Railroad Freight Building",
+"address": "3118-3198 Chestnut St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997564",
+"detail": "Listed 1999-10 · NRIS 99001291",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.198408,
+39.953837
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Pennsylvania Railroad Office Building",
+"address": "3175 John F. Kennedy Blvd.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997562",
+"detail": "Listed 2003-02 · NRIS 03000071",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.187408,
+39.955927
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Pennypacker, Samuel W., School",
+"address": "1800--1850 E. Washington Ln.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993657",
+"detail": "This school site (Samuel Pennypacker School) · Listed 1988-11 · NRIS 88002314",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.158976,
+40.065169
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Pinehurst Apartments",
+"address": "4511--4523 Pine and 324--334 S. Fourty-fifth Sts.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997058",
+"detail": "Listed 1987-01 · NRIS 86003571",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212802,
+39.951919
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Poth and Schmidt Development Houses",
+"address": "3306-3316 Arch St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997214",
+"detail": "Listed 1983-04 · NRIS 83002276",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190223,
+39.957635
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Poth, Frederick A., Houses,",
+"address": "15, 3301--3311 Powelton Ave.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997238",
+"detail": "Listed 1979-04 · NRIS 79002327",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189879,
+39.960473
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Powelton, The",
+"address": "3500--3520 Powelton Ave., 214--218 35th St., and 215--221 36th St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997144",
+"detail": "Listed 1978-12 · NRIS 78002452",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189878,
+39.959888
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Protestant Episcopal Church of the Saviour",
+"address": "Ludlow St. and 3723-3725 Chestnut St",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997094",
+"detail": "Listed 1979-08 · NRIS 79002328",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.198061,
+39.955549
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Regent-Rennoc Court",
+"address": "5100 blk. Regent St. & 1311--1327 S. 52nd St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997228",
+"detail": "Listed 1985-09 · NRIS 85002292",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.218036,
+39.941277
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Robeson, Paul, House",
+"address": "4951 Walnut St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997474",
+"detail": "Listed 2000-11 · NRIS 00001345",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.221363,
+39.95664
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Roosevelt, Theodore, Junior High School",
+"address": "430 E. Washington Ln.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993733",
+"detail": "Listed 1988-11 · NRIS 88002317",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.174881,
+40.048207
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Rowen, William, School",
+"address": "6801 N. 19th St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993591",
+"detail": "Listed 1988-11 · NRIS 88002318",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.148174,
+40.058696
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Schaeffer, Charles, School",
+"address": "Germantown Ave. and Abbottsford Rd.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993609",
+"detail": "Listed 1986-12 · NRIS 86003327",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.160178,
+40.027326
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Sharpless, William C., House",
+"address": "5446 Wayne Ave.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997068",
+"detail": "Listed 1983-12 · NRIS 83004249",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.176593,
+40.030095
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Shedwick, John, Development Houses",
+"address": "3433-3439 Lancaster Ave.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997212",
+"detail": "Listed 1982-03 · NRIS 82003814",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.179685,
+39.957561
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Shoemaker, William, Junior High School",
+"address": "1464--1488 N. Fifty-third St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993472",
+"detail": "Listed 1986-12 · NRIS 86003328",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.228216,
+39.975496
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Smyser and English Pharmacy",
+"address": "245-247 W. Chelten Ave.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997482",
+"detail": "Listed 2002-02 · NRIS 02000071",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180228,
+40.03063
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Special Troops Armory",
+"address": "5350 Ogontz Ave.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993821",
+"detail": "Listed 1991-11 · NRIS 91001702",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.151054,
+40.035447
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "St. Anthony Hall House",
+"address": "3637 Locust Walk, University of Pennsylvania",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71996936",
+"detail": "Listed 2005-02 · NRIS 05000064",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196106,
+39.955372
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "St. Anthony de Padua Parish School",
+"address": "2317--2333 Carpenter St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997256",
+"detail": "Listed 1992-05 · NRIS 92000400",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.186431,
+39.941152
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "St. Paul's Episcopal Church",
+"address": "Old York and Ashbourne Rds.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71995435",
+"detail": "Listed 1982-04 · NRIS 82003800",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.132721,
+40.071328
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "St. Peter's Episcopal Church of Germantown",
+"address": "6000 Wayne Ave.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997012",
+"detail": "Listed 1985-09 · NRIS 85001960",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183636,
+40.033959
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Steel Heddle Manufacturing Company Complex",
+"address": "2100 W Allegheny Ave",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997496",
+"detail": "Listed 2010-06 · NRIS 10000404",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.165938,
+40.005118
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Stenton",
+"address": "18th and Courtland Sts.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71994317",
+"detail": "Listed 1966-10 · NRIS 66000690",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.153763,
+40.024766
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Suffolk Manor Apartments",
+"address": "1414-1450 Clearview St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71996978",
+"detail": "Listed 2002-12 · NRIS 02001567",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.144969,
+40.04014
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Sulzberger, Mayer, Junior High School",
+"address": "701--741 N. 48th St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993737",
+"detail": "Listed 1988-11 · NRIS 88002328",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.215769,
+39.964708
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Tasty Baking Company Building",
+"address": "2801 W. Hunting Park Ave.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997498",
+"detail": "Listed 2011-09 · NRIS 11000648",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.175427,
+40.009402
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Thirtieth Street Station",
+"address": "W. River Dr., Market, 30th, and Arch Sts.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997424",
+"detail": "Listed 1978-06 · NRIS 78002456",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182023,
+39.955936
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "US Court House and Post Office Building",
+"address": "Jct. of Ninth and Markets Sts.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997066",
+"detail": "Listed 1990-10 · NRIS 90001540",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22556,
+39.950994
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "United States Post Office--Main Branch",
+"address": "2970 Market St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997354",
+"detail": "Listed 2006-09 · NRIS 06000782",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182514,
+39.955917
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Upsala",
+"address": "6430 Germantown Ave.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71996956",
+"detail": "Listed 1972-01 · NRIS 72001174",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.135253,
+40.046819
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "WFIL Studio",
+"address": "4548 Market St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997452",
+"detail": "Listed 1986-07 · NRIS 86002092",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212704,
+39.958046
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Wagner, Gen. Louis, Junior High School",
+"address": "Seventeenth and Chelton Sts.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993519",
+"detail": "This school site (General Louis Wagner School) · Listed 1986-12 · NRIS 86003340",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.147572,
+40.051489
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Watson, Sally, House",
+"address": "5128 Wayne Ave.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997004",
+"detail": "Listed 1982-03 · NRIS 82003818",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.169551,
+40.026052
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "West Philadelphia High School",
+"address": "4700 Walnut St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993781",
+"detail": "Listed 1986-12 · NRIS 86003345",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216674,
+39.954615
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "West Philadelphia Passenger Railway Company Carhouse",
+"address": "4100 Haverford Ave.",
+"phone": "",
+"website": "",
+"detail": "Listed 2021-04 · NRIS 100006370",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.205802,
+39.962513
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Wharton Street Memorial Methodist Episcopal Church and Sunday School",
+"address": "5337 Catharine St.",
+"phone": "",
+"website": "",
+"detail": "Listed 2019-12 · NRIS 100004703",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.230572,
+39.949723
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Wilde, John and Brother, Inc.",
+"address": "3737 Main St.",
+"phone": "",
+"website": "",
+"detail": "Listed 2013-04 · NRIS 13000258",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211803,
+40.01844
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Wissahickon",
+"address": "Schuyler & Queen Sts.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997190",
+"detail": "Listed 1983-11 · NRIS 83004257",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.177513,
+40.023156
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Wyck House",
+"address": "6026 Germantown Ave.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997022",
+"detail": "Listed 1971-10 · NRIS 71000736",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.178529,
+40.039893
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Wyoming Central Office of the Bell Telephone Company",
+"address": "4900 N. Broad St.",
+"phone": "",
+"website": "",
+"detail": "Listed 2015-05 · NRIS 15000219",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.147392,
+40.027783
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "YMCA of Germantown",
+"address": "5722 Greene St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997388",
+"detail": "Listed 1991-11 · NRIS 91001709",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.177778,
+40.034869
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (building)",
+"name": "Zion Baptist Church and Educational Annex",
+"address": "3600 and 3601-07 North Broad St.",
+"phone": "",
+"website": "",
+"detail": "Listed 2023-02 · NRIS 100008647",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.15203,
+40.00797
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (structure)",
+"name": "Belmont Avenue Bridge in Philadelphia",
+"address": "Belmont Ave. over Ramp B",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993799",
+"detail": "Listed 1988-06 · NRIS 88000843",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.217968,
+39.993535
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (structure)",
+"name": "Ridge Avenue Bridge in Philadelphia",
+"address": "Ridge Ave. over Wissahickon Creek",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993807",
+"detail": "Listed 1988-06 · NRIS 88000852",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206786,
+40.014819
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (structure)",
+"name": "Thirty-third Street Bridge in Philadelphia",
+"address": "Thirty-third St. over Master St.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993801",
+"detail": "Listed 1988-06 · NRIS 88000847",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189579,
+39.978809
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (structure)",
+"name": "University Avenue Bridge",
+"address": "1000 block S. University Ave.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997282",
+"detail": "Listed 1994-05 · NRIS 94000515",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.197436,
+39.941855
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (structure)",
+"name": "University Avenue Bridge",
+"address": "1000 block S. University Ave.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71997282",
+"detail": "Listed 1994-05 · NRIS 94000515",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196621,
+39.943208
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "National Register listing (structure)",
+"name": "Wissahickon Memorial Bridge",
+"address": "Henry Ave. over Wissahickon Dr.",
+"phone": "",
+"website": "https://catalog.archives.gov/id/71993797",
+"detail": "Listed 1988-06 · NRIS 88000807",
+"source_id": "nps_national_register"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195798,
+40.024208
+]
+}
+}
+]
+}

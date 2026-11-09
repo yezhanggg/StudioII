@@ -1,0 +1,165 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden (PPR-registered)",
+"name": "Fernhill Food Forest",
+"address": "500 W Abbottsford Ave",
+"phone": "",
+"website": "https://www.friendsoffernhill.com/",
+"detail": "Community food forest.",
+"source_id": "phl_registered_community_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.170115,
+40.01922
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden (PPR-registered)",
+"name": "Fisher Park Roots Garden",
+"address": "648 W Spencer Ave",
+"phone": "",
+"website": "https://www.facebook.com/fisherparkofphiladelphia/",
+"detail": "Community garden with 19 raised beds.",
+"source_id": "phl_registered_community_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.131771,
+40.04416
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden (PPR-registered)",
+"name": "Garden Court Community Garden",
+"address": "4710 Spruce St",
+"phone": "",
+"website": "https://gardencourtca.org/garden",
+"detail": "Community garden with 21 raised beds.",
+"source_id": "phl_registered_community_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216766,
+39.953327
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden (PPR-registered)",
+"name": "Hunting Park Community Garden",
+"address": "1249 W Hunting Park Ave",
+"phone": "",
+"website": "",
+"detail": "Community garden located in Hunting Park off of West Cayuga Street. The garden has 20 raised beds.",
+"source_id": "phl_registered_community_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.146341,
+40.017853
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden (PPR-registered)",
+"name": "Kingsessing Community Garden",
+"address": "1201 S 51st Street",
+"phone": "",
+"website": "",
+"detail": "Community garden under development.",
+"source_id": "phl_registered_community_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.217883,
+39.941971
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden (PPR-registered)",
+"name": "Pleasant Playground Community Garden",
+"address": "305 Slocum St",
+"phone": "",
+"website": "",
+"detail": "50 beds and a pollinator/flower area.",
+"source_id": "phl_registered_community_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181141,
+40.057644
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden (PPR-registered)",
+"name": "Schuylkill River Park Community Garden",
+"address": "300 S 25th St",
+"phone": "",
+"website": "http://www.srpcg.org/",
+"detail": "Community garden with 70 raised beds, surrounded by a flower garden along fence line.",
+"source_id": "phl_registered_community_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181539,
+39.94938
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "gardens_farms",
+"kind": "Community garden (PPR-registered)",
+"name": "The Neighbors Garden at Hatfield House",
+"address": "1223 N 33rd St",
+"phone": "",
+"website": "",
+"detail": "Community garden with communal beds.",
+"source_id": "phl_registered_community_gardens"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.188284,
+39.975712
+]
+}
+}
+]
+}

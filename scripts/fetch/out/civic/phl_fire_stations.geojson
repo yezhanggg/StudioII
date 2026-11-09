@@ -1,0 +1,305 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Fire station",
+"name": "Engine 12",
+"address": "4445 Main St",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_fire_stations"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.226426,
+40.026769
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Fire station",
+"name": "Engine 16",
+"address": "Belmont Ave & Viola St",
+"phone": "",
+"website": "",
+"detail": "Medic 26",
+"source_id": "phl_fire_stations"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212785,
+39.976759
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Fire station",
+"name": "Engine 19 / Ladder 8",
+"address": "E Chelten Ave & Baynton St",
+"phone": "",
+"website": "",
+"detail": "Medic 28 · Battalion 9",
+"source_id": "phl_fire_stations"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.171236,
+40.038866
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Fire station",
+"name": "Engine 41 / Ladder 24",
+"address": "N 61st St & W Thompson St",
+"phone": "",
+"website": "",
+"detail": "Medic 23",
+"source_id": "phl_fire_stations"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.24067,
+39.971139
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Fire station",
+"name": "Engine 44",
+"address": "3420 Haverford Ave",
+"phone": "",
+"website": "",
+"detail": "Medic 34",
+"source_id": "phl_fire_stations"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19264,
+39.963828
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Fire station",
+"name": "Engine 47",
+"address": "3031 Grays Ferry Ave",
+"phone": "",
+"website": "",
+"detail": "Medic 40",
+"source_id": "phl_fire_stations"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.194222,
+39.939393
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Fire station",
+"name": "Engine 5 / Ladder 6",
+"address": "N 43rd St & Market St",
+"phone": "",
+"website": "",
+"detail": "Battalion 11",
+"source_id": "phl_fire_stations"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.207587,
+39.958235
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Fire station",
+"name": "Engine 51 / Ladder 29",
+"address": "5931 Old York Rd",
+"phone": "",
+"website": "",
+"detail": "Medic 18 · Battalion 2",
+"source_id": "phl_fire_stations"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.144308,
+40.044319
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Fire station",
+"name": "Engine 57",
+"address": "S 56th St & Chestnut St",
+"phone": "",
+"website": "",
+"detail": "Medic 9B",
+"source_id": "phl_fire_stations"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.232896,
+39.959672
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Fire station",
+"name": "Engine 59 / Ladder 18",
+"address": "W Hunting Park Ave & Schuyler St",
+"phone": "",
+"website": "",
+"detail": "Medic 4B",
+"source_id": "phl_fire_stations"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.164777,
+40.011186
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Fire station",
+"name": "Engine 63",
+"address": "1210 Oak Ln",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_fire_stations"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.138227,
+40.054614
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Fire station",
+"name": "Engine 68 / Ladder 13",
+"address": "S 52nd St & Willows Ave",
+"phone": "",
+"website": "",
+"detail": "Medic 3 · Battalion 7",
+"source_id": "phl_fire_stations"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225018,
+39.946027
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Fire station",
+"name": "Engine 72",
+"address": "1127 W Louden St",
+"phone": "",
+"website": "",
+"detail": "Medic 24",
+"source_id": "phl_fire_stations"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.143237,
+40.025795
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Fire station",
+"name": "Engine 73",
+"address": "76th Ave & Ogontz Ave",
+"phone": "",
+"website": "",
+"detail": "Medic 33",
+"source_id": "phl_fire_stations"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.156751,
+40.069892
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "civic_safety",
+"kind": "Fire station",
+"name": "Ladder 30",
+"address": "Ridge Ave & Cinnaminson St",
+"phone": "",
+"website": "",
+"detail": "Medic 5",
+"source_id": "phl_fire_stations"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224636,
+40.03966
+]
+}
+}
+]
+}

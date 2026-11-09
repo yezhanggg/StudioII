@@ -1,0 +1,945 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "250 Miles Crossing Philadelphia",
+"address": "3737 Market Street",
+"phone": "",
+"website": "",
+"detail": "Esther Polak, Ivar Van Bekkum · 2014 · Digital, documentary and temporary banner · University City Science Center",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.197024,
+39.956967
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Balancing",
+"address": "3990 Market St, Philadelphia, PA 19104",
+"phone": "",
+"website": "",
+"detail": "Elsa Johnson Tarantal · 1983 · Metal, bronze · University City Townhouses",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20087,
+39.95659
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Big Screw (fountain and sculpture)",
+"address": "1796 St. Paul St",
+"phone": "",
+"website": "",
+"detail": "Jon Bogle · 1974 · Metal: Welded steel · Walkway",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.154959,
+40.019841
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Blueprint (2 works)",
+"address": "3737 Market Street",
+"phone": "",
+"website": "",
+"detail": "United Visual Artists · 2014 · Stainelss steel frame with programmed LED lights · University City Science Center",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.197024,
+39.956967
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Construction #66",
+"address": "3620 Walnut St",
+"phone": "",
+"website": "",
+"detail": "Jose De Rivera · 1959 · Metal: Chrome nickel steel-- welded shut tubing; motor in base · University of Pennsylvania Annenberg School of Communication",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195878,
+39.952796
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Dream of Sky",
+"address": "3675 Market StÂ",
+"phone": "",
+"website": "",
+"detail": "Timothy Duffield · 1976 · Mixed media: Cement, metal, annodized aluminum, fiberglass reinforced polyester resin with aluminum pigment · Founders Plaza",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195188,
+39.956813
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Face Fragment",
+"address": "3500 Market Street",
+"phone": "",
+"website": "",
+"detail": "Arlene Love · 1975 · Mixed media, fiberglass, reinforced polyester resin w/gold-leaf patina w/metal, brass (gold leaf over cold cast bronze) · University City Science Center",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.193064,
+39.955734
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Flame (Fountain)",
+"address": "3200 Race St",
+"phone": "",
+"website": "",
+"detail": "Sherl Joseph Winter · 1968 · Metal, bronze with stone, Belgian block fountain structure · Drexel University, Quadrangle North Hall",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.188411,
+39.958535
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Freedom Corner",
+"address": "5099 Germantown Ave, Philadelphia, PA 19144",
+"phone": "",
+"website": "",
+"detail": "James DuPree · 1995 · Concrete, paint · Freedom Square",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.164894,
+40.030639
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Generative Luminance",
+"address": "3737 Market Street",
+"phone": "",
+"website": "",
+"detail": "Soo Sunny Park · 2014 · Dichroic glass, wire mesh · University City Science Center",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.197024,
+39.956967
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Glyph of Nature",
+"address": "3550 Market Street",
+"phone": "",
+"website": "",
+"detail": "Jeffrey Roy Maron · 1986 · Metal, Copper alloy with patina · University City Science Center",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.193888,
+39.955845
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Grow Old Along With Me. The Best is Yet To Be (fountain sculpture)",
+"address": "3901 Market Street",
+"phone": "",
+"website": "",
+"detail": "Charles Cropper Parks · 1978 · Medium Unknown · University Square",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.200716,
+39.957411
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Helios (Helical Form)",
+"address": "31 West Coulter Street",
+"phone": "",
+"website": "",
+"detail": "William P. Daley · 1971 · Metal: Bronze, Tomasil · Germantown Friends School, science classroom building",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.172174,
+40.032585
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Homage to Performing Art",
+"address": "3680 Walnut Street",
+"phone": "",
+"website": "",
+"detail": "Harry Bertoia · 1975 · Metal: Bronze, steel, tensile spandrel · Annenberg Center for the Performing Arts",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195878,
+39.952796
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "In The Garden",
+"address": "3501 Market Street",
+"phone": "",
+"website": "",
+"detail": "Jennifer Losch Bartlett · 1980 · Metal, steel plates, painted enamel and silkscreen grid · Institute for Scientific Information, main lobby (interior)",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192696,
+39.956508
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Infinity Grid (6 Elements)",
+"address": "3701 Chestnut Street",
+"phone": "",
+"website": "",
+"detail": "Dale Eldred · 1982 · Plastic · International House of Philadelphia (interiror)",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196944,
+39.955393
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Light Matrix",
+"address": "3601 Market Street",
+"phone": "",
+"website": "",
+"detail": "Leo Villareal · 2015 · LED light array in exterior canopy · <Null>",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.194552,
+39.956764
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Lightning Bolts",
+"address": "5821 Baynton St, Philadelphia, PA 19144",
+"phone": "",
+"website": "",
+"detail": "Harold Kimmelman · 1973 · Metal, stainless steel · <Null>",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.172911,
+40.04013
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Magnolia Blossom",
+"address": "5915 Magnolia Street",
+"phone": "",
+"website": "",
+"detail": "Harold Kimmelman · 1969 · Metal, stainless steel · Magnolia Mews",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.170792,
+40.045087
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Marsh Bird Resting",
+"address": "5201 Haverford Ave, Philadelphia, PA 19139",
+"phone": "",
+"website": "",
+"detail": "James Fuhrman · 1976 · Medium unknown (concrete?) · F.L.W.G. Comprehensive Health Center",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225107,
+39.965441
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Mural",
+"address": "5500 Haverford Ave",
+"phone": "",
+"website": "",
+"detail": "Artist Unknown with local residents · 1972 · Medium unknown · Redevelopment Aurhority Site Office",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.23034,
+39.966609
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Mural: A Celebration of Working Parents and Their Children",
+"address": "3501 Filbert Street",
+"phone": "",
+"website": "",
+"detail": "Lilli Ann Killen Rosenberg · 1982 · Mixed media, concrete & mosaic tiles, found objects; bas-relief mural (72 panels) · ISI Caring Center for Children and Parents",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19337,
+39.957249
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Mural: Celebration",
+"address": "3620 Walnut Street",
+"phone": "",
+"website": "",
+"detail": "Sam Maitin · Wood, painted · University of Pennsylvania, Annenberg School of Communications, lobby (interior)",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195878,
+39.952796
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Mural: West Philadelphia",
+"address": "3501 Market Street",
+"phone": "",
+"website": "",
+"detail": "Edith Neff · Paint, oil on canvas · University City Science Center, lobby (center)",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192696,
+39.956508
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Mushroom",
+"address": "3535 Science Center",
+"phone": "",
+"website": "",
+"detail": "Rob Fisher · 1977 · Mixed media: metal, flame retardant fiberglass and steel · Gateway Building/University City Science Center",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19366,
+39.956539
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Nocturnis",
+"address": "3400 W Girard Ave",
+"phone": "",
+"website": "",
+"detail": "Donald R. Miller · Metal, nickel (or bronze w/nickel) · Philadelphia Zoological Gardens, Small Mammal House (interior)",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195996,
+39.971571
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Pivot Park",
+"address": "3675 Market Street",
+"phone": "",
+"website": "",
+"detail": "(Mike Szivos lead artist) Softlab · 2019 · Powder-coated metal 'trees' · UCSC Pocket Park",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195188,
+39.956813
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Plateau",
+"address": "nan",
+"phone": "",
+"website": "",
+"detail": "Andrea Blum · 2006 · Steel, · University of Pennsylvania",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.201501,
+39.953396
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Puma",
+"address": "3101 Spring Garden St",
+"phone": "",
+"website": "",
+"detail": "Eric Berg · 1983 · Metal: Bronze · The Caring Center",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.187833,
+39.963645
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Quadrature #1",
+"address": "T. G. Miller Plaza, Hamilton Walk, between HUP and Med Ed Bldg.",
+"phone": "",
+"website": "",
+"detail": "Robert Engman · 1984 · Metal, steel, painted; four pieces, twisted · University of Pennsylvania Hospital, T.G. Miller Plaza",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.194138,
+39.949896
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Refractive Light Spine",
+"address": "3675 Market St",
+"phone": "",
+"website": "",
+"detail": "James Carpenter · 1989 · Dichronic glass and metal, stainless steel · University City Science Center (interior)",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195188,
+39.956813
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Regional Ricky",
+"address": "68 W Chelten Ave",
+"phone": "",
+"website": "",
+"detail": "Stewart Zane Paul · 1978 · Wood, carved, red oak w/ butternut, walnut, maple, and white oak · Northwest Regional Library (interior)",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.176033,
+40.034068
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Running Free",
+"address": "3301 Market St",
+"phone": "",
+"website": "",
+"detail": "Henry Mitchell · 1975 · Metal, bronze · Drexel University, Physical Education Center",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190331,
+39.956469
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Sgraffito",
+"address": "3990 Market St, Philadelphia, PA 19104",
+"phone": "",
+"website": "",
+"detail": "Michael Webb · 1983 · Glass, sgraffito on bay windows, stucco · University City Townhouses",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20087,
+39.95659
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Split Button",
+"address": "3420 Walnut St",
+"phone": "",
+"website": "",
+"detail": "Claes Thure Oldenberg, Coosje van Bruggen · 1981 · Metal, aluminum, painted (white) with enamel · University of Pennsylvania, near Van Pelt Library",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.193972,
+39.952699
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Stardom",
+"address": "3680 Walnut Street",
+"phone": "",
+"website": "",
+"detail": "Michael Langenstein · 1972 · Paint, acrylic on canvas (shaped) · University of Pennsylvania Annenberg Center, Zellerbach Theater, lobby (interior)",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195878,
+39.952796
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Striving",
+"address": "3801 Market Street",
+"phone": "",
+"website": "",
+"detail": "Charles Searles · 1995 · Bronze · First Dist. Plaza, Headquarters First Episcopal Dist, African Methodist Episcopal Church",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19854,
+39.957157
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "The Journeyer",
+"address": "100 N Horticulture Drive",
+"phone": "",
+"website": "",
+"detail": "Lindsay Daen · 1975 · Metal: Bronze · West Fairmount Park, Horticulture Center",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209488,
+39.983513
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Title Unknown",
+"address": "5601 Vine St",
+"phone": "",
+"website": "",
+"detail": "Richard Blake · 1981 · Metal: Aluminium tubing · Progress Haddington Plaza",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.232778,
+39.966526
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Title Unknown (2 elements)",
+"address": "3440 Market Street",
+"phone": "",
+"website": "",
+"detail": "Jean Nordlund · 1982 · Textile, dyed wool, two layers thick, 6 vertical sections · University City Science Center, E. and W. lobby walls (interior)",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192484,
+39.955622
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Title Unknown (ceramic frieze)",
+"address": "34 West Coulter Street",
+"phone": "",
+"website": "",
+"detail": "Glenda Lou Frye, 24 students aged 6-18 · 1985 · Tile: Clay, silkscreened and handbuilt; hand-colored with glass-like surface of ceramic glazes · Prints in Progress Germantown Workshop",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.171228,
+40.03228
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Title Unknown (stained glass window)",
+"address": "3637 Chestnut St.",
+"phone": "",
+"website": "",
+"detail": "Willet Stained Glass Studios · 1970 · Medium unknown · Lutheran Chapel and Student Center",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196147,
+39.955326
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Title Unknown (tile mural)",
+"address": "3440 Market Street",
+"phone": "",
+"website": "",
+"detail": "Farley Tobin · 1982 · Tile, glazed and unglazed · University City Science Center, lobby (interior)",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192484,
+39.955622
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Two Hands",
+"address": "55 N 40th St e16, Philadelphia, PA 19104",
+"phone": "",
+"website": "",
+"detail": "Greenberg, Joseph J., Jr. · 1973 · Medium Unknown · Center Post Apartments",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.201445,
+39.958444
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Voyager",
+"address": "3680 Walnut Street",
+"phone": "",
+"website": "",
+"detail": "Seymour Lipton · Metal, nickel silver on monel metal · University of Pennsylvania Annenberg Center of Communication Arts and Sciences, lobby (interior)",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195878,
+39.952796
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Wave Forms",
+"address": "3411 Chestnut St",
+"phone": "",
+"website": "",
+"detail": "Dennis Oppenheim · 2007 · Domus Building",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192708,
+39.954832
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art (Percent for Art)",
+"name": "Wind Helix",
+"address": "3750 Market Street",
+"phone": "",
+"website": "",
+"detail": "Roy Wilson · 1994 · Steel, aluminum vanes · National Board of Medical Examiners",
+"source_id": "phl_percent_for_art"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19662,
+39.956089
+]
+}
+}
+]
+}

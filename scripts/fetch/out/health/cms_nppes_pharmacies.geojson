@@ -1,0 +1,765 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.234491,
+     39.960099
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Aspire Rx",
+    "address": "5627 Chestnut St # 99",
+    "phone": "215-474-1163",
+    "website": "",
+    "detail": "NPI 1922389840 · record updated 2025-10-06",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.123915,
+     40.043621
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "B & A Pharmacy",
+    "address": "201 W Spencer Ave",
+    "phone": "215-309-5701",
+    "website": "",
+    "detail": "NPI 1215307772 · record updated 2026-04-13",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.225592,
+     39.955055
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Best Care Pharmacy II",
+    "address": "269 S 52nd St",
+    "phone": "267-292-4114",
+    "website": "",
+    "detail": "NPI 1609396621 · record updated 2022-07-21",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.128943,
+     40.045197
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "CVS Pharmacy #00771",
+    "address": "6150 N 5th St",
+    "phone": "215-548-1110",
+    "website": "",
+    "detail": "NPI 1861596603 · record updated 2026-02-24",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.157635,
+     40.070185
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Citimed Pharmacy",
+    "address": "7606 Ogontz Ave",
+    "phone": "215-224-7100",
+    "website": "",
+    "detail": "NPI 1154753622 · record updated 2025-07-28",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.145088,
+     40.039397
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Delco Pharmacy",
+    "address": "5604 N Broad St",
+    "phone": "215-927-0224",
+    "website": "",
+    "detail": "NPI 1104980952 · record updated 2024-02-23",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.222154,
+     39.947816
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Emax Pharmacy",
+    "address": "4918 Baltimore Ave",
+    "phone": "267-455-2153",
+    "website": "",
+    "detail": "NPI 1003401134 · record updated 2026-08-20",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.161106,
+     40.013166
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Greater Philadelphia Pharmacy",
+    "address": "1999 W Hunting Park Ave",
+    "phone": "267-388-1660",
+    "website": "",
+    "detail": "NPI 1427884428 · record updated 2024-09-09",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.214139,
+     39.939206
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Greater Philadelphia Pharmacy",
+    "address": "5000 Woodland Ave",
+    "phone": "267-297-3782",
+    "website": "",
+    "detail": "NPI 1972474534 · record updated 2025-09-16",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.146671,
+     40.028508
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Green Pharmacy and Store",
+    "address": "4931 N Broad St",
+    "phone": "267-996-8770",
+    "website": "",
+    "detail": "NPI 1073205969 · record updated 2023-05-22",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.232078,
+     40.044262
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Jaffes Drug Store",
+    "address": "7150 Ridge Ave",
+    "phone": "215-483-0900",
+    "website": "",
+    "detail": "NPI 1598862435 · record updated 2025-09-11",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.151032,
+     40.068353
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Journic Medical Health",
+    "address": "7439 N 21st St",
+    "phone": "786-509-5082",
+    "website": "",
+    "detail": "NPI 1790692804 · record updated 2026-08-25",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.151074,
+     40.01108
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Just Here Pharmacy",
+    "address": "3800 N Broad St",
+    "phone": "215-228-3470",
+    "website": "",
+    "detail": "NPI 1922245315 · record updated 2025-09-19",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.206346,
+     39.965866
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Lancaster Pharmacy",
+    "address": "4127 Lancaster Ave",
+    "phone": "215-921-8778",
+    "website": "",
+    "detail": "NPI 1598078602 · record updated 2025-09-17",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.239617,
+     39.976203
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Ln Pharmacy",
+    "address": "5927 Lansdowne Ave Fl 1",
+    "phone": "215-473-0750",
+    "website": "",
+    "detail": "NPI 1104274406 · record updated 2025-06-04",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.202124,
+     39.958049
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "My Pharmacy",
+    "address": "20-24 N 40th St",
+    "phone": "215-222-1288",
+    "website": "",
+    "detail": "NPI 1558620773 · record updated 2025-10-16",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.140514,
+     40.055875
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Oaklane Pharmacy",
+    "address": "6724 Old York Rd",
+    "phone": "215-924-9929",
+    "website": "",
+    "detail": "NPI 1942751417 · record updated 2026-07-20",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.230195,
+     39.952128
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "PHMC Pharmacy",
+    "address": "501 S 54th St Fl 2",
+    "phone": "215-240-4820",
+    "website": "",
+    "detail": "NPI 1447082136 · record updated 2024-08-20",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.190751,
+     40.043636
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Pelham Pharmacy",
+    "address": "6555 Greene St Ste 3",
+    "phone": "215-848-0500",
+    "website": "",
+    "detail": "NPI 1083994925 · record updated 2022-06-16",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.144393,
+     40.03845
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Primary Choice Pharmacy",
+    "address": "5575 Old York Rd",
+    "phone": "215-437-9043",
+    "website": "",
+    "detail": "NPI 1194126128 · record updated 2025-07-08",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.173436,
+     40.079195
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Prime Health Pharmacy",
+    "address": "1514 E Wadsworth Ave",
+    "phone": "267-331-5490",
+    "website": "",
+    "detail": "NPI 1952035446 · record updated 2022-07-12",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.172563,
+     40.015852
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Ritechoice Pharmacy IV",
+    "address": "4700 Wissahickon Ave",
+    "phone": "267-336-7506",
+    "website": "",
+    "detail": "NPI 1457890113 · record updated 2025-10-30",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.14403,
+     40.038354
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Rxd Medication Services",
+    "address": "1335 West Tabor Road",
+    "phone": "215-927-6700",
+    "website": "",
+    "detail": "NPI 1174544126 · record updated 2023-03-07",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.21192,
+     40.030933
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Sav-On Pharmacy #2762",
+    "address": "5927 Ridge Ave",
+    "phone": "215-487-3419",
+    "website": "",
+    "detail": "NPI 1346296845 · record updated 2026-05-13",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.144622,
+     40.030408
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Shop and Carry Pharmacy",
+    "address": "1301 Lindley Ave",
+    "phone": "267-297-5030",
+    "website": "",
+    "detail": "NPI 1578952156 · record updated 2023-09-15",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.225049,
+     39.965438
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Spectrum Health Rx",
+    "address": "5201 Haverford Ave Fl 1",
+    "phone": "215-472-9100",
+    "website": "",
+    "detail": "NPI 1164300901 · record updated 2026-05-13",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.209646,
+     39.954038
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Sunny Pharmacy",
+    "address": "4307 Locust St",
+    "phone": "610-888-4714",
+    "website": "",
+    "detail": "NPI 1053295006 · record updated 2025-09-30",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.209646,
+     39.954038
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Sunny Pharmacy 2 (retail)",
+    "address": "4307 Locust St",
+    "phone": "610-259-0660",
+    "website": "",
+    "detail": "NPI 1902773997 · record updated 2025-10-22",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.225704,
+     39.957148
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Sunray Drug Store",
+    "address": "142 S 52nd Street",
+    "phone": "215-474-4615",
+    "website": "",
+    "detail": "NPI 1437170875 · record updated 2025-09-25",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.193845,
+     39.948781
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Hospital outpatient pharmacy",
+    "name": "The Childrens Hospital of Philadelphia",
+    "address": "3401 Civic Center Blvd",
+    "phone": "267-425-8888",
+    "website": "",
+    "detail": "NPI 1760576052 · record updated 2026-10-26",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.212574,
+     39.94121
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "The New Pharmacy",
+    "address": "4835 Woodland Ave # 1",
+    "phone": "215-883-0568",
+    "website": "",
+    "detail": "NPI 1770850448 · record updated 2025-02-05",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.196158,
+     39.945995
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Hospital outpatient pharmacy",
+    "name": "Trustees of the University of Pennsylvania",
+    "address": "3600 Civic Center Blvd",
+    "phone": "215-662-7911",
+    "website": "",
+    "detail": "NPI 1083450126 · record updated 2024-07-08",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.222842,
+     39.941398
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Unicare Pharmacy",
+    "address": "1300 S 53rd St",
+    "phone": "267-703-2488",
+    "website": "",
+    "detail": "NPI 1124858857 · record updated 2025-11-09",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.148799,
+     40.017262
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Walgreens #04115",
+    "address": "4201 N Broad St",
+    "phone": "215-457-3877",
+    "website": "",
+    "detail": "NPI 1033124029 · record updated 2024-10-08",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.176493,
+     40.033218
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Walgreens #21323",
+    "address": "112 W Chelten Ave",
+    "phone": "215-848-4651",
+    "website": "",
+    "detail": "NPI 1235144122 · record updated 2026-10-14",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.193889,
+     39.955816
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Walgreens Specialty Pharmacy #21251",
+    "address": "3550 Market St Ste 103",
+    "phone": "267-892-3107",
+    "website": "",
+    "detail": "NPI 1508410531 · record updated 2025-01-30",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.181361,
+     40.028871
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Wedo Pahrmacy",
+    "address": "402 W Chelten Ave",
+    "phone": "215-843-2525",
+    "website": "",
+    "detail": "NPI 1285765388 · record updated 2025-09-11",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.228561,
+     39.951396
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "West Town Pharmacy",
+    "address": "5259 Rodman St",
+    "phone": "215-921-9346",
+    "website": "",
+    "detail": "NPI 1588119630 · record updated 2022-08-10",
+    "source_id": "cms_nppes_pharmacies"
+   }
+  }
+ ]
+}

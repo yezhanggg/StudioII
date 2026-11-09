@@ -1,0 +1,1305 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Belmont Plateau Trails Alliance",
+"address": "1800 Belmont Mansion Dr, Philadelphia, PA 19131",
+"phone": "",
+"website": "https://www.belmonttrails.org",
+"detail": "Supports West Fairmount Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209694,
+39.989488
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Boarders & Stewards of the Monastery",
+"address": "1091 Kitchens Ln, Philadelphia, PA 19119",
+"phone": "",
+"website": "https://www.monasterystables.org",
+"detail": "Supports Wissahickon Valley Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.204237,
+40.036056
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Brewerytown Garden",
+"address": "1341 N 27th St, Philadelphia, PA 19121",
+"phone": "",
+"website": "https://www.brewerytowngarden.com/",
+"detail": "Supports Brewerytown Garden",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.179681,
+39.977045
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Cedar Park Neighbors",
+"address": "4917 Baltimore Ave, Philadelphia, PA 19143",
+"phone": "",
+"website": "https://www.cedarparkneighbors.org",
+"detail": "Supports Cedar Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.222629,
+39.948214
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "DC/AC Friends of Cliveden Park",
+"address": "501 E Johnson St, Philadelphia, PA 19119",
+"phone": "",
+"website": "",
+"detail": "Supports Cliveden Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.177189,
+40.051758
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "East Falls River Landing Friends Group",
+"address": "4530 Kelly Drive, Philadelphia, PA 19129",
+"phone": "",
+"website": "https://www.facebook.com/efrlfg",
+"detail": "Supports East Fairmount Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20008,
+40.010003
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Fisher Park Community Alliance",
+"address": "572 W Spencer St, Philadelphia, PA 19120",
+"phone": "",
+"website": "https://www.facebook.com/share/17whku58kw/?mibextid=wwxifr",
+"detail": "Supports Fisher Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.131066,
+40.043548
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Barkan Park",
+"address": "4998 Spruce St, Philadelphia, PA 19143",
+"phone": "",
+"website": "",
+"detail": "Supports Ben Barkan Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.221615,
+39.953841
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Boone Park",
+"address": "4200 Boone St, Philadelphia, PA 19128",
+"phone": "",
+"website": "https://www.facebook.com/groups/friendsofboonepark",
+"detail": "Supports Boone Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.218188,
+40.025104
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Carpenters Woods",
+"address": "801 W Sedgwick St, Philadelphia, PA 19119",
+"phone": "",
+"website": "https://www.facebook.com/carpenterswoods",
+"detail": "Supports Carpenters Woods",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.200918,
+40.04627
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Carroll Park",
+"address": "5801 W Girard Ave, Philadelphia, PA 19131",
+"phone": "",
+"website": "https://www.facebook.com/carrollparkfriends",
+"detail": "Supports Carroll Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.236706,
+39.971141
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Centennial Lake",
+"address": "nan, Philadelphia, PA 19131",
+"phone": "",
+"website": "",
+"detail": "Supports West Fairmount Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216094,
+39.981952
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Clark Park",
+"address": "4301 Chester Ave, Philadelphia, PA 19104",
+"phone": "",
+"website": "https://www.friendsofclarkpark.org/",
+"detail": "Supports Clarence H Clark Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209849,
+39.948988
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Cloverly Park",
+"address": "5425 Wissahickon Ave, Philadelphia, PA 19144",
+"phone": "",
+"website": "https://www.friendsofcloverlypark.org/",
+"detail": "Supports Cloverly Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180808,
+40.025661
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Coxe Park",
+"address": "2132 Cherry St, Philadelphia, PA 19103",
+"phone": "",
+"website": "",
+"detail": "Supports Coxe Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.175563,
+39.956732
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Fairview Park",
+"address": "4418 Manayunk Ave, Philadelphia, PA 19128",
+"phone": "",
+"website": "https://www.facebook.com/friendsoffairviewpark",
+"detail": "Supports Fairview Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.220162,
+40.030451
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Fernhill Park",
+"address": "4600 Morris St, Philadelphia, PA 19144",
+"phone": "",
+"website": "",
+"detail": "Supports Fernhill Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.168059,
+40.019203
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Fitler Square Park",
+"address": "2301 Pine St, Philadelphia, PA 19103",
+"phone": "",
+"website": "https://www.fitlersquare.org",
+"detail": "Supports Fitler Square",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.179783,
+39.947599
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Garden Court",
+"address": "4710 Spruce St, Philadelphia, PA 19143",
+"phone": "",
+"website": "https://www.gardencourtca.org",
+"detail": "Supports Garden Court",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216571,
+39.953233
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Germany Hill",
+"address": "4849 Smick St, Philadelphia, PA 19128",
+"phone": "",
+"website": "",
+"detail": "Supports Germany Hill",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.230725,
+40.033949
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Gilbert Stuart Park",
+"address": "5132 Germantown Ave, Philadelphia, PA 19144",
+"phone": "",
+"website": "https://www.sologermantown.com",
+"detail": "Supports Gilbert Stuart Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.166874,
+40.030756
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Gorgas Park",
+"address": "6424 Ridge Ave, Philadelphia, PA 19128",
+"phone": "",
+"website": "https://www.gorgaspark.com",
+"detail": "Supports Susan Gorgas Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.221444,
+40.036453
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Howell Park",
+"address": "5215 Greene St, Philadelphia, PA 19144",
+"phone": "",
+"website": "https://www.fojsp.org",
+"detail": "Supports Howell Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.168529,
+40.030523
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Inn Yard Park",
+"address": "4250 Ridge Ave, Philadelphia, PA 19129",
+"phone": "",
+"website": "",
+"detail": "Supports Inn Yard Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195264,
+40.009109
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Julian Abele Park",
+"address": "923 S 22nd St, Philadelphia, PA 19146",
+"phone": "",
+"website": "https://www.julianabelepark.org/",
+"detail": "Supports Julian Abele Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.17931,
+39.940917
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of June 5th Memorial Park",
+"address": "2140 Market St, Philadelphia, PA 19103",
+"phone": "",
+"website": "",
+"detail": "Supports June 5th Memorial Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.176596,
+39.953694
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Kelly Park",
+"address": "440 Parker Ave, Philadelphia, PA 19128",
+"phone": "",
+"website": "https://www.facebook.com/groups/friendsofkellypark/",
+"detail": "Supports Joseph V Kelly Memorial Playground",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.228174,
+40.041767
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of La Noce Park",
+"address": "5119 Rochelle Ave, Philadelphia, PA 19128",
+"phone": "",
+"website": "",
+"detail": "Supports Sabatino La Noce Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210735,
+40.017734
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Lanier Park",
+"address": "1600 S 29th St, Philadelphia, PA 19145",
+"phone": "",
+"website": "https://www.facebook.com/groups/friendsoflanierpark",
+"detail": "Supports William Lanier Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.193234,
+39.933406
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Loudoun",
+"address": "4650 Germantown Ave, Philadelphia, PA 19144",
+"phone": "",
+"website": "https://www.sologermantown.com",
+"detail": "Supports Loudoun Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.161099,
+40.025632
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Malcolm X Park",
+"address": "5100 Pine St, Philadelphia, PA 19143",
+"phone": "",
+"website": "https://www.friendsofmalcolmxpark.org",
+"detail": "Supports Malcolm X Memorial Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225309,
+39.952759
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Manayunk Bridge Park",
+"address": "100 Dupont St, Philadelphia, PA 19127",
+"phone": "",
+"website": "",
+"detail": "Supports Manayunk Bridge",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.226751,
+40.026086
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Maplewood Mall",
+"address": "1 W Armat St, Philadelphia, PA 19144",
+"phone": "",
+"website": "",
+"detail": "Supports Maplewood Mall Plazas",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.174057,
+40.034931
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Market Square",
+"address": "5501 Germantown Ave, Philadelphia, PA 19144",
+"phone": "",
+"website": "",
+"detail": "Supports Market Square",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.17227,
+40.0343
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Matthias Baldwin Park",
+"address": "429 N 19th St, Philadelphia, PA 19130",
+"phone": "",
+"website": "https://www.baldwinparkphilly.org",
+"detail": "Supports Matthias Baldwin Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.168988,
+39.961593
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of McMichael Park",
+"address": "3201 Midvale Ave, Philadelphia, PA 19129",
+"phone": "",
+"website": "https://www.mcmichaelpark.org/",
+"detail": "Supports McMichael Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.187622,
+40.018104
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Paine's Park / Paine's Park Friends",
+"address": "400 Martin Luther King Drive, Philadelphia, PA 19103",
+"phone": "",
+"website": "https://www.facebook.com/p/friendsofpainespark-61578948212743/?_rdr",
+"detail": "Supports Paines Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180462,
+39.962995
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Pretzel Park",
+"address": "4300 Silverwood St, Philadelphia, PA 19127",
+"phone": "",
+"website": "https://www.friendsofpretzelpark.org/",
+"detail": "Supports Pretzel Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.221104,
+40.025682
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Rittenhouse Square",
+"address": "1800 Walnut St, Philadelphia, PA 19103",
+"phone": "",
+"website": "https://www.friendsofrittenhouse.org",
+"detail": "Supports Rittenhouse Square",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.171883,
+39.949597
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Saylor Grove Wetland",
+"address": "669 W Rittenhouse St, Philadelphia, PA 19144",
+"phone": "",
+"website": "https://www.friendsofsaylorgrove.wordpress.com/",
+"detail": "Supports Saylors Grove",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.187302,
+40.029628
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Schuylkill River Park",
+"address": "400 S Taney St, Philadelphia, PA 19146",
+"phone": "",
+"website": "https://www.fsrp.org",
+"detail": "Supports Schuylkill River Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181716,
+39.948837
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Stinger Square",
+"address": "1400 S 32nd St, Philadelphia, PA 19146",
+"phone": "",
+"website": "",
+"detail": "Supports Jacob Stinger Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.197743,
+39.936217
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Triangle Park",
+"address": "5419 Upland Way, Philadelphia, PA 19131",
+"phone": "",
+"website": "https://www.facebook.com/friendsoftrianglepark",
+"detail": "Supports Triangle Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.231922,
+39.983429
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Vernon Park",
+"address": "5754 Germantown Ave, Philadelphia, PA 19144",
+"phone": "",
+"website": "https://www.friendsofvernonpark.org",
+"detail": "Supports Vernon Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.176597,
+40.03556
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Wakefield Park",
+"address": "5300 N 16th St, Philadelphia, PA 19141",
+"phone": "",
+"website": "",
+"detail": "Supports Wakefield Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.150001,
+40.033294
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Williams Moore Reed Memorial Park",
+"address": "3600 N 11th St, Philadelphia, PA 19140",
+"phone": "",
+"website": "https://www.nicetowntioga.org",
+"detail": "Supports Williams Moore Reed Memorial Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.146561,
+40.007363
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Wissahickon Neighbors Park",
+"address": "3901 Terrace St, Philadelphia, PA 19128",
+"phone": "",
+"website": "",
+"detail": "Supports Wissahickon Neighbors Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.213103,
+40.021632
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of Wister Woods",
+"address": "1998 Belfield Ave, Philadelphia, PA 19141",
+"phone": "",
+"website": "",
+"detail": "Supports Wisters Woods Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.155273,
+40.034148
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of the Bulldog Park",
+"address": "2501 Pennsylvania Ave, Philadelphia, PA 19130",
+"phone": "",
+"website": "https://www.bulldogpark.com",
+"detail": "Supports Reliance Triangle",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.178959,
+39.967204
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Friends of the Wissahickon",
+"address": "<Null>, Philadelphia, PA",
+"phone": "",
+"website": "https://www.fow.org",
+"detail": "Supports Wissahickon Valley Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209165,
+40.040659
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Historic Rittenhousetown",
+"address": "6014 Wissahickon Ave, Philadelphia, PA 19144",
+"phone": "",
+"website": "https://www.rittenhousetown.org/",
+"detail": "Supports Historic Rittenhouse Town",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189798,
+40.029739
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Hunting Park Community Garden & Orchard",
+"address": "1101 W Hunting Park Ave, Philadelphia, PA 19140",
+"phone": "",
+"website": "",
+"detail": "Supports Hunting Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.146341,
+40.017853
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Hunting Park United",
+"address": "1101 W Hunting Park Ave, Philadelphia, PA 19140",
+"phone": "",
+"website": "https://www.huntingparkunited.com",
+"detail": "Supports Hunting Park Recreation Center",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.143653,
+40.017662
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Lauriston Pocket Park/Roxborough/Manayunk Conservancy",
+"address": "<Null>, Philadelphia, PA 19128",
+"phone": "",
+"website": "",
+"detail": "Supports Wissahickon Valley Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.204389,
+40.020998
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Lemon Hill Neighbors",
+"address": "820 Lemon Hill Dr, Philadelphia, PA 19130",
+"phone": "",
+"website": "",
+"detail": "Supports East Fairmount Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.187243,
+39.970989
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Nicetown CDC",
+"address": "4301 Germantown Ave, Philadelphia, PA 19140",
+"phone": "",
+"website": "https://www.nicetowncdc.org",
+"detail": "Supports Nicetown Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.154608,
+40.020001
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Parkway Council",
+"address": "Benj Franklin Pky, Philadelphia, PA 19103",
+"phone": "",
+"website": "https://www.parwaycouncil.org",
+"detail": "Supports Benjamin Franklin Parkway",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.173511,
+39.960323
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Philly Pumptrack",
+"address": "5271 Parkside Ave, Philadelphia, PA 19131",
+"phone": "",
+"website": "https://www.phllypumtrack.org",
+"detail": "Supports Parkside Evans Recreation Center",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.226142,
+39.984766
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Pleasant Playground Community Garden",
+"address": "305 Slocum St, Philadelphia, PA 19119",
+"phone": "",
+"website": "https://www.pleasantplayground19119.org/",
+"detail": "Supports Pleasant Playground",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181141,
+40.057644
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Roots Garden Friends Group",
+"address": "572 W Spencer St, Philadelphia, PA 19120",
+"phone": "",
+"website": "",
+"detail": "Supports Fisher Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.131771,
+40.04416
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Schuylkill Trail (Manayunk)",
+"address": "109 Fountain St, Philadelphia, PA 19127",
+"phone": "",
+"website": "",
+"detail": "Supports Manayunk Canal",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.232768,
+40.030981
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "The Friends of Sedgley Woods",
+"address": "3400 Reservoir Dr, Philadelphia, PA 19121",
+"phone": "",
+"website": "https://www.sedgleywoods.com",
+"detail": "Supports Sedgley Woods Disc Golf Course",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191895,
+39.981333
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "The Neighbors Garden at Hatfield House",
+"address": "1223 N 33rd St, Philadelphia, PA 19121",
+"phone": "",
+"website": "",
+"detail": "Supports East Fairmount Park",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.188284,
+39.975712
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Winter Street Greenway Friends",
+"address": "Benj Franklin Pky, Philadelphia, PA 19103",
+"phone": "",
+"website": "",
+"detail": "Supports Winter Street Greenway",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.174256,
+39.959169
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "community_orgs",
+"kind": "Park friends group",
+"name": "Wissahickon East Park Friends",
+"address": "7530 Anderson St, Philadelphia, PA 19119",
+"phone": "",
+"website": "https://www.facebook.com/wissahickon.east.park.friends",
+"detail": "Supports Wissahickon East",
+"source_id": "phl_ppr_friends_groups"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191477,
+40.069449
+]
+}
+}
+]
+}

@@ -1,0 +1,1665 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at 22nd and Ontario Park",
+"address": "3400 N 22nd St",
+"phone": "",
+"website": "",
+"detail": "ages 5–12",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.165592,
+40.006574
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at 26th and Pennsylvania Playground",
+"address": "2700 Pennsylvania Ave",
+"phone": "",
+"website": "",
+"detail": "ages 5–12",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181878,
+39.968776
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at 33rd and Wallace Playground",
+"address": "3302 Wallace St",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19076,
+39.964903
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at 37th and Mount Vernon Playground",
+"address": "614 N 37th St",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196328,
+39.964019
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at 48th and Woodland Playground",
+"address": "4740 Woodland Ave",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210076,
+39.942285
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at A Albert Cherashore Playground",
+"address": "900 W Chew Ave",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.137035,
+40.038448
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Allens Lane Art Center",
+"address": "651 W Allens Ln",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203455,
+40.051314
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Ann P Nichols Park",
+"address": "5430 Race St",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.229715,
+39.963497
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Awbury Park and Recreation Center",
+"address": "6101 Ardleigh St",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.165693,
+40.053672
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Belfield Recreation Center",
+"address": "2109 W Chew Ave",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.156356,
+40.042561
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Belmont Grove",
+"address": "2076 Belmont Mansion Dr",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21504,
+39.991814
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Ben Barkan Park",
+"address": "4998 Spruce St",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.221379,
+39.953759
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Carousel House Recreation Center",
+"address": "4300 Avenue Of The Republic",
+"phone": "",
+"website": "",
+"detail": "ages 5–12",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212605,
+39.978438
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Carroll Park",
+"address": "5801 W Girard Ave",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.236456,
+39.97096
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Cedar Park",
+"address": "4917 Baltimore Ave",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.222772,
+39.948243
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Charles Baker and Carol Baker Rice Recreation Center",
+"address": "5433 Lansdowne Ave",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.231335,
+39.977233
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Charles M Finley Playground",
+"address": "1006 E Hortter St",
+"phone": "",
+"website": "",
+"detail": "ages 5–12",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.169761,
+40.065507
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Charles M Finley Playground",
+"address": "1006 E Hortter St",
+"phone": "",
+"website": "",
+"detail": "ages 2–5",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.170052,
+40.065181
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Clarence H Clark Park",
+"address": "4301 Chester Ave",
+"phone": "",
+"website": "",
+"detail": "ages 5–12",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209333,
+39.94733
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Clarence H Clark Park",
+"address": "4301 Chester Ave",
+"phone": "",
+"website": "",
+"detail": "ages 2–5",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209573,
+39.947868
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Clayborne and Lewis Playground",
+"address": "1101 N 38th St",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19883,
+39.973308
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Cliveden Park",
+"address": "501 E Johnson St",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.177152,
+40.051601
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Cloverly Park",
+"address": "5425 Wissahickon Ave",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180734,
+40.02545
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Conestoga Community Playground",
+"address": "5300 Media St",
+"phone": "",
+"website": "",
+"detail": "ages 5–12",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22858,
+39.975403
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Conestoga Community Playground",
+"address": "5300 Media St",
+"phone": "",
+"website": "",
+"detail": "ages 2–5",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.228087,
+39.975383
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at David P Montgomery Field",
+"address": "5366 Hermit Ln",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203446,
+40.022545
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Donald P Finnegan Recreation Center",
+"address": "1231 S 30th St",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192891,
+39.937549
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Donna Reed Miller Recreation Center",
+"address": "5826 McMahon Ave",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.169044,
+40.04555
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Dorothy Emanuel Recreation Center",
+"address": "8545 Provident St",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.175301,
+40.081521
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at East Fairmount Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.187551,
+39.97319
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at East Fairmount Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189792,
+39.982472
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Etting Park",
+"address": "3255 N Marston St",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.174162,
+40.005819
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Fanny Kemble Abolitionist Memorial Park",
+"address": "5641 Ogontz Ave",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.148939,
+40.039766
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Fernhill Park",
+"address": "4600 Morris St",
+"phone": "",
+"website": "",
+"detail": "ages 5–12",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.169372,
+40.020087
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Fernhill Park",
+"address": "4600 Morris St",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.170372,
+40.016468
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Fisher Park",
+"address": "572 W Spencer St",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.131211,
+40.043134
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Haddington-Marshall L Shepard Sr Recreation Center",
+"address": "5700 Haverford Ave",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.234192,
+39.967363
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Happy Hollow Recreation Center",
+"address": "4800 Wayne Ave",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.165731,
+40.023911
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Helen G Sturgis Playground",
+"address": "6420 N 2nd St",
+"phone": "",
+"website": "",
+"detail": "ages 5–12",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.12322,
+40.049391
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Helen G Sturgis Playground",
+"address": "6420 N 2nd St",
+"phone": "",
+"website": "",
+"detail": "ages 2–5",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.123718,
+40.049394
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Hunting Park",
+"address": "1101 W Hunting Park Ave",
+"phone": "",
+"website": "",
+"detail": "ages 2–12",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.143376,
+40.015957
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Hunting Park",
+"address": "1101 W Hunting Park Ave",
+"phone": "",
+"website": "",
+"detail": "ages 2–5",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.141493,
+40.016374
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Hunting Park",
+"address": "1101 W Hunting Park Ave",
+"phone": "",
+"website": "",
+"detail": "ages 5–12",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.146052,
+40.016938
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Jacob Stinger Park",
+"address": "1400 S 32nd St",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.197566,
+39.936452
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at James L Wright Playground",
+"address": "3340 Haverford Ave",
+"phone": "",
+"website": "",
+"detail": "ages 2–5",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190883,
+39.963724
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Jerome Brown Park Playground",
+"address": "1987 W Ontario St",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.161263,
+40.00639
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at John A Lee Cultural Center",
+"address": "4372 Haverford Ave",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210458,
+39.961844
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Joseph V Kelly Memorial Playground",
+"address": "440 Parker Ave",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.228103,
+40.041688
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Kelly Pool",
+"address": "4200 Lansdowne Dr",
+"phone": "",
+"website": "",
+"detail": "ages 5–12",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.207308,
+39.978821
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Kingsessing Recreation Center",
+"address": "4901 Kingsessing Ave",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21693,
+39.94244
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Lonnie Cohen Recreation Center",
+"address": "201 Fountain St",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.229132,
+40.034026
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Lonnie Cohen Recreation Center",
+"address": "201 Fountain St",
+"phone": "",
+"website": "",
+"detail": "ages 2–5",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.230666,
+40.033076
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Malcolm X Memorial Park",
+"address": "5100 Pine St",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225956,
+39.952624
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Malcolm X Memorial Park",
+"address": "5100 Pine St",
+"phone": "",
+"website": "",
+"detail": "ages 2–12",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225371,
+39.952404
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at McMichael Park",
+"address": "3201 Midvale Ave",
+"phone": "",
+"website": "",
+"detail": "ages 5–12",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.187974,
+40.018223
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Miles Mack Playground",
+"address": "736 N 36th St",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19581,
+39.967272
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Morris Estate Cultural Center",
+"address": "1610 Chelten Ave",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.146719,
+40.05092
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Morton Playground",
+"address": "88 E Haines St",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.17437,
+40.039424
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Nicetown Park",
+"address": "4301 Germantown Ave",
+"phone": "",
+"website": "",
+"detail": "ages 2–12",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.155527,
+40.020232
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Norman (Butch) Ellis Playground",
+"address": "714 N 39th St",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20097,
+39.965842
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Parkside Evans Recreation Center",
+"address": "5271 Parkside Ave",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.226267,
+39.982623
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Philadelphia Zoo",
+"address": "3400 W Girard Ave",
+"phone": "",
+"website": "",
+"detail": "ages 5–12",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.197351,
+39.972133
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Pleasant Playground",
+"address": "305 Slocum St",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182349,
+40.056954
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Pretzel Park",
+"address": "4300 Silverwood St",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.220783,
+40.025418
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Price Street Play Lot",
+"address": "185 W Price St",
+"phone": "",
+"website": "",
+"detail": "ages 2–5",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.179905,
+40.033268
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Sabatino La Noce Park",
+"address": "5119 Rochelle Ave",
+"phone": "",
+"website": "",
+"detail": "ages 5–12",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210785,
+40.017782
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Sister Clara Muhammad Square",
+"address": "1035 N 48th St",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216483,
+39.971255
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Smith Memorial Playground and Playhouse",
+"address": "3418 Smith Memorial Dr",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196006,
+39.981417
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Stenton Park",
+"address": "1699 W Courtland St",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.152568,
+40.024422
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Susan Gorgas Park",
+"address": "6424 Ridge Ave",
+"phone": "",
+"website": "",
+"detail": "ages 5–12",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.220474,
+40.036747
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at The Lonnie Young Recreation Center of East Germantown",
+"address": "1100 E Chelten Ave",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.159693,
+40.050033
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Tiffany Fletcher Recreation Center",
+"address": "4728 Brown St",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.215919,
+39.966081
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Triangle Park",
+"address": "5419 Upland Way",
+"phone": "",
+"website": "",
+"detail": "ages 5–12",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.231896,
+39.983554
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Vernon Park",
+"address": "5754 Germantown Ave",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.177052,
+40.036133
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at W Freeland Kendrick Recreation Center",
+"address": "5878 Ridge Ave",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211749,
+40.029113
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at West Fairmount Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "ages 2–12",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210261,
+39.977195
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at West Mill Creek Playground",
+"address": "5100 Westminster Ave",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.222577,
+39.967109
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at West Penn Park",
+"address": "353 W Penn St",
+"phone": "",
+"website": "",
+"detail": "ages 2–5",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.176327,
+40.026284
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at William B Simons Recreation Center",
+"address": "7224 Woolston Ave",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.157344,
+40.061237
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at William H (Billy) Markward Memorial Playground",
+"address": "400 S Lecount St",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183344,
+39.948214
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Wingohocking Park",
+"address": "1200 W Wingohocking St",
+"phone": "",
+"website": "",
+"detail": "ages 5–12",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.145746,
+40.020488
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Wissahickon Neighbors Playground",
+"address": "3901 Terrace St",
+"phone": "",
+"website": "",
+"detail": "ages 2–12",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21327,
+40.021653
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "parks_rec",
+"kind": "Playground",
+"name": "Playground at Wister Playground",
+"address": "4971 Baynton St",
+"phone": "",
+"website": "",
+"detail": "2 play areas (ages 2–5, ages 5–12)",
+"source_id": "phl_ppr_playgrounds"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.159916,
+40.03213
+]
+}
+}
+]
+}

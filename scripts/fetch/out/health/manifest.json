@@ -1,0 +1,287 @@
+[
+ {
+  "id": "phl_health_centers",
+  "title": "Health Centers",
+  "categories": [
+   "health_care"
+  ],
+  "publisher": "City of Philadelphia, Department of Public Health",
+  "landing_url": "https://opendataphilly.org/datasets/health-centers/",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/Health_Centers/FeatureServer/0/query",
+  "license": "City of Philadelphia License (per OpenDataPhilly)",
+  "retrieved": "2026-11-09",
+  "data_date": "layer last edited 2025-05-16",
+  "notes": "City health centers (PDPH) and the community health centers the City lists. Quality Community Health Care (QCHC) sites appear here but not in HRSA's current FQHC list, so check that they still operate.",
+  "records": 15
+ },
+ {
+  "id": "phl_hospitals",
+  "title": "Philadelphia Hospitals",
+  "categories": [
+   "health_care"
+  ],
+  "publisher": "City of Philadelphia, Department of Public Health",
+  "landing_url": "https://opendataphilly.org/datasets/philadelphia-hospitals/",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/Hospitals/FeatureServer/0/query",
+  "license": "City of Philadelphia License (per OpenDataPhilly)",
+  "retrieved": "2026-11-09",
+  "data_date": "layer last edited 2025-05-21",
+  "notes": "All hospitals on the City list. Kirkbride Center (111 N 49th St, mostly residential addiction treatment) is left out under the no-addiction-residence rule. Some names predate mergers and closures; pa_doh_hospitals carries the current state licensure names.",
+  "records": 10
+ },
+ {
+  "id": "pa_doh_hospitals",
+  "title": "PA Department of Health Hospitals (DOH Hospitals 202511)",
+  "categories": [
+   "health_care"
+  ],
+  "publisher": "Pennsylvania Department of Health (via PASDA)",
+  "landing_url": "https://www.pasda.psu.edu/uci/FullMetadataDisplay.aspx?file=DOH_Hospitals202511.xml",
+  "api_url": "https://mapservices.pasda.psu.edu/server/rest/services/pasda/DepHealth/MapServer/6/query",
+  "license": "Not specified by the publisher",
+  "retrieved": "2026-11-09",
+  "data_date": "2025-11",
+  "notes": "Hospitals licensed by PA DOH. Private psychiatric hospitals licensed by PA DHS (e.g. Belmont, Friends) are not in this list; the City list has them. Executive names are not kept.",
+  "records": 8
+ },
+ {
+  "id": "hrsa_health_center_sites",
+  "title": "Health Center Service Delivery and Look-Alike Sites",
+  "categories": [
+   "health_care"
+  ],
+  "publisher": "U.S. Health Resources and Services Administration (HRSA), Bureau of Primary Health Care",
+  "landing_url": "https://data.hrsa.gov/data/download",
+  "api_url": "https://data.hrsa.gov/DataDownload/DD_Files/Health_Center_Service_Delivery_and_LookAlike_Sites.csv",
+  "license": "Public domain (U.S. federal government data)",
+  "retrieved": "2026-11-09",
+  "data_date": "2026-11-08 (HRSA Data Warehouse record date)",
+  "notes": "Active, permanent FQHC and look-alike service delivery sites; administrative-only offices, seasonal sites and mobile vans are left out, as are clinics inside shelters or residential treatment (Interim House West, Stenton Family Manor, PEC/HopePHL). School-based sites are kept and labeled.",
+  "records": 16
+ },
+ {
+  "id": "samhsa_treatment_outpatient",
+  "title": "FindTreatment.gov behavioral health treatment facilities (outpatient)",
+  "categories": [
+   "health_care"
+  ],
+  "publisher": "U.S. Substance Abuse and Mental Health Services Administration (SAMHSA)",
+  "landing_url": "https://findtreatment.gov/",
+  "api_url": "https://findtreatment.gov/locator/exportsAsJson/v2",
+  "license": "Public domain (U.S. federal government data)",
+  "retrieved": "2026-11-09",
+  "data_date": "",
+  "notes": "Mental health and substance use facilities that offer outpatient care. Any facility that also offers residential or 24-hour residential treatment is left out (no addiction-treatment residences); facilities listed twice (MH and SUD) are merged.",
+  "records": 11
+ },
+ {
+  "id": "osm_health_care",
+  "title": "OpenStreetMap clinics, doctors, dentists and other health care",
+  "categories": [
+   "health_care"
+  ],
+  "publisher": "OpenStreetMap contributors",
+  "landing_url": "https://www.openstreetmap.org/",
+  "api_url": "https://overpass-api.de/api/interpreter",
+  "license": "ODbL 1.0, (c) OpenStreetMap contributors",
+  "retrieved": "2026-11-09",
+  "data_date": "OSM data as of 2026-11-09",
+  "notes": "amenity=clinic|doctors|dentist and healthcare=* points with a name. Hospitals and pharmacies are in their own datasets; alternative medicine, home-care agencies, individual psychotherapists, 'rehabilitation' and anything named for addiction / recovery treatment are left out. Coverage is uneven: OSM misses many small practices.",
+  "records": 72
+ },
+ {
+  "id": "osm_pharmacies",
+  "title": "OpenStreetMap pharmacies",
+  "categories": [
+   "pharmacies"
+  ],
+  "publisher": "OpenStreetMap contributors",
+  "landing_url": "https://www.openstreetmap.org/",
+  "api_url": "https://overpass-api.de/api/interpreter",
+  "license": "ODbL 1.0, (c) OpenStreetMap contributors",
+  "retrieved": "2026-11-09",
+  "data_date": "OSM data as of 2026-11-09",
+  "notes": "amenity=pharmacy, healthcare=pharmacy and shop=chemist. Rite Aid is dropped (all stores closed in 2025). OSM may still show chain stores closed in 2024-26 and misses independents; see cms_nppes_pharmacies.",
+  "records": 27
+ },
+ {
+  "id": "cms_nppes_pharmacies",
+  "title": "NPPES NPI Registry: community / retail pharmacies in Philadelphia",
+  "categories": [
+   "pharmacies"
+  ],
+  "publisher": "U.S. Centers for Medicare & Medicaid Services (CMS), National Plan and Provider Enumeration System",
+  "landing_url": "https://npiregistry.cms.hhs.gov/api-page",
+  "api_url": "https://npiregistry.cms.hhs.gov/api/",
+  "license": "Public domain (U.S. federal government data)",
+  "retrieved": "2026-11-09",
+  "data_date": "",
+  "notes": "Organization NPIs whose primary taxonomy is community/retail pharmacy, at their practice location, geocoded with the City's AIS. NPIs are rarely deactivated when a store closes, so Rite Aid is dropped and records not updated in the last five years are skipped; the rest are likely but not certain to be open.",
+  "records": 38
+ },
+ {
+  "id": "phl_pca_senior_centers",
+  "title": "PCA Senior Centers",
+  "categories": [
+   "older_adults"
+  ],
+  "publisher": "Philadelphia Corporation for Aging (geocoded by the City of Philadelphia)",
+  "landing_url": "https://www.arcgis.com/home/item.html?id=c892ec757bf2445bb0b2689c017f9ffb",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/PCA_SeniorCenters/FeatureServer/0/query",
+  "license": "Not stated (City of Philadelphia ArcGIS Online item)",
+  "retrieved": "2026-11-09",
+  "data_date": "layer last edited 2025-01-06",
+  "notes": "Senior community centers and PHA satellite sites from PCA's Find a Senior Center list, as geocoded by the City.",
+  "records": 6
+ },
+ {
+  "id": "phl_ppr_older_adult_centers",
+  "title": "Parks & Recreation Program Sites: older adult centers",
+  "categories": [
+   "older_adults"
+  ],
+  "publisher": "Philadelphia Parks & Recreation",
+  "landing_url": "https://opendataphilly.org/datasets/parks-recreation-program-sites/",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/PPR_Program_Sites/FeatureServer/0/query",
+  "license": "City of Philadelphia License (per OpenDataPhilly)",
+  "retrieved": "2026-11-09",
+  "data_date": "layer last edited 2026-06-05",
+  "notes": "PPR program sites with program_type = OLDER_ADULT_CENTER (the value the layer uses now; older extracts used PPR_OAC). The layer has no street address.",
+  "records": 1
+ },
+ {
+  "id": "pa_dhs_life_centers",
+  "title": "LIFE (Living Independence for the Elderly) provider centers",
+  "categories": [
+   "older_adults"
+  ],
+  "publisher": "Pennsylvania Department of Human Services, Office of Long-Term Living",
+  "landing_url": "https://www.pa.gov/agencies/dhs/resources/aging-physical-disabilities/life.html",
+  "api_url": "https://www.pa.gov/agencies/dhs/resources/aging-physical-disabilities/life.html",
+  "license": "Commonwealth of Pennsylvania web page (no open license stated)",
+  "retrieved": "2026-11-09",
+  "data_date": "Revised 08/2026",
+  "notes": "Philadelphia LIFE (PACE) centers from the provider table on the DHS page, geocoded with the City's AIS. LIFE centers are the adult day health sites of the program.",
+  "records": 2
+ },
+ {
+  "id": "osm_older_adults",
+  "title": "OpenStreetMap senior centers and adult day centers",
+  "categories": [
+   "older_adults"
+  ],
+  "publisher": "OpenStreetMap contributors",
+  "landing_url": "https://www.openstreetmap.org/",
+  "api_url": "https://overpass-api.de/api/interpreter",
+  "license": "ODbL 1.0, (c) OpenStreetMap contributors",
+  "retrieved": "2026-11-09",
+  "data_date": "OSM data as of 2026-11-09",
+  "notes": "Named senior / older adult centers, senior service agencies and adult day centers. Senior housing, nursing homes and assisted living are left out (residences).",
+  "records": 5
+ },
+ {
+  "id": "phl_wic_offices",
+  "title": "Women, Infants & Children (WIC) Offices",
+  "categories": [
+   "social_services"
+  ],
+  "publisher": "City of Philadelphia, Department of Public Health",
+  "landing_url": "https://opendataphilly.org/datasets/women-infants-children-wic-offices/",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/WIC_Offices/FeatureServer/0/query",
+  "license": "City of Philadelphia License (per OpenDataPhilly)",
+  "retrieved": "2026-11-09",
+  "data_date": "layer last edited 2025-08-25",
+  "notes": "All WIC offices in the City list.",
+  "records": 3
+ },
+ {
+  "id": "phl_neighborhood_resources",
+  "title": "Neighborhood Resources (Neighborhood Energy Centers and Housing Counseling Agencies)",
+  "categories": [
+   "social_services"
+  ],
+  "publisher": "City of Philadelphia, Department of Planning and Development, Division of Housing and Community Development",
+  "landing_url": "https://opendataphilly.org/datasets/neighborhood-resources/",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/NeighborhoodResources/FeatureServer/0/query",
+  "license": "City of Philadelphia License (per OpenDataPhilly)",
+  "retrieved": "2026-11-09",
+  "data_date": "layer last edited 2026-11-06",
+  "notes": "Agencies flagged as a Neighborhood Energy Center (utility bill help, ECA) or a City-funded housing counseling agency. NAC-only offices are left to community_orgs. This layer supersedes the separate Neighborhood_Energy_Centers and HousingCounselingAgencies layers. Contact names and e-mails are not kept.",
+  "records": 10
+ },
+ {
+  "id": "hud_housing_counseling",
+  "title": "HUD-approved Housing Counseling Agencies",
+  "categories": [
+   "social_services"
+  ],
+  "publisher": "U.S. Department of Housing and Urban Development (HUD)",
+  "landing_url": "https://data.hud.gov/housing_counseling.html",
+  "api_url": "https://data.hud.gov/Housing_Counselor/searchByLocation",
+  "license": "Public domain (U.S. federal government data)",
+  "retrieved": "2026-11-09",
+  "data_date": "",
+  "notes": "HUD-approved agencies returned by HUD's search-by-location API within 2 miles of each site, kept within 1.5 miles. Agency phone and website only; staff e-mails are not kept.",
+  "records": 5
+ },
+ {
+  "id": "pa_dhs_county_assistance_offices",
+  "title": "County Assistance Office Current Statewide Human Services",
+  "categories": [
+   "social_services"
+  ],
+  "publisher": "Pennsylvania Department of Human Services (via data.pa.gov)",
+  "landing_url": "https://data.pa.gov/Services-Near-You/County-Assistance-Office-Current-Statewide-Human-S/ytxr-yigf",
+  "api_url": "https://data.pa.gov/resource/ytxr-yigf.json",
+  "license": "Public Domain U.S. Government (as labeled on data.pa.gov)",
+  "retrieved": "2026-11-09",
+  "data_date": "rows last updated 2022-06-17",
+  "notes": "DHS County Assistance Offices (SNAP / 'food stamps', cash assistance, Medical Assistance, LIHEAP). District offices that share a building are merged into one point. The rows were last updated in 2022.",
+  "records": 4
+ },
+ {
+  "id": "phl_healthy_start_crcs",
+  "title": "Healthy Start Community Resource Centers",
+  "categories": [
+   "social_services"
+  ],
+  "publisher": "City of Philadelphia, Department of Public Health",
+  "landing_url": "https://opendataphilly.org/datasets/healthy-start-community-resource-centers/",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/Healthy_Start_CRCs/FeatureServer/0/query",
+  "license": "City of Philadelphia License (per OpenDataPhilly)",
+  "retrieved": "2026-11-09",
+  "data_date": "layer last edited 2025-05-16",
+  "notes": "PDPH-affiliated Healthy Start family resource centers (prenatal and early-childhood family support).",
+  "records": 2
+ },
+ {
+  "id": "phl_bme_resources",
+  "title": "Black Male Engagement Resources (legal and family support entries)",
+  "categories": [
+   "social_services"
+  ],
+  "publisher": "City of Philadelphia, Office of Black Male Engagement",
+  "landing_url": "https://www.arcgis.com/home/item.html?id=c901b5701b3e42a69b1d2167d9732161",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/Black_Male_Engagement_Resources/FeatureServer/0/query",
+  "license": "Not stated (City of Philadelphia ArcGIS Online item)",
+  "retrieved": "2026-11-09",
+  "data_date": "layer last edited 2026-11-06",
+  "notes": "Only entries offering legal services or fatherhood / family support; this is the only official geocoded source found for legal aid offices. Shelters, victim services and hospital programs are left out; e-mails are not kept.",
+  "records": 4
+ },
+ {
+  "id": "osm_social_services",
+  "title": "OpenStreetMap social service offices",
+  "categories": [
+   "social_services"
+  ],
+  "publisher": "OpenStreetMap contributors",
+  "landing_url": "https://www.openstreetmap.org/",
+  "api_url": "https://overpass-api.de/api/interpreter",
+  "license": "ODbL 1.0, (c) OpenStreetMap contributors",
+  "retrieved": "2026-11-09",
+  "data_date": "OSM data as of 2026-11-09",
+  "notes": "Gap fill only: Social Security and VA benefits offices, legal aid, social_facility=outreach|advice and family service agencies. County Assistance and WIC offices come from the official datasets. Shelters, group homes, recovery residences and victim / domestic-violence services are left out.",
+  "records": 5
+ }
+]

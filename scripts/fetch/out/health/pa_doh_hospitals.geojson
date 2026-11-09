@@ -1,0 +1,165 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.143349,
+     40.036956
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Hospital",
+    "name": "Albert Einstein Medical Center",
+    "address": "5501 Old York Road",
+    "phone": "215-456-7890",
+    "website": "https://www.einstein.edu",
+    "detail": "Licensed by the PA Department of Health",
+    "source_id": "pa_doh_hospitals"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.193746,
+     39.94888
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Hospital",
+    "name": "Children's Hospital of Philadelphia and Children's Seashore House of Children's Hospital of Philadelphia",
+    "address": "3401 Civic Center Blvd",
+    "phone": "215-590-1000",
+    "website": "http://www.chop.edu",
+    "detail": "Licensed by the PA Department of Health",
+    "source_id": "pa_doh_hospitals"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.19985,
+     39.9483
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Hospital",
+    "name": "Corporal Michael J. Crescenz Veterans Affairs Medical Center",
+    "address": "3900 Woodland Avenue",
+    "phone": "215-823-5800",
+    "website": "https://www.va.gov",
+    "detail": "Licensed by the PA Department of Health",
+    "source_id": "pa_doh_hospitals"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.221792,
+     40.043391
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Hospital",
+    "name": "Fairmount Behavioral Health System",
+    "address": "561 Fairthorne Ave",
+    "phone": "215-487-4000",
+    "website": "http://fairmountbhs.com",
+    "detail": "Licensed by the PA Department of Health",
+    "source_id": "pa_doh_hospitals"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.184389,
+     40.011664
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Hospital",
+    "name": "Haven Behavioral Hospital of Philadelphia",
+    "address": "3300 Henry Avenue",
+    "phone": "215-475-3400",
+    "website": "https://www.havenphiladelphia.com",
+    "detail": "Licensed by the PA Department of Health",
+    "source_id": "pa_doh_hospitals"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.197538,
+     39.959145
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Hospital",
+    "name": "Penn Presbyterian Medical Center",
+    "address": "51 N. 39th Street",
+    "phone": "215-662-8000",
+    "website": "http://www.pennmedicine.org",
+    "detail": "Licensed by the PA Department of Health",
+    "source_id": "pa_doh_hospitals"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.209629,
+     40.028691
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Hospital",
+    "name": "Roxborough Memorial Hospital",
+    "address": "5800 Ridge Avenue",
+    "phone": "215-483-9900",
+    "website": "http://www.roxboroughmemorial.com",
+    "detail": "Licensed by the PA Department of Health",
+    "source_id": "pa_doh_hospitals"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.19304,
+     39.949976
+    ]
+   },
+   "properties": {
+    "category": "health_care",
+    "kind": "Hospital",
+    "name": "The Hospital of the University of Pennsylvania",
+    "address": "3400 Spruce Street",
+    "phone": "215-662-4000",
+    "website": "http://www.pennmedicine.org",
+    "detail": "Licensed by the PA Department of Health",
+    "source_id": "pa_doh_hospitals"
+   }
+  }
+ ]
+}

@@ -1,0 +1,525 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Philadelphia Register historic district",
+"name": "420 Row Historic District",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Designated 1/13/2017 · 8 properties on the Register",
+"source_id": "phl_historic_districts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.207526,
+39.95016
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Philadelphia Register historic district",
+"name": "4208-30 Chester Ave Historic District",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Designated 5/13/2022 · 12 properties on the Register",
+"source_id": "phl_historic_districts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208112,
+39.948142
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Philadelphia Register historic district",
+"name": "Awbury Arboretum Historic District",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Designated 5/14/2010 · 32 properties on the Register",
+"source_id": "phl_historic_districts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.167811,
+40.051571
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Philadelphia Register historic district",
+"name": "Blakemore St Historic District",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Designated 8/8/2025 · 28 properties on the Register",
+"source_id": "phl_historic_districts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.176611,
+40.058626
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Philadelphia Register historic district",
+"name": "Carnegie Libraries Historic District",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Designated 7/9/2021 · 19 properties on the Register",
+"source_id": "phl_historic_districts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.2174,
+39.94259
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Philadelphia Register historic district",
+"name": "Cast Iron Subway Entrances Historic District",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Designated 3/8/2019 · 52 properties on the Register",
+"source_id": "phl_historic_districts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19683,
+39.951144
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Philadelphia Register historic district",
+"name": "Chester Regent Historic District",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Designated 3/10/2019 · 41 properties on the Register",
+"source_id": "phl_historic_districts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211463,
+39.946997
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Philadelphia Register historic district",
+"name": "Drexel-Govett Historic District",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Designated 4/8/2022 · 95 properties on the Register",
+"source_id": "phl_historic_districts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.202271,
+39.95065
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Philadelphia Register historic district",
+"name": "East Logan Street Historic District",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Designated 11/12/2010 · 29 properties on the Register",
+"source_id": "phl_historic_districts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.160716,
+40.029555
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Philadelphia Register historic district",
+"name": "Gardiner Poth Historic District",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Designated 8/13/2021 · 10 properties on the Register",
+"source_id": "phl_historic_districts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195165,
+39.962768
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Philadelphia Register historic district",
+"name": "Gates St Historic District",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Designated 10/14/2022 · 26 properties on the Register",
+"source_id": "phl_historic_districts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225711,
+40.034971
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Philadelphia Register historic district",
+"name": "Germantown Urban Village Historic District",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Designated 2/9/2024 · 66 properties on the Register",
+"source_id": "phl_historic_districts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.17177,
+40.03463
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Philadelphia Register historic district",
+"name": "Historic Street Paving Thematic District",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Designated 12/9/1998",
+"source_id": "phl_historic_districts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.177736,
+39.957182
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Philadelphia Register historic district",
+"name": "House of St. Michael and All Angels Historic District",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Designated 8/11/2023 · 3 properties on the Register",
+"source_id": "phl_historic_districts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208809,
+39.963307
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Philadelphia Register historic district",
+"name": "Manayunk Main Street Historic District",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Designated 3/18/1983 · 342 properties on the Register",
+"source_id": "phl_historic_districts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.231316,
+40.028916
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Philadelphia Register historic district",
+"name": "Manheim Square Historic District",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Designated 12/10/2021 · 6 properties on the Register",
+"source_id": "phl_historic_districts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.165981,
+40.029351
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Philadelphia Register historic district",
+"name": "Northwest Philadelphia Apartments Historic District",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Designated 1/10/2025 · 30 properties on the Register",
+"source_id": "phl_historic_districts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.184835,
+40.026598
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Philadelphia Register historic district",
+"name": "Parkside Historic District",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Designated 12/11/2009 · 109 properties on the Register",
+"source_id": "phl_historic_districts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209447,
+39.975857
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Philadelphia Register historic district",
+"name": "Powelton Village Historic District",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Designated 11/10/2022 · 1,138 properties on the Register",
+"source_id": "phl_historic_districts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.193375,
+39.960155
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Philadelphia Register historic district",
+"name": "Ridge Avenue Roxborough Historic District",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Designated 10/12/2018 · 198 properties on the Register",
+"source_id": "phl_historic_districts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.221507,
+40.036423
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Philadelphia Register historic district",
+"name": "Rittenhouse-Fitler Residential Historic District",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Designated 2/8/1995 · 2,228 properties on the Register",
+"source_id": "phl_historic_districts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180271,
+39.948505
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Philadelphia Register historic district",
+"name": "Satterlee Heights Historic District",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Designated 7/13/2018 · 9 properties on the Register",
+"source_id": "phl_historic_districts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210141,
+39.950535
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Philadelphia Register historic district",
+"name": "Southeast Spruce Hill Historic District",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Designated 7/12/2024 · 573 properties on the Register",
+"source_id": "phl_historic_districts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206662,
+39.949753
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Philadelphia Register historic district",
+"name": "Tudor East Falls Historic District",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Designated 10/9/2009 · 210 properties on the Register",
+"source_id": "phl_historic_districts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189948,
+40.014936
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Philadelphia Register historic district",
+"name": "Victorian Roxborough Historic District",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Designated 5/13/2022 · 339 properties on the Register",
+"source_id": "phl_historic_districts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.214668,
+40.036883
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "historic",
+"kind": "Philadelphia Register historic district",
+"name": "Wayne Junction Historic District",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Designated 7/13/2018 · 8 properties on the Register",
+"source_id": "phl_historic_districts"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.160597,
+40.022405
+]
+}
+}
+]
+}

@@ -1,0 +1,545 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.210954,
+     40.031611
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Acme Pharmacy",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.209662,
+     39.953987
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Aspire Pharmacy",
+    "address": "4307 Locust Street",
+    "phone": "215-883-0332",
+    "website": "https://aspirerxcares.com/",
+    "detail": "",
+    "source_id": "osm_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.224337,
+     39.964715
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Best Care Pharmacy",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.201958,
+     39.954178
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "CVS Pharmacy",
+    "address": "3925 Walnut Street",
+    "phone": "",
+    "website": "https://www.cvs.com/store-locator/philadelphia-pa-pharmacies/3925-walnut-st-philadelphia-pa-19104/storeid=4007",
+    "detail": "",
+    "source_id": "osm_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.19284,
+     39.953018
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Drugstore",
+    "name": "CVS Pharmacy",
+    "address": "3401 Walnut Street",
+    "phone": "215-662-1333",
+    "website": "https://www.cvs.com/store-locator/philadelphia-pa-pharmacies/3401-walnut-st-philadelphia-pa-19104/storeid=450",
+    "detail": "",
+    "source_id": "osm_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.166541,
+     40.05989
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Drugstore",
+    "name": "CVS Pharmacy",
+    "address": "",
+    "phone": "",
+    "website": "https://www.cvs.com/store-locator/philadelphia-pa-pharmacies/6344-stenton-avenue-philadelphia-pa-19138/storeid=2120",
+    "detail": "",
+    "source_id": "osm_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.218561,
+     39.959622
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "CVS Pharmacy",
+    "address": "",
+    "phone": "",
+    "website": "https://www.cvs.com/store-locator/philadelphia-pa-pharmacies/4849-market-st-philadelphia-pa-19139/storeid=2704",
+    "detail": "",
+    "source_id": "osm_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.209736,
+     39.953339
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "CVS Pharmacy",
+    "address": "",
+    "phone": "",
+    "website": "https://www.cvs.com/store-locator/philadelphia-pa-pharmacies/4314-locust-street-philadelphia-pa-19104/storeid=2755",
+    "detail": "",
+    "source_id": "osm_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.223806,
+     40.041045
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "CVS Pharmacy",
+    "address": "6701 Ridge Avenue",
+    "phone": "",
+    "website": "https://www.cvs.com/store-locator/philadelphia-pa-pharmacies/6701-ridge-ave-philadelphia-pa-19128/storeid=8984",
+    "detail": "",
+    "source_id": "osm_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.214311,
+     40.018605
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "CVS Pharmacy",
+    "address": "",
+    "phone": "",
+    "website": "https://www.cvs.com/store-locator/philadelphia-pa-pharmacies/3780-main-street-philadelphia-pa-19127/storeid=2166",
+    "detail": "",
+    "source_id": "osm_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.232252,
+     40.021332
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Drugstore",
+    "name": "CVS Pharmacy",
+    "address": "",
+    "phone": "",
+    "website": "https://www.cvs.com/store-locator/bala-cynwyd-pa-pharmacies/260-rock-hill-rd-bala-cynwyd-pa-19004/storeid=5346",
+    "detail": "",
+    "source_id": "osm_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.171784,
+     40.080408
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "CVS Pharmacy",
+    "address": "1600 Wadsworth Avenue",
+    "phone": "",
+    "website": "https://www.cvs.com/store-locator/philadelphia-pa-pharmacies/1600-wadsworth-avenue-philadelphia-pa-19150/storeid=2113",
+    "detail": "",
+    "source_id": "osm_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.128873,
+     40.045395
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Drugstore",
+    "name": "CVS Pharmacy",
+    "address": "6150 North 5th Street",
+    "phone": "",
+    "website": "https://www.cvs.com/store-locator/philadelphia-pa-pharmacies/6150-n-5th-street-philadelphia-pa-19120/storeid=771",
+    "detail": "",
+    "source_id": "osm_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.140773,
+     40.053963
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Drugstore",
+    "name": "CVS Pharmacy",
+    "address": "6601 North Broad Street",
+    "phone": "",
+    "website": "https://www.cvs.com/store-locator/philadelphia-pa-pharmacies/6601-north-broad-street-philadelphia-pa-19126/storeid=2121",
+    "detail": "",
+    "source_id": "osm_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.214127,
+     39.94906
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Davis Pharmacy",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.165672,
+     40.030219
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Germantown Pharmacy",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.177154,
+     40.033962
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Healing Pharmacy",
+    "address": "109 West Chelten Avenue",
+    "phone": "267-297-6482",
+    "website": "https://healingpharmacypa.com",
+    "detail": "",
+    "source_id": "osm_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.215609,
+     40.033976
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Drugstore",
+    "name": "Morrison's Pharmacy",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.190721,
+     40.043645
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Drugstore",
+    "name": "Pelham Pharmacy",
+    "address": "6555 Greene Street",
+    "phone": "+1-215-848-0500; +1-855-756-7999",
+    "website": "https://pelhamrx.com/",
+    "detail": "",
+    "source_id": "osm_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.12529,
+     40.054387
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Pharmacy",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.179858,
+     40.042862
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Pharmacy",
+    "address": "6201 Germantown Avenue",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.130659,
+     40.036569
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Tang Pharmacy II",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.148784,
+     40.017322
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Walgreens",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.174476,
+     40.035843
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Walgreens",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.193818,
+     39.955962
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Walgreens",
+    "address": "3550 Market Street",
+    "phone": "267-892-3107",
+    "website": "https://www.walgreens.com/locator/walgreens-3550+market+st-philadelphia-pa-19104/id=21251",
+    "detail": "",
+    "source_id": "osm_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.159778,
+     40.075468
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Pharmacy",
+    "name": "Walgreens",
+    "address": "2727 Cheltenham Avenue",
+    "phone": "215-886-7399",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_pharmacies"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.222046,
+     39.947966
+    ]
+   },
+   "properties": {
+    "category": "pharmacies",
+    "kind": "Drugstore",
+    "name": "eMax Pharmacy",
+    "address": "4918 Baltimore Avenue",
+    "phone": "267-929-7277",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_pharmacies"
+   }
+  }
+ ]
+}

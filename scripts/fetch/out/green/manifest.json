@@ -1,0 +1,258 @@
+[
+ {
+  "id": "phl_free_meal_sites",
+  "title": "Philadelphia Free Food and Meal Sites",
+  "categories": [
+   "food"
+  ],
+  "publisher": "City of Philadelphia, Office of Children and Families (with Philabundance, SHARE and partner food banks)",
+  "landing_url": "https://opendataphilly.org/datasets/free-food-and-meal-sites/",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/free_meal_sites/FeatureServer/0/query",
+  "license": "City of Philadelphia License (OpenDataPhilly)",
+  "retrieved": "2026-11-09",
+  "data_date": "layer last edited 2026-11-05",
+  "records": 88,
+  "notes": "Active food pantries, free grocery sites, community fridges and free meal sites only. Excluded: Office of Homeless Services meal sites (shelter locations), WIC / BenePhilly / Neighborhood Community Action Center benefit sites (social services) and PCA / PPR senior meal sites (older adults), plus permanently closed sites. Food-bank homepages given as a site's website are left blank. Every address was geocoded (City AIS, Census fallback): citywide 55 source points lying more than 250 m from their own address (mostly Caring for Friends sites) were moved to the address; 2 addresses could not be geocoded and keep the source point."
+ },
+ {
+  "id": "phl_farmers_markets",
+  "title": "Farmers' Market Locations",
+  "categories": [
+   "food"
+  ],
+  "publisher": "City of Philadelphia (compiled from market managers and operators)",
+  "landing_url": "https://opendataphilly.org/datasets/farmers-markets-locations/",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/Farmers_Markets/FeatureServer/0/query",
+  "license": "City of Philadelphia License (OpenDataPhilly)",
+  "retrieved": "2026-11-09",
+  "data_date": "layer last edited 2026-10-14",
+  "records": 10,
+  "notes": "All listed markets; schedule, season and SNAP / FMNP / Philly Food Bucks acceptance in detail. Operator name and phone kept only when the operator is an organisation (individual farmers' names and phones are left out)."
+ },
+ {
+  "id": "usda_snap_retailers",
+  "title": "SNAP Retailer Locator: authorized retailers",
+  "categories": [
+   "food"
+  ],
+  "publisher": "U.S. Department of Agriculture, Food and Nutrition Service (SNAP Retailer Policy and Management Division)",
+  "landing_url": "https://www.arcgis.com/home/item.html?id=8b260f9a10b0459aa441ad8588c2251c",
+  "api_url": "https://services1.arcgis.com/RLQu0rK7h4kbsBq5/arcgis/rest/services/snap_retailer_location_data/FeatureServer/0/query",
+  "license": "U.S. Government work; no license stated on the item",
+  "retrieved": "2026-11-09",
+  "data_date": "layer last edited 2026-11-05 (USDA updates every 2 weeks)",
+  "records": 157,
+  "notes": "Kept USDA store types Supermarket, Super Store, Grocery Store, Specialty Store and Farmers and Markets; dropped Convenience Store and Other (pharmacies, dollar and gas-station stores). Store type is USDA's classification; many small 'Grocery Store' retailers are corner stores with limited fresh food."
+ },
+ {
+  "id": "osm_food_stores",
+  "title": "OpenStreetMap supermarkets, grocery stores and produce markets",
+  "categories": [
+   "food"
+  ],
+  "publisher": "OpenStreetMap contributors (via Overpass API)",
+  "landing_url": "https://www.openstreetmap.org/",
+  "api_url": "https://overpass-api.de/api/interpreter",
+  "license": "ODbL 1.0, (c) OpenStreetMap contributors",
+  "retrieved": "2026-11-09",
+  "data_date": "OSM data as of 2026-11-09",
+  "records": 34,
+  "notes": "shop=supermarket, greengrocer and grocery (convenience stores skipped). Gap filler for the USDA list; OSM coverage of small stores is incomplete."
+ },
+ {
+  "id": "phs_ngt_supported_gardens",
+  "title": "PHS Community Garden Program: PHS- and NGT-supported gardens (current)",
+  "categories": [
+   "gardens_farms"
+  ],
+  "publisher": "Pennsylvania Horticultural Society (PHS), with Neighborhood Gardens Trust (NGT)",
+  "landing_url": "https://www.arcgis.com/home/item.html?id=1f4ef32948d64b8280bf78e308c4dead",
+  "api_url": "https://services2.arcgis.com/qjOOiLCYeUtwT7x7/arcgis/rest/services/PHS_NGT_Supported_Current_view/FeatureServer/0/query",
+  "license": "No license stated; public layer shared by PHS",
+  "retrieved": "2026-11-09",
+  "data_date": "layer last edited 2026-10-19",
+  "records": 89,
+  "notes": "Active gardens in PHS's Community Garden Program ('CGP active gardens'). The current layer has no addresses, so the address comes from PHS's December 2022 supported-gardens layer when a garden point lies within 40 m."
+ },
+ {
+  "id": "phl_registered_community_gardens",
+  "title": "Registered Community Gardens",
+  "categories": [
+   "gardens_farms"
+  ],
+  "publisher": "Philadelphia Parks & Recreation, Urban Agriculture Team",
+  "landing_url": "https://opendataphilly.org/datasets/registered-community-gardens/",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/Registered_Community_Gardens/FeatureServer/0/query",
+  "license": "City of Philadelphia License (OpenDataPhilly)",
+  "retrieved": "2026-11-09",
+  "data_date": "layer last edited 2026-05-15",
+  "records": 8,
+  "notes": "Active gardens registered with PPR's Urban Agriculture Team (a short citywide list of 23; most community gardens are not registered). Contact emails left out."
+ },
+ {
+  "id": "phl_ppr_urban_agriculture",
+  "title": "Urban Agriculture Projects",
+  "categories": [
+   "gardens_farms"
+  ],
+  "publisher": "Philadelphia Parks & Recreation (Farm Philly)",
+  "landing_url": "https://opendataphilly.org/datasets/urban-agriculture-projects/",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/PPR_Urban_Agriculture_Projects/FeatureServer/0/query",
+  "license": "City of Philadelphia License (OpenDataPhilly)",
+  "retrieved": "2026-11-09",
+  "data_date": "layer last edited 2026-05-15",
+  "records": 3,
+  "notes": "Active urban agriculture projects on PPR sites (10 citywide). Contact emails left out."
+ },
+ {
+  "id": "osm_gardens_farms",
+  "title": "OpenStreetMap community gardens and urban farms",
+  "categories": [
+   "gardens_farms"
+  ],
+  "publisher": "OpenStreetMap contributors (via Overpass API)",
+  "landing_url": "https://www.openstreetmap.org/",
+  "api_url": "https://overpass-api.de/api/interpreter",
+  "license": "ODbL 1.0, (c) OpenStreetMap contributors",
+  "retrieved": "2026-11-09",
+  "data_date": "OSM data as of 2026-11-09",
+  "records": 55,
+  "notes": "landuse=allotments (community garden), landuse=farmland / farmyard (urban farm) and leisure=garden with garden:type=community. Polygons placed at a point inside; unnamed features are labelled by type."
+ },
+ {
+  "id": "phl_ppr_properties",
+  "title": "PPR Properties (parks as points)",
+  "categories": [
+   "gardens_farms",
+   "parks_rec"
+  ],
+  "publisher": "Philadelphia Parks & Recreation",
+  "landing_url": "https://opendataphilly.org/datasets/ppr-properties/",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/PPR_Properties/FeatureServer/0/query",
+  "license": "City of Philadelphia License (OpenDataPhilly)",
+  "retrieved": "2026-11-09",
+  "data_date": "layer last edited 2026-11-05",
+  "records": 127,
+  "notes": "One point inside each PPR property polygon (inside the part that lies within 1.5 mi of a site for large parks); acreage is the whole property. Dropped traffic islands / medians, pathways, internal operational sites and older-adult-center properties; PPR garden / farm properties are tagged gardens_farms."
+ },
+ {
+  "id": "phl_ppr_program_sites",
+  "title": "Parks & Recreation Program Sites",
+  "categories": [
+   "parks_rec"
+  ],
+  "publisher": "Philadelphia Parks & Recreation",
+  "landing_url": "https://opendataphilly.org/datasets/parks-recreation-program-sites/",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/PPR_Program_Sites/FeatureServer/0/query",
+  "license": "City of Philadelphia License (OpenDataPhilly)",
+  "retrieved": "2026-11-09",
+  "data_date": "layer last edited 2026-06-05",
+  "records": 43,
+  "notes": "Recreation centers / staffed recreation sites, program pools and environmental education centers. Older adult centers (program_type OLDER_ADULT_CENTER) excluded for the health domain. Address taken from the PPR property the point sits in."
+ },
+ {
+  "id": "phl_ppr_playgrounds",
+  "title": "PPR Playgrounds",
+  "categories": [
+   "parks_rec"
+  ],
+  "publisher": "Philadelphia Parks & Recreation",
+  "landing_url": "https://opendataphilly.org/datasets/ppr-playgrounds/",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/PPR_Playgrounds/FeatureServer/0/query",
+  "license": "City of Philadelphia License (OpenDataPhilly)",
+  "retrieved": "2026-11-09",
+  "data_date": "layer last edited 2026-10-30",
+  "records": 83,
+  "notes": "PPR play areas (grouped by age range). Play areas of the same park within 40 m are merged into one point with the count and age ranges in detail."
+ },
+ {
+  "id": "phl_ppr_spraygrounds",
+  "title": "PPR Spraygrounds",
+  "categories": [
+   "parks_rec"
+  ],
+  "publisher": "Philadelphia Parks & Recreation",
+  "landing_url": "https://opendataphilly.org/datasets/ppr-spraygrounds/",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/PPR_Spraygrounds/FeatureServer/0/query",
+  "license": "City of Philadelphia License (OpenDataPhilly)",
+  "retrieved": "2026-11-09",
+  "data_date": "layer last edited 2026-11-05",
+  "records": 23,
+  "notes": "Active spraygrounds and sprinklers only (status INACTIVE / UNKNOWN dropped)."
+ },
+ {
+  "id": "phl_ppr_swimming_pools",
+  "title": "PPR Swimming Pools",
+  "categories": [
+   "parks_rec"
+  ],
+  "publisher": "Philadelphia Parks & Recreation",
+  "landing_url": "https://opendataphilly.org/datasets/ppr-swimming-pools/",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/PPR_Swimming_Pools/FeatureServer/0/query",
+  "license": "City of Philadelphia License (OpenDataPhilly)",
+  "retrieved": "2026-11-09",
+  "data_date": "layer last edited 2026-11-05",
+  "records": 15,
+  "notes": "Active PPR pools (inactive pools dropped). Pool status is PPR's facility status, not this season's opening schedule."
+ },
+ {
+  "id": "phl_ppr_tennis_courts",
+  "title": "PPR Tennis Courts",
+  "categories": [
+   "parks_rec"
+  ],
+  "publisher": "Philadelphia Parks & Recreation",
+  "landing_url": "https://opendataphilly.org/datasets/ppr-tennis-courts/",
+  "api_url": "https://services.arcgis.com/fLeGjb7u4uXqeF9q/ArcGIS/rest/services/PPR_Tennis_Courts/FeatureServer/0/query",
+  "license": "City of Philadelphia License (OpenDataPhilly)",
+  "retrieved": "2026-11-09",
+  "data_date": "layer last edited 2026-11-05",
+  "records": 23,
+  "notes": "One record per court in the source; courts at the same park within 40 m are merged into one point with a count."
+ },
+ {
+  "id": "osm_sports_facilities",
+  "title": "OpenStreetMap courts, athletic fields, tracks, rinks and skateparks",
+  "categories": [
+   "parks_rec"
+  ],
+  "publisher": "OpenStreetMap contributors (via Overpass API)",
+  "landing_url": "https://www.openstreetmap.org/",
+  "api_url": "https://overpass-api.de/api/interpreter",
+  "license": "ODbL 1.0, (c) OpenStreetMap contributors",
+  "retrieved": "2026-11-09",
+  "data_date": "OSM data as of 2026-11-09",
+  "records": 330,
+  "notes": "leisure=pitch / track / ice_rink / skatepark, typed by sport; access=private / customers dropped, as are painted schoolyard games (four square, gaga). Adjacent same-type courts within 40 m merged with a count. Detail says whether the facility sits in a PPR park, on school grounds or on a college campus (school courts may not be open to the public). Fills the gap left by PPR, which publishes no ballfield / basketball court layer."
+ },
+ {
+  "id": "osm_parks_playgrounds_nonppr",
+  "title": "OpenStreetMap parks, playgrounds and dog parks outside PPR property",
+  "categories": [
+   "parks_rec"
+  ],
+  "publisher": "OpenStreetMap contributors (via Overpass API)",
+  "landing_url": "https://www.openstreetmap.org/",
+  "api_url": "https://overpass-api.de/api/interpreter",
+  "license": "ODbL 1.0, (c) OpenStreetMap contributors",
+  "retrieved": "2026-11-09",
+  "data_date": "OSM data as of 2026-11-09",
+  "records": 162,
+  "notes": "Gap filler: named leisure=park / nature_reserve, leisure=playground and leisure=dog_park whose point lies outside every PPR property (playgrounds also > 60 m from a PPR play area); includes township parks across the city line, institutional and housing-site playgrounds. access=private / customers dropped; detail flags school grounds."
+ },
+ {
+  "id": "osm_trailheads",
+  "title": "OpenStreetMap trailheads",
+  "categories": [
+   "parks_rec"
+  ],
+  "publisher": "OpenStreetMap contributors (via Overpass API)",
+  "landing_url": "https://www.openstreetmap.org/",
+  "api_url": "https://overpass-api.de/api/interpreter",
+  "license": "ODbL 1.0, (c) OpenStreetMap contributors",
+  "retrieved": "2026-11-09",
+  "data_date": "OSM data as of 2026-11-09",
+  "records": 34,
+  "notes": "highway=trailhead nodes (mostly Wissahickon Valley Park entrances). No official City trailhead point layer exists; PPR publishes trails only as lines."
+ }
+]

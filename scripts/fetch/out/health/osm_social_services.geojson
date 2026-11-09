@@ -1,0 +1,105 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.233107,
+     39.959067
+    ]
+   },
+   "properties": {
+    "category": "social_services",
+    "kind": "Family services",
+    "name": "Family Support Services Inc",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_social_services"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.213972,
+     40.027636
+    ]
+   },
+   "properties": {
+    "category": "social_services",
+    "kind": "Social service agency",
+    "name": "Intercommunity Action",
+    "address": "",
+    "phone": "215-487-0904",
+    "website": "https://intercommunityaction.org/",
+    "detail": "",
+    "source_id": "osm_social_services"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.207591,
+     39.95644
+    ]
+   },
+   "properties": {
+    "category": "social_services",
+    "kind": "Social service agency",
+    "name": "Intercultural Family Services",
+    "address": "4225 Chestnut Street",
+    "phone": "215-386-1298",
+    "website": "https://ifsinc.org/",
+    "detail": "",
+    "source_id": "osm_social_services"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.207685,
+     39.957556
+    ]
+   },
+   "properties": {
+    "category": "social_services",
+    "kind": "Social Security office",
+    "name": "Social Security Administration District Office",
+    "address": "4240 Market Street",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_social_services"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.1766,
+     40.020039
+    ]
+   },
+   "properties": {
+    "category": "social_services",
+    "kind": "Veterans benefits office",
+    "name": "Veterans Affairs Philadelphia Regional Office",
+    "address": "5000 Wissahickon Avenue",
+    "phone": "",
+    "website": "",
+    "detail": "",
+    "source_id": "osm_social_services"
+   }
+  }
+ ]
+}

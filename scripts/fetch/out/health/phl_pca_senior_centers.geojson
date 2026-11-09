@@ -1,0 +1,125 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.213938,
+     40.027629
+    ]
+   },
+   "properties": {
+    "category": "older_adults",
+    "kind": "Senior center",
+    "name": "Center at Journey’s Way",
+    "address": "403 Rector Street",
+    "phone": "215-487-1750",
+    "website": "",
+    "detail": "",
+    "source_id": "phl_pca_senior_centers"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.176066,
+     40.037288
+    ]
+   },
+   "properties": {
+    "category": "older_adults",
+    "kind": "Senior center",
+    "name": "Center in the Park",
+    "address": "5818 Germantown Avenue",
+    "phone": "215-848-7722",
+    "website": "",
+    "detail": "",
+    "source_id": "phl_pca_senior_centers"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.227541,
+     39.966293
+    ]
+   },
+   "properties": {
+    "category": "older_adults",
+    "kind": "Senior center",
+    "name": "Firehouse Active Adult Center",
+    "address": "5331 Haverford Avenue",
+    "phone": "215-472-6188",
+    "website": "",
+    "detail": "",
+    "source_id": "phl_pca_senior_centers"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.215197,
+     39.946896
+    ]
+   },
+   "properties": {
+    "category": "older_adults",
+    "kind": "Senior center",
+    "name": "Star Harbor Senior Citizen Center",
+    "address": "4700 Springfield Avenue",
+    "phone": "215-727-0100",
+    "website": "",
+    "detail": "",
+    "source_id": "phl_pca_senior_centers"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.154218,
+     40.064392
+    ]
+   },
+   "properties": {
+    "category": "older_adults",
+    "kind": "Senior center",
+    "name": "West Oak Lane Senior Center",
+    "address": "7210-18 Ogontz Avenue",
+    "phone": "215-685-3511",
+    "website": "",
+    "detail": "",
+    "source_id": "phl_pca_senior_centers"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -75.206148,
+     39.971881
+    ]
+   },
+   "properties": {
+    "category": "older_adults",
+    "kind": "Senior center",
+    "name": "West Philadelphia Senior Community Center",
+    "address": "1016-26 N. 41st Street",
+    "phone": "215-386-0379",
+    "website": "",
+    "detail": "",
+    "source_id": "phl_pca_senior_centers"
+   }
+  }
+ ]
+}

@@ -1,0 +1,2985 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Fountain (PPR collection)",
+"name": "Catholic Total Abstinence Fountain",
+"address": "Concourse and State Drives",
+"phone": "",
+"website": "",
+"detail": "Herman Kirn · 1876 · West Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.219657,
+39.982399
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Fountain (PPR collection)",
+"name": "Courtship (in the Henry M. Phillips Memorial Fount",
+"address": "26th Street and the Benjamin Franklin Parkway",
+"phone": "",
+"website": "",
+"detail": "Henry Mitchell · 1958 · Philadelphia Museum of Art",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180599,
+39.965331
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Fountain (PPR collection)",
+"name": "Fountain of the Sea Horses",
+"address": "Fairmount Water Works Drive",
+"phone": "",
+"website": "",
+"detail": "Christopher Utenberger (Attributed to) · 1926 (replica) · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183633,
+39.967565
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Fountain (PPR collection)",
+"name": "John Ericsson Fountain",
+"address": "26th Street and the Benjamin Franklin Parkway",
+"phone": "",
+"website": "",
+"detail": "Trumbauer, Borie Zantzinger · 1926 · Benjamin Franklin Parkway",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.179593,
+39.963899
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Fountain (PPR collection)",
+"name": "Orestes & Pylades Fountain",
+"address": "33rd Street at Oxford Avenue",
+"phone": "",
+"website": "",
+"detail": "Carl Johann Steinhauser · 1884 · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189234,
+39.981298
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Fountain (PPR collection)",
+"name": "Rebecca at the Well",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "John J. Boyle · 1908 · West Fairmount Park, Horticulture Center",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208672,
+39.983622
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Fountain (PPR collection)",
+"name": "Rond Point Fountain (Wheatsheaf Fountain) (One of",
+"address": "Kelly Drive",
+"phone": "",
+"website": "",
+"detail": "Artist unknown (France) · 1877 (orig.) · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191144,
+39.974124
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Abraham Lincoln",
+"address": "Kelly and Sedgely Drives",
+"phone": "",
+"website": "",
+"detail": "Randolph Rogers · 1871 · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.184454,
+39.969576
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Admiral David Dixon Porter",
+"address": "North Concourse Drive",
+"phone": "",
+"website": "",
+"detail": "Bessie O. Potter (Vonnoh) · 1897-1912 · West Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206429,
+39.977707
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Alexander Von Humboldt",
+"address": "MLK Drive near Black Road",
+"phone": "",
+"website": "",
+"detail": "Frederick Drake · 1871 · West Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.205737,
+39.982317
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "American War Mother and Her Sons",
+"address": "Belfield Avenue, Germantown",
+"phone": "",
+"website": "",
+"detail": "Harry Lewis Raul · 1927 · Wister's Woods",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.155655,
+40.035686
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Atmosphere & Environment",
+"address": "26th Street and the Benjamin Franklin Parkway",
+"phone": "",
+"website": "",
+"detail": "Louise Nevelson · 1970 · Philadelphia Museum of Art",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181793,
+39.965962
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Blessed Mother Shrine",
+"address": "West Fairmount Park",
+"phone": "",
+"website": "",
+"detail": "West Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.221127,
+39.981205
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Children At Play",
+"address": "Wissahickon Avenue at Rittenhouse Street",
+"phone": "",
+"website": "",
+"detail": "Peter Rockwell · 1978 · Wissahickon Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.187231,
+40.030041
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Civil War Soldiers' and Sailors' Monument",
+"address": "Belmont Avenue and South Georges Hill Drive",
+"phone": "",
+"website": "",
+"detail": "Artist unknown · 1909 · West Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216,
+39.98594
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Cowboy",
+"address": "Kelly Drive",
+"phone": "",
+"website": "",
+"detail": "Frederic Remington · 1908 · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.193788,
+39.977761
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Eagle (One of Two)",
+"address": "North Concourse Drive",
+"phone": "",
+"website": "",
+"detail": "John Massey Rhind · 1897-1912 · West Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206317,
+39.977666
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Ellen Phillips Samuel Memorial",
+"address": "Kelly Drive, south of the Girard Avenue Bridge",
+"phone": "",
+"website": "",
+"detail": "\"Paul Phillippe, et. al.\" Cret · 1943 · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19134,
+39.974513
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Florentine Lions (One of two)",
+"address": "52nd Street and Parkside Avenue",
+"phone": "",
+"website": "",
+"detail": "Artist unknown · 1849 · West Fairmount Park, Mann Music Center",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22197,
+39.982698
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Franz Schubert",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "Henry Baerer · 1891 · West Fairmount Park, Horticulture Center",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209139,
+39.983543
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Frederick Graff Memorial",
+"address": "Fairmount Water Works Drive",
+"phone": "",
+"website": "",
+"detail": "Hugh Cannon · 1848 · Fairmount Water Works",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183234,
+39.965641
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Gambol II (mare and foal)",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "Robert David Lasus · 1992 · West Fairmount Park, Horticulture Center",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.213966,
+39.982572
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Geberal Frederich von Steuben",
+"address": "Between the Philadelphia Museum of Art and Fairmount Water Works Drive",
+"phone": "",
+"website": "",
+"detail": "Warren Wheelock · 1947 · East Fairmount Park, Reilly Memorial",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182934,
+39.967228
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "General Anthony Wayne",
+"address": "26th Street and the Benjamin Franklin Parkway",
+"phone": "",
+"website": "",
+"detail": "John Gregory · 1937 · Philadelphia Museum of Art",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180968,
+39.964823
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "General Casimir Pulaski",
+"address": "Between Philadelphia Museum of Art and Fairmount Water Works Drive",
+"phone": "",
+"website": "",
+"detail": "Sidney Waugh · 1947 · East Fairmount Park, Reilly Memorial",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182388,
+39.966866
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "General Nathaniel Greene",
+"address": "Between Philadelphia Museum of Art and Fairmount Water Works Drive",
+"phone": "",
+"website": "",
+"detail": "Lewis Iselin, Jr. · 1960 · East Fairmount Park, Reilly Memorial",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.1829,
+39.96685
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "General Peter Muhlenberg",
+"address": "Between Philadelphia Museum of Art and Fairmount Water Works Drive",
+"phone": "",
+"website": "",
+"detail": "J. Otto Schweizer · 1910 · East Fairmount Park, Reilly Memorial",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181993,
+39.966595
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "General Richard Montgomery",
+"address": "Between Philadelphia Museum of Art and Fairmount Water Works Drive",
+"phone": "",
+"website": "",
+"detail": "J. Wallace Kelly · 1946 · East Fairmount Park, Reilly Memorial",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182651,
+39.966651
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "General Ulysses S. Grant",
+"address": "Kelly and Fountain Green Drives",
+"phone": "",
+"website": "",
+"detail": "Daniel Chester & Edward C. French, Potter · 1897 · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.197933,
+39.980717
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Giuseppi Verdi",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "G.B. Bashanellifusi · 1907 · West Fairmount Park, Horticulture Center",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209501,
+39.983116
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Goethe",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "Heinrich Carl Johan Manger · 1890 · West Fairmount Park, Horticultural Center",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212025,
+39.983702
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Henry Howard Houston Memorial",
+"address": "Lincoln Drive and Harvey Street",
+"phone": "",
+"website": "",
+"detail": "John Massey Rhind · 1900 · Wissahickon Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18727,
+40.032003
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "James A. Garfield Monument",
+"address": "Kelly Drive below Girard Avenue Bridge; opposite Ellen Phillips Samuel Memorial",
+"phone": "",
+"website": "",
+"detail": "Augustus Saint-Gaudens · 1895 · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190449,
+39.973926
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "John B. Kelly",
+"address": "Kelly Drive near rowing grandstand",
+"phone": "",
+"website": "",
+"detail": "Harry Rosin · 1965 · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20179,
+39.986048
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "John Paul Jones",
+"address": "Between the Philadelphia Museum of Art and Fairmount Water Works Drive",
+"phone": "",
+"website": "",
+"detail": "Walker Hancock · 1957 · East Fairmount Park, Reilly Memorial",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18267,
+39.967042
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Joseph Haydn",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "Idusch and Son · 1906 · West Fairmount Park, Horticulture Center",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208572,
+39.983025
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Laborer",
+"address": "Kelly Drive",
+"phone": "",
+"website": "",
+"detail": "Ahron Ben-Shmuel · 1958 · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191577,
+39.974683
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Law, Prosperity, and Power",
+"address": "South George's Hill Drive",
+"phone": "",
+"website": "",
+"detail": "Daniel Chester French · 1880 · West Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.223261,
+39.984443
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Lion Fighter",
+"address": "26th Street and the Benjamin Franklin Parkway",
+"phone": "",
+"website": "",
+"detail": "Albert Wolff · 1892 · Philadelphia Museum of Art",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180072,
+39.964406
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Lions",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "Artist unknown · 1891 · West Fairmount Park, Horticulture Center",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208952,
+39.983567
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Major General George Gordon Meade",
+"address": "Lansdowne Drive",
+"phone": "",
+"website": "",
+"detail": "Alexander Milne Calder · 1887 · West Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208166,
+39.981047
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Marquis de Lafayette",
+"address": "Between the Philadelphia Museum of Art and Fairmount Water Works Drive",
+"phone": "",
+"website": "",
+"detail": "Raoul Josset · 1947 · East Fairmount Park, Reilly Memorial",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183164,
+39.967036
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Milatades",
+"address": "West Fairmount Park, Memorial Hall",
+"phone": "",
+"website": "",
+"detail": "West Fairmount Park, Memorial Hall",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209201,
+39.979174
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Mortar",
+"address": "West Fairmount Park, Memorial Hall",
+"phone": "",
+"website": "",
+"detail": "West Fairmount Park, Memorial Hall",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209309,
+39.979213
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Morton McMichael",
+"address": "Lemon Hill Drive",
+"phone": "",
+"website": "",
+"detail": "John H. Mahoney · 1881 · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189,
+39.973147
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Mounted Amazon Attacked by Panther",
+"address": "26th Street and the Benjamin Franklin Parkway",
+"phone": "",
+"website": "",
+"detail": "Auguste Kiss · 1929 · Philadelphia Museum of Art",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.179384,
+39.964965
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Mt Pleasant Garden",
+"address": "East Fairmount Park",
+"phone": "",
+"website": "",
+"detail": "East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.200513,
+39.983295
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Mt Pleasant Garden",
+"address": "East Fairmount Park",
+"phone": "",
+"website": "",
+"detail": "East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.200196,
+39.982928
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Night",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "Edward Stauch · 1872 · West Fairmount Park, Horticultural Center",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21073,
+39.9828
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Pavilion in the Trees",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "Martin Puryear · 1993 · West Fairmount Park, Horticulture Center",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209996,
+39.981921
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Pegasus with Erato",
+"address": "North Concourse Drive",
+"phone": "",
+"website": "",
+"detail": "Vincenz Bildhauer Pilz · 1863 · West Fairmount Park, Memorial Hall",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209631,
+39.978975
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Playing Angels",
+"address": "Kelly and Fountain Green Drives",
+"phone": "",
+"website": "",
+"detail": "Carl Milles · 1950 · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.198835,
+39.980182
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Poet",
+"address": "Kelly Drive",
+"phone": "",
+"website": "",
+"detail": "Jose de Creeft · 1954 · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191376,
+39.974433
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Preacher",
+"address": "Kelly Drive",
+"phone": "",
+"website": "",
+"detail": "Waldemar Raemisch · 1952 · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191377,
+39.974357
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Prometheus Strangling the Vulture",
+"address": "26th Street and the Benjamin Franklin Parkway",
+"phone": "",
+"website": "",
+"detail": "Jacques Lipchitz · 1953 · Philadelphia Museum of Art",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180951,
+39.965599
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Puma",
+"address": "Kelly Drive, behind Philadelphia Museum of Art",
+"phone": "",
+"website": "",
+"detail": "William Zorach · 1954 · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182914,
+39.96777
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Reverend Dr. John Witherspoon",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "Joseph A. Bailly · 1876 · West Fairmount Park, Horticulture Center",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208972,
+39.984019
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Rittenhouse Town Sundial",
+"address": "Wissahickon Park",
+"phone": "",
+"website": "",
+"detail": "Wissahickon Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189782,
+40.029556
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Saint George and the Dragon",
+"address": "MLK Drive near Black Road",
+"phone": "",
+"website": "",
+"detail": "Artist unknown · 1876 · West Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.205879,
+39.983044
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Schiller",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "Heinrich Carl Johan Manger · 1886 · West Fairmount Park, Horticultural Center",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211844,
+39.982793
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Scientist",
+"address": "Kelly Drive",
+"phone": "",
+"website": "",
+"detail": "Koren der Harootian · 1955 · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191506,
+39.974633
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Semiramis",
+"address": "West Fairmount Park, Memorial Hall",
+"phone": "",
+"website": "",
+"detail": "West Fairmount Park, Memorial Hall",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20945,
+39.979266
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Silenus and the Infant Bacchus",
+"address": "Kelly Drive north of Fairmount Avenue",
+"phone": "",
+"website": "",
+"detail": "copy by Artist Unknown Praxiteles (original attributed to - 4th century) · 1885 · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182717,
+39.968735
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Social Consciousness",
+"address": "26th Street and the Benjamin Franklin Parkway",
+"phone": "",
+"website": "",
+"detail": "Jacob Epstein · 1954 · Philadelphia Museum of Art",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181437,
+39.966232
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Spanning the Continent",
+"address": "Kelly Drive",
+"phone": "",
+"website": "",
+"detail": "Robert Laurent · 1937 · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190688,
+39.973329
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Spirit of Enterprise",
+"address": "Kelly Drive",
+"phone": "",
+"website": "",
+"detail": "Jacques Lipchitz · 1950-1960 · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190869,
+39.97359
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Stephen B. Girard",
+"address": "Between Philadelphia Museum of Art and Fairmount Water Works Drive",
+"phone": "",
+"website": "",
+"detail": "John Massey Rhind · 1897 · East Fairmount Park, Reilly Memorial",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182301,
+39.966365
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Stone Age in America",
+"address": "Kelly Drive between Boat House Row and Ellen Phillips Samuel Memorial",
+"phone": "",
+"website": "",
+"detail": "John J. Boyle · 1887 · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19019,
+39.971964
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Stone Basin (Wellhead)",
+"address": "Kelly Drive, behind Philadelphia Museum of Art",
+"phone": "",
+"website": "",
+"detail": "Artist unknown · 1876-1893 · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.184295,
+39.968928
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Sundial",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "Alexander Stirling Calder · 1903 · West Fairmount Park, Horticulture Center",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212653,
+39.983159
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "The Journeyer",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "Lindsay Daen · 1975 · West Fairmount Park, Horticulture Center",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209375,
+39.983519
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "The Pilgrim",
+"address": "Kelly Drive at Lemon Hill Drive",
+"phone": "",
+"website": "",
+"detail": "Augustus Saint-Gaudens · 1904 · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18867,
+39.970091
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "The Wrestlers",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "Artist unknown · 1885 · West Fairmount Park, Horticultural Center",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209963,
+39.984236
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Thorfinn Karlsefni",
+"address": "Kelly Drive",
+"phone": "",
+"website": "",
+"detail": "Einar Jonsson · 1918 · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190018,
+39.970208
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Tiger at Bay",
+"address": "Kelly Drive, between Philadelphia Museum of Art and Sedgeley Drive",
+"phone": "",
+"website": "",
+"detail": "Albino Manca · 1965 · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18215,
+39.968427
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Toleration",
+"address": "Near Walnut Lane Bridge",
+"phone": "",
+"website": "",
+"detail": "Herman Kirn · 1883 · Wissahickon Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.199782,
+40.035177
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Turtle",
+"address": "Midvale and Henry Avenues",
+"phone": "",
+"website": "",
+"detail": "Frank Dugan · McMichael Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.187952,
+40.017756
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Washington Monument",
+"address": "26th Street and the Benjamin Franklin Parkway",
+"phone": "",
+"website": "",
+"detail": "Rudolf Siemering · 1897 · Benjamin Franklin Parkway",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.179159,
+39.964265
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Monument or sculpture (PPR collection)",
+"name": "Welcoming Freedom",
+"address": "Kelly Drive",
+"phone": "",
+"website": "",
+"detail": "Maurice Sterne · 1939 · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191003,
+39.97387
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "",
+"address": "East Fairmount Park",
+"phone": "",
+"website": "",
+"detail": "East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.200089,
+39.983018
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "",
+"address": "East Fairmount Park",
+"phone": "",
+"website": "",
+"detail": "East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19997,
+39.983062
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "",
+"address": "East Fairmount Park",
+"phone": "",
+"website": "",
+"detail": "East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.200455,
+39.98318
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Africa",
+"address": "North Concourse Drive",
+"phone": "",
+"website": "",
+"detail": "Artist unknown · West Fairmount Park, Memorial Hall (interior)",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209107,
+39.979418
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Agriculture",
+"address": "North Concourse Drive",
+"phone": "",
+"website": "",
+"detail": "A.M.J. Mueller (Attributed to) · 1876 · West Fairmount Park, Memorial Hall",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209184,
+39.979733
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "America",
+"address": "North Concourse Drive",
+"phone": "",
+"website": "",
+"detail": "Artist unknown · West Fairmount Park, Memorial Hall (interior)",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209307,
+39.979495
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Art",
+"address": "North Concourse Drive",
+"phone": "",
+"website": "",
+"detail": "A.M.J. Mueller (Attributed to) · 1876 · West Fairmount Park, Memorial Hall",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209183,
+39.979259
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Asia",
+"address": "North Concourse Drive",
+"phone": "",
+"website": "",
+"detail": "Artist unknown · 1969 · West Fairmount Park, Memorial Hall (interior)",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209394,
+39.979358
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Boulder Basin",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "Artist Unknown · 20th century · West Fairmount Park, Japanese House",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21307,
+39.981283
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Centennial Fountain",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "Margaret Foley · 1876 · West Fairmount Park, Horticulture Center (interior)",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210524,
+39.983609
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Chief Justice John Marshall",
+"address": "26th Street and the Benjamin Franklin Parkway",
+"phone": "",
+"website": "",
+"detail": "William Wetmore Story · 1883 · Philadelphia Museum of Art",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181789,
+39.966217
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Chinese Water Stone",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "No Artist · 17th century · West Fairmount Park, Japanese House",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212778,
+39.981474
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Chrysanthemum Lantern",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "Artist unknown · 17th century · West Fairmount Park, Japanese House",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212712,
+39.981451
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Chrysanthemum Lantern (in Landsdowne Valley)",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "Artist unknown · 17th century · West Fairmount Park, Horticulture Center",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210937,
+39.981852
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Columbia",
+"address": "North Concourse Drive",
+"phone": "",
+"website": "",
+"detail": "Artist Unknown · 1901 · West Fairmount Park, Memorial Hall",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209117,
+39.979656
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Commerce",
+"address": "North Concourse Drive",
+"phone": "",
+"website": "",
+"detail": "A.M.J. Mueller (Attributed to) · 1876 · West Fairmount Park, Memorial Hall",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209073,
+39.979492
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Cranes (One of two)",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "Artist unknown · 1876 · West Fairmount Park, Horticulture Center (interior)",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210344,
+39.983588
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Dancing Lions Lantern",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "Artist unknown · 17th century · West Fairmount Park, Japanese House",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212916,
+39.981516
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Europe",
+"address": "North Concourse Drive",
+"phone": "",
+"website": "",
+"detail": "Artist unknown · 1969 · West Fairmount Park, Memorial Hall (interior)",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209183,
+39.97928
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Fingerspan",
+"address": "Near Livezey Lane",
+"phone": "",
+"website": "",
+"detail": "Jody Pinto · 1987 · Wissahickon Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211565,
+40.046527
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Great Doctor",
+"address": "Parkside and Girard, School of the Future",
+"phone": "",
+"website": "",
+"detail": "Waldemar Raemisch · 1955 · West Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203807,
+39.974767
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Great Mother",
+"address": "Parkside and Girard, School of the Future",
+"phone": "",
+"website": "",
+"detail": "Waldemar Raemisch · 1955 · West Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203652,
+39.974729
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Greek Dog",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "Sylvia Shaw Judson · 1965 · West Fairmount Park, Horticulture Center (interior)",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210329,
+39.983323
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Greek Goat",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "Sylvia Shaw Judson · 1965 · West Fairmount Park, Horticulture Center (interior)",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210098,
+39.983351
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Greek Lambs",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "Sylvia Shaw Judson · 1948 · West Fairmount Park, Horticulture Center (interior)",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210191,
+39.983219
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Industry",
+"address": "North Concourse Drive",
+"phone": "",
+"website": "",
+"detail": "A.M.J. Mueller (Attributed to) · 1876 · West Fairmount Park, Memorial Hall",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20927,
+39.979577
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Jizo Bosatsu",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "Artist unknown · 1988 · West Fairmount Park, Japanese House",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21269,
+39.981481
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Kasuga Lantern",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "Artist unknown · 18th century · West Fairmount Park, Japanese House",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212633,
+39.981079
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Love Triumphant",
+"address": "North Concourse Drive",
+"phone": "",
+"website": "",
+"detail": "R.H. Park · 1919 · West Fairmount Park, Memorial Hall (interior)",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208994,
+39.979629
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Mining",
+"address": "North Concourse Drive",
+"phone": "",
+"website": "",
+"detail": "A.M.J. Mueller (Attributed to) · 1876 · West Fairmount Park, Memorial Hall",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208963,
+39.979657
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Nereid Fountain",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "Beatrice Fenton · 1929 · West Fairmount Park, Horticulture Center (interior)",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210408,
+39.983306
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Orb Washbasin",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "Artist unknown · 1958 · West Fairmount Park, Japanese House",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212819,
+39.981475
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Pegasus with Calliope",
+"address": "North Concourse Drive",
+"phone": "",
+"website": "",
+"detail": "Vincenz Bildhauer Pilz · 1863 · West Fairmount Park, Memorial Hall",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209365,
+39.978873
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Rond Point Fountain (Wheatsheaf Fountains) (One of",
+"address": "Kelly Drive",
+"phone": "",
+"website": "",
+"detail": "Artist unknown (France) · 1877 (orig.) · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190558,
+39.973067
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Schuylkill Chained",
+"address": "Fairmount Water Works Drive",
+"phone": "",
+"website": "",
+"detail": "William Rush · 1880 (orig.) · Fairmount Water Works",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183602,
+39.966515
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Schuylkill Freed",
+"address": "Fairmount Water Works Drive",
+"phone": "",
+"website": "",
+"detail": "William Rush · 1880 (orig.) · Fairmount Waterworks",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183515,
+39.966194
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Science",
+"address": "North Concourse Drive",
+"phone": "",
+"website": "",
+"detail": "A.M.J. Mueller (Attributed to) · 1876 · West Fairmount Park, Memorial Hall",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209426,
+39.979345
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Seaweed Girl Fountain",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "Beatrice Fenton · 1920 · West Fairmount Park, Horticultural Center (interior)",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210088,
+39.983695
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Singing Rock Sitting Place",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "Hera · 1988 · West Fairmount Park, Horticulture Center",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209176,
+39.982705
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Sleeve Lantern",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "Artist Unknown · 20th century · West Fairmount Park, Japanese House",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.213054,
+39.981192
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Small Lantern",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "Artist Unknown · West Fairmount Park, Japanese House",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.213114,
+39.98128
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Smith Memorial Arch",
+"address": "North Concourse Drive",
+"phone": "",
+"website": "",
+"detail": "Various artists · 1912 · West Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20656,
+39.977492
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Snow Viewing Lantern",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "Artist unknown · 20th century · West Fairmount Park, Japanese House",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212808,
+39.981184
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Square Washbasin",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "Artist unknown · 20th century · West Fairmount Park, Japanese House",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.213038,
+39.981389
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Takayama Pagoda",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "Artist unknown · 1959 · West Fairmount Park, Japanese House",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212621,
+39.981386
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "The Wedges",
+"address": "East Fairmount Park, Kelly Drive and Sedgley Drive",
+"phone": "",
+"website": "",
+"detail": "Robert Morris · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18413,
+39.970102
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public art or monument (PPR collection)",
+"name": "Toro Garden Lantern",
+"address": "Belmont Avenue and North Horticultural Drive",
+"phone": "",
+"website": "",
+"detail": "Artist Unkown · 16th-18th century · West Fairmount Park, Japanese House",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212819,
+39.981419
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Wall-mounted artwork or plaque (PPR collection)",
+"name": "Admiral John A.B. Dahlgren",
+"address": "North Concourse Drive",
+"phone": "",
+"website": "",
+"detail": "George Bissell · 1897-1912 · West Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206542,
+39.977671
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Wall-mounted artwork or plaque (PPR collection)",
+"name": "Andrew Gregg Curtin",
+"address": "North Concourse Drive",
+"phone": "",
+"website": "",
+"detail": "Moses Ezekiel · 1897-1912 · West Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206567,
+39.977681
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Wall-mounted artwork or plaque (PPR collection)",
+"name": "Birth of a Nation",
+"address": "Kelly Drive",
+"phone": "",
+"website": "",
+"detail": "Henry Kreis · 1943 · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190433,
+39.97275
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Wall-mounted artwork or plaque (PPR collection)",
+"name": "Eagle (One of Two)",
+"address": "North Concourse Drive",
+"phone": "",
+"website": "",
+"detail": "John Massey Rhind · 1897-1912 · West Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206574,
+39.977254
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Wall-mounted artwork or plaque (PPR collection)",
+"name": "General George B. McClellan",
+"address": "North Concourse Drive",
+"phone": "",
+"website": "",
+"detail": "Edward C. Potter · 1897-1912 · West Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206609,
+39.977269
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Wall-mounted artwork or plaque (PPR collection)",
+"name": "General George Gorden Meade",
+"address": "North Concourse Drive",
+"phone": "",
+"website": "",
+"detail": "Daniel Chester French · 1897-1912 · West Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206697,
+39.977459
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Wall-mounted artwork or plaque (PPR collection)",
+"name": "General James A. Beaver",
+"address": "North Concourse Drive",
+"phone": "",
+"website": "",
+"detail": "Katherine M. Cohen · 1897-1912 · West Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206729,
+39.977434
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Wall-mounted artwork or plaque (PPR collection)",
+"name": "General John Frederick Hartranft",
+"address": "North Concourse Drive",
+"phone": "",
+"website": "",
+"detail": "Alexander Stirling Calder · 1897-1912 · West Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206713,
+39.977408
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Wall-mounted artwork or plaque (PPR collection)",
+"name": "George and Meta Conor-Wood Memorial Fountain",
+"address": "MLK Drive south of Black Road, west side of drive",
+"phone": "",
+"website": "",
+"detail": "Ahron Ben-Shmuel · 1942 · West Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.205821,
+39.981424
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Wall-mounted artwork or plaque (PPR collection)",
+"name": "Immigrant",
+"address": "Kelly Drive",
+"phone": "",
+"website": "",
+"detail": "Heinz Warneke · 1940 · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190879,
+39.973805
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Wall-mounted artwork or plaque (PPR collection)",
+"name": "James H. Windrim, Esq.",
+"address": "North Concourse Drive",
+"phone": "",
+"website": "",
+"detail": "Samuel Murray · 1897-1912 · West Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206421,
+39.977727
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Wall-mounted artwork or plaque (PPR collection)",
+"name": "John B. Gest, Esq.",
+"address": "North Concourse Drive",
+"phone": "",
+"website": "",
+"detail": "Charles Grafly · 1897-1912 · West Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206688,
+39.977306
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Wall-mounted artwork or plaque (PPR collection)",
+"name": "Major General John Fulton Reynolds",
+"address": "North Concourse Drive",
+"phone": "",
+"website": "",
+"detail": "Charles Grafly · 1897-1912 · West Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206591,
+39.977621
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Wall-mounted artwork or plaque (PPR collection)",
+"name": "Major General S.W. Crawford",
+"address": "North Concourse Drive",
+"phone": "",
+"website": "",
+"detail": "Bessie O. Potter (Vonnoh) · 1897-1912 · West Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206676,
+39.97732
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Wall-mounted artwork or plaque (PPR collection)",
+"name": "Major General Winfield Scott Hancock",
+"address": "North Concourse Drive",
+"phone": "",
+"website": "",
+"detail": "John Quincy Adams Ward · 1897-1912 · West Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206358,
+39.977689
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Wall-mounted artwork or plaque (PPR collection)",
+"name": "Miner",
+"address": "Kelly Drive",
+"phone": "",
+"website": "",
+"detail": "John B. Flannagan · 1938 · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190807,
+39.973387
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Wall-mounted artwork or plaque (PPR collection)",
+"name": "Ploughman",
+"address": "Kelly Drive",
+"phone": "",
+"website": "",
+"detail": "J. Wallace Kelly · 1938 · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190658,
+39.973433
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Wall-mounted artwork or plaque (PPR collection)",
+"name": "Settling of the Seaboard",
+"address": "Kelly Drive",
+"phone": "",
+"website": "",
+"detail": "Wheeler Williams · 1942 · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190333,
+39.972469
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Wall-mounted artwork or plaque (PPR collection)",
+"name": "Slave",
+"address": "Kelly Drive",
+"phone": "",
+"website": "",
+"detail": "Helene Sardeau · 1940 · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191017,
+39.973757
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Wall-mounted artwork or plaque (PPR collection)",
+"name": "The Puritan",
+"address": "Kelly Drive",
+"phone": "",
+"website": "",
+"detail": "Harry Rosin · 1942 · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190322,
+39.972408
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Wall-mounted artwork or plaque (PPR collection)",
+"name": "The Quaker",
+"address": "Kelly Drive",
+"phone": "",
+"website": "",
+"detail": "Harry Rosin · 1942 · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190359,
+39.972515
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Wall-mounted artwork or plaque (PPR collection)",
+"name": "The Revolutionary War Soldier",
+"address": "Kelly Drive",
+"phone": "",
+"website": "",
+"detail": "Erwin Frey · 1943 · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190424,
+39.972688
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Wall-mounted artwork or plaque (PPR collection)",
+"name": "The Statesman",
+"address": "Kelly Drive",
+"phone": "",
+"website": "",
+"detail": "Erwin Frey · 1943 · East Fairmount Park",
+"source_id": "phl_ppr_art_monuments"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190465,
+39.972796
+]
+}
+}
+]
+}

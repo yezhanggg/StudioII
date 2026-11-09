@@ -1,0 +1,5305 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Arts center",
+"name": "A-Space",
+"address": "4722 Baltimore Avenue, Philadelphia",
+"phone": "",
+"website": "http://www.the-aspace.org/",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.217738,
+39.948364
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Arts center",
+"name": "Art Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195184,
+40.046951
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Arts center",
+"name": "Cosacosa",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225685,
+40.026392
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Arts center",
+"name": "Firehouse Arts",
+"address": "5231 Germantown Avenue, Philadelphia",
+"phone": "",
+"website": "https://firehouseartsgermantown.com",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.167456,
+40.031627
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Arts center",
+"name": "Manayunk-Roxborough Art Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.218068,
+40.032276
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Arts center",
+"name": "Weavers Way Mercantile Shop",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195476,
+40.046653
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Bust",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.222367,
+40.018239
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Bust",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206555,
+39.977662
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Bust",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206431,
+39.977684
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Bust",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206725,
+39.977379
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Bust",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206684,
+39.9773
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Bust",
+"name": "Call to Freedom",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.202271,
+39.96297
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Bust",
+"name": "Franz Schubert",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Henry Baerer · 1891",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209144,
+39.983552
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Bust",
+"name": "Giuseppe Verdi",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "G. B. Bashanellifusi · 1907",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209485,
+39.983114
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Bust",
+"name": "Joseph Haydn",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Idusch & Son · 1906",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208615,
+39.98303
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Cinema",
+"name": "Cinemark University City Penn 6",
+"address": "4012 Walnut Street, Philadelphia",
+"phone": "+1-215-386-9800",
+"website": "https://www.cinemark.com/pennsylvania/cinemark-university-city-penn-6",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203285,
+39.953872
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Cinema",
+"name": "Regal UA Main Street Theatre",
+"address": "3720 Main Street, Philadelphia",
+"phone": "",
+"website": "https://www.regmovies.com/theatres/regal-ua-main-street-theatre/1314",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210509,
+40.015386
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Gallery",
+"name": "Art on the Ridge",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216637,
+40.035005
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Gallery",
+"name": "Soft Illusions Fine Art Gallery",
+"address": "4226 Main Street, Philadelphia",
+"phone": "+1-215-840-0832",
+"website": "http://www.softillusions.net/",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.221125,
+40.024267
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Graffiti",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.214268,
+40.05146
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Installation",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.233476,
+40.017632
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Installation",
+"name": "Fingerspan",
+"address": "",
+"phone": "",
+"website": "https://www.jodypinto.com/JodyPinto/Projects/Pages/Fingerspan_Bridge.html",
+"detail": "Jody Pinto · 1987",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21156,
+40.04652
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Installation",
+"name": "Innovators Walk of Fame",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196203,
+39.955907
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Installation",
+"name": "Pavillion In The Trees",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Martin Puryear · 1992",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20998,
+39.981904
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Mosaic",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.216826,
+40.02117
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Mosaic",
+"name": "Sun Ra Mosaic",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.177065,
+40.036204
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Mural",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21892,
+39.966578
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Mural",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224989,
+39.961781
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Mural",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209727,
+39.968052
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Mural",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203674,
+39.95718
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Mural",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.219762,
+40.023498
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Mural",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.219738,
+40.023479
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Mural",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.220972,
+40.02416
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Mural",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224113,
+40.025813
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Mural",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225696,
+40.025879
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Mural",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.227505,
+40.02694
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Mural",
+"name": "Animals of Fairmount Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225793,
+40.026125
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Mural",
+"name": "Birds of Fairmount Park",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225691,
+40.026085
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Mural",
+"name": "Chestnut Place",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/2300-chestnut-street/",
+"detail": "Richard Haas (1983), restored Jon Laidacker (2012)",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.178958,
+39.952549
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Mural",
+"name": "Coinciding Currents",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Beth Clevenstine · 2016",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.230237,
+40.02881
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Mural",
+"name": "Concrete Tree",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Paul Santoleri · 2016",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.234431,
+40.032164
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Mural",
+"name": "Manayunk Views",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Patricia Ingersoll · 1997",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209547,
+40.016025
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Mural",
+"name": "Philadelphia Marathon Mural",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Kala Hagopian · 2019",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.215036,
+40.019829
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Mural",
+"name": "Sandy's Dream",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Ann Northrup · 2005",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22424,
+40.026212
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Mural",
+"name": "Thank you, Mr Blackwell",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.207109,
+39.962686
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Mural",
+"name": "The Fable of the Peregrine Falcon and the Red-Bellied Turtle",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Cesar Viveros · 2024",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.220468,
+40.024078
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Mural",
+"name": "The Phillies Mural",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "David McShane",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180462,
+39.951215
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Mural",
+"name": "The World on a Turtle",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Dennis Haugh · 2009",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.215433,
+40.033894
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Mural",
+"name": "Tree Top Tulip",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Paul Santoleri · 2021",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.217069,
+40.03496
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Mural",
+"name": "Tribute to Herman Wrice",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "David McShane",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190385,
+39.964315
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Mural",
+"name": "Trolley Stop",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Paul Santoleri",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.201296,
+39.963142
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Mural",
+"name": "Wissahickon Station",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "David Guinn · 2016",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209452,
+40.016428
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Museum",
+"name": "ACES Museum",
+"address": "5801-3 Germantown Avenue, Philadelphia",
+"phone": "",
+"website": "https://acesveteransmuseum.com",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.175613,
+40.036962
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Museum",
+"name": "Black Writers Museum",
+"address": "",
+"phone": "",
+"website": "https://www.blackwritersmuseum.com/",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.176285,
+40.03581
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Museum",
+"name": "CWP Museum",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.141554,
+40.066635
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Museum",
+"name": "Camp William Penn Gate",
+"address": "7320 Sycamore Avenue, Elkins Park",
+"phone": "",
+"website": "",
+"detail": "CROHL",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.142413,
+40.066327
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Museum",
+"name": "Camp William Penn Museum",
+"address": "1618 Willow Avenue, Elkins Park",
+"phone": "",
+"website": "",
+"detail": "Citizens for the Restoration of Historical La Mott",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.141506,
+40.066706
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Museum",
+"name": "Cedar Grove",
+"address": "1 Lansdowne Drive, Philadelphia",
+"phone": "",
+"website": "http://www.philamuseum.org/historichouses/",
+"detail": "Philadelphia Museum of Art",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.204424,
+39.979179
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Museum",
+"name": "Ebenezer Maxwell Mansion",
+"address": "200 West Tulpehocken Street, Philadelphia",
+"phone": "",
+"website": "https://ebenezermaxwellmansion.org/",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183616,
+40.038195
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Museum",
+"name": "Fairmount Water Works Interpretive Center",
+"address": "640 Waterworks Drive, Philadelphia",
+"phone": "",
+"website": "https://fairmountwaterworks.org/",
+"detail": "Philadelphia Parks & Recreation and Philadelphia Water Department.",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183525,
+39.966189
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Museum",
+"name": "Germantown Historical Society",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.171915,
+40.034359
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Museum",
+"name": "Germantown White House",
+"address": "5442 Germantown Avenue, Philadelphia",
+"phone": "",
+"website": "https://www.nps.gov/inde/learn/historyculture/places-germantownwhitehouse.htm",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.172303,
+40.033845
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Museum",
+"name": "Grumblethorpe",
+"address": "5267 Germantown Avenue, Philadelphia",
+"phone": "",
+"website": "https://www.philalandmarks.org/grumblethorpe",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.16841,
+40.032117
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Museum",
+"name": "Hamilton Mansion",
+"address": "",
+"phone": "",
+"website": "https://www.woodlandsphila.org/hamilton-mansion",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203736,
+39.945692
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Museum",
+"name": "Institute of Contemporary Art",
+"address": "118 South 36th Street, Philadelphia",
+"phone": "+1 215-898-5911",
+"website": "https://icaphila.org",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.194773,
+39.954065
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Museum",
+"name": "Johnson House Historic Site",
+"address": "6306 Germantown Avenue, Philadelphia",
+"phone": "+1-215-438-1768",
+"website": "https://www.johnsonhouse.org/",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181222,
+40.043354
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Museum",
+"name": "La Salle University Art Museum",
+"address": "1900 West Olney Avenue, Philadelphia",
+"phone": "",
+"website": "https://artcollection.lasalle.edu/",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.152398,
+40.037485
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Museum",
+"name": "Lemon Hill Mansion",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.187203,
+39.970725
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Museum",
+"name": "Marvin Samson Center for the History of Pharmacy",
+"address": "",
+"phone": "",
+"website": "https://www.sju.edu/pharmacymuseum",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208112,
+39.946499
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Museum",
+"name": "Mount Pleasant",
+"address": "3800 Mount Pleasant Drive, Philadelphia",
+"phone": "",
+"website": "www.philamuseum.org/historichouses/",
+"detail": "Philadelphia Museum of Art",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19984,
+39.983379
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Museum",
+"name": "Museum of Nursing History",
+"address": "1900 West Olney Avenue, Philadelphia",
+"phone": "+1 215-951-1526",
+"website": "https://nursinghistory.org/",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.158783,
+40.039575
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Museum",
+"name": "New Africa Center",
+"address": "4243 Lancaster Avenue, Philadelphia",
+"phone": "+1 267-957-5971",
+"website": "https://newafricacenter.com/",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209052,
+39.967511
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Museum",
+"name": "Ormiston Mansion",
+"address": "",
+"phone": "",
+"website": "https://www.ormistonmansion.org/",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196283,
+39.988705
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Museum",
+"name": "Paul Robeson House & Museum",
+"address": "4951 Walnut Street, Philadelphia",
+"phone": "+1 215-747-4675",
+"website": "https://www.paulrobesonhouse.org/",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.221406,
+39.956607
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Museum",
+"name": "Penn Museum",
+"address": "3260 South Street, Philadelphia",
+"phone": "+1-215-898-4000",
+"website": "https://www.penn.museum/",
+"detail": "University of Pennsylvania",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191286,
+39.949282
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Museum",
+"name": "Philadelphia Museum of Art",
+"address": "2600 Benjamin Franklin Parkway, Philadelphia",
+"phone": "+1-215-763-8100",
+"website": "https://www.visitpham.org/",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18092,
+39.965574
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Museum",
+"name": "Please Touch Museum",
+"address": "4231 Avenue of the Republic, Philadelphia",
+"phone": "",
+"website": "https://www.pleasetouchmuseum.org/",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20904,
+39.979491
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Museum",
+"name": "Rittenhouse Homestead",
+"address": "5800 Wissahickon Avenue, Philadelphia",
+"phone": "",
+"website": "https://rittenhousetown.org/",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189724,
+40.029475
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Museum",
+"name": "Stenton Mansion",
+"address": "4600 North 16th Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.153598,
+40.024934
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Museum",
+"name": "The Colored Girls Museum",
+"address": "4613 Newhall Street, Philadelphia",
+"phone": "+1 267-630-4438",
+"website": "https://www.thecoloredgirlsmuseum.com/",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.164506,
+40.022712
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Museum",
+"name": "The Concord School House",
+"address": "6309 Germantown Avenue, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180998,
+40.043793
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Museum",
+"name": "The John Coltrane House",
+"address": "1511 North 33rd Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.188564,
+39.980318
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Museum",
+"name": "The Museum of the Miraculous Medal Shrine",
+"address": "",
+"phone": "",
+"website": "https://cammonline.org/shrine-museum/art-museum/",
+"detail": "The Central Association of the Miraculous Medal",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.167681,
+40.041954
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Museum",
+"name": "Tiberino Museum",
+"address": "",
+"phone": "",
+"website": "https://tiberinomuseum.com/",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.197758,
+39.961587
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Museum",
+"name": "Underground Railroad Museum at Belmont Mansion",
+"address": "",
+"phone": "",
+"website": "https://www.belmontmansion.org/tours_belmont_mansion.html",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.213664,
+39.990885
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Museum",
+"name": "Wyck Museum",
+"address": "6026 Germantown Avenue, Germantown",
+"phone": "",
+"website": "https://wyck.org/",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.178428,
+40.040009
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Music venue",
+"name": "World Stage Live",
+"address": "3025 Walnut Street, Philadelphia",
+"phone": "+1 215-201-4409",
+"website": "https://worldstage.live/",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.185151,
+39.952161
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Painting",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.223332,
+40.025099
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Painting",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21836,
+40.02238
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Painting",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.21876,
+40.022441
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public artwork",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182696,
+39.966261
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public artwork",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Alexander Stirling Calder · 1903",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212658,
+39.983164
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public artwork",
+"name": "Blessed Mother Shrine",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22118,
+39.981081
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public artwork",
+"name": "Ivy Composition #2",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.193311,
+39.954117
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Public artwork",
+"name": "Philadelphia Stars: a tribute to Negro League baseball",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.213062,
+39.977362
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Relief",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.223483,
+40.025519
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Relief",
+"name": "Rebecca at the Well",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "John J. Boyle · 1908",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20868,
+39.983626
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182306,
+39.966333
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181974,
+39.966602
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195154,
+39.974675
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196198,
+39.956274
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.214881,
+39.962804
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.187696,
+39.974975
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.187635,
+39.97495
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189041,
+39.952703
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22721,
+40.015106
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.227084,
+40.015091
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.218093,
+40.022269
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.224769,
+40.026285
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.232986,
+40.019926
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182633,
+39.967312
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182288,
+39.967117
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18234,
+39.967167
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181822,
+39.966795
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181956,
+39.966946
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.227075,
+40.015142
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.219991,
+40.023376
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.226852,
+40.019572
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "Antillian Couple",
+"address": "",
+"phone": "",
+"website": "https://pennartcollection.com/collection/art/703/antillean-couple/",
+"detail": "Agustin Cárdenas",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.194759,
+39.953846
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "Atmosphere and Environment XII",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/atmosphere-and-environment-xii/",
+"detail": "Louise Nevelson",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189607,
+39.950967
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "Brick House",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Simone Leigh",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192594,
+39.95254
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "Covenant",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/covenant/",
+"detail": "Alexander Liberman",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.200674,
+39.952662
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "Decoding the Tree of Life",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Maya Lin",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.1925,
+39.949023
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "Eltanin",
+"address": "",
+"phone": "",
+"website": "https://pennartcollection.com/collection/art/1316/eltanin/",
+"detail": "Bathsheba L. Grossman",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189829,
+39.952656
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "Eye and Hand",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/titles-unknown-eye-and-hand/",
+"detail": "J. Wallace Kelly",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191352,
+39.974559
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "Jerusalem Stabile",
+"address": "",
+"phone": "",
+"website": "https://calder.org/works/monumental-sculpture/jerusalem-stabile-i-1976/",
+"detail": "Alexander Calder",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19265,
+39.95204
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "King Solomon",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/king-solomon/",
+"detail": "Alexander Archipenko",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.194848,
+39.952677
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "Love",
+"address": "",
+"phone": "",
+"website": "https://artcollection.upenn.edu/collection/art/49/love/",
+"detail": "Robert Indiana",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.194845,
+39.95184
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "Mercury",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Stratton Sculpture Studios (2017), reproduction of original wood sculpture by William Rush (1829)..",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182899,
+39.966085
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "Momentum",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Michael Speller · 2012",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189609,
+39.955967
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "Pefelice",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "William E. Lowenberg · 1990",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225413,
+40.02605
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "Pretzel",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Warren C. Holzman · 2004",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.221295,
+40.025655
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "Pyramid",
+"address": "",
+"phone": "",
+"website": "https://artcollection.upenn.edu/collection/art/1319/pyramid/",
+"detail": "Ernest Shaw",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195335,
+39.949228
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "Settling of the Seaboard",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/settling-of-the-seaboard/",
+"detail": "Wheeler Williams",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190296,
+39.972462
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "Six Triangles",
+"address": "",
+"phone": "",
+"website": "https://artcollection.upenn.edu/collection/art/891/six-triangles/",
+"detail": "Ephraim Peleg",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196592,
+39.949031
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "Split Button",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/split-button/",
+"detail": "Claes Oldenburg; Coosje van Bruggen",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.193692,
+39.952215
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "The Birth of a Nation",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/the-birth-of-a-nation/",
+"detail": "Henry Kreis",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190413,
+39.972766
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "The Spirit of Transportation",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181973,
+39.955963
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "The Wedges",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/the-wedges/",
+"detail": "Robert Morris",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.184127,
+39.970096
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Sculpture",
+"name": "Wave Forms",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Dennis Oppenheim",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191953,
+39.95451
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203788,
+39.974784
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203643,
+39.974734
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209847,
+39.948826
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.193808,
+39.951265
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "1913",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212529,
+40.034385
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Lindsay Daen · 1975",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211098,
+39.982686
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208956,
+39.983567
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20896,
+39.983588
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181823,
+39.96596
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195994,
+39.9739
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.197106,
+39.972322
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.194673,
+39.972058
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195554,
+39.971492
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.197054,
+39.971647
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.153299,
+40.039038
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.222918,
+40.013277
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.220068,
+40.016154
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209614,
+39.978975
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209362,
+39.978883
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.222095,
+40.018184
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.227671,
+40.021328
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.229142,
+40.021674
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.229095,
+40.021471
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206718,
+39.977425
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206592,
+39.977632
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206383,
+39.97768
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206327,
+39.977658
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206575,
+39.977248
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206637,
+39.977266
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.206564,
+39.977623
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Alexander von Humboldt",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.205852,
+39.982307
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Allegory of the Schuylkill River",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "William Rush",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183219,
+39.965415
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Allegory of the Schuylkill River in its Improved State",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/the-schuylkill-chained-and-the-schuylkill-freed/",
+"detail": "William Rush",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183586,
+39.966515
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Allegory of the Water Works",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/the-schuylkill-chained-and-the-schuylkill-freed/",
+"detail": "William Rush",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183497,
+39.966197
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Angel of the Resurrection",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Walker Hancock",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181515,
+39.955662
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Anthony Wayne",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "John Gregory · 1937",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180925,
+39.964727
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Benjamin Franklin",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/benjamin-franklin/",
+"detail": "John J. Boyle",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.193669,
+39.951946
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Benjamin Franklin (on a bench)",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/benjamin-franklin-on-a-bench/",
+"detail": "George Lundeen · 1987",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196965,
+39.952161
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Charles Curtis Harrison",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.198082,
+39.950409
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Children at Play",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18723,
+40.03004
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Dickens and Little Nell",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209555,
+39.948729
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Eagle",
+"address": "",
+"phone": "",
+"website": "https://www.philart.net/art/Eagle/490.html",
+"detail": "Unknown, reproduction of original (1835) prob. by William Rush.",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.184552,
+39.966968
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Edgar Fahs Smith",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "R. Tate McKenzie",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192156,
+39.951623
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Family of Turtles",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Eric Berg · 1989",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180067,
+39.947553
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Gambol II Mare and Foal",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Robert D. Lasus · 1992",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.213783,
+39.982818
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "General Casimir Pulaski",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/general-casimir-pulaski/",
+"detail": "Sidney Waugh",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182393,
+39.966859
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "General Friedrich von Steuben",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/general-friedrich-von-steuben/",
+"detail": "Warren Wheelock",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18291,
+39.967239
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "General Nathanael Greene",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/general-nathanael-greene/",
+"detail": "Lewis Iselin, Jr.",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.18292,
+39.966836
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "General Richard Montgomery",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/general-richard-montgomery/",
+"detail": "J. Wallace Kelly",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182661,
+39.966645
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "General Ulysses S. Grant",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/general-ulysses-s-grant/",
+"detail": "Daniel Chester French; Edward C. Potter",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.197889,
+39.980811
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Goethe",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Heinrich Carl Johan Manger · 1890",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.212024,
+39.983721
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Grizzly",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Eric Berg · 1983",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180025,
+39.947626
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Harry Wright",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22035,
+40.01652
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "John B. Kelly",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Harry Rosin · 1965",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.201797,
+39.986058
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "John Harrison, Chemist",
+"address": "",
+"phone": "",
+"website": "https://artcollection.upenn.edu/collection/art/1322/harrison-john-chemist/",
+"detail": "Lawrence Tenney Stevens",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191658,
+39.951225
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "John Paul Jones",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/john-paul-jones/",
+"detail": "Walker Hancock",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182649,
+39.967047
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "John Wister Statue",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.176287,
+40.035858
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Laborer He Wrought Miracles",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/the-laborer/",
+"detail": "Ahron Ben-Shmuel",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191581,
+39.97468
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Law, Prosperity, and Power",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.22326,
+39.984439
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Major General George Gordon Meade",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Alexander Milne Calder · 1887",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208155,
+39.98107
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Mario the Magnificent",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189317,
+39.955402
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Marquis de Lafayette",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/marquis-de-lafayette/",
+"detail": "Raul Josset",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183179,
+39.967021
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Morton McMichael",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "1882",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.189017,
+39.973132
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Night",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Edward Stauch · 1872",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.210725,
+39.982796
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Penn Station Eagle",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/eagles/",
+"detail": "Adolph Weinman · 1910",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.179658,
+39.954573
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Penn Station Eagle",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/eagles/",
+"detail": "Adolph Weinman · 1910",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.179805,
+39.954226
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Penn Station Eagle",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/eagles/",
+"detail": "Adolph Weinman · 1910",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.181082,
+39.954381
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Penn Station Eagle",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/eagles/",
+"detail": "Adolph Weinman · 1910",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180949,
+39.954734
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Playing Angels",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/playing-angels/",
+"detail": "Carl Milles",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.198836,
+39.98021
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Poet He Shaped Our Dreams",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/the-poet/",
+"detail": "Jose de Creeft",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191365,
+39.974424
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Preacher He Guided Our Ways",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Waldemar Raemisch",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191373,
+39.974345
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Prometheus Strangling the Vulture",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/prometheus-strangling-the-vulture/",
+"detail": "Jacques Lipchitz",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180949,
+39.965587
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Puma",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/puma/",
+"detail": "William Zorach",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182969,
+39.967976
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Ram Statue",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.194097,
+40.02295
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Rev. Dr. John Witherspoon",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Joseph Alexis Bailly · 1876",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.208965,
+39.984042
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Reverend George Whitefield",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.197345,
+39.950464
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Rocky Statue",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/rocky/",
+"detail": "A. Thomas Schomberg",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.179296,
+39.965139
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Rocky Statue",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/rocky/",
+"detail": "A. Thomas Schomberg",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180318,
+39.965121
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Running Free",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Henry Mitchell · 1971",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190006,
+39.956464
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Saint George and the Dragon",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.205876,
+39.983045
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Schiller",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Heinrich Carl Johan Manger · 1885",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.211843,
+39.982769
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Scientist He Weighed The Stars",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/the-scientist/",
+"detail": "Koren der Harootian",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191495,
+39.974635
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Silenus and the Infant Bacchus",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/silenus-and-the-infant-bacchus/",
+"detail": "Praxiteles",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182822,
+39.968789
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Social Consciousness",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/social-consciousness/",
+"detail": "Jacob Epstein",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.194471,
+39.952608
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Spanning the Continent",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/spanning-the-continent/",
+"detail": "Robert Laurent",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190695,
+39.973315
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Spirit of Enterprise",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/the-spirit-of-enterprise/",
+"detail": "Jacques Lipchitz",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190844,
+39.973593
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Stone Age in America",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/stone-age-in-america/",
+"detail": "John J. Boyle",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190185,
+39.971979
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "The Dying Lioness",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/the-dying-lioness/",
+"detail": "Wilhelm Wolff",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195548,
+39.97475
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "The Fisherman",
+"address": "",
+"phone": "",
+"website": "https://www.philart.net/art/Station_no_6___Celebration_of_Water/364.html",
+"detail": "Ellen Fletcher · 1989",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.183306,
+39.964959
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "The Hungry and Thirsty Jesus",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.198064,
+39.955756
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "The Immigrant",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/the-immigrant/",
+"detail": "Heinz Warneke",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190889,
+39.97382
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "The Journeyer",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Lindsay Daen · 1975",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.209491,
+39.983516
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "The Lion Fighter",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/the-lion-fighter/",
+"detail": "Albert Wolff",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.180082,
+39.964591
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "The Miner",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/the-miner/",
+"detail": "John B. Flannagan",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.1908,
+39.973375
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "The Mounted Amazon Attacked by a Panther",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/the-mounted-amazon-attacked-by-a-panther/",
+"detail": "August Kiss · 1929",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.17962,
+39.964965
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "The Ploughman",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/the-ploughman/",
+"detail": "J. Wallace Kelly",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190663,
+39.973415
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "The Preacher",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/the-preacher/",
+"detail": "Waldemar Raemisch",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191267,
+39.974104
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "The Puritan",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/the-puritan/",
+"detail": "Harry Rosin",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.19029,
+39.972397
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "The Quaker",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/the-quaker/",
+"detail": "Harry Rosin",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190331,
+39.972524
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "The Revolutionary Soldier",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/the-revolutionary-soldier/",
+"detail": "Erwin F. Frey",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190403,
+39.9727
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "The Slave",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/the-slave/",
+"detail": "Hélène Sardeau",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191029,
+39.973769
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "The Statesman",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/the-statesman/",
+"detail": "Erwin F. Frey",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190439,
+39.972822
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "The Wrestlers",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "1885",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.20996,
+39.984234
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Thorfinn Karlsefni",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/thorfinn-karlsefni/",
+"detail": "Einar Jónsson · 1918",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190037,
+39.97019
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Tiger at Bay",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/tiger-at-bay/",
+"detail": "Albino Manca",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.182166,
+39.968522
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Toleration Statue",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "1883",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.199756,
+40.035179
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Washington Monument",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/washington-monument/",
+"detail": "Rudolf Siemering · 1897-05-05",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.179145,
+39.964257
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Welcoming to Freedom",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/welcoming-to-freedom/",
+"detail": "Maurice Sterne",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190999,
+39.973873
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Statue",
+"name": "Youthful Franklin",
+"address": "",
+"phone": "",
+"website": "https://www.associationforpublicart.org/artwork/benjamin-franklin-in-1723-or-the-young-franklin/",
+"detail": "R. Tait McKenzie · 1914",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.190945,
+39.950769
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Theater",
+"name": "",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.191802,
+40.022552
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Theater",
+"name": "",
+"address": "3701 Chestnut Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196661,
+39.955568
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Theater",
+"name": "Annenberg Center for the Performing Arts",
+"address": "3680 Walnut Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196451,
+39.952948
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Theater",
+"name": "Bushfire Theatre of Performing Arts",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.225953,
+39.956066
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Theater",
+"name": "Germantown Theatre Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.161521,
+40.027984
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Theater",
+"name": "Iron Gate Theater",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "University of Pennsylvania",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.196849,
+39.954736
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Theater",
+"name": "Irvine Auditorium",
+"address": "3401 Spruce Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.192986,
+39.950899
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Theater",
+"name": "Kurtz Performing Arts Center",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.187324,
+40.021777
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Theater",
+"name": "Mandell Theatre",
+"address": "3220 Chestnut Street, Philadelphia",
+"phone": "",
+"website": "https://drexel.edu/performingarts/about/facilities/mandell-theater/",
+"detail": "Drexel University",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.188901,
+39.953358
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Theater",
+"name": "Skyline Stage",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.222521,
+39.985205
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Theater",
+"name": "Taulane Auditorium",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Germantown Friends School",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.17296,
+40.032849
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Theater",
+"name": "The Mann Center",
+"address": "5201 Parkside Avenue, Philadelphia",
+"phone": "",
+"website": "https://manncenter.org/",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.222832,
+39.983255
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Theater",
+"name": "The Rotunda",
+"address": "4014 Walnut Street, Philadelphia",
+"phone": "",
+"website": "https://www.therotunda.org/",
+"detail": "University of Pennsylvania",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.203723,
+39.953833
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Theater",
+"name": "Venice Island Performing Arts and Recreational Facility",
+"address": "7 Lock Street, Philadelphia",
+"phone": "",
+"website": "",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.222105,
+40.023421
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Theater",
+"name": "Yarrnall Auditorium",
+"address": "",
+"phone": "",
+"website": "",
+"detail": "Germantown Friends School",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.171269,
+40.032805
+]
+}
+},
+{
+"type": "Feature",
+"properties": {
+"category": "arts_culture",
+"kind": "Zoo",
+"name": "Philadelphia Zoo",
+"address": "",
+"phone": "",
+"website": "https://www.philadelphiazoo.org",
+"detail": "",
+"source_id": "osm_arts_culture"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.195332,
+39.971709
+]
+}
+}
+]
+}

@@ -18,6 +18,9 @@ for (const f of walk(ROOT).filter((f) => f.endsWith('.json'))) {
   const d = JSON.parse(readFileSync(f, 'utf8'));
   const rel = f.slice(ROOT.length);
   for (const ft of d.features || []) if (ft.properties?.website) add(ft.properties.website, `${rel}: ${ft.properties.name}`);
+  for (const a of [...(d.assets || []), ...(d.context || [])]) {          // sources.json: the documentation window
+    if (a.landing_url) add(a.landing_url, `sources.json: ${a.title} (landing page)`);
+  }
   for (const s of d.schools || []) {
     add(s.dashboard, `schools.json: ${s.short} SDP dashboard`);
     for (const r of s.rcos || []) if (r.website) add(r.website, `schools.json: ${s.short} RCO ${r.name}`);
@@ -57,3 +60,12 @@ for (const r of broken) console.log(`  BROKEN ${r.status}${r.error ? ` ${r.error
 for (const r of blocked) console.log(`  BLOCKED ${r.status}  ${r.url}  ← ${r.where[0]}`);
 const j = process.argv.indexOf('--json');
 if (j > 0) writeFileSync(process.argv[j + 1], JSON.stringify(out, null, 1));
+
+// Dead links (not merely bot-blocked, not Facebook, which refuses scripts) are written for the build to drop.
+// Dead links accumulate: once the build has dropped one it is no longer checked, so earlier finds are kept.
+const deadFile = new URL('./broken_links.json', import.meta.url);
+let earlier = [];
+try { earlier = JSON.parse(readFileSync(deadFile, 'utf8')); } catch { /* first run */ }
+const dead = [...new Set([...earlier, ...broken.filter((r) => !/facebook\.com/.test(r.url)).map((r) => r.url)])];
+writeFileSync(deadFile, JSON.stringify(dead.sort(), null, 1));
+console.log(`wrote scripts/broken_links.json (${dead.length} dead links the build leaves out)`);
