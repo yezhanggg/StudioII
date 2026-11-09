@@ -252,7 +252,7 @@ export default function SchoolMap({ initialSlug }) {
 
   return (
     <div className="relative h-full">
-      <MapContainer center={[40.0, -75.17]} zoom={12} zoomControl={false} className="h-full w-full" maxZoom={20} attributionControl>
+      <MapContainer center={[40.0, -75.17]} zoom={12} zoomControl={false} className="h-full w-full" maxZoom={20} attributionControl={false}>
         <Panes />
         <ZoomClass />
         <MapBridge onReady={setMap} />
@@ -272,7 +272,7 @@ export default function SchoolMap({ initialSlug }) {
 
       {meta && visible && (
         <>
-          <SchoolBar schools={all} visible={visible} onAll={onAll} onOnly={onOnly} onSources={() => setDocsOpen(true)} />
+          <SchoolBar schools={all} visible={visible} onAll={onAll} onOnly={onOnly} onClear={() => { setVisible([]); setFocus(null); }} onSources={() => setDocsOpen(true)} />
           <RadiusCard radius={radius} onRadius={setRadius} onZoom={zoomTo} barRef={barRef} />
           <LayersRail
             top={railTop} reserveBottom={legendH} defaultOpen={isWide()} radius={radius}

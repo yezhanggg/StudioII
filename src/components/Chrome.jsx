@@ -44,7 +44,7 @@ const Switch = ({ on }) => (
 
 // ── top: the schools, and the documentation ───────────────────────────────
 const FINALISTS = ['wagner', 'blankenburg'];
-export function SchoolBar({ schools, visible, onAll, onOnly, onSources }) {
+export function SchoolBar({ schools, visible, onAll, onOnly, onClear, onSources }) {
   const all = visible.length === schools.length;
   const only = visible.length === 1 ? visible[0] : null;
   const btn = (on) => cx('relative flex items-center gap-1.5 whitespace-nowrap rounded-lg px-2.5 py-1.5 text-[13px] font-semibold transition-colors', on ? 'text-white' : 'text-slate-700 hover:bg-stone-100 hover:text-slate-900');
@@ -67,6 +67,7 @@ export function SchoolBar({ schools, visible, onAll, onOnly, onSources }) {
         {all && <motion.span layoutId="school-on" transition={SPRING_TAB} className="absolute inset-0 rounded-lg bg-accent-600 shadow-sm" />}
         <span className="relative">All six</span>
       </button>
+      <button type="button" onClick={onClear} disabled={!visible.length} className="whitespace-nowrap rounded-lg px-2.5 py-1.5 text-[13px] font-semibold text-slate-600 transition-colors hover:bg-stone-100 hover:text-slate-900 disabled:cursor-default disabled:text-slate-300 disabled:hover:bg-transparent">Clear</button>
       <span className="mx-1 h-5 w-px shrink-0 bg-stone-200" />
       <button type="button" onClick={onSources} className="flex items-center gap-1.5 whitespace-nowrap rounded-lg px-2.5 py-1.5 text-[13px] font-semibold text-accent-600 hover:bg-accent-50">
         <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M12 11v5M12 8h.01" /></svg>
@@ -387,7 +388,10 @@ export function SourcesModal({ open, onClose, sources, schools, onDownload, sele
                 );
               })}
               {sources && tab === 'layers' && (
-                <ul className="divide-y divide-stone-100">{sources.context.map((d) => <SrcRow key={d.id} title={d.layer} sub={pub(d.publisher)} url={d.landing_url} />)}</ul>
+                <ul className="divide-y divide-stone-100">
+                  {sources.context.map((d) => <SrcRow key={d.id} title={d.layer} sub={pub(d.publisher)} url={d.landing_url} />)}
+                  <SrcRow title="Background maps" sub="Esri, Maxar, Earthstar Geographics · City of Philadelphia · Leaflet" url="https://www.esri.com/en-us/legal/terms/full-master-agreement" />
+                </ul>
               )}
               {tab === 'method' && (
                 <dl className="space-y-2.5 pt-1 text-[13px] leading-snug">

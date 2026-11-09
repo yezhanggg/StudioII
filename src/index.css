@@ -7,9 +7,6 @@ body { margin: 0; background: #fff; color: #1E1E1C; font-family: theme('fontFami
 
 .leaflet-container { font-family: theme('fontFamily.sans'); background: #f4f3ef; }
 .leaflet-container.measuring, .leaflet-container.measuring .leaflet-interactive { cursor: crosshair !important; }
-.leaflet-control-attribution { font-size: 10px; background: rgba(255,255,255,.75) !important; }
-.leaflet-bottom.leaflet-right .leaflet-control-attribution { margin-right: 320px; margin-bottom: 2px; }
-@media (max-width: 640px) { .leaflet-bottom.leaflet-right .leaflet-control-attribution { display: none; } }
 
 /* tooltips and popups */
 .leaflet-tooltip.tt { font-size: 12.5px; line-height: 1.35; color: #1E1E1C; border: 0; border-radius: 8px; padding: 5px 9px; box-shadow: 0 4px 14px -4px rgba(15,23,42,.35), 0 0 0 1px rgba(0,0,0,.05); width: max-content; max-width: 260px; white-space: normal; }
